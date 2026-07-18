@@ -1,0 +1,4 @@
+interface:
+  display_name: "长篇书稿写作"
+  short_description: "用分层上下文持续规划、起草、校验并修订小说或非虚构书稿"
+  default_prompt: "使用 $write-book 为我的书建立项目结构，并从书籍简报和章节大纲开始。"
