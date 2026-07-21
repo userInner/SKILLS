@@ -1,4 +1,4 @@
 interface:
   display_name: "论文解读短视频"
-  short_description: "从论文核验、数据解读到配音剪辑，制作高可信竖屏视频"
-  default_prompt: "Use $make-paper-explainer-video to turn a research paper into a sourced vertical explainer video."
+  short_description: "从真实案例、论文核验到配音成片与三平台发布的完整流程"
+  default_prompt: "Use $make-paper-explainer-video to turn a research paper into a case-led, sourced vertical video and publishing package."

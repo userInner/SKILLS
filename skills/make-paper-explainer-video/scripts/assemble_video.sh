@@ -10,10 +10,11 @@ frames=$1
 audio=$2
 output=$3
 fps=$4
+audio_filter=${AUDIO_FILTER:-anull}
 
 ffmpeg -hide_banner -loglevel error -y \
   -framerate "$fps" -i "$frames/frame_%05d.jpg" -i "$audio" \
-  -filter_complex "[1:a]highpass=f=65,lowpass=f=12000,acompressor=threshold=-20dB:ratio=2:attack=10:release=180,alimiter=limit=.94[a]" \
+  -filter_complex "[1:a]${audio_filter}[a]" \
   -map 0:v -map '[a]' -c:v libx264 -preset medium -crf 20 \
-  -pix_fmt yuv420p -r 30 -c:a aac -b:a 192k -movflags +faststart \
+  -pix_fmt yuv420p -r 30 -c:a aac -b:a 128k -movflags +faststart \
   -shortest "$output"

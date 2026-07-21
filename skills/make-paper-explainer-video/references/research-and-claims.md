@@ -10,22 +10,32 @@ Use sources in this order:
 4. Editorial, commentary, or formal critique
 5. Responsible science reporting
 
-Use social posts only to identify the misconception that the video will examine.
+Use social posts only to identify the misconception the video will examine.
 
 ## Claim ledger
 
 For every number or strong conclusion, capture:
 
-- population and recruitment source;
-- sample size and exclusions;
-- intervention or condition;
-- comparison group;
-- task and session;
-- outcome definition and unit;
-- numerator, denominator, effect size, interval, or p-value;
-- exact page, table, or figure;
-- publication status;
-- the narrowest accurate plain-language wording.
+- population, recruitment source, sample, and exclusions;
+- intervention or condition and comparison group;
+- task, session, outcome definition, and unit;
+- numerator, denominator, effect, interval, or p-value;
+- exact page, table, figure, or participant identifier;
+- evidence type: measured, observed, participant-reported, author-interpreted, or inferred;
+- publication status and license;
+- narrowest accurate plain-language wording.
+
+## Case-led hooks
+
+A vivid example is not automatically verified evidence.
+
+- If the paper observed the event, say the researchers observed it.
+- If a participant described it in a survey or interview, say a participant reported it.
+- If the authors created a hypothetical example, do not call it a real case.
+- Preserve the task, profession, artifact, location, and consequence actually stated.
+- Do not invent motives, harm, dialogue, or outcomes to increase drama.
+
+Use a case only when its error mode connects directly to the paper's result. A reported nurse cross-checking a patient handout can illustrate verification; it cannot prove that an unchecked handout harmed a patient.
 
 ## Language ladder
 
@@ -35,6 +45,7 @@ For every number or strong conclusion, capture:
 | Observational association | “与…相关” | “导致…” |
 | EEG/fMRI difference | “任务中的活动/连接模式不同” | “大脑受损”“智商下降” |
 | Self-report | “参与者报告…” | “证明他们…” |
+| Reported example | “一名参与者描述…” | “研究者证实发生…” |
 | Small or narrow sample | “在这组参与者和任务中…” | “所有人…” |
 | Preprint | “预印本，尚未同行评审” | “权威研究已经证实” |
 
@@ -47,9 +58,10 @@ Before writing the hook, answer:
 3. Does a lower signal necessarily mean worse performance?
 4. Was the result primary, exploratory, or post hoc?
 5. Does the comparison use the same task, session, and participants?
+6. Is the opening case observed, participant-reported, or hypothetical?
 
 If any answer is unclear, make the uncertainty part of the story.
 
 ## Quantitative wording
 
-Prefer “15 of 18 participants” before “83.3%.” The ratio exposes sample size and is easier to visualize. Always state which group and which session. Do not merge different questions, outcomes, or sessions into one statistic.
+Prefer “15 of 18 participants” before “83.3%.” The ratio exposes sample size and is easier to visualize. Always state which group and session. Do not merge different questions, outcomes, or sessions into one statistic.
