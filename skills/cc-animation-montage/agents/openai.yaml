@@ -1,0 +1,4 @@
+interface:
+  display_name: "CC Animation Montage"
+  short_description: "Build licensed animation mashups with FFmpeg"
+  default_prompt: "Use $cc-animation-montage to source, edit, credit, and verify a 30-second open-animation montage."

@@ -1,0 +1,53 @@
+{
+  "output": "/absolute/path/to/outputs/animation_mix.mp4",
+  "work_dir": "/absolute/path/to/work/montage-build",
+  "duration": 30,
+  "video": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "crf": 18
+  },
+  "title_card": {
+    "headline": "IGNITION",
+    "subhead": "OPEN ANIMATION MIX",
+    "strapline": "THREE OPEN FILMS / ONE 30-SECOND CUT",
+    "duration": 0.8
+  },
+  "credits_card": {
+    "heading": "SOURCE / LICENSE",
+    "lines": [
+      "PROJECT ONE",
+      "PROJECT TWO",
+      "PROJECT THREE"
+    ],
+    "audio_line": "MUSIC + EFFECTS: CREATOR / WORK",
+    "license_line": "FULL ATTRIBUTION IN CREDITS.txt",
+    "duration": 2.2
+  },
+  "audio": {
+    "path": "/absolute/path/to/audio.flac",
+    "start": 0,
+    "volume_db": -3,
+    "fade_in": 0.2,
+    "fade_out": 1.6
+  },
+  "clips": [
+    {
+      "path": "/absolute/path/to/source-one.mp4",
+      "start": 22.5,
+      "duration": 2.25,
+      "speed": 1.08
+    },
+    {
+      "path": "/absolute/path/to/source-two.mp4",
+      "start": 187.0,
+      "duration": 2.25,
+      "speed": 1.08
+    }
+  ],
+  "metadata": {
+    "title": "Open Animation Mix",
+    "comment": "CC-licensed remix. See CREDITS.txt for attribution."
+  }
+}

@@ -17,6 +17,7 @@ skills/
 
 ## 已收录技能
 
+- [cc-animation-montage](skills/cc-animation-montage/)：寻找并审计可复用动画素材，以 FFmpeg 和 Pillow 制作、署名并校验短篇动画混剪。
 - [frontend-design](skills/frontend-design/)：为新界面或现有界面重塑提供有辨识度、非模板化的视觉设计指导。
 - [make-paper-explainer-video](skills/make-paper-explainer-video/)：从真实案例、论文核验和旁白质检到竖屏成片、双比例封面与三平台发布包的完整流程。
 - [write-book](skills/write-book/)：使用分层上下文持续规划、研究、起草和修订小说或非虚构书稿。
