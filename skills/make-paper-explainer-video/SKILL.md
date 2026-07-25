@@ -1,11 +1,11 @@
 ---
 name: make-paper-explainer-video
-description: Research, fact-check, script, voice, visualize, render, verify, and package a sourced vertical video that explains a scientific paper. Use when Codex must turn a paper, preprint, DOI, arXiv link, PDF, research topic, or participant-reported case into a Douyin, Xiaohongshu, WeChat Channels, TikTok, or Reels-style video; autonomously select a paper for a research-video series; replace generic AI or stock visuals with original paper pages, charts, cases, and annotations; improve a paper video's retention, narration, claims, pacing, cover, or platform copy; or prepare a multi-platform publishing package with AI-content disclosure.
+description: Research, fact-check, script, voice, visualize, render, verify, and package a sourced vertical explainer about a scientific paper or current technology, business, crypto, legal, or security event. Use when Codex must autonomously select or turn a paper, preprint, DOI, arXiv link, PDF, research topic, company event, founder story, shutdown, lawsuit, invention, security incident, or reversal into a Douyin, Xiaohongshu, WeChat Channels, TikTok, or Reels-style video; replace generic AI or stock visuals with primary-source pages, charts, filings, cases, and annotations; improve retention, narration, claims, pacing, cover, or platform copy; or prepare a multi-platform publishing package with AI-content disclosure.
 ---
 
-# Make Paper Explainer Video
+# Make Sourced Explainer Video
 
-Produce a credible 9:16 research explainer whose claims and visual evidence come from the paper. Own the workflow from topic selection through the verified MP4 and publishing package unless the user limits scope.
+Produce a credible 9:16 explainer whose claims and visual evidence come from primary sources. Support both paper-led research videos and current-event stories. Own the workflow from topic selection through the verified MP4 and publishing package unless the user limits scope.
 
 ## Output contract
 
@@ -13,19 +13,23 @@ Deliver:
 
 - a sourced script with one clear takeaway and an evidence-led hook;
 - a claim ledger for every number, causal statement, and participant case;
-- paper-page, case, method, and chart visuals instead of decorative AI stock;
+- paper pages, official statements, filings, case evidence, and charts instead of decorative AI stock;
 - synchronized narration, short captions, and a 1080x1920 H.264/AAC video;
 - visible and spoken boundaries for preliminary, narrow, correlational, or self-reported evidence;
 - a clean 9:16 cover, a 3:4 cover, and a source note;
 - when publishing is in scope, platform-specific titles, descriptions, hashtags, first comments, and AI-content disclosure instructions.
 
-Never present a preprint as peer-reviewed. Never translate EEG activity, correlation, model score, or self-report into IQ loss, brain damage, causation, or clinical diagnosis unless the study directly measured and supports that claim. Describe participant-reported examples as reported experiences, not independently verified events.
+For papers, never present a preprint as peer-reviewed. Never translate EEG activity, correlation, model score, or self-report into IQ loss, brain damage, causation, or clinical diagnosis unless the study directly measured and supports that claim. Describe participant-reported examples as reported experiences, not independently verified events.
+
+For current events, distinguish announcement from completion, allegation from finding, estimate from audited result, and correlation from cause. Do not invent a single cause when the company, regulator, or investigation has not established one.
 
 ## Workflow
 
 ### 1. Select for evidence and story potential
 
-If the user did not choose a paper, search current primary sources. Prefer a paper with:
+If the user did not choose a topic, search current primary sources and select autonomously.
+
+For a paper, prefer:
 
 - a question understandable without specialist training;
 - a concrete person, task, artifact, mistake, or consequence;
@@ -37,9 +41,11 @@ Prefer the publisher, DOI page, official preprint, PubMed, institution page, or 
 
 Read [references/research-and-claims.md](references/research-and-claims.md) before researching or writing claims.
 
-### 2. Inspect the complete paper
+For a current event, prefer an event with a concrete reversal, identity conflict, invention, money consequence, or operational failure. Read [references/current-events.md](references/current-events.md) before selecting sources or writing claims.
 
-Download the full PDF. Extract searchable text and render relevant pages. Do not rely on an abstract or article when the paper is available.
+### 2. Inspect the complete primary material
+
+For a paper, download the full PDF. Extract searchable text and render relevant pages. Do not rely on an abstract or article when the paper is available.
 
 ```bash
 scripts/prepare_paper.sh paper.pdf work/paper "1,4,8,12"
@@ -55,6 +61,8 @@ Locate and verify:
 - visually useful pages, figures, tables, and exact evidence passages.
 
 Render selected pages at 180-240 DPI and visually inspect labels, legends, axes, and captions.
+
+For a current event, inspect the complete official statement, regulator or court record, historical announcement, and reliable wire report when available. Capture the exact dated passages and preserve the difference between what happened, what is alleged, and what remains unknown.
 
 ### 3. Build a claim and case ledger
 
@@ -82,6 +90,7 @@ Prefer the first available structure:
 2. **Misconception-first** - a popular claim that the paper did not actually test.
 3. **Experiment-first** - a visually striking task, apparatus, or comparison.
 4. **Result-first** - only when the number is immediately meaningful without setup.
+5. **Reversal-first** - an inventor displaced by its invention, a defender blocked by its own guardrail, or a winner whose advantage became a liability.
 
 Do not default to “sample size, method, result.” That often produces a video-shaped abstract.
 
@@ -107,6 +116,7 @@ If the script reads like an abstract, do not improve it with adjectives. Rebuild
 Use one evidence object per shot:
 
 - exact case paragraph or quote crop for a case-led hook;
+- dated official statement, filing, regulator page, or incident disclosure for a current-event hook;
 - title page and venue/status stamp after the hook has established interest;
 - method page only when necessary to interpret the result;
 - original table or figure for the main relationship;
@@ -125,8 +135,10 @@ For CosyVoice:
 
 - inspect reference clips and compare median pitch before choosing a timbre;
 - generate a 10-second hook test when changing voice or direction;
+- keep `instruct_text` short; treat detailed negative requirements as validation checks to prevent prompt leakage;
 - synthesize short segments and create pauses with digital silence;
 - explicitly request clean studio narration without breath, gasps, or exaggerated sentence endings;
+- run ASR on every segment and reject any segment containing prompt-only words or unexplained extra speech;
 - preserve a raw master at the model's native sample rate;
 - use only small `atempo` corrections and rebuild the timeline after any speed change;
 - regenerate a bad segment instead of using aggressive noise gates or denoising.
@@ -179,5 +191,6 @@ Check:
 - video is H.264/AAC, 1080x1920, 30 fps, fast-start, and visually sharp;
 - covers remain legible at feed size and the 3:4 crop loses no key line;
 - platform copy preserves evidence boundaries and includes required AI disclosure.
+- current-event copy uses a visible fact-check date and preserves announcement, allegation, and uncertainty language.
 
 If the result still feels unwatchable, do not add more animation. Rewrite the first 20 seconds around a concrete case, a consequential error, or a decision the viewer recognizes.

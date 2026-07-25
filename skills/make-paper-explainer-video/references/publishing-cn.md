@@ -46,6 +46,7 @@ At minimum verify:
 
 ### WeChat Channels
 
+- Keep the title at 16 Chinese characters or fewer.
 - Use a restrained, shareable first sentence.
 - Connect the result to work, learning, parenting, or another recognizable decision context without overstating generalization.
 - Keep the description shorter than the Xiaohongshu body.

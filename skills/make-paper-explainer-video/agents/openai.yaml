@@ -1,4 +1,4 @@
 interface:
-  display_name: "论文解读短视频"
-  short_description: "从真实案例、论文核验到配音成片与三平台发布的完整流程"
-  default_prompt: "Use $make-paper-explainer-video to turn a research paper into a case-led, sourced vertical video and publishing package."
+  display_name: "证据型短视频制作"
+  short_description: "从实时事件或论文核验到配音成片与三平台发布的完整流程"
+  default_prompt: "Use $make-paper-explainer-video to turn a current event or research paper into a sourced vertical video and publishing package."
