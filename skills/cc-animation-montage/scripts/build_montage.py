@@ -97,7 +97,15 @@ def video_flags(crf: int) -> list[str]:
     return ["-c:v", "libx264", "-preset", "veryfast", "-crf", str(crf), *BT709_FLAGS]
 
 
+def frame_count(duration: float, fps: int, label: str) -> int:
+    frames = round(duration * fps)
+    if duration <= 0 or frames <= 0:
+        raise ValueError(f"{label} must be at least one output frame")
+    return frames
+
+
 def card_clip(image: Path, output: Path, duration: float, fps: int, crf: int) -> None:
+    total_frames = frame_count(duration, fps, "card duration")
     run(
         [
             "ffmpeg",
@@ -116,6 +124,8 @@ def card_clip(image: Path, output: Path, duration: float, fps: int, crf: int) ->
             "-an",
             "-vf",
             f"fps={fps},format=yuv420p,setsar=1",
+            "-frames:v",
+            str(total_frames),
             *video_flags(crf),
             str(output),
         ]
@@ -131,6 +141,7 @@ def action_clip(config: dict, output: Path, width: int, height: int, fps: int, c
     speed = float(config.get("speed", 1.0))
     if duration <= 0 or speed <= 0:
         raise ValueError("clip duration and speed must be positive")
+    total_frames = frame_count(duration, fps, "clip duration")
     source_duration = duration * speed + 0.08
     filter_graph = (
         f"setpts=PTS/{speed},trim=duration={duration},setpts=PTS-STARTPTS,"
@@ -155,6 +166,8 @@ def action_clip(config: dict, output: Path, width: int, height: int, fps: int, c
             "-an",
             "-vf",
             filter_graph,
+            "-frames:v",
+            str(total_frames),
             *video_flags(crf),
             str(output),
         ]
@@ -202,6 +215,22 @@ def main() -> None:
     if target <= 0 or fps <= 0 or width <= 0 or height <= 0:
         raise SystemExit("duration, fps, width, and height must be positive")
 
+    total_frames = round(target * fps)
+    timeline = []
+    if config.get("title_card"):
+        timeline.append(("title card", float(config["title_card"].get("duration", 0.8))))
+    timeline.extend(
+        (f"clip {index}", float(clip["duration"]))
+        for index, clip in enumerate(config.get("clips", []), start=1)
+    )
+    if config.get("credits_card"):
+        timeline.append(("credits card", float(config["credits_card"].get("duration", 2.0))))
+    planned_frames = sum(frame_count(duration, fps, label) for label, duration in timeline)
+    if planned_frames != total_frames:
+        raise SystemExit(
+            f"timeline has {planned_frames} rounded frames; expected exactly {total_frames}"
+        )
+
     segments = []
     title = config.get("title_card")
     if title:
@@ -237,7 +266,6 @@ def main() -> None:
         raise SystemExit(f"timeline is too short: {silent_duration:.3f}s for {target:.3f}s target")
 
     exact_video = work_dir / "video_exact.mp4"
-    total_frames = round(target * fps)
     run(
         [
             "ffmpeg",
@@ -349,6 +377,15 @@ def main() -> None:
         mux.extend(["-metadata", f"title={metadata['title']}"])
     if metadata.get("comment"):
         mux.extend(["-metadata", f"comment={metadata['comment']}"])
+    mux.extend(
+        [
+            "-bsf:v",
+            (
+                "h264_metadata=video_full_range_flag=0:colour_primaries=1:"
+                "transfer_characteristics=1:matrix_coefficients=1"
+            ),
+        ]
+    )
     mux.extend(["-movflags", "+faststart", str(output)])
     run(mux)
 

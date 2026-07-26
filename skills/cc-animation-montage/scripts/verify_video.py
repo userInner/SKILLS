@@ -83,8 +83,9 @@ def main() -> None:
         failures.append(f"video codec is {video.get('codec_name')}, expected h264")
     if video.get("pix_fmt") != "yuv420p":
         failures.append(f"pixel format is {video.get('pix_fmt')}, expected yuv420p")
-    if video.get("color_space") != "bt709" or video.get("color_range") != "tv":
-        failures.append("video is not tagged BT.709 limited range")
+    bt709_fields = ("color_space", "color_transfer", "color_primaries")
+    if video.get("color_range") != "tv" or any(video.get(field) != "bt709" for field in bt709_fields):
+        failures.append("video is not fully tagged BT.709 limited range")
 
     subprocess.run(
         ["ffmpeg", "-hide_banner", "-loglevel", "error", "-i", str(args.input), "-f", "null", "-"],
@@ -104,6 +105,8 @@ def main() -> None:
         "pixel_format": video.get("pix_fmt"),
         "color_range": video.get("color_range"),
         "color_space": video.get("color_space"),
+        "color_transfer": video.get("color_transfer"),
+        "color_primaries": video.get("color_primaries"),
         "audio": metrics,
         "failures": failures,
     }
