@@ -1,0 +1,4 @@
+interface:
+  display_name: "Canvas Video Producer"
+  short_description: "Plan, generate, poll, download, and recut AI video clips"
+  default_prompt: "Use $canvas-video-producer to plan and generate a coherent beat-synced AI video safely."
