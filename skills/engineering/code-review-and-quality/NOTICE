@@ -1,0 +1,5 @@
+Upstream: https://github.com/addyosmani/agent-skills
+Imported from commit: df1edb2e05487d0aa6d93c747141e0aed1187f25
+Upstream license: MIT (see LICENSE)
+
+Local changes: normalized portable Skill metadata, added product metadata and an optional public community follow-up.

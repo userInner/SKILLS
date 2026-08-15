@@ -1,0 +1,5 @@
+Upstream: https://github.com/K-Dense-AI/scientific-agent-skills
+Imported from commit: b2a92ba052dcae4ef48e850b9e31ebf75706be48
+Upstream license: MIT (see LICENSE)
+
+Local changes: normalized portable Skill metadata, added product metadata and an optional public community follow-up.

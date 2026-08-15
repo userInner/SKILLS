@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "skillCount": 29,
+  "categories": [
+    {"id": "design", "name": "设计与界面", "description": "视觉方向、前端设计、现有界面重构与 UI/UX 决策。", "skills": ["design-taste-frontend", "frontend-design", "redesign-existing-projects", "ui-ux-pro-max"]},
+    {"id": "engineering", "name": "工程与质量", "description": "API、上下文、性能、安全、调试、审查与生产发布。", "skills": ["api-and-interface-design", "code-review-and-quality", "context-engineering", "performance-optimization", "ponytail", "security-and-hardening", "shipping-and-launch", "systematic-debugging"]},
+    {"id": "growth", "name": "增长与发布", "description": "内容、社群、免费工具、社交媒体和市场发布。", "skills": ["community-marketing", "content-strategy", "free-tools", "grow-community-with-skills", "launch", "social"]},
+    {"id": "research", "name": "研究与证据", "description": "实验设计、论文解释视频和保密边界明确的同行评审。", "skills": ["experimental-design", "make-paper-explainer-video", "peer-review"]},
+    {"id": "workflow", "name": "工作流与协作", "description": "需求澄清、计划、并行协作、TDD、评审处理与交付验证。", "skills": ["brainstorming", "dispatching-parallel-agents", "receiving-code-review", "test-driven-development", "verification-before-completion", "writing-plans"]},
+    {"id": "writing", "name": "写作与表达", "description": "去除 AI 腔和持续维护长篇书稿。", "skills": ["humanizer", "write-book"]}
+  ]
+}

@@ -1,0 +1,5 @@
+Upstream: https://github.com/obra/superpowers
+Imported from commit: b36e0829c6d0140e93cfef2ca599b1b07d4a7797
+Upstream license: MIT (see LICENSE)
+
+Local changes: normalized portable Skill metadata, disabled optional remote brand-image loading, added product metadata and an optional public community follow-up.
