@@ -83,56 +83,64 @@
 
 ## 高星来源索引
 
-按 GitHub Stars 降序排列，快照日期 **2026-08-15**。完整 46 项及筛选状态见 [catalog.json](catalog.json)。“索引”表示只记录来源，不复制代码；常见原因是未识别许可证、强依赖原框架、包含账号/网络脚本，或尚未完成独立运行审查。
+已核验并收录 **575** 个超过 300 Star 的来源，其中 **571** 个仓库包含 `SKILL.md`。完整公开排名见 [RANKING.md](RANKING.md)，机器可读数据见 [catalog.json](catalog.json)。
 
-| 排名 | 项目 | Stars | 许可证 | 本仓库状态 |
-|---:|---|---:|---|---|
-| 1 | [obra/superpowers](https://github.com/obra/superpowers) | 272,291 | MIT | 已精选导入 |
-| 2 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | 240,195 | MIT | 已精选导入 |
-| 3 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 230,789 | MIT | 索引，框架耦合 |
-| 4 | [mattpocock/skills](https://github.com/mattpocock/skills) | 217,873 | MIT | 已精选导入 |
-| 5 | [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) | 202,606 | 未识别 | 索引，不复制 |
-| 6 | [ultraworkers/claw-code](https://github.com/ultraworkers/claw-code) | 195,047 | MIT | 索引，框架耦合 |
-| 7 | [anthropics/skills](https://github.com/anthropics/skills) | 169,450 | 未识别 | 索引，不复制 |
-| 8 | [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | 145,545 | MIT | 索引，待逐项审查 |
-| 9 | [github/spec-kit](https://github.com/github/spec-kit) | 128,696 | MIT | 索引，框架耦合 |
-| 10 | [garrytan/gstack](https://github.com/garrytan/gstack) | 128,069 | MIT | 索引，框架耦合 |
-| 11 | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | 116,843 | MIT | 已精选导入 |
-| 12 | [browser-use/browser-use](https://github.com/browser-use/browser-use) | 109,274 | MIT | 索引，框架耦合 |
-| 13 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 102,918 | MIT | 已精选导入 |
-| 14 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | 87,347 | MIT | 已精选导入 |
-| 15 | [nexu-io/open-design](https://github.com/nexu-io/open-design) | 86,562 | Apache-2.0 | 索引，平台耦合 |
-| 16 | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | 80,030 | MIT | 索引，框架耦合 |
-| 17 | [Egonex-AI/Understand-Anything](https://github.com/Egonex-AI/Understand-Anything) | 79,362 | MIT | 索引，框架耦合 |
-| 18 | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | 76,662 | MIT | 已精选导入 |
-| 19 | [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) | 74,272 | MIT | 索引，学习资料 |
-| 20 | [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) | 72,516 | 未识别 | 索引，不复制 |
-| 21 | [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | 71,833 | MIT | 索引，账号与网络耦合 |
-| 22 | [Fission-AI/OpenSpec](https://github.com/Fission-AI/OpenSpec) | 64,945 | MIT | 索引，框架耦合 |
-| 23 | [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) | 64,487 | MIT | 索引，学习资料 |
-| 24 | [santifer/career-ops](https://github.com/santifer/career-ops) | 63,884 | MIT | 索引，待审查 |
-| 25 | [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | 58,222 | MIT | 索引，含凭据与网络脚本 |
-| 26 | [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills) | 46,264 | MIT | 索引，Obsidian 专用 |
-| 27 | [sickn33/agentic-awesome-skills](https://github.com/sickn33/agentic-awesome-skills) | 44,967 | MIT | 索引，待逐项审查 |
-| 28 | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | 44,347 | MIT | 已精选导入 |
-| 29 | [github/awesome-copilot](https://github.com/github/awesome-copilot) | 37,859 | MIT | 索引，待逐项审查 |
-| 30 | [blader/humanizer](https://github.com/blader/humanizer) | 35,737 | MIT | 已精选导入 |
-| 31 | [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | 33,549 | MIT | 已精选导入 |
-| 32 | [googleworkspace/cli](https://github.com/googleworkspace/cli) | 30,388 | Apache-2.0 | 索引，平台专用 |
-| 33 | [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) | 30,307 | MIT | 索引 |
-| 34 | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) | 30,045 | 未识别 | 索引，不复制 |
-| 35 | [vercel-labs/skills](https://github.com/vercel-labs/skills) | 28,925 | MIT | 已精选导入 |
-| 36 | [mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) | 27,795 | Apache-2.0 | 索引，安全审查待完成 |
-| 37 | [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files) | 26,169 | MIT | 索引，Claude Hook 耦合 |
-| 38 | [phuryn/pm-skills](https://github.com/phuryn/pm-skills) | 25,267 | MIT | 已精选导入 |
-| 39 | [openai/skills](https://github.com/openai/skills) | 24,950 | 未识别 | 索引，不复制 |
-| 40 | [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) | 24,443 | MIT | 索引，待逐项审查 |
-| 41 | [agentskills/agentskills](https://github.com/agentskills/agentskills) | 24,292 | Apache-2.0 | 索引，规范项目 |
-| 42 | [alchaincyf/huashu-design](https://github.com/alchaincyf/huashu-design) | 23,067 | MIT | 索引，待逐项审查 |
-| 43 | [google/skills](https://github.com/google/skills) | 18,241 | Apache-2.0 | 索引，平台专用 |
-| 44 | [muratcankoylan/Agent-Skills-for-Context-Engineering](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering) | 17,732 | MIT | 索引，待逐项审查 |
-| 45 | [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) | 14,636 | Apache-2.0 | 索引，安全工具而非独立 Skill |
-| 46 | [Orchestra-Research/AI-Research-SKILLs](https://github.com/Orchestra-Research/AI-Research-SKILLs) | 11,713 | MIT | 索引，待逐项审查 |
+下面展示当前前 50 名；Star 为 **2026-08-15** 快照。索引不等于安装或安全背书。
+
+| 排名 | 项目 | Stars | 许可证 | SKILL.md 数 | 本仓库状态 |
+|---:|---|---:|---|---:|---|
+| 1 | [obra/superpowers](https://github.com/obra/superpowers) | 272,292 | MIT | 14 | 已精选导入 |
+| 2 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | 240,201 | MIT | 896 | 已精选导入 |
+| 3 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 230,793 | MIT | 198 | 索引，Agent 框架耦合 |
+| 4 | [mattpocock/skills](https://github.com/mattpocock/skills) | 217,887 | MIT | 35 | 已精选导入 |
+| 5 | [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) | 202,608 | 未识别 | 1 | 索引，许可证未识别 |
+| 6 | [ultraworkers/claw-code](https://github.com/ultraworkers/claw-code) | 195,048 | MIT | 0 | 索引，框架耦合 |
+| 7 | [anthropics/skills](https://github.com/anthropics/skills) | 169,452 | 未识别 | 18 | 索引，许可证未识别 |
+| 8 | [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | 145,546 | MIT | 0 | 索引，待逐项审查 |
+| 9 | [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | 132,683 | Apache-2.0 | 9 | 索引，Skill 集合待审查 |
+| 10 | [github/spec-kit](https://github.com/github/spec-kit) | 128,706 | MIT | 1 | 索引，框架耦合 |
+| 11 | [garrytan/gstack](https://github.com/garrytan/gstack) | 128,071 | MIT | 61 | 索引，框架耦合 |
+| 12 | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | 116,848 | MIT | 13 | 已精选导入 |
+| 13 | [browser-use/browser-use](https://github.com/browser-use/browser-use) | 109,275 | MIT | 7 | 索引，框架耦合 |
+| 14 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 102,924 | MIT | 12 | 已精选导入 |
+| 15 | [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | 90,794 | Apache-2.0 | 22 | 索引，项目附带 Skill |
+| 16 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | 87,348 | MIT | 24 | 已精选导入 |
+| 17 | [nexu-io/open-design](https://github.com/nexu-io/open-design) | 86,577 | Apache-2.0 | 532 | 索引 |
+| 18 | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | 80,032 | MIT | 33 | 索引，框架耦合 |
+| 19 | [Egonex-AI/Understand-Anything](https://github.com/Egonex-AI/Understand-Anything) | 79,363 | MIT | 9 | 索引，框架耦合 |
+| 20 | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | 76,664 | MIT | 13 | 已精选导入 |
+| 21 | [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) | 74,273 | MIT | 4 | 索引 |
+| 22 | [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) | 72,519 | 未识别 | 864 | 索引，许可证未识别 |
+| 23 | [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | 71,835 | MIT | 1 | 索引 |
+| 24 | [code-yeongyu/oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent) | 67,890 | 未识别 | 66 | 索引，许可证未识别 |
+| 25 | [Fission-AI/OpenSpec](https://github.com/Fission-AI/OpenSpec) | 64,947 | MIT | 13 | 索引，框架耦合 |
+| 26 | [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) | 64,487 | MIT | 9 | 索引 |
+| 27 | [santifer/career-ops](https://github.com/santifer/career-ops) | 63,884 | MIT | 12 | 索引 |
+| 28 | [mem0ai/mem0](https://github.com/mem0ai/mem0) | 63,298 | Apache-2.0 | 42 | 索引，项目附带 Skill |
+| 29 | [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | 58,223 | MIT | 1 | 索引 |
+| 30 | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 50,496 | AGPL-3.0 | 19 | 索引，项目附带 Skill |
+| 31 | [prisma/prisma](https://github.com/prisma/prisma) | 47,575 | Apache-2.0 | 21 | 索引，项目附带 Skill |
+| 32 | [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) | 47,124 | Apache-2.0 | 150 | 索引，项目附带 Skill |
+| 33 | [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch) | 46,766 | MIT | 13 | 索引，项目附带 Skill |
+| 34 | [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills) | 46,265 | MIT | 5 | 索引 |
+| 35 | [sickn33/agentic-awesome-skills](https://github.com/sickn33/agentic-awesome-skills) | 44,968 | MIT | 6341 | 索引 |
+| 36 | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | 44,347 | MIT | 49 | 已精选导入 |
+| 37 | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | 41,016 | Apache-2.0 | 32 | 索引，项目附带 Skill |
+| 38 | [wshobson/agents](https://github.com/wshobson/agents) | 38,824 | MIT | 180 | 索引，项目附带 Skill |
+| 39 | [ant-design/ant-design-pro](https://github.com/ant-design/ant-design-pro) | 38,669 | MIT | 2 | 索引，项目附带 Skill |
+| 40 | [github/awesome-copilot](https://github.com/github/awesome-copilot) | 37,860 | MIT | 425 | 索引 |
+| 41 | [blader/humanizer](https://github.com/blader/humanizer) | 35,739 | MIT | 1 | 已精选导入 |
+| 42 | [Yuan1z0825/nature-skills](https://github.com/Yuan1z0825/nature-skills) | 35,269 | Apache-2.0 | 19 | 索引，Skill 集合待审查 |
+| 43 | [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | 33,549 | MIT | 162 | 已精选导入 |
+| 44 | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | 33,535 | Apache-2.0 | 31 | 索引，Skill 集合待审查 |
+| 45 | [JCodesMore/ai-website-cloner-template](https://github.com/JCodesMore/ai-website-cloner-template) | 31,996 | MIT | 6 | 索引，项目附带 Skill |
+| 46 | [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search) | 31,743 | MIT | 9 | 索引，项目附带 Skill |
+| 47 | [alchaincyf/nuwa-skill](https://github.com/alchaincyf/nuwa-skill) | 30,636 | MIT | 16 | 索引，项目附带 Skill |
+| 48 | [nanocoai/nanoclaw](https://github.com/nanocoai/nanoclaw) | 30,512 | MIT | 51 | 索引，项目附带 Skill |
+| 49 | [googleworkspace/cli](https://github.com/googleworkspace/cli) | 30,389 | Apache-2.0 | 95 | 索引 |
+| 50 | [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) | 30,307 | MIT | 0 | 索引 |
+
+**[查看完整 575 项 Star 排名 →](RANKING.md)**
 
 高星不等于安全。安装前仍需阅读 `SKILL.md`、脚本、依赖和权限；不要把密钥、Cookie、个人数据、未授权源码或保密稿件交给第三方 Skill。
 
