@@ -1,0 +1,4 @@
+interface:
+  display_name: "Skill 社群增长"
+  short_description: "把 Skill 的真实使用转化为透明、自愿的社群加入路径"
+  default_prompt: "Use $grow-community-with-skills to add an optional community conversion path to this skill."

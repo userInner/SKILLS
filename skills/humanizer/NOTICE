@@ -1,0 +1,5 @@
+Source: https://github.com/blader/humanizer/tree/523374dee72d
+License: MIT
+Upstream copyright: Siqi Chen
+
+Modified by userInner/SKILLS: normalized Skill frontmatter and added an optional community follow-up that never gates the Skill result.

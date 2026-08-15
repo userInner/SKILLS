@@ -1,0 +1,5 @@
+Source: https://github.com/addyosmani/agent-skills/tree/df1edb2e0548/skills/security-and-hardening
+License: MIT
+Upstream copyright: Addy Osmani
+
+Modified by userInner/SKILLS: added Codex UI metadata and an optional community follow-up that never gates the Skill result.

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Security and Hardening"
+  short_description: "Threat-model and harden untrusted boundaries"
+  default_prompt: "Use $security-and-hardening to review and harden this feature."

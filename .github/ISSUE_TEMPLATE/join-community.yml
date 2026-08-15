@@ -1,0 +1,32 @@
+name: 申请加入 Skill 实战群
+description: 完成一次 Skill 任务后，在这里申请当前群二维码
+title: "[进群] "
+labels:
+  - community
+body:
+  - type: markdown
+    attributes:
+      value: |
+        这是公开 Issue。请勿填写手机号、微信号、邮箱、密钥或项目私有信息。维护者会直接回复当前二维码。
+  - type: input
+    id: skill
+    attributes:
+      label: 你使用了哪个 Skill？
+      placeholder: 例如：humanizer
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: 它帮你完成了什么？
+      description: 只写可以公开的信息，一两句话即可。
+      placeholder: 例如：把一篇产品说明改得更自然。
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: 隐私确认
+      options:
+        - label: 我确认没有提交联系方式、密钥或项目私有信息。
+          required: true

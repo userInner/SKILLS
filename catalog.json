@@ -1,0 +1,18 @@
+{
+  "snapshotDate": "2026-08-15",
+  "sort": "githubStarsDescending",
+  "repositories": [
+    {"rank": 1, "repository": "obra/superpowers", "stars": 272275, "license": "MIT", "url": "https://github.com/obra/superpowers", "status": "selected-import"},
+    {"rank": 2, "repository": "affaan-m/ECC", "stars": 240188, "license": "MIT", "url": "https://github.com/affaan-m/ECC", "status": "index-only"},
+    {"rank": 3, "repository": "mattpocock/skills", "stars": 217829, "license": "MIT", "url": "https://github.com/mattpocock/skills", "status": "index-only"},
+    {"rank": 4, "repository": "anthropics/skills", "stars": 169447, "license": "NOASSERTION", "url": "https://github.com/anthropics/skills", "status": "index-only"},
+    {"rank": 5, "repository": "garrytan/gstack", "stars": 128067, "license": "MIT", "url": "https://github.com/garrytan/gstack", "status": "index-only"},
+    {"rank": 6, "repository": "nextlevelbuilder/ui-ux-pro-max-skill", "stars": 116835, "license": "MIT", "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill", "status": "selected-import"},
+    {"rank": 7, "repository": "DietrichGebert/ponytail", "stars": 102891, "license": "MIT", "url": "https://github.com/DietrichGebert/ponytail", "status": "selected-import"},
+    {"rank": 8, "repository": "addyosmani/agent-skills", "stars": 87334, "license": "MIT", "url": "https://github.com/addyosmani/agent-skills", "status": "selected-import"},
+    {"rank": 9, "repository": "Leonxlnx/taste-skill", "stars": 76653, "license": "MIT", "url": "https://github.com/Leonxlnx/taste-skill", "status": "index-only"},
+    {"rank": 10, "repository": "github/awesome-copilot", "stars": 37857, "license": "MIT", "url": "https://github.com/github/awesome-copilot", "status": "index-only"},
+    {"rank": 11, "repository": "blader/humanizer", "stars": 35734, "license": "MIT", "url": "https://github.com/blader/humanizer", "status": "selected-import"},
+    {"rank": 12, "repository": "K-Dense-AI/scientific-agent-skills", "stars": 33542, "license": "MIT", "url": "https://github.com/K-Dense-AI/scientific-agent-skills", "status": "index-only"}
+  ]
+}

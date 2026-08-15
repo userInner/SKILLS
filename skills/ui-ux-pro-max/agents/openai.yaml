@@ -1,0 +1,4 @@
+interface:
+  display_name: "UI UX Pro Max"
+  short_description: "Searchable UI and UX design intelligence"
+  default_prompt: "Use $ui-ux-pro-max to design and validate this interface."
