@@ -6,6 +6,7 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import re
 import sys
 import time
 import urllib.error
@@ -207,17 +208,29 @@ def license_id(repo: dict) -> str:
 
 def render_ranking(index: dict, limit: int | None = None) -> str:
     items = index["repositories"] if limit is None else index["repositories"][:limit]
+    visible_count = len(items)
     lines = [
-        "# GitHub Agent Skills Star 排名" if limit is None else "## 高星来源索引",
+        "# GitHub Agent Skills Star 排名" if limit is None else f"## 高星来源索引（Top {visible_count}）",
         "",
         f"快照日期 **{index['snapshotDate']}**。共收录 **{index['repositoryCount']}** 个超过 {index['minimumStarsExclusive']} Star 的来源，"
         f"其中 **{index['repositoriesWithSkillFiles']}** 个已核验包含 `SKILL.md`。Star 会变化，排名不代表安全或质量背书。",
         "",
         "自动发现只进入索引；许可证、依赖、权限和隔离测试通过后，才可能进入直装目录。",
         "",
-        "| 排名 | 项目 | Stars | 许可证 | SKILL.md 数 | 本仓库状态 |",
-        "|---:|---|---:|---|---:|---|",
     ]
+    if limit is not None:
+        lines.extend(
+            [
+                f"README 仅展示前 {visible_count} 名；[查看完整 {index['repositoryCount']} 项排行榜](RANKING.md)。",
+                "",
+            ]
+        )
+    lines.extend(
+        [
+            "| 排名 | 项目 | Stars | 许可证 | SKILL.md 数 | 本仓库状态 |",
+            "|---:|---|---:|---|---:|---|",
+        ]
+    )
     for item in items:
         license_name = "未识别" if item.get("license") in (None, "", "NOASSERTION") else item["license"]
         lines.append(
@@ -240,8 +253,22 @@ def status_label(item: dict) -> str:
     }.get(item.get("reason"), "索引")
 
 
-def update_readme(path: Path, index: dict) -> None:
+def local_skill_stats(root: Path) -> tuple[int, int]:
+    skill_files = list((root / "skills").glob("*/*/SKILL.md"))
+    categories = {path.parent.parent.name for path in skill_files}
+    return len(categories), len(skill_files)
+
+
+def update_readme(path: Path, index: dict, category_count: int, direct_skill_count: int) -> None:
     text = path.read_text()
+    text, replacements = re.subn(
+        r"当前提供 \*\*\d+ 个分类、\d+ 个直装 Skill\*\*",
+        f"当前提供 **{category_count} 个分类、{direct_skill_count} 个直装 Skill**",
+        text,
+        count=1,
+    )
+    if replacements != 1:
+        raise RuntimeError("README direct Skill summary marker was not found")
     start = text.index("## 高星来源索引")
     end = text.index("\n## ", start + 3)
     summary = render_ranking(index, limit=50).rstrip()
@@ -249,9 +276,11 @@ def update_readme(path: Path, index: dict) -> None:
 
 
 def write_outputs(root: Path, index: dict) -> None:
+    category_count, direct_skill_count = local_skill_stats(root)
+    index["directSkillCount"] = direct_skill_count
     (root / "catalog.json").write_text(json.dumps(index, ensure_ascii=False, indent=2) + "\n")
     (root / "RANKING.md").write_text(render_ranking(index))
-    update_readme(root / "README.md", index)
+    update_readme(root / "README.md", index, category_count, direct_skill_count)
 
 
 def main() -> int:

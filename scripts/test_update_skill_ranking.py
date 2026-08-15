@@ -143,6 +143,49 @@ class RankingTests(unittest.TestCase):
         self.assertIn("| 1 |", text)
         self.assertIn("1,234", text)
 
+    def test_readme_ranking_labels_preview_and_links_full_list(self):
+        text = MODULE.render_ranking(
+            {
+                "snapshotDate": "2026-08-15",
+                "repositoryCount": 1662,
+                "minimumStarsExclusive": 300,
+                "repositoriesWithSkillFiles": 1658,
+                "repositories": [
+                    {
+                        "rank": rank,
+                        "repository": f"owner/skill-{rank}",
+                        "url": f"https://github.com/owner/skill-{rank}",
+                        "stars": 2000 - rank,
+                        "license": "MIT",
+                        "skillFileCount": 1,
+                        "status": "index-only",
+                        "reason": "awaiting-manual-review",
+                    }
+                    for rank in range(1, 61)
+                ],
+            },
+            limit=50,
+        )
+
+        self.assertIn("## 高星来源索引（Top 50）", text)
+        self.assertIn("[查看完整 1662 项排行榜](RANKING.md)", text)
+        self.assertIn("| 50 |", text)
+        self.assertNotIn("| 51 |", text)
+
+    def test_local_skill_stats_uses_installable_skill_files(self):
+        root = Path(self.id().replace(".", "-"))
+        try:
+            (root / "skills" / "design" / "one").mkdir(parents=True)
+            (root / "skills" / "design" / "one" / "SKILL.md").write_text("# one")
+            (root / "skills" / "writing" / "two").mkdir(parents=True)
+            (root / "skills" / "writing" / "two" / "SKILL.md").write_text("# two")
+
+            self.assertEqual(MODULE.local_skill_stats(root), (2, 2))
+        finally:
+            import shutil
+
+            shutil.rmtree(root, ignore_errors=True)
+
 
 if __name__ == "__main__":
     unittest.main()
