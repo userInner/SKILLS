@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "brand-voice",
+  "category": "workflow",
+  "description": "Build a source-derived writing style profile from real posts, essays, launch notes, docs, or site copy, then reuse that profile across content, outreach, and social workflows. Use when the user wants voice consistency without generic AI writing tropes.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": ".agents/skills/brand-voice",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:9895af6c22aa1113e3b67ba6776507ada7cba1aa7480d151c269b94ecebb0622",
+  "fileCount": 3,
+  "totalBytes": 4946,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

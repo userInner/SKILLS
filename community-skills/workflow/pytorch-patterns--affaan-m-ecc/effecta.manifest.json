@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "name": "pytorch-patterns",
+  "category": "workflow",
+  "description": "PyTorch deep learning patterns and best practices for building robust, efficient, and reproducible training pipelines, model architectures, and data loading.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": ".kiro/skills/pytorch-patterns",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:b6007e37c0f8bee7230b5b2eb2fa1c4043d53aec2fd095cdb0137a837ffb705b",
+  "fileCount": 1,
+  "totalBytes": 11659,
+  "staticScan": {
+    "status": "review",
+    "findings": [
+      {
+        "rule": "shell-eval",
+        "file": "SKILL.md"
+      }
+    ]
+  },
+  "status": "needs-review"
+}

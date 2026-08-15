@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "name": "repo-scan",
+  "category": "workflow",
+  "description": "Bootstrap pointer that installs the external repo-scan skill from a pinned, reviewable commit. Use when repo-scan must be installed before running its cross-stack source-code asset audit; this ECC pointer does not perform the audit itself.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/repo-scan",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:557fde020cc8361ddccb6e9f898b93e31912823151a9cc198d06960891e55713",
+  "fileCount": 1,
+  "totalBytes": 7242,
+  "staticScan": {
+    "status": "review",
+    "findings": [
+      {
+        "rule": "recursive-delete",
+        "file": "SKILL.md"
+      }
+    ]
+  },
+  "status": "needs-review"
+}

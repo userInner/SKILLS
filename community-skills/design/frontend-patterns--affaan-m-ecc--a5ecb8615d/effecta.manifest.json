@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "frontend-patterns",
+  "category": "design",
+  "description": "Frontend development patterns for React, Next.js, state management, performance optimization, and UI best practices. Use when building or reviewing React or Next.js components, state, or render performance.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/frontend-patterns",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:a5ecb8615d4af5f0333b83f2e3a7a77245f8a5e90fc681a6715f6f1271c3f444",
+  "fileCount": 1,
+  "totalBytes": 15432,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

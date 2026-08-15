@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "plan-canvas",
+  "category": "workflow",
+  "description": "Open plans and HTML artifacts in a local browser canvas where the human annotates elements, chats, and approves or requests changes without leaving the page. Use when presenting a plan for review, or when feedback like \"move this, change that\" is easier pointed at than typed.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/plan-canvas",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:2e09bb566d64f9483181f18d810befa6b93924523a954f55e6ffed3d9438e4b4",
+  "fileCount": 1,
+  "totalBytes": 8586,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

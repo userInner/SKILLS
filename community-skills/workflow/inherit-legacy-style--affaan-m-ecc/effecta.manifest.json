@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "inherit-legacy-style",
+  "category": "workflow",
+  "description": "Legacy-project style inheritance skill. Use when the user types /inherit-legacy-style, or when onboarding an AI coding agent onto a hand-written legacy project and you need to prevent \"style drift\" (the model imposing its pretrained mainstream idioms onto the project). Language- and framework-agnostic — it aligns meta-architecture only, not syntax. Once run, it becomes a behavioral constraint on all subsequent coding tasks. Do NOT use for pure research or one-off questions unrelated to code-style alignment.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/inherit-legacy-style",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:c34262c773cc8402469827824f2eeb8ea82553abe6345aa0fb01c12441aaed4b",
+  "fileCount": 1,
+  "totalBytes": 8552,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

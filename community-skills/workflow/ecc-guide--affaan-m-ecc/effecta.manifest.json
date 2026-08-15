@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "ecc-guide",
+  "category": "workflow",
+  "description": "Guide users through ECC's current agents, skills, commands, hooks, rules, install profiles, and project onboarding by reading the live repository surface before answering.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/ecc-guide",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:cc334f57f9c31dd0d6f1ff75e4ae8274961a999e0b6cefebd7a1a9a7d529f558",
+  "fileCount": 1,
+  "totalBytes": 5611,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

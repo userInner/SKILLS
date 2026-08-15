@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "sms",
+  "category": "workflow",
+  "description": "When the user wants to plan, build, or optimize SMS or MMS marketing — including welcome flows, abandoned cart texts, post-purchase, win-back, promotional sends, or transactional/auth SMS. Also use when the user mentions \"SMS marketing,\" \"text message campaigns,\" \"SMS sequence,\" \"SMS automation,\" \"abandoned cart text,\" \"post-purchase SMS,\" \"Klaviyo SMS,\" \"Postscript,\" \"Attentive,\" \"Twilio,\" \"A2P 10DLC,\" \"TCPA,\" \"SMS compliance,\" \"short code,\" \"toll-free SMS,\" \"MMS campaign,\" \"should I do SMS,\" or \"SMS vs email.\" For email sequences, see emails. For SMS copy framing, see copywriting. For opt-in popups that capture phone numbers, see popups.",
+  "source": {
+    "repository": "coreyhaines31/marketingskills",
+    "url": "https://github.com/coreyhaines31/marketingskills",
+    "path": "skills/sms",
+    "commit": "7868cb9251fad80a73d26e488a5ad5f6c4a9f335",
+    "rank": 56,
+    "stars": 44368
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:eb4047c7c8cb2aa8d17b89c61cbdbbc588fb11a2a33b0271402b47e80bf7820d",
+  "fileCount": 5,
+  "totalBytes": 50468,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

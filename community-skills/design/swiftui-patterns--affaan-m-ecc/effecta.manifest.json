@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "swiftui-patterns",
+  "category": "design",
+  "description": "SwiftUI architecture patterns, state management with @Observable, view composition, navigation, performance optimization, and modern iOS/macOS UI best practices. Use when building or reviewing SwiftUI views, @Observable state, navigation, or render performance.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/swiftui-patterns",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:4c75ead6e52582953ec29cc1ec7b23591515f360b5ce4235377ad6bda8f2e353",
+  "fileCount": 1,
+  "totalBytes": 7039,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

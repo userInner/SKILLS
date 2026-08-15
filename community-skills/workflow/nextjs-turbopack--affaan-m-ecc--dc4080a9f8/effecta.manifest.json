@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "nextjs-turbopack",
+  "category": "workflow",
+  "description": "Next.js 16+ and Turbopack — incremental bundling, FS caching, dev speed, and when to use Turbopack vs webpack.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/nextjs-turbopack",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:dc4080a9f8307bf36cf7e4023deb44b0db807f041fad803a379b9d12124ff10a",
+  "fileCount": 1,
+  "totalBytes": 2892,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

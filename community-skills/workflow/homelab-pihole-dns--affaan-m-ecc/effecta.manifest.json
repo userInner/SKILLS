@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "name": "homelab-pihole-dns",
+  "category": "workflow",
+  "description": "Pi-hole installation, blocklist management, DNS-over-HTTPS setup, DHCP integration, local DNS records, and troubleshooting broken DNS resolution on a home network. Use when the task explicitly involves Pi-hole — installing it, managing blocklists, configuring DoH or DHCP, adding local DNS records, or diagnosing DNS resolution with Pi-hole in the path.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/homelab-pihole-dns",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:ace4218c4f7c7fe1b2de1707390a27424cc5f79864d5bfb9547f0814959cf1a1",
+  "fileCount": 1,
+  "totalBytes": 9592,
+  "staticScan": {
+    "status": "review",
+    "findings": [
+      {
+        "rule": "privilege-escalation",
+        "file": "SKILL.md"
+      }
+    ]
+  },
+  "status": "needs-review"
+}

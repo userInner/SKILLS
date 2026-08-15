@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "documentation-lookup",
+  "category": "engineering",
+  "description": "Use up-to-date library and framework docs via Context7 MCP instead of training data. Activates for setup questions, API references, code examples, or when the user names a framework (e.g. React, Next.js, Prisma).",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/documentation-lookup",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:54de2620bc7a901ffbcbfaa8e767b6854b38cbc00fc47c5d2c630be47a2c7ac8",
+  "fileCount": 1,
+  "totalBytes": 4912,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

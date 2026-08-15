@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "jira-integration",
+  "category": "engineering",
+  "description": "Use this skill when retrieving Jira tickets, analyzing requirements, updating ticket status, adding comments, or transitioning issues. Provides Jira API patterns via MCP or direct REST calls.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/jira-integration",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:d8993ae69708d858543414e017237a4c0b1b53dfed7b29fa90814d4d708e2e1b",
+  "fileCount": 1,
+  "totalBytes": 9025,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "ponytail-help",
+  "category": "workflow",
+  "description": ">",
+  "source": {
+    "repository": "DietrichGebert/ponytail",
+    "url": "https://github.com/DietrichGebert/ponytail",
+    "path": "skills/ponytail-help",
+    "commit": "2ed6c52c9d7e5e56942508591085fd45dea277d3",
+    "rank": 16,
+    "stars": 103067
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:92f909eddf3b371e4737a85f60a8024cec6ae5cfb523561b8c56f86fcf3f52b0",
+  "fileCount": 1,
+  "totalBytes": 2796,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

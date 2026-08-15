@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "pptx",
+  "category": "workflow",
+  "description": "Use this skill any time a .pptx or .potx file is involved in any way — as input, output, or both. This includes: creating slide decks, pitch decks, or presentations; reading, parsing, or extracting text from any .pptx or .potx file (even if the extracted content will be used elsewhere, like in an email or summary); editing, modifying, or updating existing presentations; combining or splitting slide files; working with templates (.potx), layouts, speaker notes, or comments. Trigger whenever the user mentions \\\"deck,\\\" \\\"slides,\\\" \\\"presentation,\\\" or references a .pptx or .potx filename, regardless of what they plan to do with the content afterward. If a .pptx or .potx file needs to be opened, created, or touched, use this skill.",
+  "source": {
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+    "path": "skills/pptx",
+    "commit": "b2a92ba052dcae4ef48e850b9e31ebf75706be48",
+    "rank": 74,
+    "stars": 33570
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:bdb280197d933df17f4436a3f34be5aa06e1b4e6cf52d73d74b62157c5915915",
+  "fileCount": 56,
+  "totalBytes": 1141593,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

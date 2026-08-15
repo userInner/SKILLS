@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "name": "gateguard",
+  "category": "workflow",
+  "description": "Fact-forcing gate that blocks Edit/Write/Bash (including MultiEdit) and demands concrete investigation (importers, data schemas, user instruction) before allowing the action. Measurably improves output quality by +2.25 points vs ungated agents.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/gateguard",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:037e6fbc8ce6669bd7f7043eba56a2e25f93f432069e9626f39325e99e603bed",
+  "fileCount": 1,
+  "totalBytes": 5214,
+  "staticScan": {
+    "status": "review",
+    "findings": [
+      {
+        "rule": "recursive-delete",
+        "file": "SKILL.md"
+      }
+    ]
+  },
+  "status": "needs-review"
+}

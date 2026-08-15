@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "name": "geomaster",
+  "category": "workflow",
+  "description": "Comprehensive geospatial science skill covering remote sensing, GIS, spatial analysis, machine learning for earth observation, and 30+ scientific domains. Supports satellite imagery processing (Sentinel, Landsat, MODIS, SAR, hyperspectral), vector and raster data operations, spatial statistics, point cloud processing, network analysis, cloud-native workflows (STAC, COG, Planetary Computer), and 8 programming languages (Python, R, Julia, JavaScript, C++, Java, Go, Rust) with 500+ code examples. Use for remote sensing workflows, GIS analysis, spatial ML, Earth observation data processing, terrain analysis, hydrological modeling, marine spatial analysis, atmospheric science, and any geospatial computation task.",
+  "source": {
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+    "path": "skills/geomaster",
+    "commit": "b2a92ba052dcae4ef48e850b9e31ebf75706be48",
+    "rank": 74,
+    "stars": 33570
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:f4e99d1a1fb15baef281f094b41dbb61c2b785662a330d79a2104940ebf48ff7",
+  "fileCount": 16,
+  "totalBytes": 164421,
+  "staticScan": {
+    "status": "review",
+    "findings": [
+      {
+        "rule": "shell-eval",
+        "file": "machine-learning.md"
+      },
+      {
+        "rule": "privilege-escalation",
+        "file": "troubleshooting.md"
+      }
+    ]
+  },
+  "status": "needs-review"
+}

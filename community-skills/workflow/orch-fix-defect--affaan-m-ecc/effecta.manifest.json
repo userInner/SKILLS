@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "orch-fix-defect",
+  "category": "workflow",
+  "description": "Orchestrate fixing a bug — reproduce it as a failing regression test, fix to green, review, and gated commit — by delegating each phase to the matching ECC agent. Use when existing behavior is broken or wrong.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/orch-fix-defect",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:99ac46bf1f15ffb06b36a995117bc735bd2a4033953b2341146bc580e85a19a8",
+  "fileCount": 1,
+  "totalBytes": 1684,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

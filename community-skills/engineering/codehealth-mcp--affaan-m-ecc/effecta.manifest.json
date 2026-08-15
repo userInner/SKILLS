@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "codehealth-mcp",
+  "category": "engineering",
+  "description": "Real-time structural Code Health via CodeScene MCP — review before edits, verify score deltas after changes, gate commits and PRs. Use when reviewing code quality, refactoring, checking if AI changes degraded a file, or before commit/PR.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/codehealth-mcp",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:fcfdc779c20625db872d6ea824e62ce1a0b4d926398bc07a564ee2a40793f3d9",
+  "fileCount": 1,
+  "totalBytes": 7463,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

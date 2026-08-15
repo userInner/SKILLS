@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "market-research",
+  "category": "product",
+  "description": "Conduct market research, competitive analysis, investor due diligence, and industry intelligence with source attribution and decision-oriented summaries. Use when the user wants market sizing, competitor comparisons, fund research, technology scans, or research that informs business decisions.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/market-research",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:d0026e493dfda5105aa4cf7941a6a357d34aebd2e45609fd8eb51d6c9297b55d",
+  "fileCount": 1,
+  "totalBytes": 2238,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

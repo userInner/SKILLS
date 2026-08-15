@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "golang-patterns",
+  "category": "engineering",
+  "description": "Idiomatic Go patterns, best practices, and conventions for building robust, efficient, and maintainable Go applications. Use when writing or reviewing Go code and idiomatic structure or conventions are in question.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/golang-patterns",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:a5e3d024f79bf29829e8b3240c228398de30528631cac8cd2923cc26e082ce59",
+  "fileCount": 1,
+  "totalBytes": 14136,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

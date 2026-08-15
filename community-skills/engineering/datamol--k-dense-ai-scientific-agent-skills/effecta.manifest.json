@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "datamol",
+  "category": "engineering",
+  "description": "Pythonic wrapper around RDKit with simplified interface and sensible defaults. Preferred for standard drug discovery including SMILES parsing, standardization, descriptors, fingerprints, clustering, 3D conformers, parallel processing. Returns native rdkit.Chem.Mol objects. For advanced control or custom parameters, use rdkit directly.",
+  "source": {
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+    "path": "skills/datamol",
+    "commit": "b2a92ba052dcae4ef48e850b9e31ebf75706be48",
+    "rank": 74,
+    "stars": 33570
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:754e0f334709d236a83e3c67776b3f77b6182299791c4877bc98e1de87d5ab52",
+  "fileCount": 9,
+  "totalBytes": 57300,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

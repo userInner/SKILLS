@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "connections-optimizer",
+  "category": "growth",
+  "description": "Reorganize the user's X and LinkedIn network with review-first pruning, add/follow recommendations, and channel-specific warm outreach drafted in the user's real voice. Use when the user wants to clean up following lists, grow toward current priorities, or rebalance a social graph around higher-signal relationships.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/connections-optimizer",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:4c539db12ee9a2313bad6fcc335f93f746c0c6d6c87e66a69d0bb08d0925ce92",
+  "fileCount": 1,
+  "totalBytes": 5477,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

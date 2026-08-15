@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "requesting-code-review",
+  "category": "engineering",
+  "description": "Use when completing tasks, implementing major features, or before merging to verify work meets requirements",
+  "source": {
+    "repository": "obra/superpowers",
+    "url": "https://github.com/obra/superpowers",
+    "path": "skills/requesting-code-review",
+    "commit": "b36e0829c6d0140e93cfef2ca599b1b07d4a7797",
+    "rank": 1,
+    "stars": 272360
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:f6b7bba1eac5267f0c317cf9e9bbfea3ab7ead130b1285cc79f66611232cd96f",
+  "fileCount": 2,
+  "totalBytes": 8625,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

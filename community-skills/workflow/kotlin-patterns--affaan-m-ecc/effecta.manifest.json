@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "kotlin-patterns",
+  "category": "workflow",
+  "description": "Idiomatic Kotlin patterns, best practices, and conventions for building robust, efficient, and maintainable Kotlin applications with coroutines, null safety, and DSL builders.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": ".kiro/skills/kotlin-patterns",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:a9ee977be96af56dcd4a8aad55d4c29b5aa356c32ca56636d55ec5042dff2d51",
+  "fileCount": 1,
+  "totalBytes": 18842,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

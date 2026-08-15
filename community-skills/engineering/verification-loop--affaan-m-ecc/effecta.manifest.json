@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "verification-loop",
+  "category": "engineering",
+  "description": "A comprehensive verification system for Claude Code sessions. Use when verifying a Claude Code session's work before claiming it is complete.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/verification-loop",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:a425b3f0372c5680ee536b5ce45b7256f70fd84fa1ac997c985d9c700413a410",
+  "fileCount": 1,
+  "totalBytes": 2625,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

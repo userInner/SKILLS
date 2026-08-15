@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "quarkus-security",
+  "category": "engineering",
+  "description": "Quarkus Security best practices for authentication, authorization, JWT/OIDC, RBAC, input validation, CSRF, secrets management, and dependency security. Use when reviewing Quarkus authn/authz, JWT or OIDC, RBAC, validation, or secrets.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/quarkus-security",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:09a72e76954b726461f10f53e8461e356cdf2111d8c59c5c6de1c07992c89de4",
+  "fileCount": 1,
+  "totalBytes": 12174,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

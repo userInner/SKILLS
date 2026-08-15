@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "finance-billing-ops",
+  "category": "workflow",
+  "description": "Evidence-first revenue, pricing, refunds, team-billing, and billing-model truth workflow for ECC. Use when the user wants a sales snapshot, pricing comparison, duplicate-charge diagnosis, or code-backed billing reality instead of generic payments advice.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/finance-billing-ops",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:a0e4f668d2eff02f70ac0dda8b1f4dd51c9249f60f3aa8d577d49889f0c39336",
+  "fileCount": 1,
+  "totalBytes": 3831,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

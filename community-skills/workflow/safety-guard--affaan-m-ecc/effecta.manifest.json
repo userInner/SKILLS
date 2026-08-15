@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "name": "safety-guard",
+  "category": "workflow",
+  "description": "Use this skill to prevent destructive operations when working on production systems or running agents autonomously.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/safety-guard",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:921eb00133c94bd34cc15b3e829f705175fcd72375e39705cfb057d1d02450a7",
+  "fileCount": 1,
+  "totalBytes": 1945,
+  "staticScan": {
+    "status": "review",
+    "findings": [
+      {
+        "rule": "recursive-delete",
+        "file": "SKILL.md"
+      },
+      {
+        "rule": "privilege-escalation",
+        "file": "SKILL.md"
+      }
+    ]
+  },
+  "status": "needs-review"
+}

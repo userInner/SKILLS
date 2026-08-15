@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "pymc",
+  "category": "engineering",
+  "description": "Bayesian modeling with PyMC. Build hierarchical models, MCMC (NUTS), variational inference, LOO/WAIC comparison, posterior checks, for probabilistic programming and inference.",
+  "source": {
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+    "path": "skills/pymc",
+    "commit": "b2a92ba052dcae4ef48e850b9e31ebf75706be48",
+    "rank": 74,
+    "stars": 33570
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:87010eb6314b8af99fc981ee4937e8cb118373a03c280231a24c11309ce9e818",
+  "fileCount": 10,
+  "totalBytes": 101532,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

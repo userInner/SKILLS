@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "blueprint",
+  "category": "workflow",
+  "description": ">-",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/blueprint",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:0b05e60de8fa937db2014e30f5d08ee126c2e7250d5672d7428b4519569867c0",
+  "fileCount": 1,
+  "totalBytes": 5356,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "laravel-tdd",
+  "category": "engineering",
+  "description": "Laravel testing strategies with PHPUnit, Pest, model factories, HTTP tests, Sanctum authentication testing, mocking, and coverage. Use when writing Laravel tests with PHPUnit or Pest, or driving a Laravel feature test-first.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/laravel-tdd",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:5e5995d3ceece0d674ca20e0b5f8a22f9795946a567e54a54685d7962f88fb7b",
+  "fileCount": 1,
+  "totalBytes": 17863,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

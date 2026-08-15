@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "onboarding",
+  "category": "product",
+  "description": "When the user wants to optimize post-signup onboarding, user activation, first-run experience, or time-to-value. Also use when the user mentions \"onboarding flow,\" \"activation rate,\" \"user activation,\" \"first-run experience,\" \"empty states,\" \"onboarding checklist,\" \"aha moment,\" \"new user experience,\" \"users aren't activating,\" \"nobody completes setup,\" \"low activation rate,\" \"users sign up but don't use the product,\" \"time to value,\" or \"first session experience.\" Use this whenever users are signing up but not sticking around. For signup/registration optimization, see signup. For ongoing email sequences, see emails.",
+  "source": {
+    "repository": "coreyhaines31/marketingskills",
+    "url": "https://github.com/coreyhaines31/marketingskills",
+    "path": "skills/onboarding",
+    "commit": "7868cb9251fad80a73d26e488a5ad5f6c4a9f335",
+    "rank": 56,
+    "stars": 44368
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:e0c4f49aa99ca449f63b8e875cf4c61beeb93c68a09bd86560b5dc5b01691cd7",
+  "fileCount": 3,
+  "totalBytes": 20647,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

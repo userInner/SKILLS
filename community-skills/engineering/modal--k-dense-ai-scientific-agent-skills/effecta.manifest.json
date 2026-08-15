@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "name": "modal",
+  "category": "engineering",
+  "description": "Optional database URL for examples.",
+  "source": {
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+    "path": "skills/modal",
+    "commit": "b2a92ba052dcae4ef48e850b9e31ebf75706be48",
+    "rank": 74,
+    "stars": 33570
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:48bc0af46fd823c4be3929ef9a5c9d4b75d67157db0c3226f2658194ff17192b",
+  "fileCount": 13,
+  "totalBytes": 76817,
+  "staticScan": {
+    "status": "review",
+    "findings": [
+      {
+        "rule": "shell-eval",
+        "file": "api_reference.md"
+      },
+      {
+        "rule": "shell-eval",
+        "file": "functions.md"
+      }
+    ]
+  },
+  "status": "needs-review"
+}

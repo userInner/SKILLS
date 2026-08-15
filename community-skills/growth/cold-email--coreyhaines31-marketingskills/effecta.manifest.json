@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "cold-email",
+  "category": "growth",
+  "description": "Write B2B cold emails and follow-up sequences that get replies. Use when the user wants to write cold outreach emails, prospecting emails, cold email campaigns, sales development emails, or SDR emails. Also use when the user mentions \"cold outreach,\" \"prospecting email,\" \"outbound email,\" \"email to leads,\" \"reach out to prospects,\" \"sales email,\" \"follow-up email sequence,\" \"nobody's replying to my emails,\" or \"how do I write a cold email.\" Covers subject lines, opening lines, body copy, CTAs, personalization, and multi-touch follow-up sequences. For warm/lifecycle email sequences, see emails. For sales collateral beyond emails, see sales-enablement.",
+  "source": {
+    "repository": "coreyhaines31/marketingskills",
+    "url": "https://github.com/coreyhaines31/marketingskills",
+    "path": "skills/cold-email",
+    "commit": "7868cb9251fad80a73d26e488a5ad5f6c4a9f335",
+    "rank": 56,
+    "stars": 44368
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:9a3aef2a08dfe76cc940f71411bf7452b19a9dd6404e177acfb44a1e5103552f",
+  "fileCount": 7,
+  "totalBytes": 36922,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

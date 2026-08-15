@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "pestle-analysis",
+  "category": "product",
+  "description": "Perform a PESTLE analysis covering Political, Economic, Social, Technological, Legal, and Environmental factors. Use when assessing the macro environment, doing strategic planning, or evaluating external factors affecting your business.",
+  "source": {
+    "repository": "phuryn/pm-skills",
+    "url": "https://github.com/phuryn/pm-skills",
+    "path": "pm-product-strategy/skills/pestle-analysis",
+    "commit": "18468a95b427e70e258b51389796367c6f684e7d",
+    "rank": 110,
+    "stars": 25276
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:968b315a5815e41d0cb68c253012fbb29e864f4077503075a0281da4a2a70298",
+  "fileCount": 1,
+  "totalBytes": 4647,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

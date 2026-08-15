@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "name": "histolab",
+  "category": "design",
+  "description": "Lightweight WSI tile extraction and preprocessing. Use for basic slide processing, tissue detection, tile extraction, and stain normalization for H&E images. Best for simple pipelines, dataset preparation, and quick tile-based analysis. For advanced spatial proteomics, multiplexed imaging, or deep learning pipelines use pathml.",
+  "source": {
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+    "path": "skills/histolab",
+    "commit": "b2a92ba052dcae4ef48e850b9e31ebf75706be48",
+    "rank": 74,
+    "stars": 33570
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:fe754b771270dea89e13e3220d82c41b9155bd1942c9b8dd3f28e8c59902f1d8",
+  "fileCount": 8,
+  "totalBytes": 75004,
+  "staticScan": {
+    "status": "review",
+    "findings": [
+      {
+        "rule": "shell-eval",
+        "file": "filters_preprocessing.md"
+      }
+    ]
+  },
+  "status": "needs-review"
+}

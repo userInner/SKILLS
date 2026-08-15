@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "carrier-relationship-management",
+  "category": "workflow",
+  "description": ">",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/carrier-relationship-management",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:2631bb08e77e6c44efc3fa3123fa4353e942a45ec0c3e111f6a642f3a65a83a2",
+  "fileCount": 1,
+  "totalBytes": 23765,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "backend-patterns",
+  "category": "engineering",
+  "description": "Backend architecture patterns, API design, database optimization, and server-side best practices for Node.js, Express, and Next.js API routes. Use when building or reviewing Node.js, Express, or Next.js API routes and their data access.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/backend-patterns",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:c45b7c112f1945703a961a521d8a796ec1fb9739dda2804b62c26df87de177af",
+  "fileCount": 1,
+  "totalBytes": 13349,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "product-lens",
+  "category": "product",
+  "description": "Use this skill to validate the \"why\" before building, run product diagnostics, and pressure-test product direction before the request becomes an implementation contract.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/product-lens",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:e146809eed968b47276e2bee7a99c2fb0bb173d7fce0087d28594614ffcd2c29",
+  "fileCount": 1,
+  "totalBytes": 3102,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

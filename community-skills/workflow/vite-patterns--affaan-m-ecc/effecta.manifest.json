@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "vite-patterns",
+  "category": "workflow",
+  "description": "Vite build tool patterns including config, plugins, HMR, env variables, proxy setup, SSR, library mode, dependency pre-bundling, and build optimization. Activate when working with vite.config.ts, Vite plugins, or Vite-based projects.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/vite-patterns",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:95d038702248839b2a2912feb51ee4d96e82366f1327167f2018298777c4ef83",
+  "fileCount": 1,
+  "totalBytes": 17115,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

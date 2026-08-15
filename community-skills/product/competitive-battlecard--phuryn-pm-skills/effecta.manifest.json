@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "competitive-battlecard",
+  "category": "product",
+  "description": "Create sales-ready competitive battlecards comparing your product against a specific competitor — positioning, feature comparison, objection handling, and win/loss patterns. Use when preparing sales teams, creating competitive materials, or responding to 'why not competitor X?",
+  "source": {
+    "repository": "phuryn/pm-skills",
+    "url": "https://github.com/phuryn/pm-skills",
+    "path": "pm-go-to-market/skills/competitive-battlecard",
+    "commit": "18468a95b427e70e258b51389796367c6f684e7d",
+    "rank": 110,
+    "stars": 25276
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:bffb232df644ec961261c77a3de98bd227703878165da3600bb2433fd644bd7b",
+  "fileCount": 1,
+  "totalBytes": 2886,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

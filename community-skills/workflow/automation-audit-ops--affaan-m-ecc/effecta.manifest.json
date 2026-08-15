@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "automation-audit-ops",
+  "category": "workflow",
+  "description": "Evidence-first automation inventory and overlap audit workflow for ECC. Use when the user wants to know which jobs, hooks, connectors, MCP servers, or wrappers are live, broken, redundant, or missing before fixing anything.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/automation-audit-ops",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:a4be9023a1488f5dfe7eb7f020964da7184745617ff67cd8670331cc6cdef8c7",
+  "fileCount": 1,
+  "totalBytes": 4167,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

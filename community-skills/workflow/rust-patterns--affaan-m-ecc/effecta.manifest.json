@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "rust-patterns",
+  "category": "workflow",
+  "description": "Idiomatic Rust patterns, ownership, error handling, traits, concurrency, and best practices for building safe, performant applications.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": ".kiro/skills/rust-patterns",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:6c5374a7f52626f4284e6e3b039816261ad363e036a41c70341c239ee88533fc",
+  "fileCount": 1,
+  "totalBytes": 13365,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

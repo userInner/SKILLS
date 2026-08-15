@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "full-output-enforcement",
+  "category": "workflow",
+  "description": "Overrides default LLM truncation behavior. Enforces complete code generation, bans placeholder patterns, and handles token-limit splits cleanly. Apply to any task requiring exhaustive, unabridged output.",
+  "source": {
+    "repository": "Leonxlnx/taste-skill",
+    "url": "https://github.com/Leonxlnx/taste-skill",
+    "path": "skills/output-skill",
+    "commit": "e988add20dab0fa97d7a76781c48961c8184288e",
+    "rank": 25,
+    "stars": 76720
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:933b89da884015e2a4189417fd2dad62610c9aeb1c80d0166567354594836b1c",
+  "fileCount": 1,
+  "totalBytes": 2592,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

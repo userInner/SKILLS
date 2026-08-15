@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "quarkus-tdd",
+  "category": "engineering",
+  "description": "Test-driven development for Quarkus 3.x LTS using JUnit 5, Mockito, REST Assured, Camel testing, and JaCoCo. Use when adding features, fixing bugs, or refactoring event-driven services.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/quarkus-tdd",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:079b6ec3acffd1147032e3ee53c30e3764e634cf6523b46dc434db3ebe5ff524",
+  "fileCount": 1,
+  "totalBytes": 25526,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

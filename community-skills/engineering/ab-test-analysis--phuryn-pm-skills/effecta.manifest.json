@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "ab-test-analysis",
+  "category": "engineering",
+  "description": "Analyze A/B test results with statistical significance, sample size validation, confidence intervals, and ship/extend/stop recommendations. Use when evaluating experiment results, checking if a test reached significance, interpreting split test data, or deciding whether to ship a variant.",
+  "source": {
+    "repository": "phuryn/pm-skills",
+    "url": "https://github.com/phuryn/pm-skills",
+    "path": "pm-data-analytics/skills/ab-test-analysis",
+    "commit": "18468a95b427e70e258b51389796367c6f684e7d",
+    "rank": 110,
+    "stars": 25276
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:01200f0d745ec3568a1c418b179b510cb7dff7e5cc532d70372977c0a4d5d7bf",
+  "fileCount": 1,
+  "totalBytes": 3587,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

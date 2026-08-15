@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "competitors",
+  "category": "product",
+  "description": "When the user wants to create competitor comparison or alternative pages for SEO and sales enablement. Also use when the user mentions 'alternative page,' 'vs page,' 'competitor comparison,' 'comparison page,' '[Product] vs [Product],' '[Product] alternative,' 'competitive landing pages,' 'how do we compare to X,' 'battle card,' or 'competitor teardown.' Use this for any content that positions your product against competitors. Covers four formats: singular alternative, plural alternatives, you vs competitor, and competitor vs competitor. For sales-specific competitor docs, see sales-enablement.",
+  "source": {
+    "repository": "coreyhaines31/marketingskills",
+    "url": "https://github.com/coreyhaines31/marketingskills",
+    "path": "skills/competitors",
+    "commit": "7868cb9251fad80a73d26e488a5ad5f6c4a9f335",
+    "rank": 56,
+    "stars": 44368
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:c3f6dade5d6ab4666c504a30a6392fd74adb98e7919be01e07444ce8b69934ab",
+  "fileCount": 4,
+  "totalBytes": 28493,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

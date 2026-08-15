@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "golang-testing",
+  "category": "engineering",
+  "description": ">",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": ".kiro/skills/golang-testing",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:73ee67d3b1669adc14328334a9b0346849085244fa6e2e3bd4789196b56500f3",
+  "fileCount": 1,
+  "totalBytes": 6510,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "python-testing",
+  "category": "engineering",
+  "description": "Python testing strategies using pytest, TDD methodology, fixtures, mocking, parametrization, and coverage requirements. Use when writing pytest tests — fixtures, mocks, parametrization, or coverage.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/python-testing",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:5fb80a2e7ed868c6c7fdcfd785b7eac41f6d95f305964f2901e7e61ae4ad12ab",
+  "fileCount": 1,
+  "totalBytes": 18955,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

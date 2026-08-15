@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "imagegen-frontend-mobile",
+  "category": "design",
+  "description": "Elite mobile app image-generation skill for creating premium, app-native screen concepts and flows. Designed for iOS, Android, and cross-platform mobile products. Prioritizes clean hierarchy, comfortably readable text, strong multi-screen consistency, controlled color palettes, non-generic creative direction, textured surfaces, image-led composition, tasteful custom iconography, and clean phone mockup framing. By default, screens should be shown inside a subtle premium iPhone or similar phone mockup with a visible frame, while the main focus stays on the app content itself. This skill generates images only. It does not write code.",
+  "source": {
+    "repository": "Leonxlnx/taste-skill",
+    "url": "https://github.com/Leonxlnx/taste-skill",
+    "path": "skills/imagegen-frontend-mobile",
+    "commit": "e988add20dab0fa97d7a76781c48961c8184288e",
+    "rank": 25,
+    "stars": 76720
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:9d08a2fd4f71d9fa9f6808506fed4a8231ab451e2016570ab80514074571c64a",
+  "fileCount": 1,
+  "totalBytes": 40326,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

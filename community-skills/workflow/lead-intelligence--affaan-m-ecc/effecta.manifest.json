@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "lead-intelligence",
+  "category": "workflow",
+  "description": "AI-native lead intelligence and outreach pipeline. Replaces Apollo, Clay, and ZoomInfo with agent-powered signal scoring, mutual ranking, warm path discovery, source-derived voice modeling, and channel-specific outreach across email, LinkedIn, and X. Use when the user wants to find, qualify, and reach high-value contacts.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/lead-intelligence",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:2610772701a822dad6cfe46ad0c30ae4e887efd2ec5467ba9e5b2a85b6741a7f",
+  "fileCount": 5,
+  "totalBytes": 21738,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

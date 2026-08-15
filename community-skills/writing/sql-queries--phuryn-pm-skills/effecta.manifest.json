@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "sql-queries",
+  "category": "writing",
+  "description": "Generate SQL queries from natural language descriptions. Supports BigQuery, PostgreSQL, MySQL, and other dialects. Reads database schemas from uploaded diagrams or documentation. Use when writing SQL, building data reports, exploring databases, or translating business questions into queries.",
+  "source": {
+    "repository": "phuryn/pm-skills",
+    "url": "https://github.com/phuryn/pm-skills",
+    "path": "pm-data-analytics/skills/sql-queries",
+    "commit": "18468a95b427e70e258b51389796367c6f684e7d",
+    "rank": 110,
+    "stars": 25276
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:58f8678dcd85a2d2aa5bbfa28ced1d4ed715cf16b5b0e7e52e705e5ce5c49520",
+  "fileCount": 1,
+  "totalBytes": 3628,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

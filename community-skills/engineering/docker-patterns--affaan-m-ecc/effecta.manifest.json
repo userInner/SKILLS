@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "docker-patterns",
+  "category": "engineering",
+  "description": "Docker and Docker Compose patterns for local development, hardened CLI installer harnesses, container security, networking, volumes, and multi-service orchestration. Use when creating or reviewing Dockerfiles and Compose services, testing installers across Linux distributions, or planning accurate native macOS and Windows validation.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/docker-patterns",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:c656d4c7005e8050ba5bb2c908c07b0fcf058357c6a9b67b3e7ff59501c0b180",
+  "fileCount": 1,
+  "totalBytes": 14937,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

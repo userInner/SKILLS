@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "name": "continuous-learning-v2",
+  "category": "workflow",
+  "description": "Instinct-based learning system that observes sessions via hooks, creates atomic instincts with confidence scoring, and evolves them into skills/commands/agents. v2.1 adds project-scoped instincts to prevent cross-project contamination. Use when capturing lessons from a session, managing instincts, or promoting them into skills, commands, or agents.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/continuous-learning-v2",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:dba91177eef507c80faae87cd2d4ce98c8c290d0db2e39e079608078919028e0",
+  "fileCount": 12,
+  "totalBytes": 232657,
+  "staticScan": {
+    "status": "review",
+    "findings": [
+      {
+        "rule": "recursive-delete",
+        "file": "session-guardian.sh"
+      }
+    ]
+  },
+  "status": "needs-review"
+}

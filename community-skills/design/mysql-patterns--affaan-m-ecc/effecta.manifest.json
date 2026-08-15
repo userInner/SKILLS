@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "mysql-patterns",
+  "category": "design",
+  "description": "MySQL and MariaDB schema, query, indexing, transaction, replication, and connection-pool patterns for production backends. Use when designing MySQL or MariaDB schemas and indexes, or when a query, transaction, or replica lags.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/mysql-patterns",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:9d065f9211af156a4e20df30d469fe56ccc833f56aad6f24d70510f3aa9bcd7f",
+  "fileCount": 1,
+  "totalBytes": 12169,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

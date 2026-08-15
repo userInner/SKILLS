@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "name": "flox-environments",
+  "category": "workflow",
+  "description": "Create reproducible, cross-platform (macOS/Linux) development environments with Flox, a declarative Nix-based environment manager. Use when setting up project toolchains for any language, installing system-level dependencies (compilers, databases, native libs like openssl/BLAS), pinning exact package versions for a team, running local services (PostgreSQL, Redis, Kafka), onboarding developers with one command, or solving 'works on my machine' problems — including agent/vibe-coding setups that need project-scoped tools without sudo. Also use when the user mentions .flox/, manifest.toml, flox activate, or FloxHub.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/flox-environments",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:70c3f2c41a653faf40203be18fa470355977c0e3dc2787a1472f25d7b3b0fcea",
+  "fileCount": 1,
+  "totalBytes": 14220,
+  "staticScan": {
+    "status": "review",
+    "findings": [
+      {
+        "rule": "privilege-escalation",
+        "file": "SKILL.md"
+      }
+    ]
+  },
+  "status": "needs-review"
+}

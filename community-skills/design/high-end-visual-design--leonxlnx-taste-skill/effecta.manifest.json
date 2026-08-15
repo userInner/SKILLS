@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "high-end-visual-design",
+  "category": "design",
+  "description": "Teaches the AI to design like a high-end agency. Defines the exact fonts, spacing, shadows, card structures, and animations that make a website feel expensive. Blocks all the common defaults that make AI designs look cheap or generic.",
+  "source": {
+    "repository": "Leonxlnx/taste-skill",
+    "url": "https://github.com/Leonxlnx/taste-skill",
+    "path": "skills/soft-skill",
+    "commit": "e988add20dab0fa97d7a76781c48961c8184288e",
+    "rank": 25,
+    "stars": 76720
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:49c7b83a53374522fc0603e5b0d8bd2eadc1ad819356f4b56f08f5e73d91ee2d",
+  "fileCount": 1,
+  "totalBytes": 10561,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

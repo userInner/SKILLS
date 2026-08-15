@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "plan-orchestrate",
+  "category": "workflow",
+  "description": "Read a plan document, decompose it into steps, design a per-step agent chain from the ECC catalogue, and emit ready-to-paste /orchestrate custom prompts. Generative only — never invokes /orchestrate itself. Use when the user has a multi-step plan and wants to drive it through orchestrate without composing chains by hand.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/plan-orchestrate",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:a181a5a8f6989be64307fc33f373ac3cb5d7f1f7f44a8f8ae42daaeace2d9202",
+  "fileCount": 1,
+  "totalBytes": 17965,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "genomic-intelligence",
+  "category": "engineering",
+  "description": "Optional gi_ bearer key for the REST /v1 API and a higher MCP quota. The hosted MCP demo runs keyless; request a key at contact@genomicintelligence.ai.",
+  "source": {
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+    "path": "skills/genomic-intelligence",
+    "commit": "b2a92ba052dcae4ef48e850b9e31ebf75706be48",
+    "rank": 74,
+    "stars": 33570
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:c17cfb44bf08dc9c354c0622d0bf39e5eb2a34465c8cc0b02ffd2bc6566b8de1",
+  "fileCount": 5,
+  "totalBytes": 24035,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

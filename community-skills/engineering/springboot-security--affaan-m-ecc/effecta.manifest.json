@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "springboot-security",
+  "category": "engineering",
+  "description": "Spring Security best practices for authn/authz, validation, CSRF, secrets, headers, rate limiting, and dependency security in Java Spring Boot services.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": ".kiro/skills/springboot-security",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:34ef731f764d6698a03023476ba8fab66d44e1af18c80fa9dc920173781e28b7",
+  "fileCount": 1,
+  "totalBytes": 8106,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

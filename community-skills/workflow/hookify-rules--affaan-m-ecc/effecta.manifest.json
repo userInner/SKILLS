@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "name": "hookify-rules",
+  "category": "workflow",
+  "description": "This skill should be used when the user asks to create a hookify rule, write a hook rule, configure hookify, add a hookify rule, or needs guidance on hookify rule syntax and patterns.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/hookify-rules",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:871500e570ba20cb374d279fcf00d4d684006b5f03fd9bdb967371871305d87f",
+  "fileCount": 1,
+  "totalBytes": 3534,
+  "staticScan": {
+    "status": "review",
+    "findings": [
+      {
+        "rule": "recursive-delete",
+        "file": "SKILL.md"
+      },
+      {
+        "rule": "privilege-escalation",
+        "file": "SKILL.md"
+      }
+    ]
+  },
+  "status": "needs-review"
+}

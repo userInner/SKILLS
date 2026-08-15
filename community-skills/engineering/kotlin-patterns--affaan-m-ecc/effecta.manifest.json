@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "kotlin-patterns",
+  "category": "engineering",
+  "description": "Idiomatic Kotlin patterns, best practices, and conventions for building robust, efficient, and maintainable Kotlin applications with coroutines, null safety, and DSL builders. Use when writing or reviewing Kotlin code and idiomatic structure or null safety is in question.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/kotlin-patterns",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:45554dc332442ec7d2b503ca364bd1d3fd3e0a01a244739d8d01a4cea154bb10",
+  "fileCount": 1,
+  "totalBytes": 18951,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

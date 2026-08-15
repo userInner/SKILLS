@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "grammar-check",
+  "category": "growth",
+  "description": "Identify grammar, logical, and flow errors in text and suggest targeted fixes without rewriting the entire text. Use when proofreading content, checking writing quality, or reviewing a draft.",
+  "source": {
+    "repository": "phuryn/pm-skills",
+    "url": "https://github.com/phuryn/pm-skills",
+    "path": "pm-toolkit/skills/grammar-check",
+    "commit": "18468a95b427e70e258b51389796367c6f684e7d",
+    "rank": 110,
+    "stars": 25276
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:57bc422e098d3fd07b2701499b2a17eb69b67b83cf8bda0b42fd4cae702ae951",
+  "fileCount": 1,
+  "totalBytes": 9673,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

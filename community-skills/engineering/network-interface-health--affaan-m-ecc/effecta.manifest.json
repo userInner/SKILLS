@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "network-interface-health",
+  "category": "engineering",
+  "description": "Diagnose interface errors, drops, CRCs, duplex mismatches, flapping, speed negotiation issues, and counter trends on routers, switches, and Linux hosts. Use when an interface shows errors, drops, CRCs, flapping, or a duplex or speed mismatch.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/network-interface-health",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:4d20e6e0e0d7edc3dbaaa3d4d4e931fe76773e3b99150e265a8c5e729067b4cd",
+  "fileCount": 1,
+  "totalBytes": 5754,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "bun-runtime",
+  "category": "workflow",
+  "description": "Bun as runtime, package manager, bundler, and test runner. When to choose Bun vs Node, migration notes, and Vercel support.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": ".agents/skills/bun-runtime",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:e4500a8588003a48632e11382882ed49e1290ea606457cce1f5860ab45bf9c78",
+  "fileCount": 2,
+  "totalBytes": 2841,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

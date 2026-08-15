@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "ponytail-gain",
+  "category": "workflow",
+  "description": ">",
+  "source": {
+    "repository": "DietrichGebert/ponytail",
+    "url": "https://github.com/DietrichGebert/ponytail",
+    "path": "skills/ponytail-gain",
+    "commit": "2ed6c52c9d7e5e56942508591085fd45dea277d3",
+    "rank": 16,
+    "stars": 103067
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:c6d2cc7d7af635acadb96571fd71d9922acb8d8d856d37dc678aafe76a06a7fb",
+  "fileCount": 1,
+  "totalBytes": 1973,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

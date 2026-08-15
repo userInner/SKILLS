@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "name": "paperclip",
+  "category": "research",
+  "description": "Paperclip API key from https://paperclip.gxl.ai/keys. Preferred over browser OAuth. Not required — the skill also covers installing the CLI and signing in interactively.",
+  "source": {
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+    "path": "skills/paperclip",
+    "commit": "b2a92ba052dcae4ef48e850b9e31ebf75706be48",
+    "rank": 74,
+    "stars": 33570
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:007a91dbd2b6683f9c18069f4bd284a3b6e6ff02914ede5e994e658adb43cbe5",
+  "fileCount": 7,
+  "totalBytes": 93364,
+  "staticScan": {
+    "status": "review",
+    "findings": [
+      {
+        "rule": "pipe-to-shell",
+        "file": "SKILL.md"
+      },
+      {
+        "rule": "pipe-to-shell",
+        "file": "installation.md"
+      }
+    ]
+  },
+  "status": "needs-review"
+}

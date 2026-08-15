@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "ponytail-help",
+  "category": "workflow",
+  "description": "Quick reference for ponytail's modes, skills, and commands. One-shot display.",
+  "source": {
+    "repository": "DietrichGebert/ponytail",
+    "url": "https://github.com/DietrichGebert/ponytail",
+    "path": ".openclaw/skills/ponytail-help",
+    "commit": "2ed6c52c9d7e5e56942508591085fd45dea277d3",
+    "rank": 16,
+    "stars": 103067
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:4eef2e82672020bd41f61db5e35b93e849cfd8e5f995876d9baffada632ef208",
+  "fileCount": 1,
+  "totalBytes": 2733,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

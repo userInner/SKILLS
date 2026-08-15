@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "autonomous-loops",
+  "category": "workflow",
+  "description": "Patterns and architectures for autonomous Claude Code loops — from simple sequential pipelines to RFC-driven multi-agent DAG systems.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": ".kiro/skills/autonomous-loops",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:81c08154ca89109e410389fed673842c431f45d7ad26bc8eeac361db37b3d4c5",
+  "fileCount": 1,
+  "totalBytes": 24726,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "flutter-dart-code-review",
+  "category": "engineering",
+  "description": "Library-agnostic Flutter/Dart code review checklist covering widget best practices, state management patterns (BLoC, Riverpod, Provider, GetX, MobX, Signals), Dart idioms, performance, accessibility, security, and clean architecture. Use when reviewing Flutter or Dart code, whatever state management library the project uses.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/flutter-dart-code-review",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:4204bbd9c65dd91a57932e3d237b3e885f1961fa825a438f08f0f9fb9f2156b3",
+  "fileCount": 1,
+  "totalBytes": 23194,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

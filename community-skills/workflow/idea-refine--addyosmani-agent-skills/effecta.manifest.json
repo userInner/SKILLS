@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "idea-refine",
+  "category": "workflow",
+  "description": "Refines raw ideas into sharp, actionable concepts through structured divergent and convergent thinking. Use when an idea is still vague, when you need to stress-test assumptions before committing to a plan, or when you want to expand options before converging on one. Triggers on \"ideate\", \"refine this idea\", or \"stress-test my plan\".",
+  "source": {
+    "repository": "addyosmani/agent-skills",
+    "url": "https://github.com/addyosmani/agent-skills",
+    "path": "skills/idea-refine",
+    "commit": "df1edb2e05487d0aa6d93c747141e0aed1187f25",
+    "rank": 19,
+    "stars": 87394
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:c999f1db0b62f00962cd1028b66554614f27a33134ee84506df466b17dd27372",
+  "fileCount": 5,
+  "totalBytes": 39879,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

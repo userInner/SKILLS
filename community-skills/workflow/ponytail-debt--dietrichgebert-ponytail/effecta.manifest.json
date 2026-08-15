@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "ponytail-debt",
+  "category": "workflow",
+  "description": "Harvest every ponytail: shortcut comment into one debt ledger, so deferrals get tracked instead of forgotten. One-shot report.",
+  "source": {
+    "repository": "DietrichGebert/ponytail",
+    "url": "https://github.com/DietrichGebert/ponytail",
+    "path": ".openclaw/skills/ponytail-debt",
+    "commit": "2ed6c52c9d7e5e56942508591085fd45dea277d3",
+    "rank": 16,
+    "stars": 103067
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:c78491e6211600cc633d018938dccb67d9e208a24097031035db88bbfa5c6d0a",
+  "fileCount": 1,
+  "totalBytes": 1499,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

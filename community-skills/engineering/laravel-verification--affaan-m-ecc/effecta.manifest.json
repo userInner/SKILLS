@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "laravel-verification",
+  "category": "engineering",
+  "description": "Verification loop for Laravel projects: env checks, linting, static analysis, tests with coverage, security scans, and deployment readiness. Use when verifying a Laravel project before merge or deploy — lint, static analysis, tests, coverage, security.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/laravel-verification",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:1849743d5bb974ec2491804690bb1967bb8b8e113fdeee518033734324e105ad",
+  "fileCount": 1,
+  "totalBytes": 4376,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

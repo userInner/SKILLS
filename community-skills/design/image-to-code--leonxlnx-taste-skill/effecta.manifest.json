@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "image-to-code",
+  "category": "design",
+  "description": "Elite website image-to-code skill for Codex. For visually important web tasks, it must first generate the design image(s) itself, deeply analyze them, then implement the website to match them as closely as possible. In Codex, it must prefer large, readable, section-specific images instead of tiny compressed boards, generate fresh standalone images for sections or detail views instead of cropping old ones, avoid lazy under-generation, avoid cards-inside-cards-inside-cards UI, and keep the hero clean, spacious, readable, and visible on a small laptop.",
+  "source": {
+    "repository": "Leonxlnx/taste-skill",
+    "url": "https://github.com/Leonxlnx/taste-skill",
+    "path": "skills/image-to-code-skill",
+    "commit": "e988add20dab0fa97d7a76781c48961c8184288e",
+    "rank": 25,
+    "stars": 76720
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:ce9e7282b05e6cf247352c0f68953b943755899eb14a2198d72c97c6e5ffa807",
+  "fileCount": 1,
+  "totalBytes": 36442,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

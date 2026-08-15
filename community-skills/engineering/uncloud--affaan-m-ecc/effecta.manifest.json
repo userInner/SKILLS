@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "uncloud",
+  "category": "engineering",
+  "description": "Use when managing an Uncloud cluster — deploying services, configuring Caddy ingress, adding static proxy routes for non-cluster devices, publishing ports, scaling, inspecting logs, or managing machines and volumes with the `uc` CLI.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/uncloud",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:bab0e3644575ba65737ddb75b88ff29375ff4e6c29b06fc78c2a80bc95a2b2eb",
+  "fileCount": 1,
+  "totalBytes": 9282,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "umap-learn",
+  "category": "workflow",
+  "description": "Use UMAP-learn for nonlinear dimensionality reduction, 2D/3D embeddings, clustering preprocessing, supervised or semi-supervised UMAP, DensMAP, AlignedUMAP, and Parametric UMAP workflows.",
+  "source": {
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+    "path": "skills/umap-learn",
+    "commit": "b2a92ba052dcae4ef48e850b9e31ebf75706be48",
+    "rank": 74,
+    "stars": 33570
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:48ad30f5159fee0f7c990207bc9ec5fa2fe7676a62efb7d4abd231a2285d0d01",
+  "fileCount": 2,
+  "totalBytes": 39490,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "enterprise-agent-ops",
+  "category": "workflow",
+  "description": "Operate long-lived agent workloads with observability, security boundaries, and lifecycle management. Use when running long-lived agent workloads that need observability, security boundaries, or lifecycle control.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/enterprise-agent-ops",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:63f635c7b730bbe975c6f40dc3719342e75a339e68a0b4b96f10c99e27c70607",
+  "fileCount": 1,
+  "totalBytes": 1328,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

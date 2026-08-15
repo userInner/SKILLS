@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "sentiment-analysis",
+  "category": "research",
+  "description": "Analyze user feedback data to identify segments with sentiment scores, JTBD, and product satisfaction insights. Use when analyzing user feedback at scale, running sentiment analysis on reviews or surveys, or identifying satisfaction patterns.",
+  "source": {
+    "repository": "phuryn/pm-skills",
+    "url": "https://github.com/phuryn/pm-skills",
+    "path": "pm-market-research/skills/sentiment-analysis",
+    "commit": "18468a95b427e70e258b51389796367c6f684e7d",
+    "rank": 110,
+    "stars": 25276
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:612718a930bfa631701c9d6fec51b50192be1596d326eb937af663b284dd0992",
+  "fileCount": 1,
+  "totalBytes": 3500,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

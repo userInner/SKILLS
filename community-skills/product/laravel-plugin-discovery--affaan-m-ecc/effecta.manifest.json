@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "laravel-plugin-discovery",
+  "category": "product",
+  "description": "Discover and evaluate Laravel packages via LaraPlugins.io MCP. Use when the user wants to find plugins, check package health, or assess Laravel/PHP compatibility.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/laravel-plugin-discovery",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:400708e40ad7625f746dff6e4add1a00cefd62935e9ab347317495926c2e9190",
+  "fileCount": 1,
+  "totalBytes": 6393,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

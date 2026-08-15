@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "dashboard-builder",
+  "category": "workflow",
+  "description": "Build monitoring dashboards that answer real operator questions for Grafana, SigNoz, and similar platforms. Use when turning metrics into a working dashboard instead of a vanity board.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/dashboard-builder",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:d1bb9488cadeecebf5da96befad66380c2dbbecb687202108ac5e4c18bc959e5",
+  "fileCount": 1,
+  "totalBytes": 2358,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

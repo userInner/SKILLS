@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "dummy-dataset",
+  "category": "engineering",
+  "description": "Generate realistic dummy datasets for testing with customizable columns, constraints, and output formats (CSV, JSON, SQL, Python script). Use when creating test data, building mock datasets, or generating sample data for development and demos.",
+  "source": {
+    "repository": "phuryn/pm-skills",
+    "url": "https://github.com/phuryn/pm-skills",
+    "path": "pm-execution/skills/dummy-dataset",
+    "commit": "18468a95b427e70e258b51389796367c6f684e7d",
+    "rank": 110,
+    "stars": 25276
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:57ef673af25b354f31ec5c0f6f8f21aceaf3d64e7a40d48245e00186fa666a33",
+  "fileCount": 1,
+  "totalBytes": 3930,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

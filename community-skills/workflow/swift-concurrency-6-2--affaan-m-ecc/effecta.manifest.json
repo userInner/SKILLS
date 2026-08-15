@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "swift-concurrency-6-2",
+  "category": "workflow",
+  "description": "Swift 6.2 Approachable Concurrency — single-threaded by default, @concurrent for explicit background offloading, isolated conformances for main actor types. Use when adopting Swift 6.2 concurrency — offloading with @concurrent or resolving main-actor isolation.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/swift-concurrency-6-2",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:02377fd5e6f73a371f5ed9ff4c4bdde869cab2d8f7eede0c17f9440d56110f41",
+  "fileCount": 1,
+  "totalBytes": 8117,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

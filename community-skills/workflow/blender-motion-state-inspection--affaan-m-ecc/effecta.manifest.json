@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "blender-motion-state-inspection",
+  "category": "workflow",
+  "description": "Use this skill when inspecting Blender characters, rigs, poses, animation retargeting, ground contact, facing direction, or model-vs-motion alignment where screenshots alone are not enough.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/blender-motion-state-inspection",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:b0ee2873a6759b241aa8c673e892001bce3efc9a9cb6881a48ae3373260444c6",
+  "fileCount": 1,
+  "totalBytes": 8146,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

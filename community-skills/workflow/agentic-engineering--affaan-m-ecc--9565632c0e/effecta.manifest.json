@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "agentic-engineering",
+  "category": "workflow",
+  "description": "Operate as an agentic engineer using eval-first execution, decomposition, and cost-aware model routing. Use when planning or executing engineering work that agents will carry out end to end.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/agentic-engineering",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:9565632c0e6c607f95330f3de3425d98a9bcadaaacc53a3085f6c9171806e7e7",
+  "fileCount": 1,
+  "totalBytes": 1830,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

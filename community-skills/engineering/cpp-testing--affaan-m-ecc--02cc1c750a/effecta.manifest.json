@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "cpp-testing",
+  "category": "engineering",
+  "description": "Use only when writing/updating/fixing C++ tests, configuring GoogleTest/CTest, diagnosing failing or flaky tests, or adding coverage/sanitizers.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/cpp-testing",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:02cc1c750a16e3f514db68317ee663a8b180aa380c9631168bf12c34200e035c",
+  "fileCount": 1,
+  "totalBytes": 9175,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "ponytail-review",
+  "category": "workflow",
+  "description": ">",
+  "source": {
+    "repository": "DietrichGebert/ponytail",
+    "url": "https://github.com/DietrichGebert/ponytail",
+    "path": "skills/ponytail-review",
+    "commit": "2ed6c52c9d7e5e56942508591085fd45dea277d3",
+    "rank": 16,
+    "stars": 103067
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:cd3715f0513d93e4caab8cc30ad09080ae62f763ed8b95304fd84efda5fbf0be",
+  "fileCount": 1,
+  "totalBytes": 2383,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

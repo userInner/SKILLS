@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "brand-discovery",
+  "category": "workflow",
+  "description": ">-",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": ".agents/skills/brand-discovery",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:ca2c1f432cd5c54148474c98266ddbeb9e32da2953a94bb437f0913ac8664d0a",
+  "fileCount": 10,
+  "totalBytes": 21773,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

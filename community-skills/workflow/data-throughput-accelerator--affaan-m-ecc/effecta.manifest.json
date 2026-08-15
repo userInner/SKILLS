@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "data-throughput-accelerator",
+  "category": "workflow",
+  "description": "Use when large data ingestion, backfill, export, ETL, warehouse loading, manifest catch-up, or table synchronization needs to become much faster while preserving data correctness.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/data-throughput-accelerator",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:7ce1f1c3c84e320775f36b92522e3ab782fa0941ae21969796c1b0339b04064a",
+  "fileCount": 1,
+  "totalBytes": 2612,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

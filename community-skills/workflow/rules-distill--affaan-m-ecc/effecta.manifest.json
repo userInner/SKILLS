@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "name": "rules-distill",
+  "category": "workflow",
+  "description": "Scan skills to extract cross-cutting principles and distill them into rules — append, revise, or create new rule files. Use when the same principle keeps recurring across skills and belongs in a rule file instead.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/rules-distill",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:c64708a88b90b797a9ae596fe511a5440a95132586a6e56a00a4239d5611ccf5",
+  "fileCount": 3,
+  "totalBytes": 15083,
+  "staticScan": {
+    "status": "review",
+    "findings": [
+      {
+        "rule": "recursive-delete",
+        "file": "scan-rules.sh"
+      },
+      {
+        "rule": "recursive-delete",
+        "file": "scan-skills.sh"
+      }
+    ]
+  },
+  "status": "needs-review"
+}

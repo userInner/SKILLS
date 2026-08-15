@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "pymatgen",
+  "category": "workflow",
+  "description": "Analyze, validate, convert, and transform materials structures and computed materials data with current pymatgen APIs, including local phase diagrams, symmetry sensitivity, electronic-structure I/O, and explicitly bounded Materials Project queries.",
+  "source": {
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+    "path": "skills/pymatgen",
+    "commit": "b2a92ba052dcae4ef48e850b9e31ebf75706be48",
+    "rank": 74,
+    "stars": 33570
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:7c48177b068b55122e7dd454c414cbce85ed545b483dad247932d45aa2c38816",
+  "fileCount": 15,
+  "totalBytes": 162849,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "brandkit",
+  "category": "design",
+  "description": "Premium brand-kit image generation skill for creating high-end brand-guidelines boards, logo systems, identity decks, and visual-world presentations. Trained for minimalist, cinematic, editorial, dark-tech, luxury, cultural, security, gaming, developer-tool, and consumer-app brand systems. Optimized for intentional logo concepting, refined composition, sparse typography, strong symbolic meaning, premium mockups, art-directed imagery, and flexible grid layouts.",
+  "source": {
+    "repository": "Leonxlnx/taste-skill",
+    "url": "https://github.com/Leonxlnx/taste-skill",
+    "path": "skills/brandkit",
+    "commit": "e988add20dab0fa97d7a76781c48961c8184288e",
+    "rank": 25,
+    "stars": 76720
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:66c068d44001b4e6354c09e4b799f908ed1a7003211c7e7295331c122bea9f02",
+  "fileCount": 1,
+  "totalBytes": 15992,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

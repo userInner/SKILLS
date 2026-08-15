@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "swift-protocol-di-testing",
+  "category": "engineering",
+  "description": "Protocol-based dependency injection for testable Swift code — mock file system, network, and external APIs using focused protocols and Swift Testing. Use when Swift code needs testing and file system, network, or external APIs must be mocked.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/swift-protocol-di-testing",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:73aea02103ffbdd1034a8b62d1fb7aa3d1c49c7389dbe808548f72337b8726ac",
+  "fileCount": 1,
+  "totalBytes": 6112,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

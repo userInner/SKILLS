@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "name": "tdd-workflow",
+  "category": "workflow",
+  "description": "Use this skill when writing new features, fixing bugs, or refactoring code. Enforces test-driven development with 80%+ coverage including unit, integration, and E2E tests.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/tdd-workflow",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:2a0fee8b4dc5b74f5f4d6f376a6dfeddcbba97a43da9d3161e89d12d63819529",
+  "fileCount": 1,
+  "totalBytes": 21462,
+  "staticScan": {
+    "status": "review",
+    "findings": [
+      {
+        "rule": "pipe-to-shell",
+        "file": "SKILL.md"
+      }
+    ]
+  },
+  "status": "needs-review"
+}

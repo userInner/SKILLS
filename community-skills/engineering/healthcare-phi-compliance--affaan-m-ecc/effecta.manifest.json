@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "healthcare-phi-compliance",
+  "category": "engineering",
+  "description": "Protected Health Information (PHI) and Personally Identifiable Information (PII) compliance patterns for healthcare applications. Covers data classification, access control, audit trails, encryption, and common leak vectors. Use when code touches PHI or PII in a healthcare system, or when auditing access control, audit trails, or leak vectors.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/healthcare-phi-compliance",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:aa4b70ef898f8e107d6a0dd7830601507ccdd4d5b6712c8c38ed90d16bef5d80",
+  "fileCount": 1,
+  "totalBytes": 5696,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

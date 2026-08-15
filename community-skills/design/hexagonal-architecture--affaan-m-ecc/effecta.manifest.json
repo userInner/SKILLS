@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "hexagonal-architecture",
+  "category": "design",
+  "description": "Design, implement, and refactor Ports & Adapters systems with clear domain boundaries, dependency inversion, and testable use-case orchestration across TypeScript, Java, Kotlin, and Go services. Use when introducing or refactoring toward Ports and Adapters, or when domain logic has become entangled with I/O.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/hexagonal-architecture",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:a33bef0fc4273c233e8c15cacd202376fdb87eb143d9b5cf070af094622ebaf8",
+  "fileCount": 1,
+  "totalBytes": 11520,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

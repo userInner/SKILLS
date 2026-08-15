@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "name": "liteparse",
+  "category": "workflow",
+  "description": "Local document and PDF parsing that returns spatial text with bounding boxes. Use for extracting text from PDFs, DOCX, Office files, and images; running OCR on scans; producing layout-preserved JSON for RAG; batch-ingesting folders of papers; or rendering pages to PNG for multimodal agents. Distinguishing capabilities are per-token bounding boxes, page raster output, and fully local processing with no cloud API.",
+  "source": {
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+    "path": "skills/liteparse",
+    "commit": "b2a92ba052dcae4ef48e850b9e31ebf75706be48",
+    "rank": 74,
+    "stars": 33570
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:cb1305a13551822d750d103c8b6089dc5ef952a80402ce22d98e5bf3b47d161c",
+  "fileCount": 7,
+  "totalBytes": 31763,
+  "staticScan": {
+    "status": "review",
+    "findings": [
+      {
+        "rule": "privilege-escalation",
+        "file": "ocr_and_formats.md"
+      }
+    ]
+  },
+  "status": "needs-review"
+}

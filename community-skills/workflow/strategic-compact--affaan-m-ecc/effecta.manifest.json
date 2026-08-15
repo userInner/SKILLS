@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "strategic-compact",
+  "category": "workflow",
+  "description": "Suggests manual context compaction at logical intervals to preserve context through task phases rather than arbitrary auto-compaction. Use when a session is approaching a context limit and a task phase is a natural place to compact.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": ".agents/skills/strategic-compact",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:3fe5a1a04866ae14974877fade31a465b79a880525a2a89047311a6fe3a3c765",
+  "fileCount": 2,
+  "totalBytes": 5921,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

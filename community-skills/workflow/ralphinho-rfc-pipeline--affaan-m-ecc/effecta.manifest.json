@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "ralphinho-rfc-pipeline",
+  "category": "workflow",
+  "description": "RFC-driven multi-agent DAG execution pattern with quality gates, merge queues, and work unit orchestration. Use when running RFC-driven multi-agent execution with quality gates and a merge queue.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/ralphinho-rfc-pipeline",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:3dcb926bb2a74af8f104c39aada3f42d56c99c90b3aaa6f32c0f7ea9bf9fbd38",
+  "fileCount": 1,
+  "totalBytes": 1622,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "outcome-roadmap",
+  "category": "product",
+  "description": "Transform an output-focused roadmap into an outcome-focused one that communicates strategic intent. Rewrites initiatives as outcome statements reflecting user and business impacts. Use when shifting to outcome roadmaps, making a roadmap more strategic, or rewriting feature lists as outcomes.",
+  "source": {
+    "repository": "phuryn/pm-skills",
+    "url": "https://github.com/phuryn/pm-skills",
+    "path": "pm-execution/skills/outcome-roadmap",
+    "commit": "18468a95b427e70e258b51389796367c6f684e7d",
+    "rank": 110,
+    "stars": 25276
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:8000cdd4a48cbb9bf1e53b97429129319934aa03de664e0de7497b0c73126ca1",
+  "fileCount": 1,
+  "totalBytes": 3601,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

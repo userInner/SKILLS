@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "healthcare-cdss-patterns",
+  "category": "workflow",
+  "description": "Clinical Decision Support System (CDSS) development patterns. Drug interaction checking, dose validation, clinical scoring (NEWS2, qSOFA), alert severity classification, and integration into EMR workflows. Use when building clinical decision support — drug interaction checks, dose validation, clinical scoring, or alert severity.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/healthcare-cdss-patterns",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:b27b4033c61caea1b8271d068b7b2a94207849eb00c507d171958ef0c3cadd58",
+  "fileCount": 1,
+  "totalBytes": 9461,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

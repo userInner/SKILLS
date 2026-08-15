@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "ml-adoption-playbook",
+  "category": "workflow",
+  "description": "End-to-end methodology for AI agents and software engineers to add machine learning algorithms to existing non-ML codebases. Covers problem framing, data readiness, architectural decoupling, and baseline model integration. Use when adding a machine learning capability to a codebase that has none, from problem framing through a baseline model.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/ml-adoption-playbook",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:c7d33efdf096e31117cfd9f9f9bc751e4e68579127ccbaf61924c675f2837d36",
+  "fileCount": 1,
+  "totalBytes": 3899,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

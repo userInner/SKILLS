@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "backend-patterns",
+  "category": "engineering",
+  "description": ">",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": ".kiro/skills/backend-patterns",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:7da778e60df3be726d8d110aa509557623a70924dea677965c9cc4622628210b",
+  "fileCount": 1,
+  "totalBytes": 13851,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

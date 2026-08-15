@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "contract-first",
+  "category": "engineering",
+  "description": "Use when multiple consumers and providers must evolve an API or event schema without field drift, integration surprises, or one side silently redefining the interface.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/contract-first",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:5d23a3494860325de8ff73d2c4f579bea145f6f3554b9ffced2528d5ef1041bc",
+  "fileCount": 1,
+  "totalBytes": 9521,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

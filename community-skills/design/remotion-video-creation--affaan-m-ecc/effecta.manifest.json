@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "remotion-video-creation",
+  "category": "design",
+  "description": "Best practices for Remotion - Video creation in React. 29 domain-specific rules covering 3D, animations, audio, captions, charts, transitions, and more. Use when building video in React with Remotion — animations, audio, captions, charts, or transitions.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/remotion-video-creation",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:09b46ddf991729f297f7dd84c4081fcfdc6e0a68a9050901b0d63a1933ed91e2",
+  "fileCount": 32,
+  "totalBytes": 78059,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

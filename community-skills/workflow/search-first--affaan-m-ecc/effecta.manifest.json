@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "search-first",
+  "category": "workflow",
+  "description": ">",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": ".kiro/skills/search-first",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:a9f80c765df4befeccf32eefe436b8113e97318fffd173ac4e204196c22b6dd6",
+  "fileCount": 1,
+  "totalBytes": 7908,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

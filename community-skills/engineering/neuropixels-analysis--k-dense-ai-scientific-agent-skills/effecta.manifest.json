@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "neuropixels-analysis",
+  "category": "engineering",
+  "description": "For optional Claude API calls.",
+  "source": {
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+    "path": "skills/neuropixels-analysis",
+    "commit": "b2a92ba052dcae4ef48e850b9e31ebf75706be48",
+    "rank": 74,
+    "stars": 33570
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:2420b3fe5c1183a511726d40c05c2c8b03bbe92ceb4ae8c8ea8a18c05e101d08",
+  "fileCount": 18,
+  "totalBytes": 149094,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

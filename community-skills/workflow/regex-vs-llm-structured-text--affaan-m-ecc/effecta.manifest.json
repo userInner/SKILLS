@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "regex-vs-llm-structured-text",
+  "category": "workflow",
+  "description": "Decision framework for choosing between regex and LLM when parsing structured text — start with regex, add LLM only for low-confidence edge cases.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/regex-vs-llm-structured-text",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:4ceaaed19483a743ea3a9c37bd4e57534b17dfd59f1135d9c070531cd091d544",
+  "fileCount": 1,
+  "totalBytes": 6493,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

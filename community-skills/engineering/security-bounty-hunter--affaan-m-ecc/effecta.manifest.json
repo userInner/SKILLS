@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "name": "security-bounty-hunter",
+  "category": "engineering",
+  "description": "Hunt for exploitable, bounty-worthy security issues in repositories. Focuses on remotely reachable vulnerabilities that qualify for real reports instead of noisy local-only findings. Use when hunting reportable, remotely reachable vulnerabilities in a repository.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/security-bounty-hunter",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:dc63651c63beef72981d16928e9d3d4b8b7e840cd455907aec5749ecdc949cfd",
+  "fileCount": 1,
+  "totalBytes": 3628,
+  "staticScan": {
+    "status": "review",
+    "findings": [
+      {
+        "rule": "shell-eval",
+        "file": "SKILL.md"
+      }
+    ]
+  },
+  "status": "needs-review"
+}

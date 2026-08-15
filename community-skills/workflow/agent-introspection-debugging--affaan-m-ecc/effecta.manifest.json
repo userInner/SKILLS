@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "agent-introspection-debugging",
+  "category": "workflow",
+  "description": "Structured self-debugging workflow for AI agent failures using capture, diagnosis, contained recovery, and introspection reports. Use when an agent run fails and you need a reproducible diagnosis instead of a retry.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": ".agents/skills/agent-introspection-debugging",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:067c2cd91ff94550873b64955747765ce4abce175927d9c407d14beb87d9c82f",
+  "fileCount": 2,
+  "totalBytes": 5905,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

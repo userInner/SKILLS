@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "agent-self-evaluation",
+  "category": "workflow",
+  "description": "Use after completing any non-trivial task. The agent self-rates its output on 5 axes — accuracy, completeness, clarity, actionability, conciseness — with concrete evidence per criterion. Produces a structured 1-5 scorecard with specific improvement suggestions.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/agent-self-evaluation",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:66571492833818b42fcde03ffe9a116ec60e9286302a97b56732c8ea32743355",
+  "fileCount": 7,
+  "totalBytes": 41652,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

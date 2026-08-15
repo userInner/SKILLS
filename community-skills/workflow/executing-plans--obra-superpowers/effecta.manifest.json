@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "executing-plans",
+  "category": "workflow",
+  "description": "Use when you have a written implementation plan to execute in a separate session with review checkpoints",
+  "source": {
+    "repository": "obra/superpowers",
+    "url": "https://github.com/obra/superpowers",
+    "path": "skills/executing-plans",
+    "commit": "b36e0829c6d0140e93cfef2ca599b1b07d4a7797",
+    "rank": 1,
+    "stars": 272360
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:5036191743cbb55b8665ddf0d6b89daad668525adf28291fe1054e86e01972d9",
+  "fileCount": 1,
+  "totalBytes": 2305,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

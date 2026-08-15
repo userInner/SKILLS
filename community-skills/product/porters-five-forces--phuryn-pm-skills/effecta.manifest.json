@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "porters-five-forces",
+  "category": "product",
+  "description": "Perform Porter's Five Forces analysis — competitive rivalry, supplier power, buyer power, threat of substitutes, and threat of new entrants. Use when analyzing industry dynamics, assessing competitive forces, or evaluating market attractiveness.",
+  "source": {
+    "repository": "phuryn/pm-skills",
+    "url": "https://github.com/phuryn/pm-skills",
+    "path": "pm-product-strategy/skills/porters-five-forces",
+    "commit": "18468a95b427e70e258b51389796367c6f684e7d",
+    "rank": 110,
+    "stars": 25276
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:1a04ee3ccb611a17e855669fac6ffe90c5cbf2d5b9f0f5a71311630aade19914",
+  "fileCount": 1,
+  "totalBytes": 8185,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

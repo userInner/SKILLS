@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "make-interfaces-feel-better",
+  "category": "engineering",
+  "description": "Apply concrete design-engineering details that make interfaces feel polished. Use when reviewing or improving UI spacing, typography, borders, shadows, motion, hit areas, icons, text wrapping, and interaction states.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/make-interfaces-feel-better",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:9298a6ebf85d4de098bff7f4b3ebca1fe539f120387f532161298883ce1091cf",
+  "fileCount": 1,
+  "totalBytes": 4795,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

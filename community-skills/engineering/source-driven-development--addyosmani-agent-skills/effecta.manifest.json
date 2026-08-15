@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "source-driven-development",
+  "category": "engineering",
+  "description": "Grounds every implementation decision in official documentation. Use when you want authoritative, source-cited code free from outdated patterns. Use when building with any framework or library where correctness matters.",
+  "source": {
+    "repository": "addyosmani/agent-skills",
+    "url": "https://github.com/addyosmani/agent-skills",
+    "path": "skills/source-driven-development",
+    "commit": "df1edb2e05487d0aa6d93c747141e0aed1187f25",
+    "rank": 19,
+    "stars": 87394
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:3c38fbf95b921c799a60d0310d396bb8767045243721a8004aaecbe3b04f5ac5",
+  "fileCount": 1,
+  "totalBytes": 9949,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

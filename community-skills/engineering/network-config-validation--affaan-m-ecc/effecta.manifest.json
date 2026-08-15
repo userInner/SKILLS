@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "network-config-validation",
+  "category": "engineering",
+  "description": "Pre-deployment checks for router and switch configuration, including dangerous commands, duplicate addresses, subnet overlaps, stale references, management-plane risk, and IOS-style security hygiene. Use when reviewing a router or switch configuration before deployment.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/network-config-validation",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:94d42dcff4db70b075566f079b5bd0c739f29141db87726d1125e01a74307270",
+  "fileCount": 1,
+  "totalBytes": 7727,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

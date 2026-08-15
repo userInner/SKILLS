@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "pydeseq2",
+  "category": "design",
+  "description": "Differential gene expression analysis for bulk RNA-seq with PyDESeq2, including formulaic designs, Wald tests, FDR correction, LFC shrinkage, and result visualization.",
+  "source": {
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+    "path": "skills/pydeseq2",
+    "commit": "b2a92ba052dcae4ef48e850b9e31ebf75706be48",
+    "rank": 74,
+    "stars": 33570
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:a4b6ddbe88366cd345e170927e76d3132b4654c1eb8c70a7d86018aa1bead09b",
+  "fileCount": 6,
+  "totalBytes": 55198,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

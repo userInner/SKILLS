@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "coding-standards",
+  "category": "workflow",
+  "description": "Baseline cross-project coding conventions for naming, readability, immutability, and code-quality review. Use detailed frontend or backend skills for framework-specific patterns. Use when reviewing code quality or naming with no framework-specific skill that applies.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": ".agents/skills/coding-standards",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:71acb2756c9bd94ff585cc07aa9faf3dd64a51e9ec866546e59a185308428a8e",
+  "fileCount": 2,
+  "totalBytes": 13112,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

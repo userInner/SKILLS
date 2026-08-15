@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "visa-doc-translate",
+  "category": "design",
+  "description": "Translate visa application documents (images) to English and create a bilingual PDF with original and translation. Use when visa application document images must be translated to English as a bilingual PDF.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/visa-doc-translate",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:826ce7234526f672f5a3ce0976bbbbfbffd70d9f7ea91493c3a6844ad6f227f3",
+  "fileCount": 2,
+  "totalBytes": 5788,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

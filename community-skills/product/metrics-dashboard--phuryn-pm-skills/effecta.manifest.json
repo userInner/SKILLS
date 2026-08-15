@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "metrics-dashboard",
+  "category": "product",
+  "description": "Define and design a product metrics dashboard with key metrics, data sources, visualization types, and alert thresholds. Use when creating a metrics dashboard, defining KPIs, setting up product analytics, or building a data monitoring plan.",
+  "source": {
+    "repository": "phuryn/pm-skills",
+    "url": "https://github.com/phuryn/pm-skills",
+    "path": "pm-product-discovery/skills/metrics-dashboard",
+    "commit": "18468a95b427e70e258b51389796367c6f684e7d",
+    "rank": 110,
+    "stars": 25276
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:b28a2893874c1ee2586b37d2f2b1e75dfafb5d59446c10fea008b5bca3eb6a38",
+  "fileCount": 1,
+  "totalBytes": 5754,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

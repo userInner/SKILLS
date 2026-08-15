@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "network-bgp-diagnostics",
+  "category": "workflow",
+  "description": "Diagnostics-only BGP troubleshooting patterns for neighbor state, route exchange, prefix policy, AS path inspection, and safe evidence collection. Use when a BGP neighbor is down, routes are missing, or prefix policy and AS path need inspection.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/network-bgp-diagnostics",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:c5fdfbf881cd2a93be63a1c61464eb9cff8f39398984008ebf661d27f7ee993d",
+  "fileCount": 1,
+  "totalBytes": 5641,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

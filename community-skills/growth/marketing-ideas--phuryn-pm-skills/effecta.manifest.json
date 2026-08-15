@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "marketing-ideas",
+  "category": "growth",
+  "description": "Generate 5 creative, cost-effective marketing ideas with channels, messaging, and engagement rationale. Use when brainstorming marketing campaigns, planning product promotion, or looking for creative marketing tactics.",
+  "source": {
+    "repository": "phuryn/pm-skills",
+    "url": "https://github.com/phuryn/pm-skills",
+    "path": "pm-marketing-growth/skills/marketing-ideas",
+    "commit": "18468a95b427e70e258b51389796367c6f684e7d",
+    "rank": 110,
+    "stars": 25276
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:45d30e429f558f0a416a2d8d0997eb11ce61c62a4d7b2bb7810fe4c5ef840b01",
+  "fileCount": 1,
+  "totalBytes": 2178,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

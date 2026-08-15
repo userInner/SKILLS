@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "api-design",
+  "category": "engineering",
+  "description": ">",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": ".kiro/skills/api-design",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:f4aa6d014b6a1f08d18dca795569ef18f7c1cd4d73ab254a66ae61f633770940",
+  "fileCount": 1,
+  "totalBytes": 13126,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

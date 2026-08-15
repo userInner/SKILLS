@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "pubmed-database",
+  "category": "engineering",
+  "description": "Direct PubMed and NCBI E-utilities search workflows for biomedical literature, MeSH queries, PMID lookup, citation retrieval, and API-backed literature monitoring. Use when a task needs biomedical literature from PubMed rather than general web search.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/scientific-db-pubmed-database",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:50ddcf118b0dc0bd8c79aa60c52c517e1b57c48b6b24688595a5f2aca2821941",
+  "fileCount": 1,
+  "totalBytes": 4813,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

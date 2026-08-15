@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "returns-reverse-logistics",
+  "category": "workflow",
+  "description": ">",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/returns-reverse-logistics",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:9b196af323ac0213499365bc60f56258a5d8fc18e5fbfffa87b7b2e996bde4e1",
+  "fileCount": 1,
+  "totalBytes": 24703,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

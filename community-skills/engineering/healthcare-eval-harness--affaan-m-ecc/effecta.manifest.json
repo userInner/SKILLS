@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "healthcare-eval-harness",
+  "category": "engineering",
+  "description": "Patient safety evaluation harness for healthcare application deployments. Automated test suites for CDSS accuracy, PHI exposure, clinical workflow integrity, and integration compliance. Blocks deployments on safety failures. Use when a healthcare deployment must be gated on patient-safety tests for CDSS accuracy, PHI exposure, and workflow integrity.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/healthcare-eval-harness",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:34e28c8bf0c3cfac14dc3c47dc20cb05f6075ace7edee470993d8ea8011a1c6a",
+  "fileCount": 1,
+  "totalBytes": 7849,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

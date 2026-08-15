@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "north-star-metric",
+  "category": "growth",
+  "description": "Define a North Star Metric and 3-5 supporting input metrics that form a metrics constellation. Classify the business game (Attention, Transaction, Productivity) and validate against 7 criteria for an effective North Star. Use when choosing a North Star Metric, setting up a metrics framework, learning about the North Star Framework, or deciding what to measure.",
+  "source": {
+    "repository": "phuryn/pm-skills",
+    "url": "https://github.com/phuryn/pm-skills",
+    "path": "pm-marketing-growth/skills/north-star-metric",
+    "commit": "18468a95b427e70e258b51389796367c6f684e7d",
+    "rank": 110,
+    "stars": 25276
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:325c6d7896a8557dcf132fd8bf0e8a06b9c39b76fd68739b403d7157ccc4a274",
+  "fileCount": 1,
+  "totalBytes": 4152,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "benchling-integration",
+  "category": "engineering",
+  "description": "Staging API key (multi-env setups).",
+  "source": {
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+    "path": "skills/benchling-integration",
+    "commit": "b2a92ba052dcae4ef48e850b9e31ebf75706be48",
+    "rank": 74,
+    "stars": 33570
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:2abaf09ec7494619316d477428b0ade4a8dc08ad878a42c0b334132301b13fa1",
+  "fileCount": 6,
+  "totalBytes": 69361,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "market-segments",
+  "category": "product",
+  "description": "Identify 3-5 potential customer segments with demographics, JTBD, and product fit analysis. Use when exploring market segments, identifying target audiences, evaluating new markets, or learning how to segment a market.",
+  "source": {
+    "repository": "phuryn/pm-skills",
+    "url": "https://github.com/phuryn/pm-skills",
+    "path": "pm-market-research/skills/market-segments",
+    "commit": "18468a95b427e70e258b51389796367c6f684e7d",
+    "rank": 110,
+    "stars": 25276
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:23ba995564a69909e987389b19dfab1b0061a6b236eaf4832af0d42d663b93c6",
+  "fileCount": 1,
+  "totalBytes": 3623,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

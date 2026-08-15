@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "kotlin-testing",
+  "category": "engineering",
+  "description": "Kotlin testing patterns with Kotest, MockK, coroutine testing, property-based testing, and Kover coverage. Follows TDD methodology with idiomatic Kotlin practices. Use when writing Kotlin tests with Kotest or MockK, or testing coroutines and checking coverage.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/kotlin-testing",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:efc0113eea7fa739e5c1508dfdcebf9bcb7adae03fc544977f043d0a44b699cc",
+  "fileCount": 1,
+  "totalBytes": 20800,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

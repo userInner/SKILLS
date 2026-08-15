@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "search-first",
+  "category": "workflow",
+  "description": "Research-before-coding workflow. Search for existing tools, libraries, and patterns before writing custom code. Invokes the researcher agent.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/search-first",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:747f8d650d4edc84d92e23f1ee993f8e6856150bdc69ae92504c389b3966fb2f",
+  "fileCount": 1,
+  "totalBytes": 8021,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

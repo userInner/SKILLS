@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "planning-and-task-breakdown",
+  "category": "workflow",
+  "description": "Breaks work into ordered tasks. Use when you have a spec or clear requirements and need to break work into implementable tasks. Use when a task feels too large to start, when you need to estimate scope, or when parallel work is possible.",
+  "source": {
+    "repository": "addyosmani/agent-skills",
+    "url": "https://github.com/addyosmani/agent-skills",
+    "path": "skills/planning-and-task-breakdown",
+    "commit": "df1edb2e05487d0aa6d93c747141e0aed1187f25",
+    "rank": 19,
+    "stars": 87394
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:995b7bffd6108169a417746a34f413dfdab46da2a790ad3eab6035c7d1fbaeb4",
+  "fileCount": 1,
+  "totalBytes": 9442,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "exa-search",
+  "category": "engineering",
+  "description": "Neural search via Exa MCP for web, code, and company research. Use when the user needs web search, code examples, company intel, people lookup, or AI-powered deep research with Exa's neural search engine.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/exa-search",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:c232ed9f1a79dbfd95ab1ec062fb8d08af416fc819ee175f93c60420a2ec2952",
+  "fileCount": 1,
+  "totalBytes": 3620,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

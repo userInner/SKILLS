@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "unified-memory",
+  "category": "workflow",
+  "description": "Share durable, inspectable context and handoffs between Claude, Codex, Hermes, Cursor, OpenCode, and other agents through the local ECC Memory Vault. Use when an agent must save work state, transfer context, resume another agent's task, or search shared project knowledge.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/unified-memory",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:bdf1ca023be13c5b5ba12bc1e260617f89c24fe4a30a3bdea0afa77ae38080c1",
+  "fileCount": 1,
+  "totalBytes": 6032,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

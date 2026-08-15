@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "name": "skill-stocktake",
+  "category": "workflow",
+  "description": "Use when auditing Claude skills and commands for quality. Supports Quick Scan (changed skills only) and Full Stocktake modes with sequential subagent batch evaluation.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/skill-stocktake",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:e1e3d12a645c827023e451630f2d308ac37c4420bd8742fa5c63d5443d57abc8",
+  "fileCount": 4,
+  "totalBytes": 18719,
+  "staticScan": {
+    "status": "review",
+    "findings": [
+      {
+        "rule": "recursive-delete",
+        "file": "quick-diff.sh"
+      },
+      {
+        "rule": "recursive-delete",
+        "file": "scan.sh"
+      }
+    ]
+  },
+  "status": "needs-review"
+}

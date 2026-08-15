@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "orch-change-feature",
+  "category": "engineering",
+  "description": "Orchestrate altering an existing, working feature to new desired behavior — update its tests to the new spec, change the implementation to match, review, and gated commit. Use when behavior is not broken but should be different.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/orch-change-feature",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:36a1b1d76e45d0a381b77ffe3e0dec535cc71470ca86ab9192bff581399829c8",
+  "fileCount": 1,
+  "totalBytes": 1711,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

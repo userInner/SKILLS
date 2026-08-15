@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "name": "scientific-slides",
+  "category": "design",
+  "description": "OpenRouter API key for the skill's LLM-powered steps.",
+  "source": {
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+    "path": "skills/scientific-slides",
+    "commit": "b2a92ba052dcae4ef48e850b9e31ebf75706be48",
+    "rank": 74,
+    "stars": 33570
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:5991a82999106bdbe11fb50421ef53bcb6feb33856b2bbe4250249cfd55be6f2",
+  "fileCount": 24,
+  "totalBytes": 382705,
+  "staticScan": {
+    "status": "review",
+    "findings": [
+      {
+        "rule": "privilege-escalation",
+        "file": "visual_review_workflow.md"
+      }
+    ]
+  },
+  "status": "needs-review"
+}

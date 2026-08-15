@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "slides",
+  "category": "design",
+  "description": "Create strategic HTML presentations with Chart.js, design tokens, responsive layouts, copywriting formulas, and contextual slide strategies.",
+  "source": {
+    "repository": "nextlevelbuilder/ui-ux-pro-max-skill",
+    "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "path": ".claude/skills/slides",
+    "commit": "a38d04c3d5c298c851dbe5e6ee1965ee3de42cb5",
+    "rank": 12,
+    "stars": 116920
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:1fc68e13000bfbe2f1e0c45c5bd5a25264e7e85f47212ef5f864d21bf2eafe9c",
+  "fileCount": 6,
+  "totalBytes": 19304,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

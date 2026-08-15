@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "claude-devfleet",
+  "category": "workflow",
+  "description": "Orchestrate multi-agent coding tasks via Claude DevFleet — plan projects, dispatch parallel agents in isolated worktrees, monitor progress, and read structured reports. Use when dispatching parallel coding agents across isolated worktrees and tracking their reports.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/claude-devfleet",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:9882b489e4baff8dcfede1883ba326d88b7257244e17871e007266704e32c698",
+  "fileCount": 1,
+  "totalBytes": 6216,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "name": "pufferlib",
+  "category": "design",
+  "description": "Version-aware guidance for PufferLib reinforcement-learning environments, vectorization, policies, PuffeRL training, evaluation, and safe checkpoint review. Use when adapting Gymnasium/PettingZoo environments to published PufferLib 3.0.0 or working with the redesigned native 4.0 source line.",
+  "source": {
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+    "path": "skills/pufferlib",
+    "commit": "b2a92ba052dcae4ef48e850b9e31ebf75706be48",
+    "rank": 74,
+    "stars": 33570
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:7f7edeae1f94426ff05de8ba713f5d4b7c769975117eb98226c585504abd858c",
+  "fileCount": 15,
+  "totalBytes": 126284,
+  "staticScan": {
+    "status": "review",
+    "findings": [
+      {
+        "rule": "shell-eval",
+        "file": "policies.md"
+      }
+    ]
+  },
+  "status": "needs-review"
+}

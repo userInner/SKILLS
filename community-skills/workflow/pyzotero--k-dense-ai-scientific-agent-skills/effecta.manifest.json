@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "pyzotero",
+  "category": "workflow",
+  "description": "Zotero library type: ''user'' or ''group'' (default ''user'').",
+  "source": {
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+    "path": "skills/pyzotero",
+    "commit": "b2a92ba052dcae4ef48e850b9e31ebf75706be48",
+    "rank": 74,
+    "stars": 33570
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:67f12dead95893cf881bddae2f30b0cf56b76ba9d04ebd0800f20f55f92f0e3e",
+  "fileCount": 15,
+  "totalBytes": 41844,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

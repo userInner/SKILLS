@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "doubt-driven-development",
+  "category": "engineering",
+  "description": "Subjects every non-trivial decision to a fresh-context adversarial review before it stands. Use when correctness matters more than speed, when working in unfamiliar code, when stakes are high (production, security-sensitive logic, irreversible operations), or any time a confident output would be cheaper to verify now than to debug later.",
+  "source": {
+    "repository": "addyosmani/agent-skills",
+    "url": "https://github.com/addyosmani/agent-skills",
+    "path": "skills/doubt-driven-development",
+    "commit": "df1edb2e05487d0aa6d93c747141e0aed1187f25",
+    "rank": 19,
+    "stars": 87394
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:3141d5fdd8449ee5236098146744ac6e7641f2061c4fdf57f92421bb76fec1fd",
+  "fileCount": 1,
+  "totalBytes": 16499,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

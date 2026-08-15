@@ -2,7 +2,11 @@
 
 面向 Codex、Claude Code 和兼容 Agent 的可安装能力目录。当前提供 **7 个分类、40 个直装 Skill**，同时维护高星项目来源索引。第三方内容只在许可证清楚、依赖资源完整、可脱离原仓库运行时才进入直装目录。
 
-机器可读入口：[categories.json](categories.json) · [catalog.json](catalog.json)
+机器可读入口：[categories.json](categories.json) · [来源仓库索引](catalog.json) · [具体 Skill 索引](community-skills/index.json)
+
+<!-- community-stats:start -->
+包级索引现有 **725 个具体 Skill**：**40 个可直装**、**647 个已提取待验收**、**38 个待安全审查**。来源仓库数不等于 Skill 数，候选包也不等于安全认证。查看 [具体 Skill 目录](community-skills/README.md) 与 [机器索引](community-skills/index.json)。
+<!-- community-stats:end -->
 
 维护者入口：[提交或认领 Skill](https://github.com/userInner/SKILLS/issues/new?template=submit-or-claim-skill.yml) · [认领规则与 README 徽章](docs/MAINTAINERS.md)
 

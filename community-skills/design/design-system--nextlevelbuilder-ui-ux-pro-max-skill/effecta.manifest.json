@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "design-system",
+  "category": "design",
+  "description": "Token architecture, component specifications, and slide generation. Three-layer tokens (primitive→semantic→component), CSS variables, spacing/typography scales, component specs, strategic slide creation. Use for design tokens, systematic design, brand-compliant presentations.",
+  "source": {
+    "repository": "nextlevelbuilder/ui-ux-pro-max-skill",
+    "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "path": ".claude/skills/design-system",
+    "commit": "a38d04c3d5c298c851dbe5e6ee1965ee3de42cb5",
+    "rank": 12,
+    "stars": 116920
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:46d34264129f8053a22b321543c46c81aed2412ab049268b7faad4e2dd40a7a2",
+  "fileCount": 26,
+  "totalBytes": 177399,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

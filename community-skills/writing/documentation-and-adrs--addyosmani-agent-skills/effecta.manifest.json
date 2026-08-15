@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "documentation-and-adrs",
+  "category": "writing",
+  "description": "Records decisions and documentation. Use when making architectural decisions, changing public APIs, shipping features, or when you need to record context that future engineers and agents will need to understand the codebase.",
+  "source": {
+    "repository": "addyosmani/agent-skills",
+    "url": "https://github.com/addyosmani/agent-skills",
+    "path": "skills/documentation-and-adrs",
+    "commit": "df1edb2e05487d0aa6d93c747141e0aed1187f25",
+    "rank": 19,
+    "stars": 87394
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:f6161596cab00499edc8b1512c46fdeda5f733ffa8403d377dd8c57dc9949eb3",
+  "fileCount": 1,
+  "totalBytes": 9782,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

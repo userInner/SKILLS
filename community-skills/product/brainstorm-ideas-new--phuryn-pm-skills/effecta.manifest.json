@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "brainstorm-ideas-new",
+  "category": "product",
+  "description": "Brainstorm feature ideas for a new product in initial discovery from PM, Designer, and Engineer perspectives. Use when starting product discovery for a new product, exploring features for a startup idea, or doing initial ideation.",
+  "source": {
+    "repository": "phuryn/pm-skills",
+    "url": "https://github.com/phuryn/pm-skills",
+    "path": "pm-product-discovery/skills/brainstorm-ideas-new",
+    "commit": "18468a95b427e70e258b51389796367c6f684e7d",
+    "rank": 110,
+    "stars": 25276
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:8138d9c04eaaa33106365a4dc4dd7ae496064837e0a4a3dd771e8c8c22e8305c",
+  "fileCount": 1,
+  "totalBytes": 2437,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

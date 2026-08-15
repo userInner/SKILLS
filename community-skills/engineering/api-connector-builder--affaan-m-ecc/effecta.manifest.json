@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "api-connector-builder",
+  "category": "engineering",
+  "description": "Build a new API connector or provider by matching the target repo's existing integration pattern exactly. Use when adding one more integration without inventing a second architecture.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/api-connector-builder",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:e9953fcb44fa63c25107de36735a4c8f9c3e62b3c190e4415ddcd526f4ce23e0",
+  "fileCount": 1,
+  "totalBytes": 2664,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

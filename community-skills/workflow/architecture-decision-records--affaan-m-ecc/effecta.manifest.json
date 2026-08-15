@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "architecture-decision-records",
+  "category": "workflow",
+  "description": "Capture architectural decisions made during Claude Code sessions as structured ADRs. Auto-detects decision moments, records context, alternatives considered, and rationale. Maintains an ADR log so future developers understand why the codebase is shaped the way it is.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/architecture-decision-records",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:3ff5e310d0a3002cef2400bfb0d00e2f388afdd6c280c1d1314fd1608e1547ab",
+  "fileCount": 1,
+  "totalBytes": 7131,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

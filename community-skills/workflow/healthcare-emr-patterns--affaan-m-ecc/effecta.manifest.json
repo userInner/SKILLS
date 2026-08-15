@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "healthcare-emr-patterns",
+  "category": "workflow",
+  "description": "EMR/EHR development patterns for healthcare applications. Clinical safety, encounter workflows, prescription generation, clinical decision support integration, and accessibility-first UI for medical data entry. Use when building EMR or EHR features such as encounter workflows, prescription generation, or clinical data entry UI.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/healthcare-emr-patterns",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:ba05f1a5cc56ab1a23e3b39eb3aec3f844f5eadba74fbc4b0f11d21cca53fe88",
+  "fileCount": 1,
+  "totalBytes": 6746,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

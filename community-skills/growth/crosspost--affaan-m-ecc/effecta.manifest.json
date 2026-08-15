@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "crosspost",
+  "category": "growth",
+  "description": "Multi-platform content distribution across X, LinkedIn, Threads, and Bluesky. Adapts content per platform using content-engine patterns. Never posts identical content cross-platform. Use when the user wants to distribute content across social platforms.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/crosspost",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:c15ffd7b05b964f2cee351d423683f39721932444692b0d1de5aa9a016198ccb",
+  "fileCount": 1,
+  "totalBytes": 3447,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

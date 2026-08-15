@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "springboot-patterns",
+  "category": "engineering",
+  "description": "Spring Boot architecture patterns, REST API design, layered services, data access, caching, async processing, and logging. Use for Java Spring Boot backend work.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": ".kiro/skills/springboot-patterns",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:41900ab542d643ac7ddd5cfd087e117678ce1a03af91eeabdc63dba8dd39dec9",
+  "fileCount": 1,
+  "totalBytes": 10175,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "perl-patterns",
+  "category": "engineering",
+  "description": "Modern Perl 5.36+ idioms, best practices, and conventions for building robust, maintainable Perl applications. Use when writing or reviewing modern Perl 5.36+ code.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/perl-patterns",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:376131856eba65a60be4757c12e2bae74e3ab074ce24def7d9f5f1539b398b5a",
+  "fileCount": 1,
+  "totalBytes": 11591,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

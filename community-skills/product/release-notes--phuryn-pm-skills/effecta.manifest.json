@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "release-notes",
+  "category": "product",
+  "description": "Generate user-facing release notes from tickets, PRDs, or changelogs. Creates clear, engaging summaries organized by category (new features, improvements, fixes). Use when writing release notes, creating changelogs, announcing product updates, or summarizing what shipped.",
+  "source": {
+    "repository": "phuryn/pm-skills",
+    "url": "https://github.com/phuryn/pm-skills",
+    "path": "pm-execution/skills/release-notes",
+    "commit": "18468a95b427e70e258b51389796367c6f684e7d",
+    "rank": 110,
+    "stars": 25276
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:3e6e9344adfb0482434a67e0d3e8f60b0000925805de49bdfff8dd57b8ccfbad",
+  "fileCount": 1,
+  "totalBytes": 2569,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

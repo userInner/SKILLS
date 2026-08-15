@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "prompt-optimizer",
+  "category": "workflow",
+  "description": ">-",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/prompt-optimizer",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:289058b719fa2260d27442bdca23edc0c55547235cc387c8bffd4b24ef8bf6c3",
+  "fileCount": 1,
+  "totalBytes": 16429,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

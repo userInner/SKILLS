@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "prediction-market-oracle-research",
+  "category": "product",
+  "description": "Research prediction markets as data sources or oracle signals for products, agents, dashboards, and corporate decision intelligence. Use for source-grounded analysis of market-implied probabilities, caveats, and integration patterns without investment advice. Use when evaluating prediction markets as a data source or oracle signal for a product, agent, or dashboard.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/prediction-market-oracle-research",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:c68a40676ad50ff7de1d1aba78324869141e97adbf63fc436448493957b037d6",
+  "fileCount": 1,
+  "totalBytes": 2306,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

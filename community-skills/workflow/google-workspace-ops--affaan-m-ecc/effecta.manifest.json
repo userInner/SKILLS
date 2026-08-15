@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "google-workspace-ops",
+  "category": "workflow",
+  "description": "Operate across Google Drive, Docs, Sheets, and Slides as one workflow surface for plans, trackers, decks, and shared documents. Use when the user needs to find, summarize, edit, migrate, or clean up Google Workspace assets without dropping to raw tool calls.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/google-workspace-ops",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:08ae11dbed8b6538a573ff61a38a54870a5b7961ca40f07f97320a1c2e4f5c5a",
+  "fileCount": 1,
+  "totalBytes": 2736,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

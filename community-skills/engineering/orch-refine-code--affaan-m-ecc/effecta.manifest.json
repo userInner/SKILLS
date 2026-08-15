@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "orch-refine-code",
+  "category": "engineering",
+  "description": "Orchestrate a behavior-preserving refactor — confirm tests are green, restructure without changing behavior, keep tests green, review, and gated commit. Use when the structure should improve but behavior must not change.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/orch-refine-code",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:f2686fc1ed9bdf0370ec98b77431541090132c6f0a2b3b7400c7f5e74896d796",
+  "fileCount": 1,
+  "totalBytes": 1819,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

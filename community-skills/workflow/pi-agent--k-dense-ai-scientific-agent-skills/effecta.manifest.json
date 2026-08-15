@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "name": "pi-agent",
+  "category": "workflow",
+  "description": "Build with and use Pi, the minimal terminal coding harness. Use for installing Pi, configuring providers/models/settings/environment variables, creating Pi skills/extensions/packages/themes/prompt templates, embedding Pi through the SDK, integrating over RPC or JSON event streams, parsing sessions, running local models through the llama.cpp router, developing custom Pi providers and TUI components, or using ecosystem packages such as pi-subagents (delegation/orchestration), pi-mcp-adapter (MCP servers), pi-interview (interactive forms), and pi-web-access (web search, fetching, video understanding).",
+  "source": {
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+    "path": "skills/pi-agent",
+    "commit": "b2a92ba052dcae4ef48e850b9e31ebf75706be48",
+    "rank": 74,
+    "stars": 33570
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:ec47cdfd311e3d4129895e52957c78470d9b5ee7df786695aada76c90c6fe815",
+  "fileCount": 35,
+  "totalBytes": 260453,
+  "staticScan": {
+    "status": "review",
+    "findings": [
+      {
+        "rule": "recursive-delete",
+        "file": "containerization.md"
+      },
+      {
+        "rule": "recursive-delete",
+        "file": "extensions.md"
+      },
+      {
+        "rule": "shell-eval",
+        "file": "extensions.md"
+      },
+      {
+        "rule": "pipe-to-shell",
+        "file": "overview.md"
+      }
+    ]
+  },
+  "status": "needs-review"
+}

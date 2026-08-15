@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "e2e-testing",
+  "category": "engineering",
+  "description": "Playwright E2E testing patterns, Page Object Model, configuration, CI/CD integration, artifact management, and flaky test strategies. Use when writing Playwright tests, structuring page objects, or fixing flaky E2E runs in CI.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": ".agents/skills/e2e-testing",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:ab5c3a3b208ad7724cccf962df3683c0cddea43a5b027ce46316c21f33bf0753",
+  "fileCount": 2,
+  "totalBytes": 8393,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "git-workflow-and-versioning",
+  "category": "engineering",
+  "description": "Structures git workflow practices. Use when making any code change. Use when committing, branching, resolving conflicts, or when you need to organize work across multiple parallel streams. Use when cutting a release, choosing a semantic version bump, tagging, or writing a changelog.",
+  "source": {
+    "repository": "addyosmani/agent-skills",
+    "url": "https://github.com/addyosmani/agent-skills",
+    "path": "skills/git-workflow-and-versioning",
+    "commit": "df1edb2e05487d0aa6d93c747141e0aed1187f25",
+    "rank": 19,
+    "stars": 87394
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:584a72ac5669e474e5b1552a0ec704b95a03c4056965f80d8cf74aa22668af63",
+  "fileCount": 1,
+  "totalBytes": 14000,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

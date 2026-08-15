@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "latency-critical-systems",
+  "category": "workflow",
+  "description": "Use for latency-sensitive systems such as realtime dashboards, market data, streaming agents, execution gateways, queues, caches, or HFT-like infrastructure where freshness and p95 latency matter. Use when p95 latency or data freshness matters — realtime dashboards, market data, streaming agents, queues, or caches.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/latency-critical-systems",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:0bb6626966ada3dbde252c7abf3cd126874b629de03fd12dabc2480194a3e0bb",
+  "fileCount": 1,
+  "totalBytes": 2495,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

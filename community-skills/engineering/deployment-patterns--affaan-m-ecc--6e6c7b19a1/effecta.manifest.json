@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "deployment-patterns",
+  "category": "engineering",
+  "description": "Deployment workflows, CI/CD pipeline patterns, Docker containerization, health checks, rollback strategies, and production readiness checklists for web applications. Use when setting up CI/CD, containerizing an app, or checking production readiness before a release.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/deployment-patterns",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:6e6c7b19a1216720759633bc62e073603977b74db4e06afa10f7a4bfa46ed770",
+  "fileCount": 1,
+  "totalBytes": 11113,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

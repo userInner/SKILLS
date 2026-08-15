@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "workspace-surface-audit",
+  "category": "workflow",
+  "description": "Audit the active repo, MCP servers, plugins, connectors, env surfaces, and harness setup, then recommend the highest-value ECC-native skills, hooks, agents, and operator workflows. Use when the user wants help setting up Claude Code or understanding what capabilities are actually available in their environment.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/workspace-surface-audit",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:2027907103bf80deedee62c1ecdfeb391840fde4ba7ac951675155960ff4604e",
+  "fileCount": 1,
+  "totalBytes": 5163,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

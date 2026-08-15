@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "name": "subagent-driven-development",
+  "category": "workflow",
+  "description": "Use when executing implementation plans with independent tasks in the current session",
+  "source": {
+    "repository": "obra/superpowers",
+    "url": "https://github.com/obra/superpowers",
+    "path": "skills/subagent-driven-development",
+    "commit": "b36e0829c6d0140e93cfef2ca599b1b07d4a7797",
+    "rank": 1,
+    "stars": 272360
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:bf8c42f7b88b3a595f6b2384d82ab5be3e3e658df474f95012556af0c60dacac",
+  "fileCount": 7,
+  "totalBytes": 56664,
+  "staticScan": {
+    "status": "review",
+    "findings": [
+      {
+        "rule": "recursive-delete",
+        "file": "SKILL.md"
+      }
+    ]
+  },
+  "status": "needs-review"
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "research-lookup",
+  "category": "research",
+  "description": "Optional OpenRouter key for explicit Perplexity use.",
+  "source": {
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+    "path": "skills/research-lookup",
+    "commit": "b2a92ba052dcae4ef48e850b9e31ebf75706be48",
+    "rank": 74,
+    "stars": 33570
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:c7862d98768a51e814f44ed768c22b06dbee8f6f6f303e788aa8a25775a0551b",
+  "fileCount": 4,
+  "totalBytes": 89901,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

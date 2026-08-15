@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "react-patterns",
+  "category": "writing",
+  "description": "React 18/19 patterns including hooks discipline, server/client component boundaries, Suspense + error boundaries, form actions, data fetching, state management decision trees, and accessibility-first composition. Use when writing or reviewing React components.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/react-patterns",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:85b9316e51036591d667c62a86b68e25b2aa189602d3b7ba111d8ed0ac8faf2a",
+  "fileCount": 1,
+  "totalBytes": 11466,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

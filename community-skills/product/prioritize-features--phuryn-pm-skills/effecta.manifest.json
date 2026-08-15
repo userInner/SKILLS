@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "prioritize-features",
+  "category": "product",
+  "description": "Prioritize a backlog of feature ideas based on impact, effort, risk, and strategic alignment with top 5 recommendations. Use when prioritizing a feature backlog, making scope decisions, or ranking product ideas.",
+  "source": {
+    "repository": "phuryn/pm-skills",
+    "url": "https://github.com/phuryn/pm-skills",
+    "path": "pm-product-discovery/skills/prioritize-features",
+    "commit": "18468a95b427e70e258b51389796367c6f684e7d",
+    "rank": 110,
+    "stars": 25276
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:3a53305458d3b63d246ff86b1c4e799b9e194867346e978a563ad71608132ab0",
+  "fileCount": 1,
+  "totalBytes": 2497,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

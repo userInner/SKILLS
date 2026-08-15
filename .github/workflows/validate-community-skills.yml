@@ -1,0 +1,37 @@
+name: Validate concrete Skills
+
+on:
+  pull_request:
+    paths:
+      - "community-skills/**"
+      - "skills/**"
+      - "scripts/extract_community_skills.py"
+      - "scripts/validate_community_skills.py"
+      - "scripts/test_extract_community_skills.py"
+      - "scripts/test_validate_community_skills.py"
+      - ".github/workflows/validate-community-skills.yml"
+  push:
+    branches:
+      - master
+    paths:
+      - "community-skills/**"
+      - "skills/**"
+      - "scripts/extract_community_skills.py"
+      - "scripts/validate_community_skills.py"
+      - "scripts/test_extract_community_skills.py"
+      - "scripts/test_validate_community_skills.py"
+      - ".github/workflows/validate-community-skills.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+      - name: Test extraction and validation rules
+        run: python3 -m unittest scripts/test_extract_community_skills.py scripts/test_validate_community_skills.py
+      - name: Validate concrete Skill packages
+        run: python3 scripts/validate_community_skills.py

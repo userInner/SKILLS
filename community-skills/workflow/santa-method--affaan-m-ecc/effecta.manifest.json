@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "santa-method",
+  "category": "workflow",
+  "description": "Multi-agent adversarial verification with convergence loop. Two independent review agents must both pass before output ships. Use when output must clear two independent adversarial reviewers before it ships.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/santa-method",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:30413cb49326728dfadd4c81078a6b30b7d16620cb5a0042ad6180a3d821ffd5",
+  "fileCount": 1,
+  "totalBytes": 12875,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

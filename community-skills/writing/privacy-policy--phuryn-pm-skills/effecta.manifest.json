@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "privacy-policy",
+  "category": "writing",
+  "description": "Draft a detailed privacy policy covering data types, jurisdiction, GDPR and compliance considerations, and clauses needing legal review. Use when creating a privacy policy, updating data protection documentation, or preparing for compliance.",
+  "source": {
+    "repository": "phuryn/pm-skills",
+    "url": "https://github.com/phuryn/pm-skills",
+    "path": "pm-toolkit/skills/privacy-policy",
+    "commit": "18468a95b427e70e258b51389796367c6f684e7d",
+    "rank": 110,
+    "stars": 25276
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:96dd8ee07228e6f2c32ce2e8615684e107807bfcaa11477ea0397cdc57208a87",
+  "fileCount": 1,
+  "totalBytes": 10699,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

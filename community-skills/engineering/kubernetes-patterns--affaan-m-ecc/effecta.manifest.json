@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "kubernetes-patterns",
+  "category": "engineering",
+  "description": "Kubernetes workload patterns, resource management, RBAC, probes, autoscaling, ConfigMap/Secret handling, and kubectl debugging for production-grade deployments. Use when writing or reviewing Kubernetes manifests, or debugging probes, RBAC, autoscaling, or resource limits.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/kubernetes-patterns",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:a94b0793d072de5c32e15d0ed07d7c0dbf9bd8375b02861d2121603afd637fb2",
+  "fileCount": 1,
+  "totalBytes": 20099,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

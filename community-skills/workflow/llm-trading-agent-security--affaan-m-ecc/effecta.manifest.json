@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "llm-trading-agent-security",
+  "category": "workflow",
+  "description": "Security patterns for autonomous trading agents with wallet or transaction authority. Covers prompt injection, spend limits, pre-send simulation, circuit breakers, MEV protection, and key handling. Use when an autonomous agent holds wallet or transaction authority and its limits, simulation, or key handling need review.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/llm-trading-agent-security",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:9a174d61b1109a980a8ee2434e67bcd619982c4667a98ec55791968005ff9290",
+  "fileCount": 1,
+  "totalBytes": 4632,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

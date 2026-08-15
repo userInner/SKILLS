@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "accessibility",
+  "category": "design",
+  "description": "Design, implement, and audit inclusive digital products using WCAG 2.2 Level AA. Use when building or auditing UI that must meet WCAG 2.2 Level AA, or when reviewing a change for keyboard, contrast, or screen-reader support.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/accessibility",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:0c4cca7716d029e22194a2cbcfeb86b69aac36a860ead8f87908deec87111a02",
+  "fileCount": 1,
+  "totalBytes": 6563,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

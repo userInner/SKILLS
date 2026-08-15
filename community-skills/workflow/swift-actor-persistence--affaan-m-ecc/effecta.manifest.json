@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "swift-actor-persistence",
+  "category": "workflow",
+  "description": "Thread-safe data persistence in Swift using actors — in-memory cache with file-backed storage, eliminating data races by design.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": ".kiro/skills/swift-actor-persistence",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:d62b1c7090a44392e16ed39dbe7cd98bb5252c3852795d7ab226db81c09d6265",
+  "fileCount": 1,
+  "totalBytes": 4840,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

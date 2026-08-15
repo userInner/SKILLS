@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "fastapi-patterns",
+  "category": "engineering",
+  "description": "FastAPI patterns for async APIs, dependency injection, Pydantic request and response models, OpenAPI docs, tests, security, and production readiness.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": ".kiro/skills/fastapi-patterns",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:34e28640c34f935a74966e29f3d45074cb4f467eb29b1dd623c2712356e7bb80",
+  "fileCount": 1,
+  "totalBytes": 9194,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

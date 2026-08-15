@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "skill-scout",
+  "category": "workflow",
+  "description": "Search existing local, marketplace, GitHub, and web skill sources before creating a new skill. Use when the user wants to create, build, fork, or find a skill for a workflow.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/skill-scout",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:3907658da9a656b243372ac7a418851d6c72e72b1947aa6f023cd1cdbc870a60",
+  "fileCount": 1,
+  "totalBytes": 4496,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

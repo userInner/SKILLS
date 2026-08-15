@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "csharp-testing",
+  "category": "engineering",
+  "description": "C# and .NET testing patterns with xUnit, FluentAssertions, mocking, integration tests, and test organization best practices. Use when writing or reviewing xUnit tests, mocks, or integration tests in a C# / .NET project.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/csharp-testing",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:ffedc2e89412d486de1b6d1812a40cbfdb41fe50d52656ee2e0925613d7a58d3",
+  "fileCount": 1,
+  "totalBytes": 8726,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

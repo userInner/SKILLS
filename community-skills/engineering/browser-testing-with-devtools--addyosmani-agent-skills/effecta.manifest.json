@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "browser-testing-with-devtools",
+  "category": "engineering",
+  "description": "Tests in real browsers via Chrome DevTools MCP. Use when building or debugging anything that runs in a browser. Use when you need to inspect the DOM, capture console errors, analyze network requests, profile performance, or verify visual output with real runtime data. Requires the chrome-devtools MCP server to be configured.",
+  "source": {
+    "repository": "addyosmani/agent-skills",
+    "url": "https://github.com/addyosmani/agent-skills",
+    "path": "skills/browser-testing-with-devtools",
+    "commit": "df1edb2e05487d0aa6d93c747141e0aed1187f25",
+    "rank": 19,
+    "stars": 87394
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:73640726c8afa212289ca2fb1dfaa2f73eec968d717b1f78448a4fd74d717272",
+  "fileCount": 1,
+  "totalBytes": 14539,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

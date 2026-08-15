@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "springboot-tdd",
+  "category": "engineering",
+  "description": "Test-driven development for Spring Boot using JUnit 5, Mockito, MockMvc, Testcontainers, and JaCoCo. Use when adding features, fixing bugs, or refactoring.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/springboot-tdd",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:178a5e09b5ff7f971acdbb775d6640b5f44035f27b617b7363f4d92b739d1615",
+  "fileCount": 1,
+  "totalBytes": 3786,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

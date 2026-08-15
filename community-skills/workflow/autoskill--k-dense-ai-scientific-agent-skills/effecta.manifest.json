@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "name": "autoskill",
+  "category": "workflow",
+  "description": "Optional Foundry access for drafting.",
+  "source": {
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+    "path": "skills/autoskill",
+    "commit": "b2a92ba052dcae4ef48e850b9e31ebf75706be48",
+    "rank": 74,
+    "stars": 33570
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:1eb743e93e9332808b83bf151e9f8e33d6fb0a9104141050ee2bcf99433b4430",
+  "fileCount": 15,
+  "totalBytes": 42727,
+  "staticScan": {
+    "status": "review",
+    "findings": [
+      {
+        "rule": "privilege-escalation",
+        "file": "SKILL.md"
+      }
+    ]
+  },
+  "status": "needs-review"
+}

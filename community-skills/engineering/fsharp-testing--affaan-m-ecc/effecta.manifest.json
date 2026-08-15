@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "fsharp-testing",
+  "category": "engineering",
+  "description": "F# testing patterns with xUnit, FsUnit, Unquote, FsCheck property-based testing, integration tests, and test organization best practices. Use when writing F# tests with xUnit, FsUnit, Unquote, or FsCheck.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/fsharp-testing",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:5e73ac4e58917c1dea6e6c0ba478c705850480309492251ab8c2ddb40014a155",
+  "fileCount": 1,
+  "totalBytes": 7941,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

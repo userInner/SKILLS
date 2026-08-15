@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "test-scenarios",
+  "category": "engineering",
+  "description": "Create comprehensive test scenarios from user stories with test objectives, starting conditions, user roles, step-by-step actions, and expected outcomes. Use when writing QA test cases, creating test plans, defining acceptance tests, or preparing for feature validation.",
+  "source": {
+    "repository": "phuryn/pm-skills",
+    "url": "https://github.com/phuryn/pm-skills",
+    "path": "pm-execution/skills/test-scenarios",
+    "commit": "18468a95b427e70e258b51389796367c6f684e7d",
+    "rank": 110,
+    "stars": 25276
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:2474d54ea8b0f430367a7a62240c04ff1614e6239748cca80f772c457dc16a10",
+  "fileCount": 1,
+  "totalBytes": 3472,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

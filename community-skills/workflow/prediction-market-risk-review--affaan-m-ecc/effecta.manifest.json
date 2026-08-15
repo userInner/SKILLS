@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "prediction-market-risk-review",
+  "category": "workflow",
+  "description": "Review prediction-market, basket, oracle, and trading-agent workflows for compliance, safety, data-quality, privacy, and execution risk. Use before any workflow handles venue auth, user portfolio data, API keys, or trade planning.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/prediction-market-risk-review",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:d43c9d983d448074ba11675de743193b7e8779baf858b868d760b446b9e5fa72",
+  "fileCount": 1,
+  "totalBytes": 1882,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

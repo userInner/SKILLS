@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "knowledge-ops",
+  "category": "engineering",
+  "description": "Knowledge base management, ingestion, sync, and retrieval across multiple storage layers (local files, MCP memory, vector stores, Git repos). Use when the user wants to save, organize, sync, deduplicate, or search across their knowledge systems.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/knowledge-ops",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:f91ab2c63dffb906709444e7d7fa3a93c55e9f5aff635b485a0e25534790b6ff",
+  "fileCount": 1,
+  "totalBytes": 6752,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

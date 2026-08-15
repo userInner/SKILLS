@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "geopandas",
+  "category": "workflow",
+  "description": "Guidance and local audit tools for Python workflows that directly use GeoPandas GeoSeries, GeoDataFrame, spatial operations, or vector-data I/O.",
+  "source": {
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+    "path": "skills/geopandas",
+    "commit": "b2a92ba052dcae4ef48e850b9e31ebf75706be48",
+    "rank": 74,
+    "stars": 33570
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:f6a0f235dc91fc959623cf106a03c085723397b8c695562e876fdd8a42366633",
+  "fileCount": 14,
+  "totalBytes": 142756,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "design-system",
+  "category": "design",
+  "description": "Use this skill to generate or audit design systems, check visual consistency, and review PRs that touch styling. Use when generating or auditing a design system, checking visual consistency, or reviewing a PR that touches styling.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/design-system",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:eb15605b7ba0ba7347bbbdea1b0ecefa3ad06bb9eed2eee88abb9ac2738882a4",
+  "fileCount": 1,
+  "totalBytes": 2610,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

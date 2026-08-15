@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "django-security",
+  "category": "engineering",
+  "description": "Django security best practices, authentication, authorization, CSRF protection, SQL injection prevention, XSS prevention, and secure deployment configurations. Use when reviewing Django authentication, authorization, input handling, or deployment settings.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/django-security",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:d9df499cfed9c67079ea46a2f80cd2e453a6fdcf4c59116e568085d2c9510e9f",
+  "fileCount": 1,
+  "totalBytes": 17269,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

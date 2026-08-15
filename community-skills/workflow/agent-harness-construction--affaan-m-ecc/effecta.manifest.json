@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "agent-harness-construction",
+  "category": "workflow",
+  "description": "Design and optimize AI agent action spaces, tool definitions, and observation formatting for higher completion rates. Use when defining or revising an agent's tool set, action space, or observation format.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/agent-harness-construction",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:6a323d199ad6cd0fb6ae21d522eae7a544f6dd5d5e33c2cdbdcf338a4bf3114e",
+  "fileCount": 1,
+  "totalBytes": 2100,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

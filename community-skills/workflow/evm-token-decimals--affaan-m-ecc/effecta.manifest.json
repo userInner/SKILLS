@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "evm-token-decimals",
+  "category": "workflow",
+  "description": "Prevent silent decimal mismatch bugs across EVM chains. Covers runtime decimal lookup, chain-aware caching, bridged-token precision drift, and safe normalization for bots, dashboards, and DeFi tools. Use when handling token amounts across EVM chains, or when a balance, price, or transfer amount is off by orders of magnitude.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/evm-token-decimals",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:412b343b700f0b7fd14dcf897c80fe4814ad0fffd99ade9e235b33ba143088e5",
+  "fileCount": 1,
+  "totalBytes": 3988,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

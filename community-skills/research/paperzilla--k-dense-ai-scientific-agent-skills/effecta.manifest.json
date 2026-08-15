@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "paperzilla",
+  "category": "research",
+  "description": "Chat with your agent about projects, recommendations, and canonical papers in Paperzilla. Use when users ask for recent project recommendations, canonical paper details, markdown-based summaries, recommendation feedback, feed export, or Atom feed URLs.",
+  "source": {
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+    "path": "skills/paperzilla",
+    "commit": "b2a92ba052dcae4ef48e850b9e31ebf75706be48",
+    "rank": 74,
+    "stars": 33570
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:7e0da7c25d7bcbe9ead5d2c56cb3de0de9a8eface5524285cf420a2e900e28da",
+  "fileCount": 1,
+  "totalBytes": 3745,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

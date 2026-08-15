@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "homelab-vlan-segmentation",
+  "category": "workflow",
+  "description": "Segmenting home networks into VLANs for IoT, guest, trusted, and server traffic using UniFi, pfSense/OPNsense, and MikroTik — including switch trunk config, firewall rules, and wireless SSID mapping. Use when splitting a home network into IoT, guest, trusted, and server VLANs on UniFi, pfSense/OPNsense, or MikroTik.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/homelab-vlan-segmentation",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:a1a5672195d673f844580bf72421cf8095ab68ea6b78b33904edb3d6bcaab2e3",
+  "fileCount": 1,
+  "totalBytes": 10290,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

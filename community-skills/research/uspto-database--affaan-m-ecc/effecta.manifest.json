@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "uspto-database",
+  "category": "research",
+  "description": "USPTO patent and trademark data workflow for official record lookup, PatentSearch queries, TSDR checks, assignment data, and reproducible IP research logs. Use when a task needs official United States patent or trademark records from USPTO systems.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/scientific-db-uspto-database",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:79265d7310162af29a1b6e5f027b22c730e0967b7ae536ecf4f33f440130090d",
+  "fileCount": 1,
+  "totalBytes": 6317,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

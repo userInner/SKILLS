@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "name": "pytorch-patterns",
+  "category": "writing",
+  "description": "PyTorch deep learning patterns and best practices for building robust, efficient, and reproducible training pipelines, model architectures, and data loading. Use when writing or reviewing PyTorch training loops, model architectures, or data loading, or when a run will not reproduce.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/pytorch-patterns",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:78af1faea09d1ee846606844fedad195c66633868f509c846cfff7cfa90f9c31",
+  "fileCount": 1,
+  "totalBytes": 11797,
+  "staticScan": {
+    "status": "review",
+    "findings": [
+      {
+        "rule": "shell-eval",
+        "file": "SKILL.md"
+      }
+    ]
+  },
+  "status": "needs-review"
+}

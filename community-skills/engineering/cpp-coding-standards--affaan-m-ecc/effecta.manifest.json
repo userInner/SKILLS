@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "cpp-coding-standards",
+  "category": "engineering",
+  "description": "C++ coding standards based on the C++ Core Guidelines (isocpp.github.io). Use when writing, reviewing, or refactoring C++ code to enforce modern, safe, and idiomatic practices.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": ".kiro/skills/cpp-coding-standards",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:32250940903797e7957627defb618d800a6a88dd1e4a27476282551c6efaf92a",
+  "fileCount": 1,
+  "totalBytes": 22279,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "django-tdd",
+  "category": "engineering",
+  "description": "Django testing strategies with pytest-django, TDD methodology, factory_boy, mocking, coverage, and testing Django REST Framework APIs. Use when writing Django or DRF tests with pytest-django, or driving a Django feature test-first.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/django-tdd",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:de00edc9cefbe063652b8ad2c90cca109901e4bf2f1d85c67ea11a8d1653426f",
+  "fileCount": 1,
+  "totalBytes": 21031,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

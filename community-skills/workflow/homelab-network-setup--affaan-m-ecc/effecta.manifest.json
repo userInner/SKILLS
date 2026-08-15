@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "homelab-network-setup",
+  "category": "workflow",
+  "description": "Practical home and homelab network planning for gateways, switches, access points, IP ranges, DHCP reservations, DNS, cabling, and common beginner mistakes. Use when planning or fixing a home or homelab network — gateway, switch, AP, IP ranges, DHCP, DNS, or cabling.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/homelab-network-setup",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:c44fbb2b610ac152fc7c567757e35318796af67b5f56a0f463806a31d6dac260",
+  "fileCount": 1,
+  "totalBytes": 4432,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "nestjs-patterns",
+  "category": "engineering",
+  "description": "NestJS architecture patterns for modules, controllers, providers, DTO validation, guards, interceptors, config, and production-grade TypeScript backends. Use when building or reviewing a NestJS backend — modules, providers, DTO validation, guards, or interceptors.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/nestjs-patterns",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:bf79c2542d92aa2ca3f1c33766084ba7c9df6a85385160e2bf934e2da7ab378c",
+  "fileCount": 1,
+  "totalBytes": 6533,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

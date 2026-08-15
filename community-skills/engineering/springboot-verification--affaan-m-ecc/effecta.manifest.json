@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "springboot-verification",
+  "category": "engineering",
+  "description": "Verification loop for Spring Boot projects: build, static analysis, tests with coverage, security scans, and diff review before release or PR.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/springboot-verification",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:3f3279cb82e76a6b9e62a5ba396fd5d9e1f9bb60cbf542898ae881f1af4fdb67",
+  "fileCount": 1,
+  "totalBytes": 5833,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

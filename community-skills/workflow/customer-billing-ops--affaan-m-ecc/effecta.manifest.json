@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "customer-billing-ops",
+  "category": "workflow",
+  "description": "Operate customer billing workflows such as subscriptions, refunds, churn triage, billing-portal recovery, and plan analysis using connected billing tools like Stripe. Use when the user needs to help a customer, inspect subscription state, or manage revenue-impacting billing operations.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/customer-billing-ops",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:31d72839ce27fbb85c6cee67d00d92ace13b06a121390e60cc0322cf946fccac",
+  "fileCount": 1,
+  "totalBytes": 4289,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "cost-tracking",
+  "category": "engineering",
+  "description": "Track and report Claude Code token usage, spending, and budgets from the local ECC cost-tracker metrics log. Use when the user asks about costs, spending, usage, tokens, budgets, or cost breakdowns by model, session, or date.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/cost-tracking",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:754901cecd07a67810369a5eb746ef57baf3b09d4e1f6c074bd6789a31da5424",
+  "fileCount": 1,
+  "totalBytes": 4465,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

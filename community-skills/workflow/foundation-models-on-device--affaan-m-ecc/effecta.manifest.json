@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "foundation-models-on-device",
+  "category": "workflow",
+  "description": "Apple FoundationModels framework for on-device LLM — text generation, guided generation with @Generable, tool calling, and snapshot streaming in iOS 26+. Use when adding on-device LLM features with Apple FoundationModels on iOS 26+.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/foundation-models-on-device",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:93cbc151a7f3bebdd5cc4ff33f57cf5b93f0d36b5ee5d4a635dabebba39f212d",
+  "fileCount": 1,
+  "totalBytes": 8255,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

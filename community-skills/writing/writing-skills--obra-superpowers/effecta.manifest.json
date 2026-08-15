@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "name": "writing-skills",
+  "category": "writing",
+  "description": "Use when creating new skills, editing existing skills, or verifying skills work before deployment",
+  "source": {
+    "repository": "obra/superpowers",
+    "url": "https://github.com/obra/superpowers",
+    "path": "skills/writing-skills",
+    "commit": "b36e0829c6d0140e93cfef2ca599b1b07d4a7797",
+    "rank": 1,
+    "stars": 272360
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:36da006f1b8402200fcae0f6c0edfac3220eb16fe015b75dc81d16caf6505d7e",
+  "fileCount": 7,
+  "totalBytes": 107377,
+  "staticScan": {
+    "status": "review",
+    "findings": [
+      {
+        "rule": "shell-eval",
+        "file": "render-graphs.js"
+      }
+    ]
+  },
+  "status": "needs-review"
+}

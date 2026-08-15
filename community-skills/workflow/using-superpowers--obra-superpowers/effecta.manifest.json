@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "using-superpowers",
+  "category": "workflow",
+  "description": "Use when starting any conversation - establishes how to find and use skills, requiring skill invocation before ANY response including clarifying questions",
+  "source": {
+    "repository": "obra/superpowers",
+    "url": "https://github.com/obra/superpowers",
+    "path": "skills/using-superpowers",
+    "commit": "b36e0829c6d0140e93cfef2ca599b1b07d4a7797",
+    "rank": 1,
+    "stars": 272360
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:8e951150631a6709d37eb9fffbbaa5b4d6b4ecb4867e105367790d64ec8082eb",
+  "fileCount": 6,
+  "totalBytes": 17169,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "mle-workflow",
+  "category": "workflow",
+  "description": "Production machine-learning engineering workflow for data contracts, reproducible training, model evaluation, deployment, monitoring, and rollback. Use when building, reviewing, or hardening ML systems beyond one-off notebooks.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/mle-workflow",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:e2e54d2a358327a86f6979eb1885b275dfb052d4244aa6ff5d122079333127c2",
+  "fileCount": 1,
+  "totalBytes": 22450,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

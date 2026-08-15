@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "jpa-patterns",
+  "category": "design",
+  "description": "JPA/Hibernate patterns for entity design, relationships, query optimization, transactions, auditing, indexing, pagination, and pooling in Spring Boot.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": ".kiro/skills/jpa-patterns",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:6c97672dbe1d0e95b5e9f3c1f5d5a5e3d6a538592ca0f6d6ee37563f92080fb7",
+  "fileCount": 1,
+  "totalBytes": 4970,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

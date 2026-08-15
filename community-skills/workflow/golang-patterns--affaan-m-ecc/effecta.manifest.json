@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "golang-patterns",
+  "category": "workflow",
+  "description": ">",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": ".kiro/skills/golang-patterns",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:75d47f29efb0978192edb70902bbe45dfe02eb938563139bd3b4bdb78469959f",
+  "fileCount": 1,
+  "totalBytes": 4589,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

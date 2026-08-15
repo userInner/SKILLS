@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "email-ops",
+  "category": "workflow",
+  "description": "Evidence-first mailbox triage, drafting, send verification, and sent-mail-safe follow-up workflow for ECC. Use when the user wants to organize email, draft or send through the real mail surface, or prove what landed in Sent.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/email-ops",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:17751d5efc95c2cf8fdc1054015c6e7a18c2f2d63d2d200f50871f19104ee022",
+  "fileCount": 1,
+  "totalBytes": 3445,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "beachhead-segment",
+  "category": "product",
+  "description": "Identify the first beachhead market segment for a product launch. Evaluates segments against burning pain, willingness to pay, winnable market share, and referral potential. Use when choosing a first market, targeting an initial customer segment, or planning market entry strategy.",
+  "source": {
+    "repository": "phuryn/pm-skills",
+    "url": "https://github.com/phuryn/pm-skills",
+    "path": "pm-go-to-market/skills/beachhead-segment",
+    "commit": "18468a95b427e70e258b51389796367c6f684e7d",
+    "rank": 110,
+    "stars": 25276
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:3d65cf32fe5004664d732df0fa76a2f418493b1ff845ebf83187c30f2d0e9062",
+  "fileCount": 1,
+  "totalBytes": 5876,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

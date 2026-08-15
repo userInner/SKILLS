@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "security-review",
+  "category": "engineering",
+  "description": "Use this skill when adding authentication, handling user input, working with secrets, creating API endpoints, or implementing payment/sensitive features. Provides comprehensive security checklist and patterns.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": ".agents/skills/security-review",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:03cdcaae04b89d741d71814cd01b48c952655c43ec520a7ac3debafceae00874",
+  "fileCount": 2,
+  "totalBytes": 12496,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "e2e-testing",
+  "category": "engineering",
+  "description": ">",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": ".kiro/skills/e2e-testing",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:c87ba3ba67df6d41303fadf7a169786d81b07ea01dccf4843914cf7e4d2e7c89",
+  "fileCount": 1,
+  "totalBytes": 8081,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

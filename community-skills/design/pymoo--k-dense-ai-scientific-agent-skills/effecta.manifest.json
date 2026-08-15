@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "pymoo",
+  "category": "design",
+  "description": "Multi-objective optimization framework. NSGA-II, NSGA-III, MOEA/D, Pareto fronts, constraint handling, benchmarks (ZDT, DTLZ), for engineering design and optimization problems.",
+  "source": {
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+    "path": "skills/pymoo",
+    "commit": "b2a92ba052dcae4ef48e850b9e31ebf75706be48",
+    "rank": 74,
+    "stars": 33570
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:602311c7f2733e1b45a23cb6fe0f27abd6ec10b268d33a2c5b5717bf2d9a7db0",
+  "fileCount": 13,
+  "totalBytes": 83232,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

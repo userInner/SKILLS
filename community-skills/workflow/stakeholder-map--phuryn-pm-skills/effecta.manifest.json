@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "stakeholder-map",
+  "category": "workflow",
+  "description": "Build a stakeholder map using a power/interest grid, identify communication strategies per quadrant, and generate a communication plan. Use when managing stakeholders, preparing for a launch, aligning cross-functional teams, or planning stakeholder engagement.",
+  "source": {
+    "repository": "phuryn/pm-skills",
+    "url": "https://github.com/phuryn/pm-skills",
+    "path": "pm-execution/skills/stakeholder-map",
+    "commit": "18468a95b427e70e258b51389796367c6f684e7d",
+    "rank": 110,
+    "stars": 25276
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:1879a0aa35ef0b60b637f76a1f1ff4230656907d9e84cd9ec96f519eef315976",
+  "fileCount": 1,
+  "totalBytes": 2510,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

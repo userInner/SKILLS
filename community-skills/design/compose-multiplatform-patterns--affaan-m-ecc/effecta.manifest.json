@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "compose-multiplatform-patterns",
+  "category": "design",
+  "description": "Compose Multiplatform and Jetpack Compose patterns for KMP projects — state management, navigation, theming, performance, and platform-specific UI. Use when building Compose or Jetpack Compose UI, state, navigation, or theming in a KMP project.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/compose-multiplatform-patterns",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:aca0bbfcbb4d3fb147ca878293a3d87b5ab27a1d8f50105727469cf7afb0458c",
+  "fileCount": 1,
+  "totalBytes": 8229,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

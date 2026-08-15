@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "investor-outreach",
+  "category": "workflow",
+  "description": "Draft cold emails, warm intro blurbs, follow-ups, update emails, and investor communications for fundraising. Use when the user wants outreach to angels, VCs, strategic investors, or accelerators and needs concise, personalized, investor-facing messaging.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": ".cursor/skills/investor-outreach",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:05e9c5e060b63257ada7ba50e9350c584b13a3cf83c60cef957c0d2d8a181f48",
+  "fileCount": 1,
+  "totalBytes": 2140,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

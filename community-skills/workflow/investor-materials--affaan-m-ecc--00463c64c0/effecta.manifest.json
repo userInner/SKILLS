@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "investor-materials",
+  "category": "workflow",
+  "description": "Create and update pitch decks, one-pagers, investor memos, accelerator applications, financial models, and fundraising materials. Use when the user needs investor-facing documents, projections, use-of-funds tables, milestone plans, or materials that must stay internally consistent across multiple fundraising assets.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": ".cursor/skills/investor-materials",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:00463c64c0f7312f29e19340f88208ef89e8d2bc901740a68ec344ce27ddd89e",
+  "fileCount": 1,
+  "totalBytes": 2723,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

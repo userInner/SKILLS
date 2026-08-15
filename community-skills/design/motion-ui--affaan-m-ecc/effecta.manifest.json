@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "motion-ui",
+  "category": "design",
+  "description": "Production-ready UI motion system for React/Next.js. Use when implementing animations, transitions, or motion patterns.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/motion-ui",
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:a734c43d2577c0affd8b73715581633e88c0c65b0ba0cf03866434ec9a68ff6c",
+  "fileCount": 1,
+  "totalBytes": 13867,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}

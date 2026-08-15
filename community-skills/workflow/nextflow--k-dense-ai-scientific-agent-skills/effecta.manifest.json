@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "name": "nextflow",
+  "category": "workflow",
+  "description": "Build, run, and debug Nextflow data pipelines and nf-core workflows end to end. Use whenever the user mentions Nextflow, nf-core, .nf files, nextflow.config, DSL2, processes/channels/operators, samplesheets, or wants to run a community pipeline (e.g. nf-core/rnaseq, nf-core/sarek), write or test a module/subworkflow with nf-test, configure executors/containers (Docker, Singularity/Apptainer, Conda, Wave), scale a workflow to HPC/SLURM or cloud (AWS Batch, Google Batch, Azure, Kubernetes), or debug a failed/-resume run. Make sure to use this skill for any reproducible scientific/bioinformatics workflow work even if the user does not say the word \"Nextflow\", and for authoring nf-core-compliant pipelines, modules, configs, and linting.",
+  "source": {
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+    "path": "skills/nextflow",
+    "commit": "b2a92ba052dcae4ef48e850b9e31ebf75706be48",
+    "rank": 74,
+    "stars": 33570
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:e3c55c0fb83e15f7015776c79509a3dd27ae9967eada654fddf2872cc7bd8893",
+  "fileCount": 8,
+  "totalBytes": 78703,
+  "staticScan": {
+    "status": "review",
+    "findings": [
+      {
+        "rule": "pipe-to-shell",
+        "file": "SKILL.md"
+      },
+      {
+        "rule": "privilege-escalation",
+        "file": "SKILL.md"
+      },
+      {
+        "rule": "shell-eval",
+        "file": "developing.md"
+      },
+      {
+        "rule": "shell-eval",
+        "file": "language.md"
+      },
+      {
+        "rule": "pipe-to-shell",
+        "file": "testing.md"
+      }
+    ]
+  },
+  "status": "needs-review"
+}
