@@ -69,6 +69,34 @@
 
 按 GitHub Stars 降序排列，快照日期 **2026-08-15**。完整 25 项及筛选状态见 [catalog.json](catalog.json)。“索引”表示只记录来源，不复制代码；常见原因是未识别许可证、强依赖原框架、包含账号/网络脚本，或尚未完成独立运行审查。
 
+| 排名 | 项目 | Stars | 许可证 | 本仓库状态 |
+|---:|---|---:|---|---|
+| 1 | [obra/superpowers](https://github.com/obra/superpowers) | 272,285 | MIT | 已精选导入 |
+| 2 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | 240,191 | MIT | 索引 |
+| 3 | [mattpocock/skills](https://github.com/mattpocock/skills) | 217,850 | MIT | 索引 |
+| 4 | [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) | 202,600 | 未识别 | 索引，不复制 |
+| 5 | [anthropics/skills](https://github.com/anthropics/skills) | 169,449 | 未识别 | 索引，不复制 |
+| 6 | [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | 145,538 | MIT | 索引 |
+| 7 | [garrytan/gstack](https://github.com/garrytan/gstack) | 128,067 | MIT | 索引，框架耦合 |
+| 8 | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | 116,841 | MIT | 已精选导入 |
+| 9 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 102,906 | MIT | 已精选导入 |
+| 10 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | 87,342 | MIT | 已精选导入 |
+| 11 | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | 80,029 | MIT | 索引，框架耦合 |
+| 12 | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | 76,659 | MIT | 已精选导入 |
+| 13 | [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) | 72,513 | 未识别 | 索引，不复制 |
+| 14 | [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | 71,829 | MIT | 索引，账号与网络耦合 |
+| 15 | [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) | 64,487 | MIT | 索引 |
+| 16 | [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | 58,223 | MIT | 索引，含凭据与网络脚本 |
+| 17 | [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills) | 46,262 | MIT | 索引，Obsidian 专用 |
+| 18 | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | 44,346 | MIT | 已精选导入 |
+| 19 | [github/awesome-copilot](https://github.com/github/awesome-copilot) | 37,859 | MIT | 索引，待逐项审查 |
+| 20 | [blader/humanizer](https://github.com/blader/humanizer) | 35,737 | MIT | 已精选导入 |
+| 21 | [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | 33,547 | MIT | 已精选导入 |
+| 22 | [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) | 30,305 | MIT | 索引 |
+| 23 | [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files) | 26,168 | MIT | 索引，Claude Hook 耦合 |
+| 24 | [openai/skills](https://github.com/openai/skills) | 24,949 | 未识别 | 索引，不复制 |
+| 25 | [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) | 14,636 | Apache-2.0 | 索引，安全工具而非独立 Skill |
+
 高星不等于安全。安装前仍需阅读 `SKILL.md`、脚本、依赖和权限；不要把密钥、Cookie、个人数据、未授权源码或保密稿件交给第三方 Skill。
 
 ## 安装
