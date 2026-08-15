@@ -1,0 +1,5 @@
+Upstream: https://github.com/affaan-m/ECC
+Imported from commit: c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8
+Upstream license: MIT (see LICENSE)
+
+Local changes: normalized portable Skill metadata and host-Agent wording, added product metadata and an optional public community follow-up.

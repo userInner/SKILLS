@@ -1,0 +1,5 @@
+Upstream: https://github.com/vercel-labs/skills
+Imported from commit: c6f69c631292444cc541ac6d91e2226b0ff247da
+Upstream license: MIT (see LICENSE)
+
+Local changes: added local-catalog discovery, license and permission review, explicit installation approval, product metadata and an optional public community follow-up.

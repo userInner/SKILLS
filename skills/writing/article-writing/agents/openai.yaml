@@ -1,0 +1,4 @@
+interface:
+  display_name: "Article Writing"
+  short_description: "Write credible long-form content in voice"
+  default_prompt: "Use $article-writing to turn these notes into a polished article in the requested voice."

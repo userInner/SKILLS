@@ -1,32 +1,409 @@
 {
   "snapshotDate": "2026-08-15",
   "sort": "githubStarsDescending",
-  "directSkillCount": 29,
+  "directSkillCount": 40,
   "repositories": [
-    {"rank": 1, "repository": "obra/superpowers", "stars": 272285, "license": "MIT", "url": "https://github.com/obra/superpowers", "status": "selected-import"},
-    {"rank": 2, "repository": "affaan-m/ECC", "stars": 240191, "license": "MIT", "url": "https://github.com/affaan-m/ECC", "status": "index-only"},
-    {"rank": 3, "repository": "mattpocock/skills", "stars": 217850, "license": "MIT", "url": "https://github.com/mattpocock/skills", "status": "index-only"},
-    {"rank": 4, "repository": "multica-ai/andrej-karpathy-skills", "stars": 202600, "license": "NOASSERTION", "url": "https://github.com/multica-ai/andrej-karpathy-skills", "status": "index-only", "reason": "license-not-detected"},
-    {"rank": 5, "repository": "anthropics/skills", "stars": 169449, "license": "NOASSERTION", "url": "https://github.com/anthropics/skills", "status": "index-only", "reason": "license-not-detected"},
-    {"rank": 6, "repository": "msitarzewski/agency-agents", "stars": 145538, "license": "MIT", "url": "https://github.com/msitarzewski/agency-agents", "status": "index-only"},
-    {"rank": 7, "repository": "garrytan/gstack", "stars": 128067, "license": "MIT", "url": "https://github.com/garrytan/gstack", "status": "index-only", "reason": "framework-coupled"},
-    {"rank": 8, "repository": "nextlevelbuilder/ui-ux-pro-max-skill", "stars": 116841, "license": "MIT", "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill", "status": "selected-import"},
-    {"rank": 9, "repository": "DietrichGebert/ponytail", "stars": 102906, "license": "MIT", "url": "https://github.com/DietrichGebert/ponytail", "status": "selected-import"},
-    {"rank": 10, "repository": "addyosmani/agent-skills", "stars": 87342, "license": "MIT", "url": "https://github.com/addyosmani/agent-skills", "status": "selected-import"},
-    {"rank": 11, "repository": "bytedance/deer-flow", "stars": 80029, "license": "MIT", "url": "https://github.com/bytedance/deer-flow", "status": "index-only", "reason": "framework-coupled"},
-    {"rank": 12, "repository": "Leonxlnx/taste-skill", "stars": 76659, "license": "MIT", "url": "https://github.com/Leonxlnx/taste-skill", "status": "selected-import"},
-    {"rank": 13, "repository": "ComposioHQ/awesome-claude-skills", "stars": 72513, "license": "NOASSERTION", "url": "https://github.com/ComposioHQ/awesome-claude-skills", "status": "index-only", "reason": "license-not-detected"},
-    {"rank": 14, "repository": "Panniantong/Agent-Reach", "stars": 71829, "license": "MIT", "url": "https://github.com/Panniantong/Agent-Reach", "status": "index-only", "reason": "network-and-account-coupled"},
-    {"rank": 15, "repository": "shanraisshan/claude-code-best-practice", "stars": 64487, "license": "MIT", "url": "https://github.com/shanraisshan/claude-code-best-practice", "status": "index-only"},
-    {"rank": 16, "repository": "mvanhorn/last30days-skill", "stars": 58223, "license": "MIT", "url": "https://github.com/mvanhorn/last30days-skill", "status": "index-only", "reason": "credential-and-network-scripts"},
-    {"rank": 17, "repository": "kepano/obsidian-skills", "stars": 46262, "license": "MIT", "url": "https://github.com/kepano/obsidian-skills", "status": "index-only", "reason": "obsidian-specific"},
-    {"rank": 18, "repository": "coreyhaines31/marketingskills", "stars": 44346, "license": "MIT", "url": "https://github.com/coreyhaines31/marketingskills", "status": "selected-import"},
-    {"rank": 19, "repository": "github/awesome-copilot", "stars": 37859, "license": "MIT", "url": "https://github.com/github/awesome-copilot", "status": "index-only", "reason": "large-collection-review-pending"},
-    {"rank": 20, "repository": "blader/humanizer", "stars": 35737, "license": "MIT", "url": "https://github.com/blader/humanizer", "status": "selected-import"},
-    {"rank": 21, "repository": "K-Dense-AI/scientific-agent-skills", "stars": 33547, "license": "MIT", "url": "https://github.com/K-Dense-AI/scientific-agent-skills", "status": "selected-import"},
-    {"rank": 22, "repository": "VoltAgent/awesome-agent-skills", "stars": 30305, "license": "MIT", "url": "https://github.com/VoltAgent/awesome-agent-skills", "status": "index-only"},
-    {"rank": 23, "repository": "OthmanAdi/planning-with-files", "stars": 26168, "license": "MIT", "url": "https://github.com/OthmanAdi/planning-with-files", "status": "index-only", "reason": "claude-hook-coupled"},
-    {"rank": 24, "repository": "openai/skills", "stars": 24949, "license": "NOASSERTION", "url": "https://github.com/openai/skills", "status": "index-only", "reason": "license-not-detected"},
-    {"rank": 25, "repository": "NVIDIA/SkillSpector", "stars": 14636, "license": "Apache-2.0", "url": "https://github.com/NVIDIA/SkillSpector", "status": "index-only", "reason": "security-tool-not-standalone-skill"}
+    {
+      "rank": 1,
+      "repository": "obra/superpowers",
+      "stars": 272291,
+      "license": "MIT",
+      "url": "https://github.com/obra/superpowers",
+      "status": "selected-import"
+    },
+    {
+      "rank": 2,
+      "repository": "affaan-m/ECC",
+      "stars": 240195,
+      "license": "MIT",
+      "url": "https://github.com/affaan-m/ECC",
+      "status": "selected-import"
+    },
+    {
+      "rank": 3,
+      "repository": "NousResearch/hermes-agent",
+      "stars": 230789,
+      "license": "MIT",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "status": "index-only",
+      "reason": "agent-framework-coupled"
+    },
+    {
+      "rank": 4,
+      "repository": "mattpocock/skills",
+      "stars": 217873,
+      "license": "MIT",
+      "url": "https://github.com/mattpocock/skills",
+      "status": "selected-import"
+    },
+    {
+      "rank": 5,
+      "repository": "multica-ai/andrej-karpathy-skills",
+      "stars": 202606,
+      "license": "NOASSERTION",
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "status": "index-only",
+      "reason": "license-not-detected"
+    },
+    {
+      "rank": 6,
+      "repository": "ultraworkers/claw-code",
+      "stars": 195047,
+      "license": "MIT",
+      "url": "https://github.com/ultraworkers/claw-code",
+      "status": "index-only",
+      "reason": "framework-coupled"
+    },
+    {
+      "rank": 7,
+      "repository": "anthropics/skills",
+      "stars": 169450,
+      "license": "NOASSERTION",
+      "url": "https://github.com/anthropics/skills",
+      "status": "index-only",
+      "reason": "license-not-detected"
+    },
+    {
+      "rank": 8,
+      "repository": "msitarzewski/agency-agents",
+      "stars": 145545,
+      "license": "MIT",
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "status": "index-only",
+      "reason": "large-agent-collection-review-pending"
+    },
+    {
+      "rank": 9,
+      "repository": "github/spec-kit",
+      "stars": 128696,
+      "license": "MIT",
+      "url": "https://github.com/github/spec-kit",
+      "status": "index-only",
+      "reason": "framework-coupled"
+    },
+    {
+      "rank": 10,
+      "repository": "garrytan/gstack",
+      "stars": 128069,
+      "license": "MIT",
+      "url": "https://github.com/garrytan/gstack",
+      "status": "index-only",
+      "reason": "framework-coupled"
+    },
+    {
+      "rank": 11,
+      "repository": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "stars": 116843,
+      "license": "MIT",
+      "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "status": "selected-import"
+    },
+    {
+      "rank": 12,
+      "repository": "browser-use/browser-use",
+      "stars": 109274,
+      "license": "MIT",
+      "url": "https://github.com/browser-use/browser-use",
+      "status": "index-only",
+      "reason": "framework-coupled"
+    },
+    {
+      "rank": 13,
+      "repository": "DietrichGebert/ponytail",
+      "stars": 102918,
+      "license": "MIT",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "status": "selected-import"
+    },
+    {
+      "rank": 14,
+      "repository": "addyosmani/agent-skills",
+      "stars": 87347,
+      "license": "MIT",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "status": "selected-import"
+    },
+    {
+      "rank": 15,
+      "repository": "nexu-io/open-design",
+      "stars": 86562,
+      "license": "Apache-2.0",
+      "url": "https://github.com/nexu-io/open-design",
+      "status": "index-only",
+      "reason": "design-platform-coupled"
+    },
+    {
+      "rank": 16,
+      "repository": "bytedance/deer-flow",
+      "stars": 80030,
+      "license": "MIT",
+      "url": "https://github.com/bytedance/deer-flow",
+      "status": "index-only",
+      "reason": "framework-coupled"
+    },
+    {
+      "rank": 17,
+      "repository": "Egonex-AI/Understand-Anything",
+      "stars": 79362,
+      "license": "MIT",
+      "url": "https://github.com/Egonex-AI/Understand-Anything",
+      "status": "index-only",
+      "reason": "framework-coupled"
+    },
+    {
+      "rank": 18,
+      "repository": "Leonxlnx/taste-skill",
+      "stars": 76662,
+      "license": "MIT",
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "status": "selected-import"
+    },
+    {
+      "rank": 19,
+      "repository": "shareAI-lab/learn-claude-code",
+      "stars": 74272,
+      "license": "MIT",
+      "url": "https://github.com/shareAI-lab/learn-claude-code",
+      "status": "index-only",
+      "reason": "learning-repository"
+    },
+    {
+      "rank": 20,
+      "repository": "ComposioHQ/awesome-claude-skills",
+      "stars": 72516,
+      "license": "NOASSERTION",
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+      "status": "index-only",
+      "reason": "license-not-detected"
+    },
+    {
+      "rank": 21,
+      "repository": "Panniantong/Agent-Reach",
+      "stars": 71833,
+      "license": "MIT",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "status": "index-only",
+      "reason": "network-and-account-coupled"
+    },
+    {
+      "rank": 22,
+      "repository": "Fission-AI/OpenSpec",
+      "stars": 64945,
+      "license": "MIT",
+      "url": "https://github.com/Fission-AI/OpenSpec",
+      "status": "index-only",
+      "reason": "framework-coupled"
+    },
+    {
+      "rank": 23,
+      "repository": "shanraisshan/claude-code-best-practice",
+      "stars": 64487,
+      "license": "MIT",
+      "url": "https://github.com/shanraisshan/claude-code-best-practice",
+      "status": "index-only",
+      "reason": "learning-repository"
+    },
+    {
+      "rank": 24,
+      "repository": "santifer/career-ops",
+      "stars": 63884,
+      "license": "MIT",
+      "url": "https://github.com/santifer/career-ops",
+      "status": "index-only",
+      "reason": "review-pending"
+    },
+    {
+      "rank": 25,
+      "repository": "mvanhorn/last30days-skill",
+      "stars": 58222,
+      "license": "MIT",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "status": "index-only",
+      "reason": "credential-and-network-scripts"
+    },
+    {
+      "rank": 26,
+      "repository": "kepano/obsidian-skills",
+      "stars": 46264,
+      "license": "MIT",
+      "url": "https://github.com/kepano/obsidian-skills",
+      "status": "index-only",
+      "reason": "obsidian-specific"
+    },
+    {
+      "rank": 27,
+      "repository": "sickn33/agentic-awesome-skills",
+      "stars": 44967,
+      "license": "MIT",
+      "url": "https://github.com/sickn33/agentic-awesome-skills",
+      "status": "index-only",
+      "reason": "large-collection-review-pending"
+    },
+    {
+      "rank": 28,
+      "repository": "coreyhaines31/marketingskills",
+      "stars": 44347,
+      "license": "MIT",
+      "url": "https://github.com/coreyhaines31/marketingskills",
+      "status": "selected-import"
+    },
+    {
+      "rank": 29,
+      "repository": "github/awesome-copilot",
+      "stars": 37859,
+      "license": "MIT",
+      "url": "https://github.com/github/awesome-copilot",
+      "status": "index-only",
+      "reason": "large-collection-review-pending"
+    },
+    {
+      "rank": 30,
+      "repository": "blader/humanizer",
+      "stars": 35737,
+      "license": "MIT",
+      "url": "https://github.com/blader/humanizer",
+      "status": "selected-import"
+    },
+    {
+      "rank": 31,
+      "repository": "K-Dense-AI/scientific-agent-skills",
+      "stars": 33549,
+      "license": "MIT",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "status": "selected-import"
+    },
+    {
+      "rank": 32,
+      "repository": "googleworkspace/cli",
+      "stars": 30388,
+      "license": "Apache-2.0",
+      "url": "https://github.com/googleworkspace/cli",
+      "status": "index-only",
+      "reason": "google-workspace-specific"
+    },
+    {
+      "rank": 33,
+      "repository": "VoltAgent/awesome-agent-skills",
+      "stars": 30307,
+      "license": "MIT",
+      "url": "https://github.com/VoltAgent/awesome-agent-skills",
+      "status": "index-only",
+      "reason": "collection-index"
+    },
+    {
+      "rank": 34,
+      "repository": "vercel-labs/agent-skills",
+      "stars": 30045,
+      "license": "NOASSERTION",
+      "url": "https://github.com/vercel-labs/agent-skills",
+      "status": "index-only",
+      "reason": "license-not-detected"
+    },
+    {
+      "rank": 35,
+      "repository": "vercel-labs/skills",
+      "stars": 28925,
+      "license": "MIT",
+      "url": "https://github.com/vercel-labs/skills",
+      "status": "selected-import"
+    },
+    {
+      "rank": 36,
+      "repository": "mukul975/Anthropic-Cybersecurity-Skills",
+      "stars": 27795,
+      "license": "Apache-2.0",
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "status": "index-only",
+      "reason": "security-collection-review-pending"
+    },
+    {
+      "rank": 37,
+      "repository": "OthmanAdi/planning-with-files",
+      "stars": 26169,
+      "license": "MIT",
+      "url": "https://github.com/OthmanAdi/planning-with-files",
+      "status": "index-only",
+      "reason": "claude-hook-coupled"
+    },
+    {
+      "rank": 38,
+      "repository": "phuryn/pm-skills",
+      "stars": 25267,
+      "license": "MIT",
+      "url": "https://github.com/phuryn/pm-skills",
+      "status": "selected-import"
+    },
+    {
+      "rank": 39,
+      "repository": "openai/skills",
+      "stars": 24950,
+      "license": "NOASSERTION",
+      "url": "https://github.com/openai/skills",
+      "status": "index-only",
+      "reason": "license-not-detected"
+    },
+    {
+      "rank": 40,
+      "repository": "alirezarezvani/claude-skills",
+      "stars": 24443,
+      "license": "MIT",
+      "url": "https://github.com/alirezarezvani/claude-skills",
+      "status": "index-only",
+      "reason": "large-collection-review-pending"
+    },
+    {
+      "rank": 41,
+      "repository": "agentskills/agentskills",
+      "stars": 24292,
+      "license": "Apache-2.0",
+      "url": "https://github.com/agentskills/agentskills",
+      "status": "index-only",
+      "reason": "ecosystem-specification"
+    },
+    {
+      "rank": 42,
+      "repository": "alchaincyf/huashu-design",
+      "stars": 23067,
+      "license": "MIT",
+      "url": "https://github.com/alchaincyf/huashu-design",
+      "status": "index-only",
+      "reason": "design-collection-review-pending"
+    },
+    {
+      "rank": 43,
+      "repository": "google/skills",
+      "stars": 18241,
+      "license": "Apache-2.0",
+      "url": "https://github.com/google/skills",
+      "status": "index-only",
+      "reason": "google-cloud-specific"
+    },
+    {
+      "rank": 44,
+      "repository": "muratcankoylan/Agent-Skills-for-Context-Engineering",
+      "stars": 17732,
+      "license": "MIT",
+      "url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering",
+      "status": "index-only",
+      "reason": "specialized-collection-review-pending"
+    },
+    {
+      "rank": 45,
+      "repository": "NVIDIA/SkillSpector",
+      "stars": 14636,
+      "license": "Apache-2.0",
+      "url": "https://github.com/NVIDIA/SkillSpector",
+      "status": "index-only",
+      "reason": "security-tool-not-standalone-skill"
+    },
+    {
+      "rank": 46,
+      "repository": "Orchestra-Research/AI-Research-SKILLs",
+      "stars": 11713,
+      "license": "MIT",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs",
+      "status": "index-only",
+      "reason": "large-technical-collection-review-pending"
+    }
   ]
 }

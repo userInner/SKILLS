@@ -1,0 +1,4 @@
+interface:
+  display_name: "Product Strategy"
+  short_description: "Build a coherent product strategy canvas"
+  default_prompt: "Use $product-strategy to create a product strategy for this business."

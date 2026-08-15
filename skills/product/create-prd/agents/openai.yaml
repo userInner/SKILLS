@@ -1,0 +1,4 @@
+interface:
+  display_name: "Create PRD"
+  short_description: "Create a complete product requirements document"
+  default_prompt: "Use $create-prd to turn this product idea into a complete PRD."

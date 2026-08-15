@@ -1,0 +1,4 @@
+interface:
+  display_name: "Domain Modeling"
+  short_description: "Clarify domain language, context, and ADRs"
+  default_prompt: "Use $domain-modeling to sharpen this project domain model and record its decisions."

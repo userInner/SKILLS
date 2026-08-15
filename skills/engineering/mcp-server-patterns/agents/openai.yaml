@@ -1,0 +1,4 @@
+interface:
+  display_name: "MCP Server Patterns"
+  short_description: "Design robust MCP servers and transports"
+  default_prompt: "Use $mcp-server-patterns to design this MCP server and its tool contracts."

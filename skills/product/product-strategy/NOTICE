@@ -1,0 +1,5 @@
+Upstream: https://github.com/phuryn/pm-skills
+Imported from commit: 18468a95b427e70e258b51389796367c6f684e7d
+Upstream license: MIT (see LICENSE)
+
+Local changes: replaced host-specific argument placeholders, added product metadata and an optional public community follow-up.

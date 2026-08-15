@@ -1,0 +1,4 @@
+interface:
+  display_name: "Prioritization Frameworks"
+  short_description: "Select and apply product prioritization methods"
+  default_prompt: "Use $prioritization-frameworks to choose and apply the right prioritization method here."

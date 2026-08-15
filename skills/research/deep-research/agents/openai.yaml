@@ -1,0 +1,4 @@
+interface:
+  display_name: "Deep Research"
+  short_description: "Research across sources with cited evidence"
+  default_prompt: "Use $deep-research to investigate this topic and produce a cited report."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Eval Harness"
+  short_description: "Build measurable evals and regression gates"
+  default_prompt: "Use $eval-harness to design a measurable evaluation suite for this Agent workflow."
