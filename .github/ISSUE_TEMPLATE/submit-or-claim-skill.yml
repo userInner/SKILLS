@@ -1,0 +1,103 @@
+name: 提交或认领 Skill
+description: 提交新的 Skill 来源、认领已收录条目，或更新维护者信息
+title: "[Skill] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢维护 Agent Skill。这个 Issue 会公开显示，请勿提交密钥、Cookie、邮箱、手机号或私有仓库信息。
+
+        认领仅确认维护者身份和条目信息，不代表安全认证；直装状态仍需经过许可证、依赖、权限与隔离测试审查。
+
+  - type: dropdown
+    id: request_type
+    attributes:
+      label: 请求类型
+      options:
+        - 提交新的 Skill
+        - 认领已收录条目
+        - 更新现有条目
+    validations:
+      required: true
+
+  - type: input
+    id: repository
+    attributes:
+      label: GitHub 仓库
+      description: 请填写公开仓库的完整 URL。
+      placeholder: https://github.com/owner/repository
+    validations:
+      required: true
+
+  - type: input
+    id: skill_paths
+    attributes:
+      label: SKILL.md 路径
+      description: 有多个时请用逗号分隔；如果仓库只有一个，可以直接填写相对路径。
+      placeholder: skills/example/SKILL.md
+
+  - type: dropdown
+    id: relationship
+    attributes:
+      label: 你与该仓库的关系
+      options:
+        - 仓库所有者
+        - 组织成员或维护者
+        - 贡献者
+        - 使用者或推荐者
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: runtimes
+    attributes:
+      label: 已验证的运行环境
+      description: 只勾选你实际运行过的环境。
+      options:
+        - label: Codex
+        - label: Claude Code
+        - label: DeepSeek Harness
+        - label: OpenAI-compatible Agent
+        - label: 其他 Agent
+
+  - type: input
+    id: license
+    attributes:
+      label: 许可证
+      description: 填写 SPDX 标识；没有许可证时请明确填写 NOASSERTION。
+      placeholder: MIT
+    validations:
+      required: true
+
+  - type: textarea
+    id: installation
+    attributes:
+      label: 最小安装或调用方式
+      description: 给出最短的可复现步骤，不要包含任何密钥。
+      render: shell
+
+  - type: textarea
+    id: permissions
+    attributes:
+      label: 依赖与权限
+      description: 说明外部依赖，以及文件、网络、命令执行或凭据权限。
+      placeholder: 无外部依赖；只读取当前工作目录，不访问网络。
+
+  - type: textarea
+    id: claim_proof
+    attributes:
+      label: 认领说明
+      description: 认领组织仓库时，请说明可用于核验维护者身份的公开依据。提交后可能需要在源仓库补充一次确认。
+      placeholder: 我是该组织成员，维护提交记录见……
+
+  - type: checkboxes
+    id: declarations
+    attributes:
+      label: 提交确认
+      options:
+        - label: 我确认以上内容可以公开，并且没有包含密钥、联系方式或私有信息。
+          required: true
+        - label: 我理解“已认领”不等于安全认证或平台背书。
+          required: true
+        - label: 我允许 Agent Skills Index 链接该公开仓库及其公开元数据。
+          required: true

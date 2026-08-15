@@ -4,6 +4,8 @@
 
 机器可读入口：[categories.json](categories.json) · [catalog.json](catalog.json)
 
+维护者入口：[提交或认领 Skill](https://github.com/userInner/SKILLS/issues/new?template=submit-or-claim-skill.yml) · [认领规则与 README 徽章](docs/MAINTAINERS.md)
+
 ## 设计与界面 `design`
 
 | Skill | 用途 | 来源 |
