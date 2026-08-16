@@ -321,7 +321,8 @@ def extract(root: Path, *, max_sources: int | None = None, max_packages: int | N
         for item in previous_index.get("skills", [])
         if item.get("status") != "direct" and item.get("contentDigest")
     }
-    can_reuse_previous = previous_index.get("extractorVersion") == EXTRACTOR_VERSION
+    # Indexes created before extractor versioning use the v1 package format.
+    can_reuse_previous = previous_index.get("extractorVersion", 1) == EXTRACTOR_VERSION
     sources = [
         source
         for source in catalog["repositories"]
