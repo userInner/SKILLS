@@ -234,12 +234,12 @@ jobs:
         run: |
           pr_number="${{ steps.candidate.outputs.pr_number }}"
           for attempt in $(seq 1 30); do
-            merge_state="$(gh pr view "$pr_number" --repo "$GITHUB_REPOSITORY" --json mergeStateStatus --jq '.mergeStateStatus')"
-            if [ "$merge_state" = "CLEAN" ]; then
-              gh pr merge "$pr_number" --repo "$GITHUB_REPOSITORY" --merge --delete-branch
+            if merge_output="$(gh pr merge "$pr_number" --repo "$GITHUB_REPOSITORY" --merge --delete-branch 2>&1)"; then
+              echo "$merge_output"
               exit 0
             fi
             sleep 2
           done
-          echo "Safe candidate did not become mergeable" >&2
+          echo "Safe candidate was rejected by the protected-branch merge API" >&2
+          echo "$merge_output" >&2
           exit 1

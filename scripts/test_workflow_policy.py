@@ -25,6 +25,7 @@ class WorkflowPolicyTests(unittest.TestCase):
         self.assertIn("Independent registry validation passed", text)
         self.assertIn('steps.safety.outputs.eligible == \'true\'', text)
         self.assertIn("gh pr merge", text)
+        self.assertNotIn('merge_state="$(gh pr view', text)
         self.assertFalse(LEGACY_EXTRACT_WORKFLOW.exists())
 
     def test_refresh_never_pushes_to_default_branch(self):
