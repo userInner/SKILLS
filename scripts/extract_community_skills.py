@@ -34,6 +34,7 @@ CANONICAL_SKILL_PARENTS = {"skills", ".agents", ".claude", ".cursor", ".codex"}
 MAX_FILES_PER_PACKAGE = 250
 MAX_FILE_BYTES = 1_500_000
 MAX_PACKAGE_BYTES = 5_000_000
+EXTRACTOR_VERSION = 1
 
 CATEGORY_KEYWORDS = {
     "design": ("design", "frontend", "ui", "ux", "css", "visual", "image", "video", "slide", "presentation"),
@@ -277,6 +278,8 @@ def render_community_readme(index: dict) -> str:
 python3 scripts/extract_community_skills.py
 ```
 
+排行榜更新成功后，GitHub Actions 会自动运行提取器和校验器。只有具体 Skill 发生变化时才会更新 `automation/community-skills` 候选分支并创建或刷新审核 PR；不会自动合并到主分支。
+
 提取器只处理 `catalog.json` 中状态为 `selected-import` 且许可证在允许列表中的来源；翻译文档、测试夹具、vendor、缓存、重复内容、超大文件和超大包会被排除。
 """
 
@@ -301,8 +304,24 @@ def update_root_readme(root: Path, index: dict) -> None:
     path.write_text(text[:start] + summary + text[end + len(end_marker) :])
 
 
+def stable_generated_at(previous: dict, current: dict) -> str:
+    previous_semantic = {key: value for key, value in previous.items() if key != "generatedAt"}
+    current_semantic = {key: value for key, value in current.items() if key != "generatedAt"}
+    if previous.get("generatedAt") and previous_semantic == current_semantic:
+        return previous["generatedAt"]
+    return datetime.now(UTC).replace(microsecond=0).isoformat()
+
+
 def extract(root: Path, *, max_sources: int | None = None, max_packages: int | None = None) -> dict:
     catalog = json.loads((root / "catalog.json").read_text())
+    previous_index_path = root / "community-skills" / "index.json"
+    previous_index = json.loads(previous_index_path.read_text()) if previous_index_path.is_file() else {}
+    previous_candidates = {
+        (item.get("sourceRepository"), item.get("sourcePath"), item.get("contentDigest")): item
+        for item in previous_index.get("skills", [])
+        if item.get("status") != "direct" and item.get("contentDigest")
+    }
+    can_reuse_previous = previous_index.get("extractorVersion") == EXTRACTOR_VERSION
     sources = [
         source
         for source in catalog["repositories"]
@@ -371,6 +390,20 @@ def extract(root: Path, *, max_sources: int | None = None, max_packages: int | N
                     continue
                 if max_packages is not None and copied_count >= max_packages:
                     break
+                previous = previous_candidates.get((source["repository"], source_path, digest)) if can_reuse_previous else None
+                if previous:
+                    previous_local_path = PurePosixPath(previous["localPath"])
+                    if not previous_local_path.parts or previous_local_path.parts[0] != "community-skills":
+                        raise RuntimeError(f"invalid previous localPath: {previous['localPath']}")
+                    previous_package = root / previous["localPath"]
+                    if not previous_package.is_dir():
+                        raise RuntimeError(f"missing previous package: {previous['localPath']}")
+                    destination = output.joinpath(*previous_local_path.parts[1:])
+                    shutil.copytree(previous_package, destination)
+                    entries.append(previous)
+                    seen_digests[digest] = previous["localPath"]
+                    copied_count += 1
+                    continue
                 risks = scan_risks(files)
                 category = classify(name, metadata.get("description", ""), source_path)
                 source_key = safe_slug(source["repository"].replace("/", "--"))
@@ -423,7 +456,7 @@ def extract(root: Path, *, max_sources: int | None = None, max_packages: int | N
         entries.sort(key=lambda item: (item["category"], item["name"], item["sourceRepository"]))
         index = {
             "schemaVersion": 1,
-            "generatedAt": datetime.now(UTC).replace(microsecond=0).isoformat(),
+            "extractorVersion": EXTRACTOR_VERSION,
             "sourceCount": len(sources),
             "concreteSkillCount": len(entries),
             "directSkillCount": sum(item["status"] == "direct" for item in entries),
@@ -433,6 +466,7 @@ def extract(root: Path, *, max_sources: int | None = None, max_packages: int | N
             "skills": entries,
             "rejected": rejected,
         }
+        index["generatedAt"] = stable_generated_at(previous_index, index)
         (output / "index.json").parent.mkdir(parents=True, exist_ok=True)
         (output / "index.json").write_text(json.dumps(index, ensure_ascii=False, indent=2) + "\n")
         (output / "README.md").write_text(render_community_readme(index))

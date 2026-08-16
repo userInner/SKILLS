@@ -76,6 +76,17 @@ class ExtractCommunitySkillsTests(unittest.TestCase):
         self.assertIn("10 个具体 Skill", text)
         self.assertIn("尚未完成人工验收与沙箱运行", text)
         self.assertIn("`needs-review` 不应自动安装", text)
+        self.assertIn("不会自动合并到主分支", text)
+
+    def test_generated_at_is_reused_when_semantic_output_is_unchanged(self):
+        previous = {"generatedAt": "2026-08-15T00:00:00+00:00", "extractorVersion": 1, "skills": ["one"]}
+        current = {"extractorVersion": 1, "skills": ["one"]}
+        self.assertEqual(MODULE.stable_generated_at(previous, current), previous["generatedAt"])
+
+    def test_generated_at_changes_when_output_changes(self):
+        previous = {"generatedAt": "2000-01-01T00:00:00+00:00", "extractorVersion": 1, "skills": ["one"]}
+        current = {"extractorVersion": 1, "skills": ["two"]}
+        self.assertNotEqual(MODULE.stable_generated_at(previous, current), previous["generatedAt"])
 
 
 if __name__ == "__main__":

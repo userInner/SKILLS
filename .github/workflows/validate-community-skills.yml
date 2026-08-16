@@ -9,6 +9,7 @@ on:
       - "scripts/validate_community_skills.py"
       - "scripts/test_extract_community_skills.py"
       - "scripts/test_validate_community_skills.py"
+      - ".github/workflows/extract-community-skills.yml"
       - ".github/workflows/validate-community-skills.yml"
   push:
     branches:
@@ -20,6 +21,7 @@ on:
       - "scripts/validate_community_skills.py"
       - "scripts/test_extract_community_skills.py"
       - "scripts/test_validate_community_skills.py"
+      - ".github/workflows/extract-community-skills.yml"
       - ".github/workflows/validate-community-skills.yml"
 
 permissions:
