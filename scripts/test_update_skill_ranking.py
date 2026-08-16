@@ -96,6 +96,127 @@ class RankingTests(unittest.TestCase):
         self.assertEqual(source["status"], "index-only")
         self.assertEqual(source["reason"], "awaiting-manual-review")
 
+    def test_archived_source_removal_is_audited(self):
+        class FakeAPI:
+            def refresh_existing(self, repositories):
+                return {
+                    "owner/archived": {
+                        "nameWithOwner": "owner/archived",
+                        "isArchived": True,
+                        "stargazerCount": 900,
+                    }
+                }
+
+            def discover(self, minimum_stars):
+                return {}
+
+        current = {
+            "repositories": [
+                {
+                    "repository": "owner/archived",
+                    "stars": 1000,
+                    "skillFileCount": 1,
+                }
+            ]
+        }
+
+        updated = MODULE.update_index(current, FakeAPI(), 300)
+
+        self.assertEqual(updated["repositories"], [])
+        self.assertEqual(
+            updated["removedRepositories"],
+            [
+                {
+                    "repository": "owner/archived",
+                    "reason": "archived",
+                    "previousStars": 1000,
+                    "observedStars": 900,
+                }
+            ],
+        )
+
+    def test_below_threshold_source_removal_is_audited(self):
+        class FakeAPI:
+            def refresh_existing(self, repositories):
+                return {
+                    "owner/quiet": {
+                        "nameWithOwner": "owner/quiet",
+                        "isArchived": False,
+                        "stargazerCount": 299,
+                    }
+                }
+
+            def discover(self, minimum_stars):
+                return {}
+
+        current = {
+            "repositories": [
+                {
+                    "repository": "owner/quiet",
+                    "stars": 320,
+                    "skillFileCount": 1,
+                }
+            ]
+        }
+
+        updated = MODULE.update_index(current, FakeAPI(), 300)
+
+        self.assertEqual(updated["repositories"], [])
+        self.assertEqual(updated["removedRepositories"][0]["reason"], "below-star-threshold")
+        self.assertEqual(updated["removedRepositories"][0]["observedStars"], 299)
+
+    def test_missing_metadata_preserves_existing_source(self):
+        class FakeAPI:
+            def refresh_existing(self, repositories):
+                return {}
+
+            def discover(self, minimum_stars):
+                return {}
+
+        current = {
+            "repositories": [
+                {
+                    "repository": "owner/transient",
+                    "stars": 700,
+                    "skillFileCount": 1,
+                    "rank": 4,
+                }
+            ]
+        }
+
+        updated = MODULE.update_index(current, FakeAPI(), 300)
+
+        self.assertEqual(updated["repositories"][0]["repository"], "owner/transient")
+        self.assertEqual(updated["repositories"][0]["rank"], 1)
+        self.assertEqual(
+            updated["refreshWarnings"],
+            [{"repository": "owner/transient", "reason": "metadata-unavailable-preserved"}],
+        )
+
+    def test_duplicate_existing_sources_are_collapsed(self):
+        class FakeAPI:
+            def refresh_existing(self, repositories):
+                return {
+                    "owner/skill": {
+                        "nameWithOwner": "owner/skill",
+                        "url": "https://github.com/owner/skill",
+                        "isArchived": False,
+                        "stargazerCount": 800,
+                    }
+                }
+
+            def discover(self, minimum_stars):
+                return {}
+
+        source = {
+            "repository": "owner/skill",
+            "stars": 700,
+            "skillFileCount": 1,
+        }
+        updated = MODULE.update_index({"repositories": [source, dict(source)]}, FakeAPI(), 300)
+
+        self.assertEqual(len(updated["repositories"]), 1)
+
     def test_existing_review_state_is_preserved(self):
         old = {
             "repository": "owner/skill",
