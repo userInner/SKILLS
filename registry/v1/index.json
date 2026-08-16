@@ -13804,7 +13804,7 @@
   },
   "generatorVersion": 1,
   "inputDigests": {
-    "catalog": "sha256:72a19184208c16255b3526fca932db5ecc96eb1b654287ba336816bccee2e921",
+    "catalog": "sha256:8be2a0350bf0067d6017f467b1be79a4937873b045b9644e905cec6407ff1570",
     "communitySkills": "sha256:50779977bf88e0ba8e8239102c4b455c47cc9bfd0aeaae84f4cb4738b07acc25"
   },
   "kind": "CapabilityIndex",
