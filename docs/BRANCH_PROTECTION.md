@@ -10,7 +10,7 @@
 2. 必须通过状态检查 `validate`（工作流 `Validate concrete Skills`）。
 3. 合并前分支必须与默认分支保持最新。
 4. 禁止 force push 和删除默认分支。
-5. GitHub Actions 默认权限设为只读；仅 `Refresh Skill registry` 任务按 job 获取 `actions: write`、`contents: write` 与 `pull-requests: write`。`actions: write` 仅用于在候选提交上触发必需的只读校验。
+5. GitHub Actions 默认权限设为只读；仅 `Refresh Skill registry` 任务按 job 获取 `actions: write`、`contents: write`、`pull-requests: write` 与 `statuses: write`。`actions: write` 仅用于在候选提交上触发必需的只读校验，`statuses: write` 仅用于把该次校验结果绑定回同一个候选提交。
 
 如果仓库需要多人维护，再增加至少 1 个批准和 Code Owner 审核。个人仓库可以暂不要求批准，但仍应保留 PR 与必需检查。
 

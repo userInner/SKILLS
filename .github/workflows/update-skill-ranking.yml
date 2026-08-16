@@ -22,6 +22,7 @@ jobs:
       actions: write
       contents: write
       pull-requests: write
+      statuses: write
     env:
       UPDATE_BRANCH: automation/skill-registry
     steps:
@@ -175,6 +176,12 @@ jobs:
         shell: bash
         run: |
           candidate_sha="${{ steps.candidate.outputs.candidate_sha }}"
+          refresh_url="https://github.com/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
+          gh api --method POST "repos/$GITHUB_REPOSITORY/statuses/$candidate_sha" \
+            -f state='pending' \
+            -f context='validate' \
+            -f description='Independent registry validation is running' \
+            -f target_url="$refresh_url"
           gh workflow run validate-community-skills.yml --repo "$GITHUB_REPOSITORY" --ref "$UPDATE_BRANCH"
           run_id=""
           for attempt in $(seq 1 30); do
@@ -192,10 +199,32 @@ jobs:
             sleep 2
           done
           if [ -z "$run_id" ]; then
+            gh api --method POST "repos/$GITHUB_REPOSITORY/statuses/$candidate_sha" \
+              -f state='failure' \
+              -f context='validate' \
+              -f description='Independent registry validation was not created' \
+              -f target_url="$refresh_url"
             echo "Required validation run was not created" >&2
             exit 1
           fi
+          validation_url="$(gh run view "$run_id" --repo "$GITHUB_REPOSITORY" --json url --jq '.url')"
+          set +e
           gh run watch "$run_id" --repo "$GITHUB_REPOSITORY" --interval 5 --exit-status
+          validation_result="$?"
+          set -e
+          if [ "$validation_result" != "0" ]; then
+            gh api --method POST "repos/$GITHUB_REPOSITORY/statuses/$candidate_sha" \
+              -f state='failure' \
+              -f context='validate' \
+              -f description='Independent registry validation failed' \
+              -f target_url="$validation_url"
+            exit "$validation_result"
+          fi
+          gh api --method POST "repos/$GITHUB_REPOSITORY/statuses/$candidate_sha" \
+            -f state='success' \
+            -f context='validate' \
+            -f description='Independent registry validation passed' \
+            -f target_url="$validation_url"
 
       - name: Merge safe observation-only candidate
         if: steps.changes.outputs.changed == 'true' && steps.safety.outputs.eligible == 'true'
