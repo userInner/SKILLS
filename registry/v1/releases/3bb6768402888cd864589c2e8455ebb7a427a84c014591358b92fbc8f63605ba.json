@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:7fe5990f2740606a4b2d5ab0cb25f90baf155059b66963bd6e06da4fc1cb331c",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "skills/writing/humanizer"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:7fe5990f2740606a4b2d5ab0cb25f90baf155059b66963bd6e06da4fc1cb331c",
+    "fileCount": 4,
+    "totalBytes": 31707
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "unknown",
+    "spdx": "see-package"
+  },
+  "packageId": "github:userinner/skills:skills/writing/humanizer",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:3bb6768402888cd864589c2e8455ebb7a427a84c014591358b92fbc8f63605ba",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "362c2197eccdb7e952e0e2dfd80bef939d34cfe5",
+    "path": "skills/writing/humanizer",
+    "repository": "userInner/SKILLS",
+    "url": "https://github.com/userInner/SKILLS/tree/362c2197eccdb7e952e0e2dfd80bef939d34cfe5/skills/writing/humanizer"
+  },
+  "status": "direct"
+}

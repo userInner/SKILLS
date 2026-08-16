@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:65e1d1fb4dc56c397b992f885cc0998bb6117a4a7d66e0b38e987be16f0ca6cc",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "skills/growth/social"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:65e1d1fb4dc56c397b992f885cc0998bb6117a4a7d66e0b38e987be16f0ca6cc",
+    "fileCount": 13,
+    "totalBytes": 74823
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "unknown",
+    "spdx": "see-package"
+  },
+  "packageId": "github:userinner/skills:skills/growth/social",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:6a9a4663002ec5b1e0fae8da436d2fd7cac56774873945c141d04979ac256748",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "362c2197eccdb7e952e0e2dfd80bef939d34cfe5",
+    "path": "skills/growth/social",
+    "repository": "userInner/SKILLS",
+    "url": "https://github.com/userInner/SKILLS/tree/362c2197eccdb7e952e0e2dfd80bef939d34cfe5/skills/growth/social"
+  },
+  "status": "direct"
+}

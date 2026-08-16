@@ -53,10 +53,9 @@
       "type": "object"
     },
     "kind": {"const": "CapabilityIndex"},
-    "snapshotDate": {"format": "date", "type": "string"},
-    "sourceCommit": {"pattern": "^[0-9a-f]{40}$", "type": "string"}
+    "snapshotDate": {"format": "date", "type": "string"}
   },
-  "required": ["apiVersion", "kind", "generatorVersion", "snapshotDate", "sourceCommit", "inputDigests", "counts", "capabilities"],
+  "required": ["apiVersion", "kind", "generatorVersion", "snapshotDate", "inputDigests", "counts", "capabilities"],
   "title": "Effecta CapabilityIndex v1",
   "type": "object"
 }

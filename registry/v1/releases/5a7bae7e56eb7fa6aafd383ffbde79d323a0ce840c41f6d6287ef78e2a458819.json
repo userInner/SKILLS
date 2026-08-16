@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:dace86e9f48e40d291aee304b35634011516156c912426a47a0c0eff95336825",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "skills/research/make-paper-explainer-video"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:dace86e9f48e40d291aee304b35634011516156c912426a47a0c0eff95336825",
+    "fileCount": 14,
+    "totalBytes": 35667
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "unknown",
+    "spdx": "see-package"
+  },
+  "packageId": "github:userinner/skills:skills/research/make-paper-explainer-video",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:5a7bae7e56eb7fa6aafd383ffbde79d323a0ce840c41f6d6287ef78e2a458819",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "362c2197eccdb7e952e0e2dfd80bef939d34cfe5",
+    "path": "skills/research/make-paper-explainer-video",
+    "repository": "userInner/SKILLS",
+    "url": "https://github.com/userInner/SKILLS/tree/362c2197eccdb7e952e0e2dfd80bef939d34cfe5/skills/research/make-paper-explainer-video"
+  },
+  "status": "direct"
+}

@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:86368efb814b5e5f414527b20787c5bcf32e112d2bcbce0e04596e707826f524",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "skills/research/deep-research"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:86368efb814b5e5f414527b20787c5bcf32e112d2bcbce0e04596e707826f524",
+    "fileCount": 4,
+    "totalBytes": 7089
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "unknown",
+    "spdx": "see-package"
+  },
+  "packageId": "github:userinner/skills:skills/research/deep-research",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:cf8e16801606cbb97de2b2c719899d5d4a74eb21b66ad407118fdb1e47320df6",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "f919ee8605d120fe32fb44b23dd50339089317de",
+    "path": "skills/research/deep-research",
+    "repository": "userInner/SKILLS",
+    "url": "https://github.com/userInner/SKILLS/tree/f919ee8605d120fe32fb44b23dd50339089317de/skills/research/deep-research"
+  },
+  "status": "direct"
+}

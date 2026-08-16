@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:d61e59de7d507ec2311e8578e6b7fa4a88ca20ec033dc47878889c78698f00d7",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "skills/engineering/api-and-interface-design"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:d61e59de7d507ec2311e8578e6b7fa4a88ca20ec033dc47878889c78698f00d7",
+    "fileCount": 4,
+    "totalBytes": 16945
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "unknown",
+    "spdx": "see-package"
+  },
+  "packageId": "github:userinner/skills:skills/engineering/api-and-interface-design",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:b2659364deed3263dd391490d60ee22bc1559fccafc369e375d596313992d6c2",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "362c2197eccdb7e952e0e2dfd80bef939d34cfe5",
+    "path": "skills/engineering/api-and-interface-design",
+    "repository": "userInner/SKILLS",
+    "url": "https://github.com/userInner/SKILLS/tree/362c2197eccdb7e952e0e2dfd80bef939d34cfe5/skills/engineering/api-and-interface-design"
+  },
+  "status": "direct"
+}

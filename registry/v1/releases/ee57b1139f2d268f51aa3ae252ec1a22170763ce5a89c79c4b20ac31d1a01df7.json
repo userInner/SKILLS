@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:7b912bfd01e12c1997a87fb83886bc5967e12ece693b35bdf6ec2d683d117ed4",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "skills/engineering/shipping-and-launch"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:7b912bfd01e12c1997a87fb83886bc5967e12ece693b35bdf6ec2d683d117ed4",
+    "fileCount": 4,
+    "totalBytes": 12188
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "unknown",
+    "spdx": "see-package"
+  },
+  "packageId": "github:userinner/skills:skills/engineering/shipping-and-launch",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:ee57b1139f2d268f51aa3ae252ec1a22170763ce5a89c79c4b20ac31d1a01df7",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "362c2197eccdb7e952e0e2dfd80bef939d34cfe5",
+    "path": "skills/engineering/shipping-and-launch",
+    "repository": "userInner/SKILLS",
+    "url": "https://github.com/userInner/SKILLS/tree/362c2197eccdb7e952e0e2dfd80bef939d34cfe5/skills/engineering/shipping-and-launch"
+  },
+  "status": "direct"
+}

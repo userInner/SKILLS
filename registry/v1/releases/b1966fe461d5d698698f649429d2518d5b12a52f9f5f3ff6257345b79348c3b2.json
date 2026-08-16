@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:9443d42ddf882d2f9a61b6671bf4ac2f2802c4e5061b36355c3acb9013a044b4",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "skills/writing/write-book"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:9443d42ddf882d2f9a61b6671bf4ac2f2802c4e5061b36355c3acb9013a044b4",
+    "fileCount": 8,
+    "totalBytes": 28799
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "unknown",
+    "spdx": "see-package"
+  },
+  "packageId": "github:userinner/skills:skills/writing/write-book",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:b1966fe461d5d698698f649429d2518d5b12a52f9f5f3ff6257345b79348c3b2",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "362c2197eccdb7e952e0e2dfd80bef939d34cfe5",
+    "path": "skills/writing/write-book",
+    "repository": "userInner/SKILLS",
+    "url": "https://github.com/userInner/SKILLS/tree/362c2197eccdb7e952e0e2dfd80bef939d34cfe5/skills/writing/write-book"
+  },
+  "status": "direct"
+}

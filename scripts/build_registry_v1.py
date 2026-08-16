@@ -94,20 +94,20 @@ def content_digest(package_root: Path, files: list[Path]) -> str:
     return "sha256:" + digest.hexdigest()
 
 
-def repository_commit(root: Path) -> str:
+def path_commit(root: Path, relative_path: str) -> str:
     try:
         result = subprocess.run(
-            ["git", "rev-parse", "HEAD"],
+            ["git", "log", "-1", "--format=%H", "--", relative_path],
             cwd=root,
             check=True,
             capture_output=True,
             text=True,
         )
     except (OSError, subprocess.CalledProcessError) as error:
-        raise RegistryError("cannot resolve repository commit") from error
+        raise RegistryError(f"cannot resolve source commit for {relative_path}") from error
     commit = result.stdout.strip().lower()
     if not COMMIT_RE.fullmatch(commit):
-        raise RegistryError(f"invalid repository commit {commit!r}")
+        raise RegistryError(f"{relative_path}: source must be committed before registry generation")
     return commit
 
 
@@ -189,7 +189,12 @@ def build_source_observations(catalog: dict) -> dict:
     }
 
 
-def build_objects(root: Path, catalog: dict, community_index: dict, direct_commit: str) -> tuple[list[dict], dict[str, dict], dict[str, dict]]:
+def build_objects(
+    root: Path,
+    catalog: dict,
+    community_index: dict,
+    direct_commit: str | None,
+) -> tuple[list[dict], dict[str, dict], dict[str, dict]]:
     source_lookup: dict[str, dict] = {}
     for source in catalog.get("repositories", []):
         if source.get("repository"):
@@ -213,7 +218,7 @@ def build_objects(root: Path, catalog: dict, community_index: dict, direct_commi
         files = package_files(package_root)
 
         if status == "direct":
-            commit = direct_commit
+            commit = direct_commit or path_commit(root, local_path)
             digest = content_digest(package_root, files)
             file_count = len(files)
             total_bytes = sum(path.stat().st_size for path in files)
@@ -355,12 +360,11 @@ def write_registry(root: Path, output: Path, direct_commit: str | None = None) -
     community_path = root / "community-skills" / "index.json"
     catalog = json.loads(catalog_path.read_text())
     community_index = json.loads(community_path.read_text())
-    commit = direct_commit or repository_commit(root)
-    if not COMMIT_RE.fullmatch(commit):
+    if direct_commit is not None and not COMMIT_RE.fullmatch(direct_commit):
         raise RegistryError("direct source commit must be a full SHA")
 
     observations = build_source_observations(catalog)
-    entries, packages, releases = build_objects(root, catalog, community_index, commit)
+    entries, packages, releases = build_objects(root, catalog, community_index, direct_commit)
     status_counts = {status: sum(item["status"] == status for item in entries) for status in ("direct", "extracted", "needs-review")}
     index = {
         "apiVersion": API_VERSION,
@@ -373,7 +377,6 @@ def write_registry(root: Path, output: Path, direct_commit: str | None = None) -
         },
         "kind": "CapabilityIndex",
         "snapshotDate": catalog["snapshotDate"],
-        "sourceCommit": commit,
     }
     validate_generated(index, packages, releases)
 

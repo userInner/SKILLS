@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:6cef6207aa262d07fac01f197cc73343839bf64a59c214dee938614045c26e3a",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "skills/product/prioritization-frameworks"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:6cef6207aa262d07fac01f197cc73343839bf64a59c214dee938614045c26e3a",
+    "fileCount": 4,
+    "totalBytes": 6416
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "unknown",
+    "spdx": "see-package"
+  },
+  "packageId": "github:userinner/skills:skills/product/prioritization-frameworks",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:52db92c86e88e289de903c80a80102c62716a7c79ae0f85f14fac32bb3e30109",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "f919ee8605d120fe32fb44b23dd50339089317de",
+    "path": "skills/product/prioritization-frameworks",
+    "repository": "userInner/SKILLS",
+    "url": "https://github.com/userInner/SKILLS/tree/f919ee8605d120fe32fb44b23dd50339089317de/skills/product/prioritization-frameworks"
+  },
+  "status": "direct"
+}

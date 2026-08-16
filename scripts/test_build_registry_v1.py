@@ -1,5 +1,6 @@
 import importlib.util
 import json
+import subprocess
 import tempfile
 import unittest
 from pathlib import Path
@@ -145,6 +146,28 @@ class BuildRegistryV1Tests(unittest.TestCase):
             updated_release = next(item["releaseId"] for item in updated["capabilities"] if item["status"] == "direct")
 
             self.assertNotEqual(initial_release, updated_release)
+
+    def test_unrelated_commit_does_not_change_direct_release(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            self.fixture(root)
+            subprocess.run(["git", "init", "-q"], cwd=root, check=True)
+            subprocess.run(["git", "config", "user.name", "Registry Test"], cwd=root, check=True)
+            subprocess.run(["git", "config", "user.email", "registry@example.invalid"], cwd=root, check=True)
+            subprocess.run(["git", "add", "catalog.json", "community-skills", "skills"], cwd=root, check=True)
+            subprocess.run(["git", "commit", "-q", "-m", "fixture"], cwd=root, check=True)
+
+            first = root / "registry" / "first"
+            second = root / "registry" / "second"
+            MODULE.write_registry(root, first)
+
+            unrelated = root / "UNRELATED.md"
+            unrelated.write_text("does not change a Skill\n")
+            subprocess.run(["git", "add", "UNRELATED.md"], cwd=root, check=True)
+            subprocess.run(["git", "commit", "-q", "-m", "unrelated"], cwd=root, check=True)
+            MODULE.write_registry(root, second)
+
+            self.assertEqual(MODULE.directory_snapshot(first), MODULE.directory_snapshot(second))
 
     def test_rejects_path_escape(self):
         with tempfile.TemporaryDirectory() as temporary:

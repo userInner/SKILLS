@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:96c4d88550b311f369397be5f0f25d4c9288aaca2561cfc5683eea8e97df2eb9",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "skills/workflow/find-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:96c4d88550b311f369397be5f0f25d4c9288aaca2561cfc5683eea8e97df2eb9",
+    "fileCount": 4,
+    "totalBytes": 7898
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "unknown",
+    "spdx": "see-package"
+  },
+  "packageId": "github:userinner/skills:skills/workflow/find-skills",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:6575e9bc53d6878cbb32a39be021733884f321bc98e57fb49c69a15516978155",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "f919ee8605d120fe32fb44b23dd50339089317de",
+    "path": "skills/workflow/find-skills",
+    "repository": "userInner/SKILLS",
+    "url": "https://github.com/userInner/SKILLS/tree/f919ee8605d120fe32fb44b23dd50339089317de/skills/workflow/find-skills"
+  },
+  "status": "direct"
+}
