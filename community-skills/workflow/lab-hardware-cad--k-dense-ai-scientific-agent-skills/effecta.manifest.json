@@ -7,14 +7,14 @@
     "repository": "K-Dense-AI/scientific-agent-skills",
     "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
     "path": "skills/lab-hardware-cad",
-    "commit": "b2a92ba052dcae4ef48e850b9e31ebf75706be48",
+    "commit": "336c4f838a6c21b54e1e1f58cbbeae143d151fe2",
     "rank": 74,
-    "stars": 33570
+    "stars": 33607
   },
   "license": "MIT",
-  "contentDigest": "sha256:afbdd71c461c2699ffb4ce9589d5900f0d7cae65299b6cb0b9e86e8b53b134a3",
+  "contentDigest": "sha256:8cfc54279e44529821d649104b48e33deb0ac19b4371395170d56e387a0a8b61",
   "fileCount": 13,
-  "totalBytes": 131405,
+  "totalBytes": 172760,
   "staticScan": {
     "status": "passed",
     "findings": []

@@ -2,10 +2,10 @@
 
 从许可证明确且已进入精选来源名单的 GitHub 仓库中，按真实 Skill 包根目录提取的候选能力包。
 
-当前记录 **725 个具体 Skill**：
+当前记录 **726 个具体 Skill**：
 
 - **40 个 `direct`**：已在 `skills/` 中完成人工整理，可直装。
-- **647 个 `extracted`**：包文件完整，基础静态扫描未命中；尚未完成人工验收与沙箱运行。
+- **648 个 `extracted`**：包文件完整，基础静态扫描未命中；尚未完成人工验收与沙箱运行。
 - **38 个 `needs-review`**：命中高风险命令模式，必须人工审查。
 - **6 个 rejected**：重复、超限或结构不完整，不进入包目录。
 
@@ -20,7 +20,7 @@
 | `growth` | 44 |
 | `product` | 64 |
 | `research` | 40 |
-| `workflow` | 294 |
+| `workflow` | 295 |
 | `writing` | 20 |
 
 ## 状态边界
@@ -34,5 +34,7 @@
 ```bash
 python3 scripts/extract_community_skills.py
 ```
+
+排行榜更新成功后，GitHub Actions 会自动运行提取器和校验器。只有具体 Skill 发生变化时才会更新 `automation/community-skills` 候选分支并创建或刷新审核 PR；不会自动合并到主分支。
 
 提取器只处理 `catalog.json` 中状态为 `selected-import` 且许可证在允许列表中的来源；翻译文档、测试夹具、vendor、缓存、重复内容、超大文件和超大包会被排除。
