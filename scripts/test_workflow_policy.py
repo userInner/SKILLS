@@ -15,9 +15,13 @@ class WorkflowPolicyTests(unittest.TestCase):
         text = REFRESH_WORKFLOW.read_text()
         self.assertIn("automation/skill-registry", text)
         self.assertIn("python3 scripts/update_skill_ranking.py", text)
+        self.assertIn("python3 scripts/check_registry_auto_merge.py", text)
         self.assertIn("python3 scripts/extract_community_skills.py", text)
         self.assertIn("python3 scripts/build_registry_v1.py", text)
         self.assertIn("gh pr create", text)
+        self.assertIn("gh workflow run validate-community-skills.yml", text)
+        self.assertIn('steps.safety.outputs.eligible == \'true\'', text)
+        self.assertIn("gh pr merge", text)
         self.assertFalse(LEGACY_EXTRACT_WORKFLOW.exists())
 
     def test_refresh_never_pushes_to_default_branch(self):
@@ -51,6 +55,15 @@ class WorkflowPolicyTests(unittest.TestCase):
     def test_registry_validation_has_full_git_history(self):
         text = VALIDATE_WORKFLOW.read_text()
         self.assertIn("fetch-depth: 0", text)
+
+    def test_registry_validation_supports_trusted_dispatch(self):
+        text = VALIDATE_WORKFLOW.read_text()
+        self.assertIn("workflow_dispatch:", text)
+
+    def test_auto_merge_guard_rejects_unexpected_files(self):
+        text = REFRESH_WORKFLOW.read_text()
+        self.assertIn("check_registry_auto_merge.py --base HEAD", text)
+        self.assertIn("steps.safety.outputs.eligible == 'true'", text)
 
 
 if __name__ == "__main__":

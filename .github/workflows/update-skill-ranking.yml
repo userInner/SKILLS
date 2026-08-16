@@ -19,6 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 60
     permissions:
+      actions: write
       contents: write
       pull-requests: write
     env:
@@ -57,6 +58,7 @@ jobs:
         run: >-
           python3 -m unittest
           scripts/test_update_skill_ranking.py
+          scripts/test_check_registry_auto_merge.py
           scripts/test_extract_community_skills.py
           scripts/test_validate_community_skills.py
           scripts/test_build_registry_v1.py
@@ -98,7 +100,25 @@ jobs:
           fi
           echo "changed=true" >> "$GITHUB_OUTPUT"
 
+      - name: Classify unattended merge eligibility
+        id: safety
+        if: steps.changes.outputs.changed == 'true'
+        shell: bash
+        run: |
+          set +e
+          python3 scripts/check_registry_auto_merge.py --base HEAD
+          result="$?"
+          set -e
+          if [ "$result" = "0" ]; then
+            echo "eligible=true" >> "$GITHUB_OUTPUT"
+          elif [ "$result" = "1" ]; then
+            echo "eligible=false" >> "$GITHUB_OUTPUT"
+          else
+            exit "$result"
+          fi
+
       - name: Open or update review PR
+        id: candidate
         if: steps.changes.outputs.changed == 'true'
         env:
           GH_TOKEN: ${{ github.token }}
@@ -111,6 +131,11 @@ jobs:
           direct_count="$(jq -r '.directSkillCount' community-skills/index.json)"
           extracted_count="$(jq -r '.extractedSkillCount' community-skills/index.json)"
           review_count="$(jq -r '.needsReviewCount' community-skills/index.json)"
+          if [ "${{ steps.safety.outputs.eligible }}" = "true" ]; then
+            automation_note='安全门判定：仅观察数据变化。独立校验通过后将自动合并。'
+          else
+            automation_note='安全门判定：需要人工审核。本工作流不会自动合并。'
+          fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -123,14 +148,15 @@ jobs:
           fi
 
           existing_pr="$(gh pr list --repo "$GITHUB_REPOSITORY" --head "$UPDATE_BRANCH" --base "$base_branch" --state open --json number --jq '.[0].number // empty')"
-          body="$(printf '%s\n\n%s\n%s\n%s\n%s\n%s\n\n%s' \
-            'GitHub 自动发现任务生成的统一候选更新。此 PR 不会自动合并。' \
+          body="$(printf '%s\n\n%s\n%s\n%s\n%s\n%s\n\n%s\n\n%s' \
+            'GitHub 自动发现任务生成的统一候选更新。' \
             "- 来源仓库：$repository_count" \
             "- 具体 Skill：$concrete_count" \
             "- 可直装：$direct_count" \
             "- 已提取待验收：$extracted_count" \
             "- 待安全审查：$review_count" \
-            '已完成排行榜生成、具体 Skill 提取、静态校验与 registry/v1 确定性检查。第三方包只被读取和扫描，未在工作流中执行。请人工审阅变化后再合并。')"
+            "$automation_note" \
+            '已完成排行榜生成、具体 Skill 提取、静态校验与 registry/v1 确定性检查。第三方包只被读取和扫描，未在工作流中执行。')"
 
           if [ -n "$existing_pr" ]; then
             gh pr edit "$existing_pr" --repo "$GITHUB_REPOSITORY" --title "chore: refresh Skill registry" --body "$body"
@@ -138,3 +164,53 @@ jobs:
           else
             gh pr create --repo "$GITHUB_REPOSITORY" --base "$base_branch" --head "$UPDATE_BRANCH" --title "chore: refresh Skill registry" --body "$body"
           fi
+          pr_number="$(gh pr list --repo "$GITHUB_REPOSITORY" --head "$UPDATE_BRANCH" --base "$base_branch" --state open --json number --jq '.[0].number')"
+          echo "candidate_sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+          echo "pr_number=$pr_number" >> "$GITHUB_OUTPUT"
+
+      - name: Run required validation on safe candidate
+        if: steps.changes.outputs.changed == 'true' && steps.safety.outputs.eligible == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          candidate_sha="${{ steps.candidate.outputs.candidate_sha }}"
+          gh workflow run validate-community-skills.yml --repo "$GITHUB_REPOSITORY" --ref "$UPDATE_BRANCH"
+          run_id=""
+          for attempt in $(seq 1 30); do
+            run_id="$(gh run list \
+              --repo "$GITHUB_REPOSITORY" \
+              --workflow validate-community-skills.yml \
+              --event workflow_dispatch \
+              --branch "$UPDATE_BRANCH" \
+              --limit 20 \
+              --json databaseId,headSha \
+              --jq "map(select(.headSha == \"$candidate_sha\")) | sort_by(.databaseId) | last | .databaseId // empty")"
+            if [ -n "$run_id" ]; then
+              break
+            fi
+            sleep 2
+          done
+          if [ -z "$run_id" ]; then
+            echo "Required validation run was not created" >&2
+            exit 1
+          fi
+          gh run watch "$run_id" --repo "$GITHUB_REPOSITORY" --interval 5 --exit-status
+
+      - name: Merge safe observation-only candidate
+        if: steps.changes.outputs.changed == 'true' && steps.safety.outputs.eligible == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          pr_number="${{ steps.candidate.outputs.pr_number }}"
+          for attempt in $(seq 1 30); do
+            merge_state="$(gh pr view "$pr_number" --repo "$GITHUB_REPOSITORY" --json mergeStateStatus --jq '.mergeStateStatus')"
+            if [ "$merge_state" = "CLEAN" ]; then
+              gh pr merge "$pr_number" --repo "$GITHUB_REPOSITORY" --merge --delete-branch
+              exit 0
+            fi
+            sleep 2
+          done
+          echo "Safe candidate did not become mergeable" >&2
+          exit 1

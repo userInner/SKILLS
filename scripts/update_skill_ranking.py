@@ -125,6 +125,8 @@ def update_index(current: dict, api: GitHubAPI, minimum_stars: int) -> dict:
     existing_metadata = api.refresh_existing(current["repositories"])
     discovered_metadata = api.discover(minimum_stars)
     repositories: list[dict] = []
+    removed_repositories: list[dict] = []
+    refresh_warnings: list[dict] = []
     new_count = 0
 
     for key in sorted(set(existing_metadata) | set(discovered_metadata)):
@@ -132,6 +134,16 @@ def update_index(current: dict, api: GitHubAPI, minimum_stars: int) -> dict:
         stars = int(repo.get("stargazers_count", repo.get("stargazerCount", 0)))
         archived = bool(repo.get("archived", repo.get("isArchived", False)))
         if archived or stars <= minimum_stars:
+            old = previous.get(key)
+            if old:
+                removed_repositories.append(
+                    {
+                        "repository": old["repository"],
+                        "reason": "archived" if archived else "below-star-threshold",
+                        "previousStars": int(old.get("stars", 0)),
+                        "observedStars": stars,
+                    }
+                )
             continue
         old = previous.get(key)
         if old:
@@ -146,6 +158,22 @@ def update_index(current: dict, api: GitHubAPI, minimum_stars: int) -> dict:
         repositories.append(new_source(repo, stars, branch, count, truncated))
         new_count += 1
 
+    # A missing GraphQL result can mean a transient GitHub failure, a private
+    # repository, or a deletion. Preserve the last known record instead of
+    # silently deleting it; only explicit archived/threshold observations are
+    # eligible for unattended removal.
+    observed = set(existing_metadata) | set(discovered_metadata)
+    for key in sorted(set(previous) - observed):
+        item = dict(previous[key])
+        item.pop("rank", None)
+        repositories.append(item)
+        refresh_warnings.append(
+            {
+                "repository": item["repository"],
+                "reason": "metadata-unavailable-preserved",
+            }
+        )
+
     repositories.sort(key=lambda item: (-item["stars"], item["repository"].lower()))
     for rank, item in enumerate(repositories, 1):
         item["rank"] = rank
@@ -157,6 +185,8 @@ def update_index(current: dict, api: GitHubAPI, minimum_stars: int) -> dict:
         "repositoriesWithSkillFiles": sum(item["skillFileCount"] > 0 for item in repositories),
         "newlyDiscoveredCount": new_count,
         "directSkillCount": int(current.get("directSkillCount", 0)),
+        "removedRepositories": removed_repositories,
+        "refreshWarnings": refresh_warnings,
         "repositories": repositories,
     }
 
