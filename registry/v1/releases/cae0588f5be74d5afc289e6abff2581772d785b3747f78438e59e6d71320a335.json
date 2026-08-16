@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:95ac623eed088165b2b6cde80c2c5e308260337d86c91178a9203a9fa72cb21e",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/engineering/bun-runtime--affaan-m-ecc--95ac623eed"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:95ac623eed088165b2b6cde80c2c5e308260337d86c91178a9203a9fa72cb21e",
+    "fileCount": 1,
+    "totalBytes": 2608
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:affaan-m/ecc:skills/bun-runtime",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:cae0588f5be74d5afc289e6abff2581772d785b3747f78438e59e6d71320a335",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "path": "skills/bun-runtime",
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC/tree/c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8/skills/bun-runtime"
+  },
+  "status": "extracted"
+}

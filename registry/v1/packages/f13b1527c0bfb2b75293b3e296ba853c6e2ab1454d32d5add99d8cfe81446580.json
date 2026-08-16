@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "C# and .NET testing patterns with xUnit, FluentAssertions, mocking, integration tests, and test organization best practices. Use when writing or reviewing xUnit tests, mocks, or integration tests in a C# / .NET project.",
+  "id": "github:affaan-m/ecc:skills/csharp-testing",
+  "kind": "CapabilityPackage",
+  "name": "csharp-testing",
+  "slug": "csharp-testing--affaan-m-ecc",
+  "source": {
+    "path": "skills/csharp-testing",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

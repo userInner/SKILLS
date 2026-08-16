@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:d99a383f4eb0b39c11305ddfb0d6fbc39193ee9cfb2121e70772a703fd58e6f6",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/design/video--coreyhaines31-marketingskills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:d99a383f4eb0b39c11305ddfb0d6fbc39193ee9cfb2121e70772a703fd58e6f6",
+    "fileCount": 4,
+    "totalBytes": 36844
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:coreyhaines31/marketingskills:skills/video",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:433d5b02e4257518740127aab5db9971983e25341561c3e8b38a4f4a103cfc12",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "7868cb9251fad80a73d26e488a5ad5f6c4a9f335",
+    "path": "skills/video",
+    "repository": "coreyhaines31/marketingskills",
+    "url": "https://github.com/coreyhaines31/marketingskills/tree/7868cb9251fad80a73d26e488a5ad5f6c4a9f335/skills/video"
+  },
+  "status": "extracted"
+}

@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies",
+  "id": "github:userinner/skills:skills/workflow/dispatching-parallel-agents",
+  "kind": "CapabilityPackage",
+  "name": "dispatching-parallel-agents",
+  "slug": "dispatching-parallel-agents",
+  "source": {
+    "path": "skills/workflow/dispatching-parallel-agents",
+    "repository": "userInner/SKILLS"
+  },
+  "type": "skill"
+}

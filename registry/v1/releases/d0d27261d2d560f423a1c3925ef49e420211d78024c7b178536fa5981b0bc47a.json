@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:93ffeae7d2e1d212e403122f134d2553d45ea27056e3048d629947f437b25719",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/product/ideal-customer-profile--phuryn-pm-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:93ffeae7d2e1d212e403122f134d2553d45ea27056e3048d629947f437b25719",
+    "fileCount": 1,
+    "totalBytes": 6002
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:phuryn/pm-skills:pm-go-to-market/skills/ideal-customer-profile",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:d0d27261d2d560f423a1c3925ef49e420211d78024c7b178536fa5981b0bc47a",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "18468a95b427e70e258b51389796367c6f684e7d",
+    "path": "pm-go-to-market/skills/ideal-customer-profile",
+    "repository": "phuryn/pm-skills",
+    "url": "https://github.com/phuryn/pm-skills/tree/18468a95b427e70e258b51389796367c6f684e7d/pm-go-to-market/skills/ideal-customer-profile"
+  },
+  "status": "extracted"
+}

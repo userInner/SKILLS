@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Rust testing patterns including unit tests, integration tests, async testing, property-based testing, mocking, and coverage. Follows TDD methodology.",
+  "id": "github:affaan-m/ecc:.kiro/skills/rust-testing",
+  "kind": "CapabilityPackage",
+  "name": "rust-testing",
+  "slug": "rust-testing--affaan-m-ecc",
+  "source": {
+    "path": ".kiro/skills/rust-testing",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

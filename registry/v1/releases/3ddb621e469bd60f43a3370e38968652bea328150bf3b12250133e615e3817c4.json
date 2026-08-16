@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:b4d273562fb75fc2c1ec2312083ef7289d253649dfe71b67df9a0554d25d25c1",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "skills/growth/free-tools"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:b4d273562fb75fc2c1ec2312083ef7289d253649dfe71b67df9a0554d25d25c1",
+    "fileCount": 6,
+    "totalBytes": 18243
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "unknown",
+    "spdx": "see-package"
+  },
+  "packageId": "github:userinner/skills:skills/growth/free-tools",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:3ddb621e469bd60f43a3370e38968652bea328150bf3b12250133e615e3817c4",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "16928212a5bdc27c4e859ec0f894ca1524b88816",
+    "path": "skills/growth/free-tools",
+    "repository": "userInner/SKILLS",
+    "url": "https://github.com/userInner/SKILLS/tree/16928212a5bdc27c4e859ec0f894ca1524b88816/skills/growth/free-tools"
+  },
+  "status": "direct"
+}

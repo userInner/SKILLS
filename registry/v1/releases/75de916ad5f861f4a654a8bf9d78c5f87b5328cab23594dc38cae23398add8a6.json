@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:34e28c8bf0c3cfac14dc3c47dc20cb05f6075ace7edee470993d8ea8011a1c6a",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/engineering/healthcare-eval-harness--affaan-m-ecc"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:34e28c8bf0c3cfac14dc3c47dc20cb05f6075ace7edee470993d8ea8011a1c6a",
+    "fileCount": 1,
+    "totalBytes": 7849
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:affaan-m/ecc:skills/healthcare-eval-harness",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:75de916ad5f861f4a654a8bf9d78c5f87b5328cab23594dc38cae23398add8a6",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "path": "skills/healthcare-eval-harness",
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC/tree/c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8/skills/healthcare-eval-harness"
+  },
+  "status": "extracted"
+}

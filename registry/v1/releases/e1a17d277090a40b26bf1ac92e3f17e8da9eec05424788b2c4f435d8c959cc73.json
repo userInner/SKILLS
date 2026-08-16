@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:c17cfb44bf08dc9c354c0622d0bf39e5eb2a34465c8cc0b02ffd2bc6566b8de1",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/engineering/genomic-intelligence--k-dense-ai-scientific-agent-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:c17cfb44bf08dc9c354c0622d0bf39e5eb2a34465c8cc0b02ffd2bc6566b8de1",
+    "fileCount": 5,
+    "totalBytes": 24035
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:k-dense-ai/scientific-agent-skills:skills/genomic-intelligence",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:e1a17d277090a40b26bf1ac92e3f17e8da9eec05424788b2c4f435d8c959cc73",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "b2a92ba052dcae4ef48e850b9e31ebf75706be48",
+    "path": "skills/genomic-intelligence",
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/b2a92ba052dcae4ef48e850b9e31ebf75706be48/skills/genomic-intelligence"
+  },
+  "status": "extracted"
+}

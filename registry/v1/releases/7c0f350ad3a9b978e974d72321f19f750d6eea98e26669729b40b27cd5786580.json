@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:2610772701a822dad6cfe46ad0c30ae4e887efd2ec5467ba9e5b2a85b6741a7f",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/workflow/lead-intelligence--affaan-m-ecc"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:2610772701a822dad6cfe46ad0c30ae4e887efd2ec5467ba9e5b2a85b6741a7f",
+    "fileCount": 5,
+    "totalBytes": 21738
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:affaan-m/ecc:skills/lead-intelligence",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:7c0f350ad3a9b978e974d72321f19f750d6eea98e26669729b40b27cd5786580",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "path": "skills/lead-intelligence",
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC/tree/c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8/skills/lead-intelligence"
+  },
+  "status": "extracted"
+}

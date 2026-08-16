@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:01200f0d745ec3568a1c418b179b510cb7dff7e5cc532d70372977c0a4d5d7bf",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/engineering/ab-test-analysis--phuryn-pm-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:01200f0d745ec3568a1c418b179b510cb7dff7e5cc532d70372977c0a4d5d7bf",
+    "fileCount": 1,
+    "totalBytes": 3587
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:phuryn/pm-skills:pm-data-analytics/skills/ab-test-analysis",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:fa2f1dea64ca3f042bb70258e5fefcbb018210b22af9c1d9d308fc8d0388ff69",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "18468a95b427e70e258b51389796367c6f684e7d",
+    "path": "pm-data-analytics/skills/ab-test-analysis",
+    "repository": "phuryn/pm-skills",
+    "url": "https://github.com/phuryn/pm-skills/tree/18468a95b427e70e258b51389796367c6f684e7d/pm-data-analytics/skills/ab-test-analysis"
+  },
+  "status": "extracted"
+}

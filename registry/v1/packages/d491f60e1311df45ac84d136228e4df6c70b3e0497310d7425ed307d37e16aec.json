@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Harvest every ponytail: shortcut comment into one debt ledger, so deferrals get tracked instead of forgotten. One-shot report.",
+  "id": "github:dietrichgebert/ponytail:.openclaw/skills/ponytail-debt",
+  "kind": "CapabilityPackage",
+  "name": "ponytail-debt",
+  "slug": "ponytail-debt--dietrichgebert-ponytail",
+  "source": {
+    "path": ".openclaw/skills/ponytail-debt",
+    "repository": "DietrichGebert/ponytail"
+  },
+  "type": "skill"
+}

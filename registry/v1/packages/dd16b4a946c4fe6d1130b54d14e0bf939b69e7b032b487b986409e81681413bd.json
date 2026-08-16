@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "research",
+  "description": "Use NeuroKit2 to build or audit reproducible research workflows for physiological time-series preprocessing, event/interval analysis, multimodal alignment, variability, and complexity. Trigger when code imports neurokit2 or needs its current APIs, schemas, and method-aware validation—not for diagnosis or device validation.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/neurokit2",
+  "kind": "CapabilityPackage",
+  "name": "neurokit2",
+  "slug": "neurokit2--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/neurokit2",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

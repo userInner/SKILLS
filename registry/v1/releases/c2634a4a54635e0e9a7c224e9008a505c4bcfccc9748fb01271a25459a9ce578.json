@@ -1,0 +1,55 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:ec3d98f2f610bbfa2771ae20cb92eb0ee2ded9745955c6e820d22474fd36f6f5",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/workflow/transformers--k-dense-ai-scientific-agent-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:ec3d98f2f610bbfa2771ae20cb92eb0ee2ded9745955c6e820d22474fd36f6f5",
+    "fileCount": 6,
+    "totalBytes": 55605
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:k-dense-ai/scientific-agent-skills:skills/transformers",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:c2634a4a54635e0e9a7c224e9008a505c4bcfccc9748fb01271a25459a9ce578",
+  "security": {
+    "staticScan": {
+      "findings": [
+        {
+          "file": "models.md",
+          "rule": "shell-eval"
+        }
+      ],
+      "status": "review"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "b2a92ba052dcae4ef48e850b9e31ebf75706be48",
+    "path": "skills/transformers",
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/b2a92ba052dcae4ef48e850b9e31ebf75706be48/skills/transformers"
+  },
+  "status": "needs-review"
+}

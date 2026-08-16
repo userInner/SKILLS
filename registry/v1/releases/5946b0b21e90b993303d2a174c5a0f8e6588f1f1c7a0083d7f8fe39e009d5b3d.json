@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:36557bc5b073dd11e21540aff96b192e4cf22ac3be66f70c13c5e6b53a1aad54",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/engineering/ito-training--affaan-m-ecc"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:36557bc5b073dd11e21540aff96b192e4cf22ac3be66f70c13c5e6b53a1aad54",
+    "fileCount": 1,
+    "totalBytes": 6087
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:affaan-m/ecc:skills/ito-training",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:5946b0b21e90b993303d2a174c5a0f8e6588f1f1c7a0083d7f8fe39e009d5b3d",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "path": "skills/ito-training",
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC/tree/c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8/skills/ito-training"
+  },
+  "status": "extracted"
+}

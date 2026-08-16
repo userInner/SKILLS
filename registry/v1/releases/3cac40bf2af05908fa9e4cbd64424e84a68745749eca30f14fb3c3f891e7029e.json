@@ -1,0 +1,59 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:c64708a88b90b797a9ae596fe511a5440a95132586a6e56a00a4239d5611ccf5",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/workflow/rules-distill--affaan-m-ecc"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:c64708a88b90b797a9ae596fe511a5440a95132586a6e56a00a4239d5611ccf5",
+    "fileCount": 3,
+    "totalBytes": 15083
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:affaan-m/ecc:skills/rules-distill",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:3cac40bf2af05908fa9e4cbd64424e84a68745749eca30f14fb3c3f891e7029e",
+  "security": {
+    "staticScan": {
+      "findings": [
+        {
+          "file": "scan-rules.sh",
+          "rule": "recursive-delete"
+        },
+        {
+          "file": "scan-skills.sh",
+          "rule": "recursive-delete"
+        }
+      ],
+      "status": "review"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "path": "skills/rules-distill",
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC/tree/c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8/skills/rules-distill"
+  },
+  "status": "needs-review"
+}

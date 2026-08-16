@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:b94213041193934c8e377e232ee28170f6e1427006d8997df9cb0957e3592e77",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/workflow/investor-outreach--affaan-m-ecc--b942130411"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:b94213041193934c8e377e232ee28170f6e1427006d8997df9cb0957e3592e77",
+    "fileCount": 1,
+    "totalBytes": 2655
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:affaan-m/ecc:skills/investor-outreach",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:ebf06ef3061c7cf48ff54be9285b8c2e4e06cd163e73f6c149e4a02ba5c1d2b0",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "path": "skills/investor-outreach",
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC/tree/c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8/skills/investor-outreach"
+  },
+  "status": "extracted"
+}

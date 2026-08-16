@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "product",
+  "description": "Prioritize assumptions using an Impact × Risk matrix and suggest experiments for each. Use when triaging a list of assumptions, deciding what to test first, or applying the assumption prioritization canvas.",
+  "id": "github:phuryn/pm-skills:pm-product-discovery/skills/prioritize-assumptions",
+  "kind": "CapabilityPackage",
+  "name": "prioritize-assumptions",
+  "slug": "prioritize-assumptions--phuryn-pm-skills",
+  "source": {
+    "path": "pm-product-discovery/skills/prioritize-assumptions",
+    "repository": "phuryn/pm-skills"
+  },
+  "type": "skill"
+}

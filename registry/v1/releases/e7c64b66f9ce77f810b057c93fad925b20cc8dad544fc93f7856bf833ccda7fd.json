@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:1407e9fcdde2ef2f1347c0b803e9ad8ee402f880704ecee0274bfdf54264330e",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/design/site-architecture--coreyhaines31-marketingskills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:1407e9fcdde2ef2f1347c0b803e9ad8ee402f880704ecee0274bfdf54264330e",
+    "fileCount": 5,
+    "totalBytes": 45036
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:coreyhaines31/marketingskills:skills/site-architecture",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:e7c64b66f9ce77f810b057c93fad925b20cc8dad544fc93f7856bf833ccda7fd",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "7868cb9251fad80a73d26e488a5ad5f6c4a9f335",
+    "path": "skills/site-architecture",
+    "repository": "coreyhaines31/marketingskills",
+    "url": "https://github.com/coreyhaines31/marketingskills/tree/7868cb9251fad80a73d26e488a5ad5f6c4a9f335/skills/site-architecture"
+  },
+  "status": "extracted"
+}

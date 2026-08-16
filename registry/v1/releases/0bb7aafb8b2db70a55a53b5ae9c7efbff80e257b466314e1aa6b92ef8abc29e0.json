@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:0c4cca7716d029e22194a2cbcfeb86b69aac36a860ead8f87908deec87111a02",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/design/accessibility--affaan-m-ecc"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:0c4cca7716d029e22194a2cbcfeb86b69aac36a860ead8f87908deec87111a02",
+    "fileCount": 1,
+    "totalBytes": 6563
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:affaan-m/ecc:skills/accessibility",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:0bb7aafb8b2db70a55a53b5ae9c7efbff80e257b466314e1aa6b92ef8abc29e0",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "path": "skills/accessibility",
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC/tree/c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8/skills/accessibility"
+  },
+  "status": "extracted"
+}

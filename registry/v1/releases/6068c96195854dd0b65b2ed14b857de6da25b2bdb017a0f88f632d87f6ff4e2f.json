@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:d4323f8a55e9a349cb7a3c759f61f00aeca2fe4a223e70ca5b51ef378b3f8db5",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/product/aso--coreyhaines31-marketingskills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:d4323f8a55e9a349cb7a3c759f61f00aeca2fe4a223e70ca5b51ef378b3f8db5",
+    "fileCount": 7,
+    "totalBytes": 58917
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:coreyhaines31/marketingskills:skills/aso",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:6068c96195854dd0b65b2ed14b857de6da25b2bdb017a0f88f632d87f6ff4e2f",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "7868cb9251fad80a73d26e488a5ad5f6c4a9f335",
+    "path": "skills/aso",
+    "repository": "coreyhaines31/marketingskills",
+    "url": "https://github.com/coreyhaines31/marketingskills/tree/7868cb9251fad80a73d26e488a5ad5f6c4a9f335/skills/aso"
+  },
+  "status": "extracted"
+}

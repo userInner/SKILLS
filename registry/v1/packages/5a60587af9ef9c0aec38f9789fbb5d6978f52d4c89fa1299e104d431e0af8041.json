@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Efficient storage and retrieval of genomic variant data using TileDB. Scalable VCF/BCF ingestion, incremental sample addition, compressed storage, parallel queries, and export capabilities for population genomics.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/tiledbvcf",
+  "kind": "CapabilityPackage",
+  "name": "tiledbvcf",
+  "slug": "tiledbvcf--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/tiledbvcf",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

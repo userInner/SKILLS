@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:6b0ecb901c7cd4ae7dbc0cb351584c780323eb9fe90a4c536923fa4408033c8b",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/workflow/bids--k-dense-ai-scientific-agent-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:6b0ecb901c7cd4ae7dbc0cb351584c780323eb9fe90a4c536923fa4408033c8b",
+    "fileCount": 8,
+    "totalBytes": 915430
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:k-dense-ai/scientific-agent-skills:skills/bids",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:33619908876014f1a03a12a2c798b0d7119a03ebba8a6545cfc1c51bd2c75977",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "b2a92ba052dcae4ef48e850b9e31ebf75706be48",
+    "path": "skills/bids",
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/b2a92ba052dcae4ef48e850b9e31ebf75706be48/skills/bids"
+  },
+  "status": "extracted"
+}

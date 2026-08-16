@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "product",
+  "description": "Perform a detailed SWOT analysis — strengths, weaknesses, opportunities, and threats with actionable recommendations. Use when doing strategic assessment, competitive analysis, or evaluating a product or business position.",
+  "id": "github:phuryn/pm-skills:pm-product-strategy/skills/swot-analysis",
+  "kind": "CapabilityPackage",
+  "name": "swot-analysis",
+  "slug": "swot-analysis--phuryn-pm-skills",
+  "source": {
+    "path": "pm-product-strategy/skills/swot-analysis",
+    "repository": "phuryn/pm-skills"
+  },
+  "type": "skill"
+}

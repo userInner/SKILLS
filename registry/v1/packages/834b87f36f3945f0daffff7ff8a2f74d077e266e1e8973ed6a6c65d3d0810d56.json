@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "F# testing patterns with xUnit, FsUnit, Unquote, FsCheck property-based testing, integration tests, and test organization best practices. Use when writing F# tests with xUnit, FsUnit, Unquote, or FsCheck.",
+  "id": "github:affaan-m/ecc:skills/fsharp-testing",
+  "kind": "CapabilityPackage",
+  "name": "fsharp-testing",
+  "slug": "fsharp-testing--affaan-m-ecc",
+  "source": {
+    "path": "skills/fsharp-testing",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": ">",
+  "id": "github:affaan-m/ecc:skills/logistics-exception-management",
+  "kind": "CapabilityPackage",
+  "name": "logistics-exception-management",
+  "slug": "logistics-exception-management--affaan-m-ecc",
+  "source": {
+    "path": "skills/logistics-exception-management",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

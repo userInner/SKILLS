@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Core Python library for astronomy and astrophysics workflows that need Astropy APIs, including units/quantities, coordinates, FITS I/O, tables, time systems, WCS, and cosmology. Use when implementing or debugging astronomical data analysis code with Astropy.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/astropy",
+  "kind": "CapabilityPackage",
+  "name": "astropy",
+  "slug": "astropy--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/astropy",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

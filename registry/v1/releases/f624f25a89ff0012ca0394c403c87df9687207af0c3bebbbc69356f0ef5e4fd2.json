@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:325c6d7896a8557dcf132fd8bf0e8a06b9c39b76fd68739b403d7157ccc4a274",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/growth/north-star-metric--phuryn-pm-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:325c6d7896a8557dcf132fd8bf0e8a06b9c39b76fd68739b403d7157ccc4a274",
+    "fileCount": 1,
+    "totalBytes": 4152
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:phuryn/pm-skills:pm-marketing-growth/skills/north-star-metric",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:f624f25a89ff0012ca0394c403c87df9687207af0c3bebbbc69356f0ef5e4fd2",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "18468a95b427e70e258b51389796367c6f684e7d",
+    "path": "pm-marketing-growth/skills/north-star-metric",
+    "repository": "phuryn/pm-skills",
+    "url": "https://github.com/phuryn/pm-skills/tree/18468a95b427e70e258b51389796367c6f684e7d/pm-marketing-growth/skills/north-star-metric"
+  },
+  "status": "extracted"
+}

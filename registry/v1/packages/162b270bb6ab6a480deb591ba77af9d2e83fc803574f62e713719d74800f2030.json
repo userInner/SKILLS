@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Nuxt 4 app patterns for hydration safety, performance, route rules, lazy loading, and SSR-safe data fetching with useFetch and useAsyncData. Use when building or reviewing a Nuxt 4 app, or debugging hydration mismatches and SSR-safe data fetching.",
+  "id": "github:affaan-m/ecc:skills/nuxt4-patterns",
+  "kind": "CapabilityPackage",
+  "name": "nuxt4-patterns",
+  "slug": "nuxt4-patterns--affaan-m-ecc",
+  "source": {
+    "path": "skills/nuxt4-patterns",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

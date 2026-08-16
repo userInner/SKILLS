@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:c16b2fb69bcc0078347451099fa3bdd5c54c63ffc5318bdd71c9b3cd41db012c",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "skills/engineering/security-and-hardening"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:c16b2fb69bcc0078347451099fa3bdd5c54c63ffc5318bdd71c9b3cd41db012c",
+    "fileCount": 4,
+    "totalBytes": 26335
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "unknown",
+    "spdx": "see-package"
+  },
+  "packageId": "github:userinner/skills:skills/engineering/security-and-hardening",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:b8226c8b8831213a744cc1ab78d02902ac1a2ce91268a0ae11bf88668bd71b2c",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "16928212a5bdc27c4e859ec0f894ca1524b88816",
+    "path": "skills/engineering/security-and-hardening",
+    "repository": "userInner/SKILLS",
+    "url": "https://github.com/userInner/SKILLS/tree/16928212a5bdc27c4e859ec0f894ca1524b88816/skills/engineering/security-and-hardening"
+  },
+  "status": "direct"
+}

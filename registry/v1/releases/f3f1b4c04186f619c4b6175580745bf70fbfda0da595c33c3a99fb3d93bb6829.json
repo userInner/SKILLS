@@ -1,0 +1,55 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:36da006f1b8402200fcae0f6c0edfac3220eb16fe015b75dc81d16caf6505d7e",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/writing/writing-skills--obra-superpowers"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:36da006f1b8402200fcae0f6c0edfac3220eb16fe015b75dc81d16caf6505d7e",
+    "fileCount": 7,
+    "totalBytes": 107377
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:obra/superpowers:skills/writing-skills",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:f3f1b4c04186f619c4b6175580745bf70fbfda0da595c33c3a99fb3d93bb6829",
+  "security": {
+    "staticScan": {
+      "findings": [
+        {
+          "file": "render-graphs.js",
+          "rule": "shell-eval"
+        }
+      ],
+      "status": "review"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "b36e0829c6d0140e93cfef2ca599b1b07d4a7797",
+    "path": "skills/writing-skills",
+    "repository": "obra/superpowers",
+    "url": "https://github.com/obra/superpowers/tree/b36e0829c6d0140e93cfef2ca599b1b07d4a7797/skills/writing-skills"
+  },
+  "status": "needs-review"
+}

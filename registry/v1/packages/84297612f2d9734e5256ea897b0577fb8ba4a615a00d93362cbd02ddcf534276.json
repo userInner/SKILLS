@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Brainstorm team-level OKRs aligned with company objectives — qualitative objectives with measurable key results. Use when setting quarterly OKRs, aligning team goals with company strategy, drafting objectives, or learning how to write effective OKRs.",
+  "id": "github:phuryn/pm-skills:pm-execution/skills/brainstorm-okrs",
+  "kind": "CapabilityPackage",
+  "name": "brainstorm-okrs",
+  "slug": "brainstorm-okrs--phuryn-pm-skills",
+  "source": {
+    "path": "pm-execution/skills/brainstorm-okrs",
+    "repository": "phuryn/pm-skills"
+  },
+  "type": "skill"
+}

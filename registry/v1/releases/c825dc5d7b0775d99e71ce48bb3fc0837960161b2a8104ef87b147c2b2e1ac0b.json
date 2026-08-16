@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:49c7b83a53374522fc0603e5b0d8bd2eadc1ad819356f4b56f08f5e73d91ee2d",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/design/high-end-visual-design--leonxlnx-taste-skill"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:49c7b83a53374522fc0603e5b0d8bd2eadc1ad819356f4b56f08f5e73d91ee2d",
+    "fileCount": 1,
+    "totalBytes": 10561
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:leonxlnx/taste-skill:skills/soft-skill",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:c825dc5d7b0775d99e71ce48bb3fc0837960161b2a8104ef87b147c2b2e1ac0b",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "e988add20dab0fa97d7a76781c48961c8184288e",
+    "path": "skills/soft-skill",
+    "repository": "Leonxlnx/taste-skill",
+    "url": "https://github.com/Leonxlnx/taste-skill/tree/e988add20dab0fa97d7a76781c48961c8184288e/skills/soft-skill"
+  },
+  "status": "extracted"
+}

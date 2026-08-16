@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "FastAPI patterns for async APIs, dependency injection, Pydantic request and response models, OpenAPI docs, tests, security, and production readiness.",
+  "id": "github:affaan-m/ecc:.kiro/skills/fastapi-patterns",
+  "kind": "CapabilityPackage",
+  "name": "fastapi-patterns",
+  "slug": "fastapi-patterns--affaan-m-ecc",
+  "source": {
+    "path": ".kiro/skills/fastapi-patterns",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

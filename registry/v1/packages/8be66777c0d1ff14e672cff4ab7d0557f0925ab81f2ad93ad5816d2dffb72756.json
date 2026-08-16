@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "product",
+  "description": "Generate user-facing release notes from tickets, PRDs, or changelogs. Creates clear, engaging summaries organized by category (new features, improvements, fixes). Use when writing release notes, creating changelogs, announcing product updates, or summarizing what shipped.",
+  "id": "github:phuryn/pm-skills:pm-execution/skills/release-notes",
+  "kind": "CapabilityPackage",
+  "name": "release-notes",
+  "slug": "release-notes--phuryn-pm-skills",
+  "source": {
+    "path": "pm-execution/skills/release-notes",
+    "repository": "phuryn/pm-skills"
+  },
+  "type": "skill"
+}

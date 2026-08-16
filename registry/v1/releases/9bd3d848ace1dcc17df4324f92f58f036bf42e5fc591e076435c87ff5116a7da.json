@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:ebac45cc26b7dc011b08a46045de8d1cc104100e5ae5668b43004333ed906a27",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/product/production-audit--affaan-m-ecc"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:ebac45cc26b7dc011b08a46045de8d1cc104100e5ae5668b43004333ed906a27",
+    "fileCount": 1,
+    "totalBytes": 7727
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:affaan-m/ecc:skills/production-audit",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:9bd3d848ace1dcc17df4324f92f58f036bf42e5fc591e076435c87ff5116a7da",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "path": "skills/production-audit",
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC/tree/c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8/skills/production-audit"
+  },
+  "status": "extracted"
+}

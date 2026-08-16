@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:1a31f8bf4ff85a802b0bb165f3f28d2b3ac201da17bc519cadbca9208befcd93",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/engineering/latchbio-integration--k-dense-ai-scientific-agent-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:1a31f8bf4ff85a802b0bb165f3f28d2b3ac201da17bc519cadbca9208befcd93",
+    "fileCount": 11,
+    "totalBytes": 86082
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:k-dense-ai/scientific-agent-skills:skills/latchbio-integration",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:80c17b2fe96541fec84d998ae4211fc72a789f0b0bfb51d726152fb1fb5c0cd9",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "b2a92ba052dcae4ef48e850b9e31ebf75706be48",
+    "path": "skills/latchbio-integration",
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/b2a92ba052dcae4ef48e850b9e31ebf75706be48/skills/latchbio-integration"
+  },
+  "status": "extracted"
+}

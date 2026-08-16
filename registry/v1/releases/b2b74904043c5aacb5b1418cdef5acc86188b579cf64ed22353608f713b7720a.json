@@ -1,0 +1,55 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:fe754b771270dea89e13e3220d82c41b9155bd1942c9b8dd3f28e8c59902f1d8",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/design/histolab--k-dense-ai-scientific-agent-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:fe754b771270dea89e13e3220d82c41b9155bd1942c9b8dd3f28e8c59902f1d8",
+    "fileCount": 8,
+    "totalBytes": 75004
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:k-dense-ai/scientific-agent-skills:skills/histolab",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:b2b74904043c5aacb5b1418cdef5acc86188b579cf64ed22353608f713b7720a",
+  "security": {
+    "staticScan": {
+      "findings": [
+        {
+          "file": "filters_preprocessing.md",
+          "rule": "shell-eval"
+        }
+      ],
+      "status": "review"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "b2a92ba052dcae4ef48e850b9e31ebf75706be48",
+    "path": "skills/histolab",
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/b2a92ba052dcae4ef48e850b9e31ebf75706be48/skills/histolab"
+  },
+  "status": "needs-review"
+}

@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "design",
+  "description": "Differential gene expression analysis for bulk RNA-seq with PyDESeq2, including formulaic designs, Wald tests, FDR correction, LFC shrinkage, and result visualization.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/pydeseq2",
+  "kind": "CapabilityPackage",
+  "name": "pydeseq2",
+  "slug": "pydeseq2--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/pydeseq2",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

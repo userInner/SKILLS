@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Protocol-based dependency injection for testable Swift code — mock file system, network, and external APIs using focused protocols and Swift Testing.",
+  "id": "github:affaan-m/ecc:.kiro/skills/swift-protocol-di-testing",
+  "kind": "CapabilityPackage",
+  "name": "swift-protocol-di-testing",
+  "slug": "swift-protocol-di-testing--affaan-m-ecc",
+  "source": {
+    "path": ".kiro/skills/swift-protocol-di-testing",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

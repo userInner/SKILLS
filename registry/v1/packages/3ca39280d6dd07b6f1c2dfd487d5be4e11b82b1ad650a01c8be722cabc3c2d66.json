@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Swift 6.2 Approachable Concurrency — single-threaded by default, @concurrent for explicit background offloading, isolated conformances for main actor types. Use when adopting Swift 6.2 concurrency — offloading with @concurrent or resolving main-actor isolation.",
+  "id": "github:affaan-m/ecc:skills/swift-concurrency-6-2",
+  "kind": "CapabilityPackage",
+  "name": "swift-concurrency-6-2",
+  "slug": "swift-concurrency-6-2--affaan-m-ecc",
+  "source": {
+    "path": "skills/swift-concurrency-6-2",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:8000cdd4a48cbb9bf1e53b97429129319934aa03de664e0de7497b0c73126ca1",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/product/outcome-roadmap--phuryn-pm-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:8000cdd4a48cbb9bf1e53b97429129319934aa03de664e0de7497b0c73126ca1",
+    "fileCount": 1,
+    "totalBytes": 3601
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:phuryn/pm-skills:pm-execution/skills/outcome-roadmap",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:fdca21aa7fef6077dfdb08254f1d90bec50477601f2dce9c50d1f117c8d2525c",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "18468a95b427e70e258b51389796367c6f684e7d",
+    "path": "pm-execution/skills/outcome-roadmap",
+    "repository": "phuryn/pm-skills",
+    "url": "https://github.com/phuryn/pm-skills/tree/18468a95b427e70e258b51389796367c6f684e7d/pm-execution/skills/outcome-roadmap"
+  },
+  "status": "extracted"
+}

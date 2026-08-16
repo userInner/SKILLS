@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:418cb8942b3424c38db8f34c0d405fb3915243b0b00628ccaae252a056a1c872",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/engineering/ponytail-audit--dietrichgebert-ponytail"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:418cb8942b3424c38db8f34c0d405fb3915243b0b00628ccaae252a056a1c872",
+    "fileCount": 1,
+    "totalBytes": 1434
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:dietrichgebert/ponytail:.openclaw/skills/ponytail-audit",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:2ca7339134f6fd73ef657e7bc9c16f0ef22aa6be5daed76d9206612ae7562658",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "2ed6c52c9d7e5e56942508591085fd45dea277d3",
+    "path": ".openclaw/skills/ponytail-audit",
+    "repository": "DietrichGebert/ponytail",
+    "url": "https://github.com/DietrichGebert/ponytail/tree/2ed6c52c9d7e5e56942508591085fd45dea277d3/.openclaw/skills/ponytail-audit"
+  },
+  "status": "extracted"
+}

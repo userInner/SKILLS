@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:b8c101e50181654042d456ca66d9649f38681cfb8cac0f373b435f5ee77e0c05",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/engineering/ab-testing--coreyhaines31-marketingskills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:b8c101e50181654042d456ca66d9649f38681cfb8cac0f373b435f5ee77e0c05",
+    "fileCount": 4,
+    "totalBytes": 33010
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:coreyhaines31/marketingskills:skills/ab-testing",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:4760eecbf0da7599498fe4a27077d4d4ded26baee345960f8c03e8e5926d5031",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "7868cb9251fad80a73d26e488a5ad5f6c4a9f335",
+    "path": "skills/ab-testing",
+    "repository": "coreyhaines31/marketingskills",
+    "url": "https://github.com/coreyhaines31/marketingskills/tree/7868cb9251fad80a73d26e488a5ad5f6c4a9f335/skills/ab-testing"
+  },
+  "status": "extracted"
+}

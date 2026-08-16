@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Orchestrate bootstrapping a working MVP from a design or spec document — ingest the doc, plan thin vertical slices, scaffold the first end-to-end slice, then TDD-implement, review, and gated commit. Use to turn an SDD/PRD into a running starting point. Use when a design or spec document must become a running MVP through planned vertical slices.",
+  "id": "github:affaan-m/ecc:skills/orch-build-mvp",
+  "kind": "CapabilityPackage",
+  "name": "orch-build-mvp",
+  "slug": "orch-build-mvp--affaan-m-ecc",
+  "source": {
+    "path": "skills/orch-build-mvp",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "growth",
+  "description": "Brand voice, visual identity, messaging frameworks, asset management, brand consistency. Activate for branded content, tone of voice, marketing assets, brand compliance, style guides.",
+  "id": "github:nextlevelbuilder/ui-ux-pro-max-skill:.claude/skills/brand",
+  "kind": "CapabilityPackage",
+  "name": "brand",
+  "slug": "brand--nextlevelbuilder-ui-ux-pro-max-skill",
+  "source": {
+    "path": ".claude/skills/brand",
+    "repository": "nextlevelbuilder/ui-ux-pro-max-skill"
+  },
+  "type": "skill"
+}

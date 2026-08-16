@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "GAN-inspired Generator-Evaluator agent harness for building high-quality applications autonomously. Based on Anthropic's March 2026 harness design paper. Use when a feature should be built autonomously through generator and evaluator iteration until it clears a quality bar.",
+  "id": "github:affaan-m/ecc:skills/gan-style-harness",
+  "kind": "CapabilityPackage",
+  "name": "gan-style-harness",
+  "slug": "gan-style-harness--affaan-m-ecc",
+  "source": {
+    "path": "skills/gan-style-harness",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

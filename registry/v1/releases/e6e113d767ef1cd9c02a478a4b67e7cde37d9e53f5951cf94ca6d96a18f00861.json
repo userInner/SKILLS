@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:c3f6dade5d6ab4666c504a30a6392fd74adb98e7919be01e07444ce8b69934ab",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/product/competitors--coreyhaines31-marketingskills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:c3f6dade5d6ab4666c504a30a6392fd74adb98e7919be01e07444ce8b69934ab",
+    "fileCount": 4,
+    "totalBytes": 28493
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:coreyhaines31/marketingskills:skills/competitors",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:e6e113d767ef1cd9c02a478a4b67e7cde37d9e53f5951cf94ca6d96a18f00861",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "7868cb9251fad80a73d26e488a5ad5f6c4a9f335",
+    "path": "skills/competitors",
+    "repository": "coreyhaines31/marketingskills",
+    "url": "https://github.com/coreyhaines31/marketingskills/tree/7868cb9251fad80a73d26e488a5ad5f6c4a9f335/skills/competitors"
+  },
+  "status": "extracted"
+}

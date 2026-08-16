@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:f6161596cab00499edc8b1512c46fdeda5f733ffa8403d377dd8c57dc9949eb3",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/writing/documentation-and-adrs--addyosmani-agent-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:f6161596cab00499edc8b1512c46fdeda5f733ffa8403d377dd8c57dc9949eb3",
+    "fileCount": 1,
+    "totalBytes": 9782
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:addyosmani/agent-skills:skills/documentation-and-adrs",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:e71bdec37be2a8e1ecdd020e111e61cec4fa043d4a9dd70752d43b0de2695e6c",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "df1edb2e05487d0aa6d93c747141e0aed1187f25",
+    "path": "skills/documentation-and-adrs",
+    "repository": "addyosmani/agent-skills",
+    "url": "https://github.com/addyosmani/agent-skills/tree/df1edb2e05487d0aa6d93c747141e0aed1187f25/skills/documentation-and-adrs"
+  },
+  "status": "extracted"
+}

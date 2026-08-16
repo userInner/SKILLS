@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "product",
+  "description": "Translate PRD intent, roadmap asks, or product discussions into an implementation-ready capability plan that exposes constraints, invariants, interfaces, and unresolved decisions before multi-service work starts. Use when the user needs an ECC-native PRD-to-SRS lane instead of vague planning prose.",
+  "id": "github:affaan-m/ecc:.agents/skills/product-capability",
+  "kind": "CapabilityPackage",
+  "name": "product-capability",
+  "slug": "product-capability--affaan-m-ecc",
+  "source": {
+    "path": ".agents/skills/product-capability",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

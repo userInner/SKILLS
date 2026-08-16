@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Track and report Claude Code token usage, spending, and budgets from the local ECC cost-tracker metrics log. Use when the user asks about costs, spending, usage, tokens, budgets, or cost breakdowns by model, session, or date.",
+  "id": "github:affaan-m/ecc:skills/cost-tracking",
+  "kind": "CapabilityPackage",
+  "name": "cost-tracking",
+  "slug": "cost-tracking--affaan-m-ecc",
+  "source": {
+    "path": "skills/cost-tracking",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

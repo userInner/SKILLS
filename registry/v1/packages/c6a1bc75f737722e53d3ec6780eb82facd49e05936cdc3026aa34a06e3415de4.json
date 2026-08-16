@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Spring Boot architecture patterns, REST API design, layered services, data access, caching, async processing, and logging. Use for Java Spring Boot backend work.",
+  "id": "github:affaan-m/ecc:.kiro/skills/springboot-patterns",
+  "kind": "CapabilityPackage",
+  "name": "springboot-patterns",
+  "slug": "springboot-patterns--affaan-m-ecc",
+  "source": {
+    "path": ".kiro/skills/springboot-patterns",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

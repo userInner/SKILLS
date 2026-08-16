@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:f52c70451ca573d9b8fe955452210a1358bf1d65df48681dd2bfa56137f64234",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/design/design--nextlevelbuilder-ui-ux-pro-max-skill"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:f52c70451ca573d9b8fe955452210a1358bf1d65df48681dd2bfa56137f64234",
+    "fileCount": 35,
+    "totalBytes": 241945
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:nextlevelbuilder/ui-ux-pro-max-skill:.claude/skills/design",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:b272442859bed564993813720bff37eed151f5c908ae07d4f2ace1210a191772",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "a38d04c3d5c298c851dbe5e6ee1965ee3de42cb5",
+    "path": ".claude/skills/design",
+    "repository": "nextlevelbuilder/ui-ux-pro-max-skill",
+    "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/tree/a38d04c3d5c298c851dbe5e6ee1965ee3de42cb5/.claude/skills/design"
+  },
+  "status": "extracted"
+}

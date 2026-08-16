@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": ">",
+  "id": "github:dietrichgebert/ponytail:skills/ponytail-audit",
+  "kind": "CapabilityPackage",
+  "name": "ponytail-audit",
+  "slug": "ponytail-audit--dietrichgebert-ponytail",
+  "source": {
+    "path": "skills/ponytail-audit",
+    "repository": "DietrichGebert/ponytail"
+  },
+  "type": "skill"
+}

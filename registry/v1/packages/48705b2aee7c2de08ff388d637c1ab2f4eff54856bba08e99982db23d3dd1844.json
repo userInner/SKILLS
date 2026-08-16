@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Medicinal chemistry filters for compound triage. Apply drug-likeness rules (Lipinski, Veber, CNS), structural alert catalogs (PAINS, NIBR, ChEMBL), complexity metrics, and the medchem query language for library filtering.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/medchem",
+  "kind": "CapabilityPackage",
+  "name": "medchem",
+  "slug": "medchem--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/medchem",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:9fe7e05dbe736ba5bcc7e29add1072a6bc375c5527eeee5c1d46a86791e8d372",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/design/seaborn--k-dense-ai-scientific-agent-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:9fe7e05dbe736ba5bcc7e29add1072a6bc375c5527eeee5c1d46a86791e8d372",
+    "fileCount": 8,
+    "totalBytes": 87709
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:k-dense-ai/scientific-agent-skills:skills/seaborn",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:2c633fcf005ca33279bb96ee389dbb6915e63c32f2034e9abe1f87714fa72417",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "b2a92ba052dcae4ef48e850b9e31ebf75706be48",
+    "path": "skills/seaborn",
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/b2a92ba052dcae4ef48e850b9e31ebf75706be48/skills/seaborn"
+  },
+  "status": "extracted"
+}

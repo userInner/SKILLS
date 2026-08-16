@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Audit the whole repo for over-engineering. A ranked list of what to delete, simplify, or replace with stdlib or native features.",
+  "id": "github:dietrichgebert/ponytail:.openclaw/skills/ponytail-audit",
+  "kind": "CapabilityPackage",
+  "name": "ponytail-audit",
+  "slug": "ponytail-audit--dietrichgebert-ponytail",
+  "source": {
+    "path": ".openclaw/skills/ponytail-audit",
+    "repository": "DietrichGebert/ponytail"
+  },
+  "type": "skill"
+}

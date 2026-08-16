@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:fa607419c201363b05cc2297abb182d4c3a2c0ad2270f239cdd361a52053aafa",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/product/brainstorm-experiments-existing--phuryn-pm-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:fa607419c201363b05cc2297abb182d4c3a2c0ad2270f239cdd361a52053aafa",
+    "fileCount": 1,
+    "totalBytes": 2408
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:phuryn/pm-skills:pm-product-discovery/skills/brainstorm-experiments-existing",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:1b3c230a0447b2b725c7352251558b85fbf912d1134c95b4bc9d819e20e1262b",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "18468a95b427e70e258b51389796367c6f684e7d",
+    "path": "pm-product-discovery/skills/brainstorm-experiments-existing",
+    "repository": "phuryn/pm-skills",
+    "url": "https://github.com/phuryn/pm-skills/tree/18468a95b427e70e258b51389796367c6f684e7d/pm-product-discovery/skills/brainstorm-experiments-existing"
+  },
+  "status": "extracted"
+}

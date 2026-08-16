@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Evidence-first mailbox triage, drafting, send verification, and sent-mail-safe follow-up workflow for ECC. Use when the user wants to organize email, draft or send through the real mail surface, or prove what landed in Sent.",
+  "id": "github:affaan-m/ecc:skills/email-ops",
+  "kind": "CapabilityPackage",
+  "name": "email-ops",
+  "slug": "email-ops--affaan-m-ecc",
+  "source": {
+    "path": "skills/email-ops",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

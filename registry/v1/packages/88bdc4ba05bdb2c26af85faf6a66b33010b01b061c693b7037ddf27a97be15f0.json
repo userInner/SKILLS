@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Secure transport toggle; default true.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/omero-integration",
+  "kind": "CapabilityPackage",
+  "name": "omero-integration",
+  "slug": "omero-integration--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/omero-integration",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

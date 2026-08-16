@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Analyze an unfamiliar codebase and generate a structured onboarding guide with architecture map, key entry points, conventions, and a starter CLAUDE.md. Use when joining a new project or setting up Claude Code for the first time in a repo.",
+  "id": "github:affaan-m/ecc:skills/codebase-onboarding",
+  "kind": "CapabilityPackage",
+  "name": "codebase-onboarding",
+  "slug": "codebase-onboarding--affaan-m-ecc",
+  "source": {
+    "path": "skills/codebase-onboarding",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

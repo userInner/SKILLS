@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:6479ce163c469843f6ead84a635698fee32b8860600801ee5347ccf8ca4a5592",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/design/banner-design--nextlevelbuilder-ui-ux-pro-max-skill"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:6479ce163c469843f6ead84a635698fee32b8860600801ee5347ccf8ca4a5592",
+    "fileCount": 2,
+    "totalBytes": 13319
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:nextlevelbuilder/ui-ux-pro-max-skill:.claude/skills/banner-design",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:c384302c8d94b5c88b7091c618814bd430b6621f23f54b3124f99b2602c5bf4c",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "a38d04c3d5c298c851dbe5e6ee1965ee3de42cb5",
+    "path": ".claude/skills/banner-design",
+    "repository": "nextlevelbuilder/ui-ux-pro-max-skill",
+    "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/tree/a38d04c3d5c298c851dbe5e6ee1965ee3de42cb5/.claude/skills/banner-design"
+  },
+  "status": "extracted"
+}

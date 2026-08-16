@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "JetBrains Exposed ORM patterns including DSL queries, DAO pattern, transactions, HikariCP connection pooling, Flyway migrations, and repository pattern. Use when working with the Exposed ORM — DSL or DAO queries, transactions, pooling, or migrations.",
+  "id": "github:affaan-m/ecc:skills/kotlin-exposed-patterns",
+  "kind": "CapabilityPackage",
+  "name": "kotlin-exposed-patterns",
+  "slug": "kotlin-exposed-patterns--affaan-m-ecc",
+  "source": {
+    "path": "skills/kotlin-exposed-patterns",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

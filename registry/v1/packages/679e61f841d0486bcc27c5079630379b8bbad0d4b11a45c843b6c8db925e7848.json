@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Grounds every implementation decision in official documentation. Use when you want authoritative, source-cited code free from outdated patterns. Use when building with any framework or library where correctness matters.",
+  "id": "github:addyosmani/agent-skills:skills/source-driven-development",
+  "kind": "CapabilityPackage",
+  "name": "source-driven-development",
+  "slug": "source-driven-development--addyosmani-agent-skills",
+  "source": {
+    "path": "skills/source-driven-development",
+    "repository": "addyosmani/agent-skills"
+  },
+  "type": "skill"
+}

@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Research-before-coding workflow. Search for existing tools, libraries, and patterns before writing custom code. Invokes the researcher agent.",
+  "id": "github:affaan-m/ecc:skills/search-first",
+  "kind": "CapabilityPackage",
+  "name": "search-first",
+  "slug": "search-first--affaan-m-ecc--747f8d650d",
+  "source": {
+    "path": "skills/search-first",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

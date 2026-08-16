@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:100e4d5820fae9bea04ab891b150c6c393805deeb0af2cfbabd9e200d3cb9275",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/workflow/incremental-implementation--addyosmani-agent-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:100e4d5820fae9bea04ab891b150c6c393805deeb0af2cfbabd9e200d3cb9275",
+    "fileCount": 1,
+    "totalBytes": 9507
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:addyosmani/agent-skills:skills/incremental-implementation",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:3c4c8a5ce256318b1e5e389dc76427bb3abc00088d4086f6d2565a0f053a218c",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "df1edb2e05487d0aa6d93c747141e0aed1187f25",
+    "path": "skills/incremental-implementation",
+    "repository": "addyosmani/agent-skills",
+    "url": "https://github.com/addyosmani/agent-skills/tree/df1edb2e05487d0aa6d93c747141e0aed1187f25/skills/incremental-implementation"
+  },
+  "status": "extracted"
+}

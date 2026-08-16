@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:b0b48f0cbba787f98300648ce067a6026b8ffdd661961fdcc45064261c9df6b0",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "skills/growth/community-marketing"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:b0b48f0cbba787f98300648ce067a6026b8ffdd661961fdcc45064261c9df6b0",
+    "fileCount": 5,
+    "totalBytes": 18736
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "unknown",
+    "spdx": "see-package"
+  },
+  "packageId": "github:userinner/skills:skills/growth/community-marketing",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:9c26c2fd6bde65304267d92f33621dd970f43ddf72b21a85593fb48b3973447f",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "16928212a5bdc27c4e859ec0f894ca1524b88816",
+    "path": "skills/growth/community-marketing",
+    "repository": "userInner/SKILLS",
+    "url": "https://github.com/userInner/SKILLS/tree/16928212a5bdc27c4e859ec0f894ca1524b88816/skills/growth/community-marketing"
+  },
+  "status": "direct"
+}

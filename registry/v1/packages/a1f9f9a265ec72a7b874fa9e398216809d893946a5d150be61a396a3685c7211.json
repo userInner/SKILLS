@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "product",
+  "description": "Segment users from feedback data based on behavior, JTBD, and needs. Identifies at least 3 distinct user segments. Use when segmenting a user base, analyzing diverse user feedback, or building a segmentation model.",
+  "id": "github:phuryn/pm-skills:pm-market-research/skills/user-segmentation",
+  "kind": "CapabilityPackage",
+  "name": "user-segmentation",
+  "slug": "user-segmentation--phuryn-pm-skills",
+  "source": {
+    "path": "pm-market-research/skills/user-segmentation",
+    "repository": "phuryn/pm-skills"
+  },
+  "type": "skill"
+}

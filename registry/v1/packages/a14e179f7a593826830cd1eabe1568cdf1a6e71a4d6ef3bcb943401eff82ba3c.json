@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": ">",
+  "id": "github:affaan-m/ecc:.kiro/skills/tdd-workflow",
+  "kind": "CapabilityPackage",
+  "name": "tdd-workflow",
+  "slug": "tdd-workflow--affaan-m-ecc--443063a648",
+  "source": {
+    "path": ".kiro/skills/tdd-workflow",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:78cadb32260105d619d7e47da6633cf47ed0d14f2857fcd7adee1ff1b8b3608c",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/engineering/debugging-and-error-recovery--addyosmani-agent-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:78cadb32260105d619d7e47da6633cf47ed0d14f2857fcd7adee1ff1b8b3608c",
+    "fileCount": 1,
+    "totalBytes": 10837
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:addyosmani/agent-skills:skills/debugging-and-error-recovery",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:faedeea8c9a7be5ac99effb16d39ba9ef89ad2a83569f27f6ef4e578a3a5ea91",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "df1edb2e05487d0aa6d93c747141e0aed1187f25",
+    "path": "skills/debugging-and-error-recovery",
+    "repository": "addyosmani/agent-skills",
+    "url": "https://github.com/addyosmani/agent-skills/tree/df1edb2e05487d0aa6d93c747141e0aed1187f25/skills/debugging-and-error-recovery"
+  },
+  "status": "extracted"
+}

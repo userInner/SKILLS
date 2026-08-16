@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": ">",
+  "id": "github:affaan-m/ecc:.kiro/skills/database-migrations",
+  "kind": "CapabilityPackage",
+  "name": "database-migrations",
+  "slug": "database-migrations--affaan-m-ecc",
+  "source": {
+    "path": ".kiro/skills/database-migrations",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

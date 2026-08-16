@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "design",
+  "description": "Analyze, manipulate, compare, annotate, and visualize phylogenetic or other hierarchical trees with ETE 4. Use for Newick/Nexus tree I/O, topology edits and pattern matching, Robinson-Foulds comparisons, gene-tree evolutionary events and reconciliation, NCBI/GTDB taxonomy, SmartView exploration, and publication rendering. Do not use it to infer trees from raw sequences; align sequences and infer a tree first.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/etetoolkit",
+  "kind": "CapabilityPackage",
+  "name": "etetoolkit",
+  "slug": "etetoolkit--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/etetoolkit",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

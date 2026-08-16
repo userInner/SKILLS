@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "product",
+  "description": "Build evidence-traceable market research reports and assumption-driven market sizing or forecast scenarios. Use for market definition, industry and customer evidence, competitive landscapes, TAM/SAM/SOM reconciliation, forecast sensitivity, and auditable report scaffolds.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/market-research-reports",
+  "kind": "CapabilityPackage",
+  "name": "market-research-reports",
+  "slug": "market-research-reports--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/market-research-reports",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

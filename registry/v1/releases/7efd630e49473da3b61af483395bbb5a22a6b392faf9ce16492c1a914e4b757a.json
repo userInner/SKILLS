@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:0f1fe214aec4300e2afa5af80404ce1ade6cccbc6542664357f24d332d0e720a",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/writing/react-patterns--affaan-m-ecc"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:0f1fe214aec4300e2afa5af80404ce1ade6cccbc6542664357f24d332d0e720a",
+    "fileCount": 1,
+    "totalBytes": 11567
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:affaan-m/ecc:.kiro/skills/react-patterns",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:7efd630e49473da3b61af483395bbb5a22a6b392faf9ce16492c1a914e4b757a",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "path": ".kiro/skills/react-patterns",
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC/tree/c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8/.kiro/skills/react-patterns"
+  },
+  "status": "extracted"
+}

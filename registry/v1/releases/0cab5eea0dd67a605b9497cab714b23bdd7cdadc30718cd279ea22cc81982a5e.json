@@ -1,0 +1,55 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:7f7edeae1f94426ff05de8ba713f5d4b7c769975117eb98226c585504abd858c",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/design/pufferlib--k-dense-ai-scientific-agent-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:7f7edeae1f94426ff05de8ba713f5d4b7c769975117eb98226c585504abd858c",
+    "fileCount": 15,
+    "totalBytes": 126284
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:k-dense-ai/scientific-agent-skills:skills/pufferlib",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:0cab5eea0dd67a605b9497cab714b23bdd7cdadc30718cd279ea22cc81982a5e",
+  "security": {
+    "staticScan": {
+      "findings": [
+        {
+          "file": "policies.md",
+          "rule": "shell-eval"
+        }
+      ],
+      "status": "review"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "b2a92ba052dcae4ef48e850b9e31ebf75706be48",
+    "path": "skills/pufferlib",
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/b2a92ba052dcae4ef48e850b9e31ebf75706be48/skills/pufferlib"
+  },
+  "status": "needs-review"
+}

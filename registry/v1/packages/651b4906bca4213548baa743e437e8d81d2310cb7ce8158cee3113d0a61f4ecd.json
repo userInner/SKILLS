@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "product",
+  "description": "Brainstorm 3-5 monetization strategies with audience fit, risks, and validation experiments. Use when exploring revenue models, evaluating pricing strategies, or deciding how to monetize a product.",
+  "id": "github:phuryn/pm-skills:pm-product-strategy/skills/monetization-strategy",
+  "kind": "CapabilityPackage",
+  "name": "monetization-strategy",
+  "slug": "monetization-strategy--phuryn-pm-skills",
+  "source": {
+    "path": "pm-product-strategy/skills/monetization-strategy",
+    "repository": "phuryn/pm-skills"
+  },
+  "type": "skill"
+}

@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Verification loop for Spring Boot projects: build, static analysis, tests with coverage, security scans, and diff review before release or PR.",
+  "id": "github:affaan-m/ecc:skills/springboot-verification",
+  "kind": "CapabilityPackage",
+  "name": "springboot-verification",
+  "slug": "springboot-verification--affaan-m-ecc",
+  "source": {
+    "path": "skills/springboot-verification",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

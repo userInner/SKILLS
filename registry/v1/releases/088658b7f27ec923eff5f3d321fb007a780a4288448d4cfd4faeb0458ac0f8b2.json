@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:6dc34398388cfd9e526adf0f5639a305aefa672f329a8f8fb95550d37c2e005b",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/product/retro--phuryn-pm-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:6dc34398388cfd9e526adf0f5639a305aefa672f329a8f8fb95550d37c2e005b",
+    "fileCount": 1,
+    "totalBytes": 2809
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:phuryn/pm-skills:pm-execution/skills/retro",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:088658b7f27ec923eff5f3d321fb007a780a4288448d4cfd4faeb0458ac0f8b2",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "18468a95b427e70e258b51389796367c6f684e7d",
+    "path": "pm-execution/skills/retro",
+    "repository": "phuryn/pm-skills",
+    "url": "https://github.com/phuryn/pm-skills/tree/18468a95b427e70e258b51389796367c6f684e7d/pm-execution/skills/retro"
+  },
+  "status": "extracted"
+}

@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Kotlin Coroutines and Flow patterns for Android and KMP — structured concurrency, Flow operators, StateFlow, error handling, and testing. Use when writing coroutines or Flow code on Android or KMP, or debugging cancellation and concurrency.",
+  "id": "github:affaan-m/ecc:skills/kotlin-coroutines-flows",
+  "kind": "CapabilityPackage",
+  "name": "kotlin-coroutines-flows",
+  "slug": "kotlin-coroutines-flows--affaan-m-ecc",
+  "source": {
+    "path": "skills/kotlin-coroutines-flows",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

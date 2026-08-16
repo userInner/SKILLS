@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Query documented public database APIs with explicit endpoints, filters, pagination, and provenance. Use when a scientific, regulatory, financial, or other database-backed fact must be retrieved reproducibly from a named source rather than inferred from general knowledge.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/database-lookup",
+  "kind": "CapabilityPackage",
+  "name": "database-lookup",
+  "slug": "database-lookup--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/database-lookup",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

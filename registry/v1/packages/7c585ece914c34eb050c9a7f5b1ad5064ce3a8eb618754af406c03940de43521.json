@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "design",
+  "description": "Production-ready UI motion system for React/Next.js. Use when implementing animations, transitions, or motion patterns.",
+  "id": "github:affaan-m/ecc:skills/motion-ui",
+  "kind": "CapabilityPackage",
+  "name": "motion-ui",
+  "slug": "motion-ui--affaan-m-ecc",
+  "source": {
+    "path": "skills/motion-ui",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "product",
+  "description": "Local-evidence production readiness audit for shipped apps, pre-launch reviews, post-merge checks, and \"what breaks in prod?\" questions without sending repo data to an external audit service. Use when auditing production readiness before launch, after a merge, or when asked what breaks in prod.",
+  "id": "github:affaan-m/ecc:skills/production-audit",
+  "kind": "CapabilityPackage",
+  "name": "production-audit",
+  "slug": "production-audit--affaan-m-ecc",
+  "source": {
+    "path": "skills/production-audit",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

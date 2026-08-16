@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:8138d9c04eaaa33106365a4dc4dd7ae496064837e0a4a3dd771e8c8c22e8305c",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/product/brainstorm-ideas-new--phuryn-pm-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:8138d9c04eaaa33106365a4dc4dd7ae496064837e0a4a3dd771e8c8c22e8305c",
+    "fileCount": 1,
+    "totalBytes": 2437
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:phuryn/pm-skills:pm-product-discovery/skills/brainstorm-ideas-new",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:67ac10e1db5c561cc8bae546a4cce8936bf33691d45be126b11def8683b2baca",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "18468a95b427e70e258b51389796367c6f684e7d",
+    "path": "pm-product-discovery/skills/brainstorm-ideas-new",
+    "repository": "phuryn/pm-skills",
+    "url": "https://github.com/phuryn/pm-skills/tree/18468a95b427e70e258b51389796367c6f684e7d/pm-product-discovery/skills/brainstorm-ideas-new"
+  },
+  "status": "extracted"
+}

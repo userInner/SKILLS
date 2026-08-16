@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:995b7bffd6108169a417746a34f413dfdab46da2a790ad3eab6035c7d1fbaeb4",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/workflow/planning-and-task-breakdown--addyosmani-agent-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:995b7bffd6108169a417746a34f413dfdab46da2a790ad3eab6035c7d1fbaeb4",
+    "fileCount": 1,
+    "totalBytes": 9442
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:addyosmani/agent-skills:skills/planning-and-task-breakdown",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:cdc07e8c5bd76bef455ec21ee71899c3a8556b359c64755db6acae417c4cfbc8",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "df1edb2e05487d0aa6d93c747141e0aed1187f25",
+    "path": "skills/planning-and-task-breakdown",
+    "repository": "addyosmani/agent-skills",
+    "url": "https://github.com/addyosmani/agent-skills/tree/df1edb2e05487d0aa6d93c747141e0aed1187f25/skills/planning-and-task-breakdown"
+  },
+  "status": "extracted"
+}

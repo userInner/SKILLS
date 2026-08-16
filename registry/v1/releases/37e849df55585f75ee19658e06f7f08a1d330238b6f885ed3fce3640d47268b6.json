@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:7f4dd06e191f7ba01f3b1a8114379544d5a216480e46e3b62ab2f020ab2c4fe7",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "skills/engineering/domain-modeling"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:7f4dd06e191f7ba01f3b1a8114379544d5a216480e46e3b62ab2f020ab2c4fe7",
+    "fileCount": 6,
+    "totalBytes": 10562
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "unknown",
+    "spdx": "see-package"
+  },
+  "packageId": "github:userinner/skills:skills/engineering/domain-modeling",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:37e849df55585f75ee19658e06f7f08a1d330238b6f885ed3fce3640d47268b6",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "16928212a5bdc27c4e859ec0f894ca1524b88816",
+    "path": "skills/engineering/domain-modeling",
+    "repository": "userInner/SKILLS",
+    "url": "https://github.com/userInner/SKILLS/tree/16928212a5bdc27c4e859ec0f894ca1524b88816/skills/engineering/domain-modeling"
+  },
+  "status": "direct"
+}

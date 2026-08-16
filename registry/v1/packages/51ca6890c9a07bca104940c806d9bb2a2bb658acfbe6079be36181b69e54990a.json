@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "design",
+  "description": "Create strategic HTML presentations with Chart.js, design tokens, responsive layouts, copywriting formulas, and contextual slide strategies.",
+  "id": "github:nextlevelbuilder/ui-ux-pro-max-skill:.claude/skills/slides",
+  "kind": "CapabilityPackage",
+  "name": "slides",
+  "slug": "slides--nextlevelbuilder-ui-ux-pro-max-skill",
+  "source": {
+    "path": ".claude/skills/slides",
+    "repository": "nextlevelbuilder/ui-ux-pro-max-skill"
+  },
+  "type": "skill"
+}

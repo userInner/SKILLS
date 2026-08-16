@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "High-performance DataFrame library for Python ETL, analytics, and pandas migration. Use for expression-based data manipulation with lazy query optimization, parallel execution, streaming out-of-core processing, Arrow interoperability, and optional GPU execution.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/polars",
+  "kind": "CapabilityPackage",
+  "name": "polars",
+  "slug": "polars--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/polars",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Write-time code quality enforcement using Plankton — auto-formatting, linting, and Claude-powered fixes on every file edit via hooks. Use when setting up write-time formatting, linting, or auto-fix hooks on file edits.",
+  "id": "github:affaan-m/ecc:skills/plankton-code-quality",
+  "kind": "CapabilityPackage",
+  "name": "plankton-code-quality",
+  "slug": "plankton-code-quality--affaan-m-ecc",
+  "source": {
+    "path": "skills/plankton-code-quality",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

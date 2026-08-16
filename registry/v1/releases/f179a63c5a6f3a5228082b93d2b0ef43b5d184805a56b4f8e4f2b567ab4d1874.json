@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:c68a40676ad50ff7de1d1aba78324869141e97adbf63fc436448493957b037d6",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/product/prediction-market-oracle-research--affaan-m-ecc"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:c68a40676ad50ff7de1d1aba78324869141e97adbf63fc436448493957b037d6",
+    "fileCount": 1,
+    "totalBytes": 2306
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:affaan-m/ecc:skills/prediction-market-oracle-research",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:f179a63c5a6f3a5228082b93d2b0ef43b5d184805a56b4f8e4f2b567ab4d1874",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "path": "skills/prediction-market-oracle-research",
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC/tree/c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8/skills/prediction-market-oracle-research"
+  },
+  "status": "extracted"
+}

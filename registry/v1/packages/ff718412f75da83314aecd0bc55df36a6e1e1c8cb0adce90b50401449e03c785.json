@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Use when managing an Uncloud cluster — deploying services, configuring Caddy ingress, adding static proxy routes for non-cluster devices, publishing ports, scaling, inspecting logs, or managing machines and volumes with the `uc` CLI.",
+  "id": "github:affaan-m/ecc:skills/uncloud",
+  "kind": "CapabilityPackage",
+  "name": "uncloud",
+  "slug": "uncloud--affaan-m-ecc",
+  "source": {
+    "path": "skills/uncloud",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

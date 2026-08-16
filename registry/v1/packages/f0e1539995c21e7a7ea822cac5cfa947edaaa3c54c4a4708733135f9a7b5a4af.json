@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "NestJS architecture patterns for modules, controllers, providers, DTO validation, guards, interceptors, config, and production-grade TypeScript backends.",
+  "id": "github:affaan-m/ecc:.kiro/skills/nestjs-patterns",
+  "kind": "CapabilityPackage",
+  "name": "nestjs-patterns",
+  "slug": "nestjs-patterns--affaan-m-ecc",
+  "source": {
+    "path": ".kiro/skills/nestjs-patterns",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Orchestrate fixing a bug — reproduce it as a failing regression test, fix to green, review, and gated commit — by delegating each phase to the matching ECC agent. Use when existing behavior is broken or wrong.",
+  "id": "github:affaan-m/ecc:skills/orch-fix-defect",
+  "kind": "CapabilityPackage",
+  "name": "orch-fix-defect",
+  "slug": "orch-fix-defect--affaan-m-ecc",
+  "source": {
+    "path": "skills/orch-fix-defect",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Use when auditing Claude skills and commands for quality. Supports Quick Scan (changed skills only) and Full Stocktake modes with sequential subagent batch evaluation.",
+  "id": "github:affaan-m/ecc:skills/skill-stocktake",
+  "kind": "CapabilityPackage",
+  "name": "skill-stocktake",
+  "slug": "skill-stocktake--affaan-m-ecc",
+  "source": {
+    "path": "skills/skill-stocktake",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Query the U.S. Treasury Fiscal Data REST API for federal financial data. No API key required. Use for national debt (Debt to the Penny), Daily Treasury Statements, Monthly Treasury Statements, Treasury securities auctions, interest rates, foreign exchange rates, savings bonds, or U.S. government revenue and spending statistics.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/usfiscaldata",
+  "kind": "CapabilityPackage",
+  "name": "usfiscaldata",
+  "slug": "usfiscaldata--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/usfiscaldata",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

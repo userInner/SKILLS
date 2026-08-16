@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:66c068d44001b4e6354c09e4b799f908ed1a7003211c7e7295331c122bea9f02",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/design/brandkit--leonxlnx-taste-skill"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:66c068d44001b4e6354c09e4b799f908ed1a7003211c7e7295331c122bea9f02",
+    "fileCount": 1,
+    "totalBytes": 15992
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:leonxlnx/taste-skill:skills/brandkit",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:46b5e44f99cdba19d6e57982f9bd603bd21a20e8210f0eb3c2cbf0e29fc357b9",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "e988add20dab0fa97d7a76781c48961c8184288e",
+    "path": "skills/brandkit",
+    "repository": "Leonxlnx/taste-skill",
+    "url": "https://github.com/Leonxlnx/taste-skill/tree/e988add20dab0fa97d7a76781c48961c8184288e/skills/brandkit"
+  },
+  "status": "extracted"
+}

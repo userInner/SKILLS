@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "gget CLI and Python workflow for quick genomic database queries, sequence lookup, BLAST-style searches, enrichment checks, and reproducible bioinformatics evidence logs. Use when a task needs quick bioinformatics lookup across genomic reference databases with the gget CLI or Python package.",
+  "id": "github:affaan-m/ecc:skills/scientific-pkg-gget",
+  "kind": "CapabilityPackage",
+  "name": "gget",
+  "slug": "gget--affaan-m-ecc",
+  "source": {
+    "path": "skills/scientific-pkg-gget",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

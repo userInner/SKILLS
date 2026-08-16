@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Regression testing strategies for AI-assisted development. Sandbox-mode API testing without database dependencies, automated bug-check workflows, and patterns to catch AI blind spots where the same model writes and reviews code. Use when adding regression coverage to AI-assisted code, or when the same model both wrote and reviewed a change.",
+  "id": "github:affaan-m/ecc:skills/ai-regression-testing",
+  "kind": "CapabilityPackage",
+  "name": "ai-regression-testing",
+  "slug": "ai-regression-testing--affaan-m-ecc",
+  "source": {
+    "path": "skills/ai-regression-testing",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

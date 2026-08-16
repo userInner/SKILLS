@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Query the Precision Medicine Knowledge Graph (PrimeKG) for multiscale biological data including genes, drugs, diseases, phenotypes, and more.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/primekg",
+  "kind": "CapabilityPackage",
+  "name": "primekg",
+  "slug": "primekg--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/primekg",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

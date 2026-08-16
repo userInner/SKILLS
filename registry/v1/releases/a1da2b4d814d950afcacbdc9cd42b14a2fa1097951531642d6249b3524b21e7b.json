@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:0b63afb03f68657b51042d075b0a7f8c2362bdb5bb1f77caab99693e90c91e21",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/design/minimalist-ui--leonxlnx-taste-skill"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:0b63afb03f68657b51042d075b0a7f8c2362bdb5bb1f77caab99693e90c91e21",
+    "fileCount": 1,
+    "totalBytes": 7901
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:leonxlnx/taste-skill:skills/minimalist-skill",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:a1da2b4d814d950afcacbdc9cd42b14a2fa1097951531642d6249b3524b21e7b",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "e988add20dab0fa97d7a76781c48961c8184288e",
+    "path": "skills/minimalist-skill",
+    "repository": "Leonxlnx/taste-skill",
+    "url": "https://github.com/Leonxlnx/taste-skill/tree/e988add20dab0fa97d7a76781c48961c8184288e/skills/minimalist-skill"
+  },
+  "status": "extracted"
+}

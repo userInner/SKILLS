@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Exa search API key.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/exa-search",
+  "kind": "CapabilityPackage",
+  "name": "exa-search",
+  "slug": "exa-search--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/exa-search",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

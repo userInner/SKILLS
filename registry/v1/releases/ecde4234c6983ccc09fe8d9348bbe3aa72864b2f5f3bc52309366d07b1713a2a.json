@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:400708e40ad7625f746dff6e4add1a00cefd62935e9ab347317495926c2e9190",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/product/laravel-plugin-discovery--affaan-m-ecc"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:400708e40ad7625f746dff6e4add1a00cefd62935e9ab347317495926c2e9190",
+    "fileCount": 1,
+    "totalBytes": 6393
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:affaan-m/ecc:skills/laravel-plugin-discovery",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:ecde4234c6983ccc09fe8d9348bbe3aa72864b2f5f3bc52309366d07b1713a2a",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "path": "skills/laravel-plugin-discovery",
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC/tree/c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8/skills/laravel-plugin-discovery"
+  },
+  "status": "extracted"
+}

@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:49cf8cda087cf814a8f66a7509c127c8f86166d0b9784fe6ef67ec7bbec63080",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/product/user-segmentation--phuryn-pm-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:49cf8cda087cf814a8f66a7509c127c8f86166d0b9784fe6ef67ec7bbec63080",
+    "fileCount": 1,
+    "totalBytes": 4102
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:phuryn/pm-skills:pm-market-research/skills/user-segmentation",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:934841565bb64dd2bd071bd403c056f0e19d13a9bbfde8cf8324ef0f5409908a",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "18468a95b427e70e258b51389796367c6f684e7d",
+    "path": "pm-market-research/skills/user-segmentation",
+    "repository": "phuryn/pm-skills",
+    "url": "https://github.com/phuryn/pm-skills/tree/18468a95b427e70e258b51389796367c6f684e7d/pm-market-research/skills/user-segmentation"
+  },
+  "status": "extracted"
+}

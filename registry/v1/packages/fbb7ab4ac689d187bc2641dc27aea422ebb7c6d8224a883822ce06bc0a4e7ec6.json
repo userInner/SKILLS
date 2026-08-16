@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "growth",
+  "description": "Encryption key for stored content, if configured.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/open-notebook",
+  "kind": "CapabilityPackage",
+  "name": "open-notebook",
+  "slug": "open-notebook--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/open-notebook",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Go testing patterns including table-driven tests, subtests, benchmarks, fuzzing, and test coverage. Follows TDD methodology with idiomatic Go practices. Use when writing Go tests — table-driven cases, subtests, benchmarks, fuzzing, or coverage.",
+  "id": "github:affaan-m/ecc:skills/golang-testing",
+  "kind": "CapabilityPackage",
+  "name": "golang-testing",
+  "slug": "golang-testing--affaan-m-ecc--8da78b20e0",
+  "source": {
+    "path": "skills/golang-testing",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

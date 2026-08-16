@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:45a2c07a525b8614b307671967520b3ac5af36a9385d8f67ba9c80dbf49f7152",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/research/scvi-tools--k-dense-ai-scientific-agent-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:45a2c07a525b8614b307671967520b3ac5af36a9385d8f67ba9c80dbf49f7152",
+    "fileCount": 9,
+    "totalBytes": 103404
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:k-dense-ai/scientific-agent-skills:skills/scvi-tools",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:0a123a058e81dee4ffce331bf9d67c174e6c75a410287aab6a0cc08cf0e984eb",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "b2a92ba052dcae4ef48e850b9e31ebf75706be48",
+    "path": "skills/scvi-tools",
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/b2a92ba052dcae4ef48e850b9e31ebf75706be48/skills/scvi-tools"
+  },
+  "status": "extracted"
+}

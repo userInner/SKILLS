@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "product",
+  "description": "Prioritize a backlog of feature ideas based on impact, effort, risk, and strategic alignment with top 5 recommendations. Use when prioritizing a feature backlog, making scope decisions, or ranking product ideas.",
+  "id": "github:phuryn/pm-skills:pm-product-discovery/skills/prioritize-features",
+  "kind": "CapabilityPackage",
+  "name": "prioritize-features",
+  "slug": "prioritize-features--phuryn-pm-skills",
+  "source": {
+    "path": "pm-product-discovery/skills/prioritize-features",
+    "repository": "phuryn/pm-skills"
+  },
+  "type": "skill"
+}

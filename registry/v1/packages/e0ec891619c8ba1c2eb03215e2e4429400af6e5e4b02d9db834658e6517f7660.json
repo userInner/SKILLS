@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Use when the user asks to make something faster, try many variants, run recursive optimization, benchmark latency/throughput/cost, or choose the best implementation by repeated measured tests.",
+  "id": "github:affaan-m/ecc:skills/benchmark-optimization-loop",
+  "kind": "CapabilityPackage",
+  "name": "benchmark-optimization-loop",
+  "slug": "benchmark-optimization-loop--affaan-m-ecc",
+  "source": {
+    "path": "skills/benchmark-optimization-loop",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

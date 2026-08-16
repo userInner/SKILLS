@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Instinct-based learning system that observes sessions via hooks, creates atomic instincts with confidence scoring, and evolves them into skills/commands/agents. v2.1 adds project-scoped instincts to prevent cross-project contamination. Use when capturing lessons from a session, managing instincts, or promoting them into skills, commands, or agents.",
+  "id": "github:affaan-m/ecc:skills/continuous-learning-v2",
+  "kind": "CapabilityPackage",
+  "name": "continuous-learning-v2",
+  "slug": "continuous-learning-v2--affaan-m-ecc",
+  "source": {
+    "path": "skills/continuous-learning-v2",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

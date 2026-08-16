@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:1f86edb2ed87f6532ba1e9d8e375073f73ff4dc1196580e0bae5789e97e437e8",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/writing/copy-editing--coreyhaines31-marketingskills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:1f86edb2ed87f6532ba1e9d8e375073f73ff4dc1196580e0bae5789e97e437e8",
+    "fileCount": 5,
+    "totalBytes": 34831
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:coreyhaines31/marketingskills:skills/copy-editing",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:6804e781367c578d40c5b9f9e3b1fe0611746a8b92f6d5ec4212bfd7be56cf7a",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "7868cb9251fad80a73d26e488a5ad5f6c4a9f335",
+    "path": "skills/copy-editing",
+    "repository": "coreyhaines31/marketingskills",
+    "url": "https://github.com/coreyhaines31/marketingskills/tree/7868cb9251fad80a73d26e488a5ad5f6c4a9f335/skills/copy-editing"
+  },
+  "status": "extracted"
+}

@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "design",
+  "description": "Query and download public cancer imaging data from NCI Imaging Data Commons. Invoke for any question about IDC collections, cancer imaging datasets, DICOM data access, radiology (CT, MR, PET) or pathology AI training sets, metadata queries, visualization, or license checks — even when the user doesn't explicitly mention \"IDC\". No authentication required.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/imaging-data-commons",
+  "kind": "CapabilityPackage",
+  "name": "imaging-data-commons",
+  "slug": "imaging-data-commons--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/imaging-data-commons",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

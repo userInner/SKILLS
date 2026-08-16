@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Run team-based orchestration for agent squads using work items, ownership, agent Kanban, merge gates, and control pane handoffs. Use when coordinating an agent squad with work items, ownership, Kanban, and merge gates.",
+  "id": "github:affaan-m/ecc:skills/team-agent-orchestration",
+  "kind": "CapabilityPackage",
+  "name": "team-agent-orchestration",
+  "slug": "team-agent-orchestration--affaan-m-ecc",
+  "source": {
+    "path": "skills/team-agent-orchestration",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

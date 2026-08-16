@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Cisco IOS and IOS-XE review patterns for show commands, config hierarchy, wildcard masks, ACL placement, interface hygiene, and safe change-window verification. Use when reading, writing, or reviewing Cisco IOS / IOS-XE configuration or planning a change window.",
+  "id": "github:affaan-m/ecc:skills/cisco-ios-patterns",
+  "kind": "CapabilityPackage",
+  "name": "cisco-ios-patterns",
+  "slug": "cisco-ios-patterns--affaan-m-ecc",
+  "source": {
+    "path": "skills/cisco-ios-patterns",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

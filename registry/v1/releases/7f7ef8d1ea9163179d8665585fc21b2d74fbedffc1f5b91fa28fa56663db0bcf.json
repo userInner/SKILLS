@@ -1,0 +1,59 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:921eb00133c94bd34cc15b3e829f705175fcd72375e39705cfb057d1d02450a7",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/workflow/safety-guard--affaan-m-ecc"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:921eb00133c94bd34cc15b3e829f705175fcd72375e39705cfb057d1d02450a7",
+    "fileCount": 1,
+    "totalBytes": 1945
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:affaan-m/ecc:skills/safety-guard",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:7f7ef8d1ea9163179d8665585fc21b2d74fbedffc1f5b91fa28fa56663db0bcf",
+  "security": {
+    "staticScan": {
+      "findings": [
+        {
+          "file": "SKILL.md",
+          "rule": "recursive-delete"
+        },
+        {
+          "file": "SKILL.md",
+          "rule": "privilege-escalation"
+        }
+      ],
+      "status": "review"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "path": "skills/safety-guard",
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC/tree/c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8/skills/safety-guard"
+  },
+  "status": "needs-review"
+}

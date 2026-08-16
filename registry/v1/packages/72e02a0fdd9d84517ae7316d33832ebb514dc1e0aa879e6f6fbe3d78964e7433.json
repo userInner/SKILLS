@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "design",
+  "description": "OpenRouter API key for the skill's LLM-powered steps.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/scientific-slides",
+  "kind": "CapabilityPackage",
+  "name": "scientific-slides",
+  "slug": "scientific-slides--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/scientific-slides",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

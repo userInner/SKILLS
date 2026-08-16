@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:2f26749a9bd215d3dc7e88874e78c88905d2dbf90823e8ac3558c2965b88a964",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/product/brand-discovery--affaan-m-ecc"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:2f26749a9bd215d3dc7e88874e78c88905d2dbf90823e8ac3558c2965b88a964",
+    "fileCount": 9,
+    "totalBytes": 21502
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:affaan-m/ecc:skills/brand-discovery",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:99c502b70d1f82232ed5de8694154af308c5bfd150ebe5c76957161382492ba7",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "path": "skills/brand-discovery",
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC/tree/c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8/skills/brand-discovery"
+  },
+  "status": "extracted"
+}

@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "product",
+  "description": "Create an end-to-end customer journey map with stages, touchpoints, emotions, pain points, and opportunities. Use when mapping the customer experience, identifying friction points, improving onboarding, or visualizing the user journey.",
+  "id": "github:phuryn/pm-skills:pm-market-research/skills/customer-journey-map",
+  "kind": "CapabilityPackage",
+  "name": "customer-journey-map",
+  "slug": "customer-journey-map--phuryn-pm-skills",
+  "source": {
+    "path": "pm-market-research/skills/customer-journey-map",
+    "repository": "phuryn/pm-skills"
+  },
+  "type": "skill"
+}

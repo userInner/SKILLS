@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:d915c228e1fd8ff18f9f417ddfff605f045a15acb85e15906dcb347ba6e2c941",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/design/industrial-brutalist-ui--leonxlnx-taste-skill"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:d915c228e1fd8ff18f9f417ddfff605f045a15acb85e15906dcb347ba6e2c941",
+    "fileCount": 1,
+    "totalBytes": 8456
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:leonxlnx/taste-skill:skills/brutalist-skill",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:0246bac5a3255ab56aef7232f3220705df19805cabc8d9c4a13b821603a53371",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "e988add20dab0fa97d7a76781c48961c8184288e",
+    "path": "skills/brutalist-skill",
+    "repository": "Leonxlnx/taste-skill",
+    "url": "https://github.com/Leonxlnx/taste-skill/tree/e988add20dab0fa97d7a76781c48961c8184288e/skills/brutalist-skill"
+  },
+  "status": "extracted"
+}

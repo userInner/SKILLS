@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": ">",
+  "id": "github:userinner/skills:skills/engineering/ponytail",
+  "kind": "CapabilityPackage",
+  "name": "ponytail",
+  "slug": "ponytail",
+  "source": {
+    "path": "skills/engineering/ponytail",
+    "repository": "userInner/SKILLS"
+  },
+  "type": "skill"
+}

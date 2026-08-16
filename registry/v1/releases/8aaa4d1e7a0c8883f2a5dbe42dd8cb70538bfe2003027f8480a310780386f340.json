@@ -1,0 +1,55 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:0554189d37f5726427a4d1db3f5fd609f984ab60e2cd189cf549a0cc3f16e87e",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/growth/brand--nextlevelbuilder-ui-ux-pro-max-skill"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:0554189d37f5726427a4d1db3f5fd609f984ab60e2cd189cf549a0cc3f16e87e",
+    "fileCount": 17,
+    "totalBytes": 86922
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:nextlevelbuilder/ui-ux-pro-max-skill:.claude/skills/brand",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:8aaa4d1e7a0c8883f2a5dbe42dd8cb70538bfe2003027f8480a310780386f340",
+  "security": {
+    "staticScan": {
+      "findings": [
+        {
+          "file": "extract-colors.cjs",
+          "rule": "shell-eval"
+        }
+      ],
+      "status": "review"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "a38d04c3d5c298c851dbe5e6ee1965ee3de42cb5",
+    "path": ".claude/skills/brand",
+    "repository": "nextlevelbuilder/ui-ux-pro-max-skill",
+    "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/tree/a38d04c3d5c298c851dbe5e6ee1965ee3de42cb5/.claude/skills/brand"
+  },
+  "status": "needs-review"
+}

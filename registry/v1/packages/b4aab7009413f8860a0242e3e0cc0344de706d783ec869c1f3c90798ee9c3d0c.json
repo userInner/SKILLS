@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Django + Celery async task patterns — configuration, task design, beat scheduling, retries, canvas workflows, monitoring, and testing. Use when adding background jobs, scheduled tasks, or async processing to a Django app.",
+  "id": "github:affaan-m/ecc:skills/django-celery",
+  "kind": "CapabilityPackage",
+  "name": "django-celery",
+  "slug": "django-celery--affaan-m-ecc",
+  "source": {
+    "path": "skills/django-celery",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

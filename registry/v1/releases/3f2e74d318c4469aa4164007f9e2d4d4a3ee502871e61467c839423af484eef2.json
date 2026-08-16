@@ -1,0 +1,55 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:5991a82999106bdbe11fb50421ef53bcb6feb33856b2bbe4250249cfd55be6f2",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/design/scientific-slides--k-dense-ai-scientific-agent-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:5991a82999106bdbe11fb50421ef53bcb6feb33856b2bbe4250249cfd55be6f2",
+    "fileCount": 24,
+    "totalBytes": 382705
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:k-dense-ai/scientific-agent-skills:skills/scientific-slides",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:3f2e74d318c4469aa4164007f9e2d4d4a3ee502871e61467c839423af484eef2",
+  "security": {
+    "staticScan": {
+      "findings": [
+        {
+          "file": "visual_review_workflow.md",
+          "rule": "privilege-escalation"
+        }
+      ],
+      "status": "review"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "b2a92ba052dcae4ef48e850b9e31ebf75706be48",
+    "path": "skills/scientific-slides",
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/b2a92ba052dcae4ef48e850b9e31ebf75706be48/skills/scientific-slides"
+  },
+  "status": "needs-review"
+}

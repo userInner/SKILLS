@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "design",
+  "description": "Token architecture, component specifications, and slide generation. Three-layer tokens (primitive→semantic→component), CSS variables, spacing/typography scales, component specs, strategic slide creation. Use for design tokens, systematic design, brand-compliant presentations.",
+  "id": "github:nextlevelbuilder/ui-ux-pro-max-skill:.claude/skills/design-system",
+  "kind": "CapabilityPackage",
+  "name": "design-system",
+  "slug": "design-system--nextlevelbuilder-ui-ux-pro-max-skill",
+  "source": {
+    "path": ".claude/skills/design-system",
+    "repository": "nextlevelbuilder/ui-ux-pro-max-skill"
+  },
+  "type": "skill"
+}

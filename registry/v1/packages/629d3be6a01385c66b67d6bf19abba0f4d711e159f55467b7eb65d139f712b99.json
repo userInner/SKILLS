@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Idiomatic Kotlin patterns, best practices, and conventions for building robust, efficient, and maintainable Kotlin applications with coroutines, null safety, and DSL builders. Use when writing or reviewing Kotlin code and idiomatic structure or null safety is in question.",
+  "id": "github:affaan-m/ecc:skills/kotlin-patterns",
+  "kind": "CapabilityPackage",
+  "name": "kotlin-patterns",
+  "slug": "kotlin-patterns--affaan-m-ecc",
+  "source": {
+    "path": "skills/kotlin-patterns",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

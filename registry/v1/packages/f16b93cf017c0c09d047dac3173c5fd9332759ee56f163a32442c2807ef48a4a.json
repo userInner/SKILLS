@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": ">",
+  "id": "github:affaan-m/ecc:.kiro/skills/security-review",
+  "kind": "CapabilityPackage",
+  "name": "security-review",
+  "slug": "security-review--affaan-m-ecc--1442201d58",
+  "source": {
+    "path": ".kiro/skills/security-review",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

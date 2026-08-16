@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Practical home and homelab network planning for gateways, switches, access points, IP ranges, DHCP reservations, DNS, cabling, and common beginner mistakes. Use when planning or fixing a home or homelab network — gateway, switch, AP, IP ranges, DHCP, DNS, or cabling.",
+  "id": "github:affaan-m/ecc:skills/homelab-network-setup",
+  "kind": "CapabilityPackage",
+  "name": "homelab-network-setup",
+  "slug": "homelab-network-setup--affaan-m-ecc",
+  "source": {
+    "path": "skills/homelab-network-setup",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

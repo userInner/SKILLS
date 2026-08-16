@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Simulate and audit closed and open quantum-system models with QuTiP 5, including deterministic, trajectory, steady-state, spectral, and phase-space workflows. Use for local quantum-dynamics work where physical assumptions, dimensions, and numerical convergence must be explicit.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/qutip",
+  "kind": "CapabilityPackage",
+  "name": "qutip",
+  "slug": "qutip--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/qutip",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

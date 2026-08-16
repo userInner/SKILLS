@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:ce9e7282b05e6cf247352c0f68953b943755899eb14a2198d72c97c6e5ffa807",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/design/image-to-code--leonxlnx-taste-skill"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:ce9e7282b05e6cf247352c0f68953b943755899eb14a2198d72c97c6e5ffa807",
+    "fileCount": 1,
+    "totalBytes": 36442
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:leonxlnx/taste-skill:skills/image-to-code-skill",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:fbf3903be032cbd0e6dd3429468b58f6e08917834fd091c836db35d98b53fae5",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "e988add20dab0fa97d7a76781c48961c8184288e",
+    "path": "skills/image-to-code-skill",
+    "repository": "Leonxlnx/taste-skill",
+    "url": "https://github.com/Leonxlnx/taste-skill/tree/e988add20dab0fa97d7a76781c48961c8184288e/skills/image-to-code-skill"
+  },
+  "status": "extracted"
+}

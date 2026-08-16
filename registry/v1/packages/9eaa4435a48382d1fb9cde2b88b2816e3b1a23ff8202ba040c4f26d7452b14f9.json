@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "research",
+  "description": "RNA velocity analysis with scVelo. Estimate cell state transitions from unspliced/spliced mRNA dynamics, infer trajectory directions, compute latent time, and identify driver genes in single-cell RNA-seq data. Complements Scanpy/scVI-tools for trajectory inference.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/scvelo",
+  "kind": "CapabilityPackage",
+  "name": "scvelo",
+  "slug": "scvelo--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/scvelo",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

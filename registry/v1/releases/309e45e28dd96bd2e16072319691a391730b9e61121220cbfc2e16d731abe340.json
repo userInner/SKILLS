@@ -1,0 +1,59 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:48bc0af46fd823c4be3929ef9a5c9d4b75d67157db0c3226f2658194ff17192b",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/engineering/modal--k-dense-ai-scientific-agent-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:48bc0af46fd823c4be3929ef9a5c9d4b75d67157db0c3226f2658194ff17192b",
+    "fileCount": 13,
+    "totalBytes": 76817
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:k-dense-ai/scientific-agent-skills:skills/modal",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:309e45e28dd96bd2e16072319691a391730b9e61121220cbfc2e16d731abe340",
+  "security": {
+    "staticScan": {
+      "findings": [
+        {
+          "file": "api_reference.md",
+          "rule": "shell-eval"
+        },
+        {
+          "file": "functions.md",
+          "rule": "shell-eval"
+        }
+      ],
+      "status": "review"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "b2a92ba052dcae4ef48e850b9e31ebf75706be48",
+    "path": "skills/modal",
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/b2a92ba052dcae4ef48e850b9e31ebf75706be48/skills/modal"
+  },
+  "status": "needs-review"
+}

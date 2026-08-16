@@ -1,0 +1,67 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:ec47cdfd311e3d4129895e52957c78470d9b5ee7df786695aada76c90c6fe815",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/workflow/pi-agent--k-dense-ai-scientific-agent-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:ec47cdfd311e3d4129895e52957c78470d9b5ee7df786695aada76c90c6fe815",
+    "fileCount": 35,
+    "totalBytes": 260453
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:k-dense-ai/scientific-agent-skills:skills/pi-agent",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:aa438a2762b9f7ab24bd19ad85125ea833e3760edc808658f5d1a146ebca2523",
+  "security": {
+    "staticScan": {
+      "findings": [
+        {
+          "file": "containerization.md",
+          "rule": "recursive-delete"
+        },
+        {
+          "file": "extensions.md",
+          "rule": "recursive-delete"
+        },
+        {
+          "file": "extensions.md",
+          "rule": "shell-eval"
+        },
+        {
+          "file": "overview.md",
+          "rule": "pipe-to-shell"
+        }
+      ],
+      "status": "review"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "b2a92ba052dcae4ef48e850b9e31ebf75706be48",
+    "path": "skills/pi-agent",
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/b2a92ba052dcae4ef48e850b9e31ebf75706be48/skills/pi-agent"
+  },
+  "status": "needs-review"
+}

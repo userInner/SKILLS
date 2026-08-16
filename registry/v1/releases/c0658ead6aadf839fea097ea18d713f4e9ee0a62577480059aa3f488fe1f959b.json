@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:230c12e1257b44a1183555ff6435763d33997e95c76b2cc7a5c1400e93d85040",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "skills/workflow/test-driven-development"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:230c12e1257b44a1183555ff6435763d33997e95c76b2cc7a5c1400e93d85040",
+    "fileCount": 5,
+    "totalBytes": 19332
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "unknown",
+    "spdx": "see-package"
+  },
+  "packageId": "github:userinner/skills:skills/workflow/test-driven-development",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:c0658ead6aadf839fea097ea18d713f4e9ee0a62577480059aa3f488fe1f959b",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "16928212a5bdc27c4e859ec0f894ca1524b88816",
+    "path": "skills/workflow/test-driven-development",
+    "repository": "userInner/SKILLS",
+    "url": "https://github.com/userInner/SKILLS/tree/16928212a5bdc27c4e859ec0f894ca1524b88816/skills/workflow/test-driven-development"
+  },
+  "status": "direct"
+}

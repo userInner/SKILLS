@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Use when you have a spec or requirements for a multi-step task, before touching code",
+  "id": "github:userinner/skills:skills/workflow/writing-plans",
+  "kind": "CapabilityPackage",
+  "name": "writing-plans",
+  "slug": "writing-plans",
+  "source": {
+    "path": "skills/workflow/writing-plans",
+    "repository": "userInner/SKILLS"
+  },
+  "type": "skill"
+}

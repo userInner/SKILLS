@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "writing",
+  "description": "Draft a detailed privacy policy covering data types, jurisdiction, GDPR and compliance considerations, and clauses needing legal review. Use when creating a privacy policy, updating data protection documentation, or preparing for compliance.",
+  "id": "github:phuryn/pm-skills:pm-toolkit/skills/privacy-policy",
+  "kind": "CapabilityPackage",
+  "name": "privacy-policy",
+  "slug": "privacy-policy--phuryn-pm-skills",
+  "source": {
+    "path": "pm-toolkit/skills/privacy-policy",
+    "repository": "phuryn/pm-skills"
+  },
+  "type": "skill"
+}

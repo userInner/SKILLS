@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "design",
+  "description": "Elite UX/UI & Advanced GSAP Motion Engineer. Enforces Python-driven true randomization for layout variance, strict AIDA page structure, wide editorial typography (bans 6-line wraps), gapless bento grids, strict GSAP ScrollTriggers (pinning, stacking, scrubbing), inline micro-images, and massive section spacing.",
+  "id": "github:leonxlnx/taste-skill:skills/gpt-tasteskill",
+  "kind": "CapabilityPackage",
+  "name": "gpt-taste",
+  "slug": "gpt-taste--leonxlnx-taste-skill",
+  "source": {
+    "path": "skills/gpt-tasteskill",
+    "repository": "Leonxlnx/taste-skill"
+  },
+  "type": "skill"
+}

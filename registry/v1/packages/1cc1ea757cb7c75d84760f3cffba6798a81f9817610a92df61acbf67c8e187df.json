@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Convene a four-voice council for ambiguous decisions, tradeoffs, and go/no-go calls. Use when multiple valid paths exist and you need structured disagreement before choosing.",
+  "id": "github:affaan-m/ecc:skills/council",
+  "kind": "CapabilityPackage",
+  "name": "council",
+  "slug": "council--affaan-m-ecc",
+  "source": {
+    "path": "skills/council",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

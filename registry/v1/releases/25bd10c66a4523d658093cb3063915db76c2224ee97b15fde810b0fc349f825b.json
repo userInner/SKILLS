@@ -1,0 +1,55 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:dba91177eef507c80faae87cd2d4ce98c8c290d0db2e39e079608078919028e0",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/workflow/continuous-learning-v2--affaan-m-ecc"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:dba91177eef507c80faae87cd2d4ce98c8c290d0db2e39e079608078919028e0",
+    "fileCount": 12,
+    "totalBytes": 232657
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:affaan-m/ecc:skills/continuous-learning-v2",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:25bd10c66a4523d658093cb3063915db76c2224ee97b15fde810b0fc349f825b",
+  "security": {
+    "staticScan": {
+      "findings": [
+        {
+          "file": "session-guardian.sh",
+          "rule": "recursive-delete"
+        }
+      ],
+      "status": "review"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "path": "skills/continuous-learning-v2",
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC/tree/c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8/skills/continuous-learning-v2"
+  },
+  "status": "needs-review"
+}

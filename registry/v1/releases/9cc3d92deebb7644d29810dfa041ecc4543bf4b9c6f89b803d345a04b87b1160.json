@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:3d67e689bd6b6a7e84caad5b02805ee85a4df4cee870fd088410819b35059be8",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/design/click-path-audit--affaan-m-ecc"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:3d67e689bd6b6a7e84caad5b02805ee85a4df4cee870fd088410819b35059be8",
+    "fileCount": 1,
+    "totalBytes": 7975
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:affaan-m/ecc:skills/click-path-audit",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:9cc3d92deebb7644d29810dfa041ecc4543bf4b9c6f89b803d345a04b87b1160",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "path": "skills/click-path-audit",
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC/tree/c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8/skills/click-path-audit"
+  },
+  "status": "extracted"
+}

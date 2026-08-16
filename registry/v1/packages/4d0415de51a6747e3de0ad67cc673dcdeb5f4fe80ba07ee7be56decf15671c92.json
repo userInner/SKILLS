@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Create, edit, analyze, or convert Excel spreadsheets (.xlsx, .xlsm, .xltx) where the workbook file is the primary deliverable. Use for formulas, formatting, financial models, multi-sheet workbooks, and tabular cleanup exported to Excel. Also applies to .csv/.tsv when the user wants spreadsheet output. Do NOT use for Word documents, HTML reports, standalone Python scripts, database pipelines, or Google Sheets API work.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/xlsx",
+  "kind": "CapabilityPackage",
+  "name": "xlsx",
+  "slug": "xlsx--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/xlsx",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

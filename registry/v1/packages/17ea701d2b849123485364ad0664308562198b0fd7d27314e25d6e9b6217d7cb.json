@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "OpenRouter API key for the skill's LLM-powered steps.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/latex-posters",
+  "kind": "CapabilityPackage",
+  "name": "latex-posters",
+  "slug": "latex-posters--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/latex-posters",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

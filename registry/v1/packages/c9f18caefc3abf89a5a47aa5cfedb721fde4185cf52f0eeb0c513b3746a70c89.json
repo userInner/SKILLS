@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Fact-forcing gate that blocks Edit/Write/Bash (including MultiEdit) and demands concrete investigation (importers, data schemas, user instruction) before allowing the action. Measurably improves output quality by +2.25 points vs ungated agents.",
+  "id": "github:affaan-m/ecc:skills/gateguard",
+  "kind": "CapabilityPackage",
+  "name": "gateguard",
+  "slug": "gateguard--affaan-m-ecc",
+  "source": {
+    "path": "skills/gateguard",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

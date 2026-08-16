@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Bun as runtime, package manager, bundler, and test runner. When to choose Bun vs Node, migration notes, and Vercel support.",
+  "id": "github:affaan-m/ecc:.agents/skills/bun-runtime",
+  "kind": "CapabilityPackage",
+  "name": "bun-runtime",
+  "slug": "bun-runtime--affaan-m-ecc",
+  "source": {
+    "path": ".agents/skills/bun-runtime",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

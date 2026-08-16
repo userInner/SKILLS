@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:706d42c02e056cfd0509172fa294ecbdec8509aac9dc25862310800892709d9d",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/workflow/ci-cd-and-automation--addyosmani-agent-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:706d42c02e056cfd0509172fa294ecbdec8509aac9dc25862310800892709d9d",
+    "fileCount": 1,
+    "totalBytes": 11332
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:addyosmani/agent-skills:skills/ci-cd-and-automation",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:f292b7f9a7f98417cd16569b6e1053b993f0edcfdfe5edf05670c29a2347ed19",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "df1edb2e05487d0aa6d93c747141e0aed1187f25",
+    "path": "skills/ci-cd-and-automation",
+    "repository": "addyosmani/agent-skills",
+    "url": "https://github.com/addyosmani/agent-skills/tree/df1edb2e05487d0aa6d93c747141e0aed1187f25/skills/ci-cd-and-automation"
+  },
+  "status": "extracted"
+}

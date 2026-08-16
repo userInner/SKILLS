@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "research",
+  "description": "Create and audit editable scientific posters in macro-free PowerPoint (.pptx) from author-approved local content and assets. Use when the requested deliverable is a PowerPoint research/conference poster and exact physical, printer, accessibility, provenance, and package-security checks are required.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/pptx-posters",
+  "kind": "CapabilityPackage",
+  "name": "pptx-posters",
+  "slug": "pptx-posters--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/pptx-posters",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "EMR/EHR development patterns for healthcare applications. Clinical safety, encounter workflows, prescription generation, clinical decision support integration, and accessibility-first UI for medical data entry. Use when building EMR or EHR features such as encounter workflows, prescription generation, or clinical data entry UI.",
+  "id": "github:affaan-m/ecc:skills/healthcare-emr-patterns",
+  "kind": "CapabilityPackage",
+  "name": "healthcare-emr-patterns",
+  "slug": "healthcare-emr-patterns--affaan-m-ecc",
+  "source": {
+    "path": "skills/healthcare-emr-patterns",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

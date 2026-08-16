@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "research",
+  "description": ">-",
+  "id": "github:affaan-m/ecc:skills/competitive-platform-analysis",
+  "kind": "CapabilityPackage",
+  "name": "competitive-platform-analysis",
+  "slug": "competitive-platform-analysis--affaan-m-ecc",
+  "source": {
+    "path": "skills/competitive-platform-analysis",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

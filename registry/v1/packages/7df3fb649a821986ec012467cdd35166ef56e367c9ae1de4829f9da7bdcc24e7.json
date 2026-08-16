@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Use when the user asks for repeated rollouts, marked decision processes, high-dimensional search, stochastic optimization, local-optima exploration, ensemble comparison, or recursive reasoning with a visible evidence trail.",
+  "id": "github:affaan-m/ecc:skills/recursive-decision-ledger",
+  "kind": "CapabilityPackage",
+  "name": "recursive-decision-ledger",
+  "slug": "recursive-decision-ledger--affaan-m-ecc",
+  "source": {
+    "path": "skills/recursive-decision-ledger",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

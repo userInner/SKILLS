@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Analyze, validate, convert, and transform materials structures and computed materials data with current pymatgen APIs, including local phase diagrams, symmetry sensitivity, electronic-structure I/O, and explicitly bounded Materials Project queries.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/pymatgen",
+  "kind": "CapabilityPackage",
+  "name": "pymatgen",
+  "slug": "pymatgen--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/pymatgen",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

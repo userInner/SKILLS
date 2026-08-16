@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:31adfbb32ac6872433a0b973f5a34a4c8a6cd92130f266777bd812547ae4e043",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "skills/product/product-strategy"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:31adfbb32ac6872433a0b973f5a34a4c8a6cd92130f266777bd812547ae4e043",
+    "fileCount": 4,
+    "totalBytes": 6979
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "unknown",
+    "spdx": "see-package"
+  },
+  "packageId": "github:userinner/skills:skills/product/product-strategy",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:dd2f9c798a56a5f7fd099a29079c8e8f61fac812ee976a0ae8e2801dfab135cc",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "16928212a5bdc27c4e859ec0f894ca1524b88816",
+    "path": "skills/product/product-strategy",
+    "repository": "userInner/SKILLS",
+    "url": "https://github.com/userInner/SKILLS/tree/16928212a5bdc27c4e859ec0f894ca1524b88816/skills/product/product-strategy"
+  },
+  "status": "direct"
+}

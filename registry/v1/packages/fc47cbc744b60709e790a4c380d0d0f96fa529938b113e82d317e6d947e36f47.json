@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Create comprehensive test scenarios from user stories with test objectives, starting conditions, user roles, step-by-step actions, and expected outcomes. Use when writing QA test cases, creating test plans, defining acceptance tests, or preparing for feature validation.",
+  "id": "github:phuryn/pm-skills:pm-execution/skills/test-scenarios",
+  "kind": "CapabilityPackage",
+  "name": "test-scenarios",
+  "slug": "test-scenarios--phuryn-pm-skills",
+  "source": {
+    "path": "pm-execution/skills/test-scenarios",
+    "repository": "phuryn/pm-skills"
+  },
+  "type": "skill"
+}

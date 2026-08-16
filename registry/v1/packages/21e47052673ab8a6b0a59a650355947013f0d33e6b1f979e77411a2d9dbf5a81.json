@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": ">",
+  "id": "github:affaan-m/ecc:.kiro/skills/verification-loop",
+  "kind": "CapabilityPackage",
+  "name": "verification-loop",
+  "slug": "verification-loop--affaan-m-ecc--df6512f5d3",
+  "source": {
+    "path": ".kiro/skills/verification-loop",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

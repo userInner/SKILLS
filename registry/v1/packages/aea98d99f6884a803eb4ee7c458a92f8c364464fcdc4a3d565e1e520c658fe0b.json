@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "PyTorch deep learning patterns and best practices for building robust, efficient, and reproducible training pipelines, model architectures, and data loading.",
+  "id": "github:affaan-m/ecc:.kiro/skills/pytorch-patterns",
+  "kind": "CapabilityPackage",
+  "name": "pytorch-patterns",
+  "slug": "pytorch-patterns--affaan-m-ecc",
+  "source": {
+    "path": ".kiro/skills/pytorch-patterns",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:6e0df9377bbe3e04eac2077f4534a26234cdb101c1b1f2a23c8d467b8cec5cc1",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/design/video-editing--affaan-m-ecc"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:6e0df9377bbe3e04eac2077f4534a26234cdb101c1b1f2a23c8d467b8cec5cc1",
+    "fileCount": 1,
+    "totalBytes": 9737
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:affaan-m/ecc:skills/video-editing",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:fd2842f361ff345dfe4c048ab530eced3ec17d36115e6cb5c0b3092af1ccced1",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "path": "skills/video-editing",
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC/tree/c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8/skills/video-editing"
+  },
+  "status": "extracted"
+}

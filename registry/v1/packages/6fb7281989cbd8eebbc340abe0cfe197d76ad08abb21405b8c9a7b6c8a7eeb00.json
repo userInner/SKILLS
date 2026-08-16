@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Generate realistic dummy datasets for testing with customizable columns, constraints, and output formats (CSV, JSON, SQL, Python script). Use when creating test data, building mock datasets, or generating sample data for development and demos.",
+  "id": "github:phuryn/pm-skills:pm-execution/skills/dummy-dataset",
+  "kind": "CapabilityPackage",
+  "name": "dummy-dataset",
+  "slug": "dummy-dataset--phuryn-pm-skills",
+  "source": {
+    "path": "pm-execution/skills/dummy-dataset",
+    "repository": "phuryn/pm-skills"
+  },
+  "type": "skill"
+}

@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": ">-",
+  "id": "github:affaan-m/ecc:skills/benchmark-methodology",
+  "kind": "CapabilityPackage",
+  "name": "benchmark-methodology",
+  "slug": "benchmark-methodology--affaan-m-ecc--710e030108",
+  "source": {
+    "path": "skills/benchmark-methodology",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

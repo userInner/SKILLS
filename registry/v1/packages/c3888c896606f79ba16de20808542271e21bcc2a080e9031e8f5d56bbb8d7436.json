@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Use when starting feature work that needs isolation from current workspace or before executing implementation plans - ensures an isolated workspace exists via native tools or git worktree fallback",
+  "id": "github:obra/superpowers:skills/using-git-worktrees",
+  "kind": "CapabilityPackage",
+  "name": "using-git-worktrees",
+  "slug": "using-git-worktrees--obra-superpowers",
+  "source": {
+    "path": "skills/using-git-worktrees",
+    "repository": "obra/superpowers"
+  },
+  "type": "skill"
+}

@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Use when you need exact symbolic math in Python — algebra, calculus, equation solving, symbolic linear algebra, or code generation via lambdify/LaTeX. Prefer NumPy or SciPy when floating-point approximations are sufficient.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/sympy",
+  "kind": "CapabilityPackage",
+  "name": "sympy",
+  "slug": "sympy--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/sympy",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

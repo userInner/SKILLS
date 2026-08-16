@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:9850adcce7059f880c1169c4d10fcc5c50e54570ec44c5891407b4a80d4b0a22",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/design/frontend-ui-engineering--addyosmani-agent-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:9850adcce7059f880c1169c4d10fcc5c50e54570ec44c5891407b4a80d4b0a22",
+    "fileCount": 1,
+    "totalBytes": 10711
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:addyosmani/agent-skills:skills/frontend-ui-engineering",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:98c285f94e5fd81b00fbfd1c5bdf5841df2f276d1a9629c6b7749c3f20bfe6b1",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "df1edb2e05487d0aa6d93c747141e0aed1187f25",
+    "path": "skills/frontend-ui-engineering",
+    "repository": "addyosmani/agent-skills",
+    "url": "https://github.com/addyosmani/agent-skills/tree/df1edb2e05487d0aa6d93c747141e0aed1187f25/skills/frontend-ui-engineering"
+  },
+  "status": "extracted"
+}

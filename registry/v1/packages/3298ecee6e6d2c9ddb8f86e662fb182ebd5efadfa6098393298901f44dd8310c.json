@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Pi-hole installation, blocklist management, DNS-over-HTTPS setup, DHCP integration, local DNS records, and troubleshooting broken DNS resolution on a home network. Use when the task explicitly involves Pi-hole — installing it, managing blocklists, configuring DoH or DHCP, adding local DNS records, or diagnosing DNS resolution with Pi-hole in the path.",
+  "id": "github:affaan-m/ecc:skills/homelab-pihole-dns",
+  "kind": "CapabilityPackage",
+  "name": "homelab-pihole-dns",
+  "slug": "homelab-pihole-dns--affaan-m-ecc",
+  "source": {
+    "path": "skills/homelab-pihole-dns",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

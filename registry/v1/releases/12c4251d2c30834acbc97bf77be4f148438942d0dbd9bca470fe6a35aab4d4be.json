@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:79e3743eafae958f6125a6f5f945aeb3eab86600a8898d4b7510777888f4d3e9",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/product/business-model--phuryn-pm-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:79e3743eafae958f6125a6f5f945aeb3eab86600a8898d4b7510777888f4d3e9",
+    "fileCount": 1,
+    "totalBytes": 5784
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:phuryn/pm-skills:pm-product-strategy/skills/business-model",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:12c4251d2c30834acbc97bf77be4f148438942d0dbd9bca470fe6a35aab4d4be",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "18468a95b427e70e258b51389796367c6f684e7d",
+    "path": "pm-product-strategy/skills/business-model",
+    "repository": "phuryn/pm-skills",
+    "url": "https://github.com/phuryn/pm-skills/tree/18468a95b427e70e258b51389796367c6f684e7d/pm-product-strategy/skills/business-model"
+  },
+  "status": "extracted"
+}

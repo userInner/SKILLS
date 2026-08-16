@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Vite build tool patterns including config, plugins, HMR, env variables, proxy setup, SSR, library mode, dependency pre-bundling, and build optimization. Activate when working with vite.config.ts, Vite plugins, or Vite-based projects.",
+  "id": "github:affaan-m/ecc:skills/vite-patterns",
+  "kind": "CapabilityPackage",
+  "name": "vite-patterns",
+  "slug": "vite-patterns--affaan-m-ecc",
+  "source": {
+    "path": "skills/vite-patterns",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

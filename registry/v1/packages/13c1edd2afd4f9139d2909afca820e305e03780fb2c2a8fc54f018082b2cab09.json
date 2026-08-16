@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "research",
+  "description": "Perform bounded, local exploratory analysis of explicitly supported scientific files. Use for redacted CSV/TSV/JSON profiles; optional NumPy, HDF5, FASTA/FASTQ, and basic image metadata inspection; missingness/leakage audits; outlier and transformation sensitivity; and rigorous EDA report scaffolds. Other domain formats are reference-only and unknown formats fail closed.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/exploratory-data-analysis",
+  "kind": "CapabilityPackage",
+  "name": "exploratory-data-analysis",
+  "slug": "exploratory-data-analysis--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/exploratory-data-analysis",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

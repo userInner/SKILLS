@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "C++ coding standards based on the C++ Core Guidelines (isocpp.github.io). Use when writing, reviewing, or refactoring C++ code to enforce modern, safe, and idiomatic practices.",
+  "id": "github:affaan-m/ecc:.kiro/skills/cpp-coding-standards",
+  "kind": "CapabilityPackage",
+  "name": "cpp-coding-standards",
+  "slug": "cpp-coding-standards--affaan-m-ecc",
+  "source": {
+    "path": ".kiro/skills/cpp-coding-standards",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

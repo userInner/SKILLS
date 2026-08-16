@@ -1,0 +1,59 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:871500e570ba20cb374d279fcf00d4d684006b5f03fd9bdb967371871305d87f",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/workflow/hookify-rules--affaan-m-ecc"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:871500e570ba20cb374d279fcf00d4d684006b5f03fd9bdb967371871305d87f",
+    "fileCount": 1,
+    "totalBytes": 3534
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:affaan-m/ecc:skills/hookify-rules",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:e079fe6bc0331cf7c08a6bad41dc778ac9b211720f2f29bf654e69d1d78ac418",
+  "security": {
+    "staticScan": {
+      "findings": [
+        {
+          "file": "SKILL.md",
+          "rule": "recursive-delete"
+        },
+        {
+          "file": "SKILL.md",
+          "rule": "privilege-escalation"
+        }
+      ],
+      "status": "review"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "path": "skills/hookify-rules",
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC/tree/c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8/skills/hookify-rules"
+  },
+  "status": "needs-review"
+}

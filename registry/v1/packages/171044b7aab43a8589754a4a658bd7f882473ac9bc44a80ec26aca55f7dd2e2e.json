@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Manages deprecation and migration. Use when removing old systems, APIs, or features. Use when migrating users from one implementation to another. Use when deciding whether to maintain or sunset existing code.",
+  "id": "github:addyosmani/agent-skills:skills/deprecation-and-migration",
+  "kind": "CapabilityPackage",
+  "name": "deprecation-and-migration",
+  "slug": "deprecation-and-migration--addyosmani-agent-skills",
+  "source": {
+    "path": "skills/deprecation-and-migration",
+    "repository": "addyosmani/agent-skills"
+  },
+  "type": "skill"
+}

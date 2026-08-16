@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:8132173cf3a4219ec2e9926b140cf7308cf75bfe38f8ab6b68589805311562a7",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/growth/content-hash-cache-pattern--affaan-m-ecc--8132173cf3"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:8132173cf3a4219ec2e9926b140cf7308cf75bfe38f8ab6b68589805311562a7",
+    "fileCount": 1,
+    "totalBytes": 5732
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:affaan-m/ecc:skills/content-hash-cache-pattern",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:2e506b6171b558336c7bc34611c77acd84fd2ea4a45aa5ff81edfd00d7893350",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "path": "skills/content-hash-cache-pattern",
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC/tree/c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8/skills/content-hash-cache-pattern"
+  },
+  "status": "extracted"
+}

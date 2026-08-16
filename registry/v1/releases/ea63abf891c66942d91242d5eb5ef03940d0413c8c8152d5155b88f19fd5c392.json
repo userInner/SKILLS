@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:e37419c24236cf2d983dcd39feb1907733a43f9567f8e5ad095d4c539ed851ba",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/design/stitch-design-taste--leonxlnx-taste-skill"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:e37419c24236cf2d983dcd39feb1907733a43f9567f8e5ad095d4c539ed851ba",
+    "fileCount": 2,
+    "totalBytes": 23904
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:leonxlnx/taste-skill:skills/stitch-skill",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:ea63abf891c66942d91242d5eb5ef03940d0413c8c8152d5155b88f19fd5c392",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "e988add20dab0fa97d7a76781c48961c8184288e",
+    "path": "skills/stitch-skill",
+    "repository": "Leonxlnx/taste-skill",
+    "url": "https://github.com/Leonxlnx/taste-skill/tree/e988add20dab0fa97d7a76781c48961c8184288e/skills/stitch-skill"
+  },
+  "status": "extracted"
+}

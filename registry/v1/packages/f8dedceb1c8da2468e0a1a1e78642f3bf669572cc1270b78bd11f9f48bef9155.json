@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Production-ready reinforcement learning algorithms (PPO, SAC, DQN, TD3, DDPG, A2C) with scikit-learn-like API. Use for standard RL experiments, quick prototyping, and well-documented algorithm implementations. Best for single-agent RL with Gymnasium environments. For high-performance parallel training, multi-agent systems, or custom vectorized environments, use pufferlib instead.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/stable-baselines3",
+  "kind": "CapabilityPackage",
+  "name": "stable-baselines3",
+  "slug": "stable-baselines3--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/stable-baselines3",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

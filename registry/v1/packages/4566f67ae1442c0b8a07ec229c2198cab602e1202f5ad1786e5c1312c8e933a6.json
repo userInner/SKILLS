@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "product",
+  "description": ">-",
+  "id": "github:affaan-m/ecc:skills/brand-discovery",
+  "kind": "CapabilityPackage",
+  "name": "brand-discovery",
+  "slug": "brand-discovery--affaan-m-ecc",
+  "source": {
+    "path": "skills/brand-discovery",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

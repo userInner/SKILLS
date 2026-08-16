@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "product",
+  "description": "Brainstorm product positioning ideas differentiated from competitors. Identifies top competitors and generates positioning statements with rationale. Use when developing product positioning, differentiating from competitors, or crafting brand positioning strategy.",
+  "id": "github:phuryn/pm-skills:pm-marketing-growth/skills/positioning-ideas",
+  "kind": "CapabilityPackage",
+  "name": "positioning-ideas",
+  "slug": "positioning-ideas--phuryn-pm-skills",
+  "source": {
+    "path": "pm-marketing-growth/skills/positioning-ideas",
+    "repository": "phuryn/pm-skills"
+  },
+  "type": "skill"
+}

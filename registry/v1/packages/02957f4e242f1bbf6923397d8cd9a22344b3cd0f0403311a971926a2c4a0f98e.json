@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "design",
+  "description": "Frontend development patterns for React, Next.js, state management, performance optimization, and UI best practices. Use when building or reviewing React or Next.js components, state, or render performance.",
+  "id": "github:affaan-m/ecc:skills/frontend-patterns",
+  "kind": "CapabilityPackage",
+  "name": "frontend-patterns",
+  "slug": "frontend-patterns--affaan-m-ecc--a5ecb8615d",
+  "source": {
+    "path": "skills/frontend-patterns",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

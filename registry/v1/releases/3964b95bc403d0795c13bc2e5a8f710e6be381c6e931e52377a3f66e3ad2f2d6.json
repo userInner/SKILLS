@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:d9479ea94fd82c4fbf9d05be2c25785a2c646e8808982786118bce816239ff45",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/growth/brand-voice--affaan-m-ecc"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:d9479ea94fd82c4fbf9d05be2c25785a2c646e8808982786118bce816239ff45",
+    "fileCount": 2,
+    "totalBytes": 4711
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:affaan-m/ecc:skills/brand-voice",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:3964b95bc403d0795c13bc2e5a8f710e6be381c6e931e52377a3f66e3ad2f2d6",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "path": "skills/brand-voice",
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC/tree/c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8/skills/brand-voice"
+  },
+  "status": "extracted"
+}

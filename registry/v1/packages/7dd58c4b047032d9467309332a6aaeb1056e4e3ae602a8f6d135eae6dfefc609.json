@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Evidence-first revenue, pricing, refunds, team-billing, and billing-model truth workflow for ECC. Use when the user wants a sales snapshot, pricing comparison, duplicate-charge diagnosis, or code-backed billing reality instead of generic payments advice.",
+  "id": "github:affaan-m/ecc:skills/finance-billing-ops",
+  "kind": "CapabilityPackage",
+  "name": "finance-billing-ops",
+  "slug": "finance-billing-ops--affaan-m-ecc",
+  "source": {
+    "path": "skills/finance-billing-ops",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

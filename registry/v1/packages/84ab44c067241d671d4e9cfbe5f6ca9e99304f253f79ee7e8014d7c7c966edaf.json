@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Build and sharpen a project's domain model. Use when discussing codebase terminology, writing or editing a CONTEXT.md, or recording or editing an ADR.",
+  "id": "github:userinner/skills:skills/engineering/domain-modeling",
+  "kind": "CapabilityPackage",
+  "name": "domain-modeling",
+  "slug": "domain-modeling",
+  "source": {
+    "path": "skills/engineering/domain-modeling",
+    "repository": "userInner/SKILLS"
+  },
+  "type": "skill"
+}

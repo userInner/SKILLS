@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:8e951150631a6709d37eb9fffbbaa5b4d6b4ecb4867e105367790d64ec8082eb",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/workflow/using-superpowers--obra-superpowers"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:8e951150631a6709d37eb9fffbbaa5b4d6b4ecb4867e105367790d64ec8082eb",
+    "fileCount": 6,
+    "totalBytes": 17169
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:obra/superpowers:skills/using-superpowers",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:a9db78a93c93c60cc44fec7ccc0203902096704b2bedc705e812e77b31c95a43",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "b36e0829c6d0140e93cfef2ca599b1b07d4a7797",
+    "path": "skills/using-superpowers",
+    "repository": "obra/superpowers",
+    "url": "https://github.com/obra/superpowers/tree/b36e0829c6d0140e93cfef2ca599b1b07d4a7797/skills/using-superpowers"
+  },
+  "status": "extracted"
+}

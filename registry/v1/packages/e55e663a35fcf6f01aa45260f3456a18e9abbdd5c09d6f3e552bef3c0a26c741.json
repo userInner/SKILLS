@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Quarkus 3.x LTS architecture patterns with Camel for messaging, RESTful API design, CDI services, data access with Panache, and async processing. Use for Java Quarkus backend work with event-driven architectures. Use when building or reviewing a Quarkus service, especially with Camel messaging or Panache data access.",
+  "id": "github:affaan-m/ecc:skills/quarkus-patterns",
+  "kind": "CapabilityPackage",
+  "name": "quarkus-patterns",
+  "slug": "quarkus-patterns--affaan-m-ecc",
+  "source": {
+    "path": "skills/quarkus-patterns",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

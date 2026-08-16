@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Staging API key (multi-env setups).",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/benchling-integration",
+  "kind": "CapabilityPackage",
+  "name": "benchling-integration",
+  "slug": "benchling-integration--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/benchling-integration",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

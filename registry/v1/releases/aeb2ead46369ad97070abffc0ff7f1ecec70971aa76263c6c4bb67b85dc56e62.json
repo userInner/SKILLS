@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:602311c7f2733e1b45a23cb6fe0f27abd6ec10b268d33a2c5b5717bf2d9a7db0",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/design/pymoo--k-dense-ai-scientific-agent-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:602311c7f2733e1b45a23cb6fe0f27abd6ec10b268d33a2c5b5717bf2d9a7db0",
+    "fileCount": 13,
+    "totalBytes": 83232
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:k-dense-ai/scientific-agent-skills:skills/pymoo",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:aeb2ead46369ad97070abffc0ff7f1ecec70971aa76263c6c4bb67b85dc56e62",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "b2a92ba052dcae4ef48e850b9e31ebf75706be48",
+    "path": "skills/pymoo",
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/b2a92ba052dcae4ef48e850b9e31ebf75706be48/skills/pymoo"
+  },
+  "status": "extracted"
+}

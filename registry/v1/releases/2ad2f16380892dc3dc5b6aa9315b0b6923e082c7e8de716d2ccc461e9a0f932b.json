@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:f192236fda773a1755a132fa71d647eed6dd078ca7f94e83d4ead5230e7ce410",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/product/product-vision--phuryn-pm-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:f192236fda773a1755a132fa71d647eed6dd078ca7f94e83d4ead5230e7ce410",
+    "fileCount": 1,
+    "totalBytes": 2518
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:phuryn/pm-skills:pm-product-strategy/skills/product-vision",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:2ad2f16380892dc3dc5b6aa9315b0b6923e082c7e8de716d2ccc461e9a0f932b",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "18468a95b427e70e258b51389796367c6f684e7d",
+    "path": "pm-product-strategy/skills/product-vision",
+    "repository": "phuryn/pm-skills",
+    "url": "https://github.com/phuryn/pm-skills/tree/18468a95b427e70e258b51389796367c6f684e7d/pm-product-strategy/skills/product-vision"
+  },
+  "status": "extracted"
+}

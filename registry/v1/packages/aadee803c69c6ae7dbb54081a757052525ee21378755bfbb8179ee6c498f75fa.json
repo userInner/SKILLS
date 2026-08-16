@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Optimizes agent context setup. Use when starting a new session, when agent output quality degrades, when switching between tasks, or when you need to configure rules files and context for a project.",
+  "id": "github:userinner/skills:skills/engineering/context-engineering",
+  "kind": "CapabilityPackage",
+  "name": "context-engineering",
+  "slug": "context-engineering",
+  "source": {
+    "path": "skills/engineering/context-engineering",
+    "repository": "userInner/SKILLS"
+  },
+  "type": "skill"
+}

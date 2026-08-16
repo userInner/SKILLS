@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "design",
+  "description": "MySQL and MariaDB schema, query, indexing, transaction, replication, and connection-pool patterns for production backends. Use when designing MySQL or MariaDB schemas and indexes, or when a query, transaction, or replica lags.",
+  "id": "github:affaan-m/ecc:skills/mysql-patterns",
+  "kind": "CapabilityPackage",
+  "name": "mysql-patterns",
+  "slug": "mysql-patterns--affaan-m-ecc",
+  "source": {
+    "path": "skills/mysql-patterns",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

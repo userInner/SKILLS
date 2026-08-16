@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Guides systematic root-cause debugging. Use when tests fail, builds break, behavior doesn't match expectations, or you encounter any unexpected error. Use when you need a systematic approach to finding and fixing the root cause rather than guessing.",
+  "id": "github:addyosmani/agent-skills:skills/debugging-and-error-recovery",
+  "kind": "CapabilityPackage",
+  "name": "debugging-and-error-recovery",
+  "slug": "debugging-and-error-recovery--addyosmani-agent-skills",
+  "source": {
+    "path": "skills/debugging-and-error-recovery",
+    "repository": "addyosmani/agent-skills"
+  },
+  "type": "skill"
+}

@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Design and optimize AI agent action spaces, tool definitions, and observation formatting for higher completion rates. Use when defining or revising an agent's tool set, action space, or observation format.",
+  "id": "github:affaan-m/ecc:skills/agent-harness-construction",
+  "kind": "CapabilityPackage",
+  "name": "agent-harness-construction",
+  "slug": "agent-harness-construction--affaan-m-ecc",
+  "source": {
+    "path": "skills/agent-harness-construction",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

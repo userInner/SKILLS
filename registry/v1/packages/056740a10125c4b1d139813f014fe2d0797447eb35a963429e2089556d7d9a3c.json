@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "product",
+  "description": "Research prediction markets as data sources or oracle signals for products, agents, dashboards, and corporate decision intelligence. Use for source-grounded analysis of market-implied probabilities, caveats, and integration patterns without investment advice. Use when evaluating prediction markets as a data source or oracle signal for a product, agent, or dashboard.",
+  "id": "github:affaan-m/ecc:skills/prediction-market-oracle-research",
+  "kind": "CapabilityPackage",
+  "name": "prediction-market-oracle-research",
+  "slug": "prediction-market-oracle-research--affaan-m-ecc",
+  "source": {
+    "path": "skills/prediction-market-oracle-research",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

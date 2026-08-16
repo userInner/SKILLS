@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": ">",
+  "id": "github:affaan-m/ecc:.kiro/skills/python-testing",
+  "kind": "CapabilityPackage",
+  "name": "python-testing",
+  "slug": "python-testing--affaan-m-ecc",
+  "source": {
+    "path": ".kiro/skills/python-testing",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

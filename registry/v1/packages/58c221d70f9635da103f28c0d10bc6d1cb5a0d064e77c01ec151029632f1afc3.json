@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Baseline cross-project coding conventions for naming, readability, immutability, and code-quality review. Use detailed frontend or backend skills for framework-specific patterns. Use when reviewing code quality or naming with no framework-specific skill that applies.",
+  "id": "github:affaan-m/ecc:skills/coding-standards",
+  "kind": "CapabilityPackage",
+  "name": "coding-standards",
+  "slug": "coding-standards--affaan-m-ecc",
+  "source": {
+    "path": "skills/coding-standards",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

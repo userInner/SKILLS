@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Expert guidance for developing with the tinystruct Java framework. Use when working on the tinystruct codebase or any project built on tinystruct — including creating Application classes, @Action-mapped routes, unit tests, ActionRegistry, HTTP/CLI dual-mode handling, the built-in HTTP server, the event system, JSON with Builder/Builders, database persistence with AbstractData, POJO generation, Server-Sent Events (SSE), file uploads, and outbound HTTP networking.",
+  "id": "github:affaan-m/ecc:skills/tinystruct-patterns",
+  "kind": "CapabilityPackage",
+  "name": "tinystruct-patterns",
+  "slug": "tinystruct-patterns--affaan-m-ecc",
+  "source": {
+    "path": "skills/tinystruct-patterns",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

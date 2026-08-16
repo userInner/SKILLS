@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:cb6616753b255da8e797108744841fd2cc12fed88f1650b44a9a36b1ed8c8a1a",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "skills/workflow/writing-plans"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:cb6616753b255da8e797108744841fd2cc12fed88f1650b44a9a36b1ed8c8a1a",
+    "fileCount": 5,
+    "totalBytes": 10683
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "unknown",
+    "spdx": "see-package"
+  },
+  "packageId": "github:userinner/skills:skills/workflow/writing-plans",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:b88c12bb3531641363ffc756e5a7069d4e1c58f688f79173024781b2534a7445",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "16928212a5bdc27c4e859ec0f894ca1524b88816",
+    "path": "skills/workflow/writing-plans",
+    "repository": "userInner/SKILLS",
+    "url": "https://github.com/userInner/SKILLS/tree/16928212a5bdc27c4e859ec0f894ca1524b88816/skills/workflow/writing-plans"
+  },
+  "status": "direct"
+}

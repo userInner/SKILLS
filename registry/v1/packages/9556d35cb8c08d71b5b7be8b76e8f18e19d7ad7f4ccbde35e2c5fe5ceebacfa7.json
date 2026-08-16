@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "product",
+  "description": "Perform a PESTLE analysis covering Political, Economic, Social, Technological, Legal, and Environmental factors. Use when assessing the macro environment, doing strategic planning, or evaluating external factors affecting your business.",
+  "id": "github:phuryn/pm-skills:pm-product-strategy/skills/pestle-analysis",
+  "kind": "CapabilityPackage",
+  "name": "pestle-analysis",
+  "slug": "pestle-analysis--phuryn-pm-skills",
+  "source": {
+    "path": "pm-product-strategy/skills/pestle-analysis",
+    "repository": "phuryn/pm-skills"
+  },
+  "type": "skill"
+}

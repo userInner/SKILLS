@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Tests in real browsers via Chrome DevTools MCP. Use when building or debugging anything that runs in a browser. Use when you need to inspect the DOM, capture console errors, analyze network requests, profile performance, or verify visual output with real runtime data. Requires the chrome-devtools MCP server to be configured.",
+  "id": "github:addyosmani/agent-skills:skills/browser-testing-with-devtools",
+  "kind": "CapabilityPackage",
+  "name": "browser-testing-with-devtools",
+  "slug": "browser-testing-with-devtools--addyosmani-agent-skills",
+  "source": {
+    "path": "skills/browser-testing-with-devtools",
+    "repository": "addyosmani/agent-skills"
+  },
+  "type": "skill"
+}

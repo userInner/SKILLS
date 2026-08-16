@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Formal evaluation framework for AI-agent sessions implementing eval-driven development (EDD). Use when an Agent workflow, prompt, Skill, tool, or model change needs measurable pass/fail criteria, regression cases, or reliability evidence before it is trusted.",
+  "id": "github:userinner/skills:skills/engineering/eval-harness",
+  "kind": "CapabilityPackage",
+  "name": "eval-harness",
+  "slug": "eval-harness",
+  "source": {
+    "path": "skills/engineering/eval-harness",
+    "repository": "userInner/SKILLS"
+  },
+  "type": "skill"
+}

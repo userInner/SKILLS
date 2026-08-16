@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Patterns and architectures for autonomous Claude Code loops — from simple sequential pipelines to RFC-driven multi-agent DAG systems. Retained for compatibility only: when new autonomous loop guidance is needed, use continuous-agent-loop instead.",
+  "id": "github:affaan-m/ecc:skills/autonomous-loops",
+  "kind": "CapabilityPackage",
+  "name": "autonomous-loops",
+  "slug": "autonomous-loops--affaan-m-ecc--6883f7df64",
+  "source": {
+    "path": "skills/autonomous-loops",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

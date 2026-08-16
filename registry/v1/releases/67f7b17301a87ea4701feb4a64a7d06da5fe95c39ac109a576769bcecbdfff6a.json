@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:2288fa2a00a7eb9d681547ca31abdc4a4ba17123400dc52abd31235d577c9754",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/product/strategy-red-team--phuryn-pm-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:2288fa2a00a7eb9d681547ca31abdc4a4ba17123400dc52abd31235d577c9754",
+    "fileCount": 1,
+    "totalBytes": 4515
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:phuryn/pm-skills:pm-execution/skills/strategy-red-team",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:67f7b17301a87ea4701feb4a64a7d06da5fe95c39ac109a576769bcecbdfff6a",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "18468a95b427e70e258b51389796367c6f684e7d",
+    "path": "pm-execution/skills/strategy-red-team",
+    "repository": "phuryn/pm-skills",
+    "url": "https://github.com/phuryn/pm-skills/tree/18468a95b427e70e258b51389796367c6f684e7d/pm-execution/skills/strategy-red-team"
+  },
+  "status": "extracted"
+}

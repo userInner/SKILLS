@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Structured self-debugging workflow for AI agent failures using capture, diagnosis, contained recovery, and introspection reports. Use when an agent run fails and you need a reproducible diagnosis instead of a retry.",
+  "id": "github:affaan-m/ecc:.agents/skills/agent-introspection-debugging",
+  "kind": "CapabilityPackage",
+  "name": "agent-introspection-debugging",
+  "slug": "agent-introspection-debugging--affaan-m-ecc",
+  "source": {
+    "path": ".agents/skills/agent-introspection-debugging",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "design",
+  "description": "Django architecture patterns, REST API design with DRF, ORM best practices, caching, signals, middleware, and production-grade Django apps.",
+  "id": "github:affaan-m/ecc:.kiro/skills/django-patterns",
+  "kind": "CapabilityPackage",
+  "name": "django-patterns",
+  "slug": "django-patterns--affaan-m-ecc",
+  "source": {
+    "path": ".kiro/skills/django-patterns",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

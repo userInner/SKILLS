@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Django security best practices, authentication, authorization, CSRF protection, SQL injection prevention, XSS prevention, and secure deployment configurations.",
+  "id": "github:affaan-m/ecc:.kiro/skills/django-security",
+  "kind": "CapabilityPackage",
+  "name": "django-security",
+  "slug": "django-security--affaan-m-ecc",
+  "source": {
+    "path": ".kiro/skills/django-security",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

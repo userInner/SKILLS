@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Python testing strategies using pytest, TDD methodology, fixtures, mocking, parametrization, and coverage requirements. Use when writing pytest tests — fixtures, mocks, parametrization, or coverage.",
+  "id": "github:affaan-m/ecc:skills/python-testing",
+  "kind": "CapabilityPackage",
+  "name": "python-testing",
+  "slug": "python-testing--affaan-m-ecc--5fb80a2e7e",
+  "source": {
+    "path": "skills/python-testing",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

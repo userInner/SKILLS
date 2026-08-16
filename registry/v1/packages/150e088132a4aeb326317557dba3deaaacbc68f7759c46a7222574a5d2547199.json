@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Build, evaluate, and audit right-censored or competing-risk survival workflows with scikit-survival, including leakage-safe preprocessing, model selection, probability prediction, and censoring-aware metrics.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/scikit-survival",
+  "kind": "CapabilityPackage",
+  "name": "scikit-survival",
+  "slug": "scikit-survival--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/scikit-survival",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

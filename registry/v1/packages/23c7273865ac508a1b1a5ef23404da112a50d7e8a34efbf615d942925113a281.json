@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Readiness checklist for homelab VLAN segmentation, local DNS filtering, and WireGuard-style remote access before changing router, firewall, DHCP, or VPN configuration.",
+  "id": "github:affaan-m/ecc:skills/homelab-network-readiness",
+  "kind": "CapabilityPackage",
+  "name": "homelab-network-readiness",
+  "slug": "homelab-network-readiness--affaan-m-ecc",
+  "source": {
+    "path": "skills/homelab-network-readiness",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

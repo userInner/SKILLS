@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Build and operate reproducible genomics workloads on DNAnexus with the dx CLI, dxpy, apps/applets, native workflows, dxCompiler, and Nextflow. Use for DNAnexus data transfers, dxapp.json development, execution monitoring, workflow import, and project automation.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/dnanexus-integration",
+  "kind": "CapabilityPackage",
+  "name": "dnanexus-integration",
+  "slug": "dnanexus-integration--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/dnanexus-integration",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

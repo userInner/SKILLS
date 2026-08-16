@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "research",
+  "description": "Contact email for the faster OpenAlex polite pool.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/citation-management",
+  "kind": "CapabilityPackage",
+  "name": "citation-management",
+  "slug": "citation-management--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/citation-management",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "research",
+  "description": "Chunked N-D arrays for cloud storage (Zarr-Python 3). Compressed arrays, parallel I/O, S3/GCS via fsspec, NumPy/Dask/Xarray compatible, for large-scale scientific computing pipelines.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/zarr-python",
+  "kind": "CapabilityPackage",
+  "name": "zarr-python",
+  "slug": "zarr-python--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/zarr-python",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Parallel API key.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/parallel-web",
+  "kind": "CapabilityPackage",
+  "name": "parallel-web",
+  "slug": "parallel-web--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/parallel-web",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

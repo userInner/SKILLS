@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "OpenRouter API key for the skill's LLM-powered steps.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/literature-review",
+  "kind": "CapabilityPackage",
+  "name": "literature-review",
+  "slug": "literature-review--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/literature-review",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

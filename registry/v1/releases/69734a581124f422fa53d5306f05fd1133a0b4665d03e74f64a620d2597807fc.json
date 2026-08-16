@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:5036191743cbb55b8665ddf0d6b89daad668525adf28291fe1054e86e01972d9",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/workflow/executing-plans--obra-superpowers"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:5036191743cbb55b8665ddf0d6b89daad668525adf28291fe1054e86e01972d9",
+    "fileCount": 1,
+    "totalBytes": 2305
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:obra/superpowers:skills/executing-plans",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:69734a581124f422fa53d5306f05fd1133a0b4665d03e74f64a620d2597807fc",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "b36e0829c6d0140e93cfef2ca599b1b07d4a7797",
+    "path": "skills/executing-plans",
+    "repository": "obra/superpowers",
+    "url": "https://github.com/obra/superpowers/tree/b36e0829c6d0140e93cfef2ca599b1b07d4a7797/skills/executing-plans"
+  },
+  "status": "extracted"
+}

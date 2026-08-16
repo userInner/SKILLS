@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Pre-deployment checks for router and switch configuration, including dangerous commands, duplicate addresses, subnet overlaps, stale references, management-plane risk, and IOS-style security hygiene. Use when reviewing a router or switch configuration before deployment.",
+  "id": "github:affaan-m/ecc:skills/network-config-validation",
+  "kind": "CapabilityPackage",
+  "name": "network-config-validation",
+  "slug": "network-config-validation--affaan-m-ecc",
+  "source": {
+    "path": "skills/network-config-validation",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

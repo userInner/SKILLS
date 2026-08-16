@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "writing",
+  "description": "Create job stories using the 'When [situation], I want to [motivation], so I can [outcome]' format with detailed acceptance criteria. Use when writing job stories, creating JTBD-style backlog items, or expressing user situations and motivations.",
+  "id": "github:phuryn/pm-skills:pm-execution/skills/job-stories",
+  "kind": "CapabilityPackage",
+  "name": "job-stories",
+  "slug": "job-stories--phuryn-pm-skills",
+  "source": {
+    "path": "pm-execution/skills/job-stories",
+    "repository": "phuryn/pm-skills"
+  },
+  "type": "skill"
+}

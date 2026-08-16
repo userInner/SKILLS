@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "design",
+  "description": "Translate visa application documents (images) to English and create a bilingual PDF with original and translation. Use when visa application document images must be translated to English as a bilingual PDF.",
+  "id": "github:affaan-m/ecc:skills/visa-doc-translate",
+  "kind": "CapabilityPackage",
+  "name": "visa-doc-translate",
+  "slug": "visa-doc-translate--affaan-m-ecc",
+  "source": {
+    "path": "skills/visa-doc-translate",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

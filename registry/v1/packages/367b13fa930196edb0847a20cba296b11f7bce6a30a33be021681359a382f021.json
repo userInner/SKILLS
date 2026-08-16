@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Use when large data ingestion, backfill, export, ETL, warehouse loading, manifest catch-up, or table synchronization needs to become much faster while preserving data correctness.",
+  "id": "github:affaan-m/ecc:skills/data-throughput-accelerator",
+  "kind": "CapabilityPackage",
+  "name": "data-throughput-accelerator",
+  "slug": "data-throughput-accelerator--affaan-m-ecc",
+  "source": {
+    "path": "skills/data-throughput-accelerator",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

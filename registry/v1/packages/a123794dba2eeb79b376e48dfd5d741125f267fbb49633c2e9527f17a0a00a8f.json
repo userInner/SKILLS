@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Production machine-learning engineering workflow for data contracts, reproducible training, model evaluation, deployment, monitoring, and rollback. Use when building, reviewing, or hardening ML systems beyond one-off notebooks.",
+  "id": "github:affaan-m/ecc:.agents/skills/mle-workflow",
+  "kind": "CapabilityPackage",
+  "name": "mle-workflow",
+  "slug": "mle-workflow--affaan-m-ecc",
+  "source": {
+    "path": ".agents/skills/mle-workflow",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

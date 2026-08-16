@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Draft a detailed Non-Disclosure Agreement between two parties covering information types, jurisdiction, and clauses needing legal review. Use when creating confidentiality agreements or preparing an NDA for a partnership.",
+  "id": "github:phuryn/pm-skills:pm-toolkit/skills/draft-nda",
+  "kind": "CapabilityPackage",
+  "name": "draft-nda",
+  "slug": "draft-nda--phuryn-pm-skills",
+  "source": {
+    "path": "pm-toolkit/skills/draft-nda",
+    "repository": "phuryn/pm-skills"
+  },
+  "type": "skill"
+}

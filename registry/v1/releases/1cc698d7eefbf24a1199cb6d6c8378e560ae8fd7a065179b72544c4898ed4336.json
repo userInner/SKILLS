@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:9fd367e238832c96699349afa5fb9ec4ee9c47382c9233eac6f87fcddd00bfe5",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/research/zarr-python--k-dense-ai-scientific-agent-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:9fd367e238832c96699349afa5fb9ec4ee9c47382c9233eac6f87fcddd00bfe5",
+    "fileCount": 7,
+    "totalBytes": 33445
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:k-dense-ai/scientific-agent-skills:skills/zarr-python",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:1cc698d7eefbf24a1199cb6d6c8378e560ae8fd7a065179b72544c4898ed4336",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "b2a92ba052dcae4ef48e850b9e31ebf75706be48",
+    "path": "skills/zarr-python",
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/b2a92ba052dcae4ef48e850b9e31ebf75706be48/skills/zarr-python"
+  },
+  "status": "extracted"
+}

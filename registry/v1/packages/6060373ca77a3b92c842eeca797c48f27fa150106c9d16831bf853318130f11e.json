@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "product",
+  "description": "Generate an Ansoff Matrix analysis mapping growth strategies across market penetration, market development, product development, and diversification. Use when considering growth options, planning market expansion, or evaluating strategic growth paths.",
+  "id": "github:phuryn/pm-skills:pm-product-strategy/skills/ansoff-matrix",
+  "kind": "CapabilityPackage",
+  "name": "ansoff-matrix",
+  "slug": "ansoff-matrix--phuryn-pm-skills",
+  "source": {
+    "path": "pm-product-strategy/skills/ansoff-matrix",
+    "repository": "phuryn/pm-skills"
+  },
+  "type": "skill"
+}

@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Git workflow patterns including branching strategies, commit conventions, merge vs rebase, conflict resolution, and collaborative development best practices for teams of all sizes. Use when choosing a branching strategy, writing commit conventions, deciding merge versus rebase, or resolving conflicts.",
+  "id": "github:affaan-m/ecc:skills/git-workflow",
+  "kind": "CapabilityPackage",
+  "name": "git-workflow",
+  "slug": "git-workflow--affaan-m-ecc",
+  "source": {
+    "path": "skills/git-workflow",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

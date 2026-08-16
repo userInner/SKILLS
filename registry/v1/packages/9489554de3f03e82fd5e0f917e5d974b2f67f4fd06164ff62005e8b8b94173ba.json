@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Bearer token for authenticated protocols.io REST reads.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/protocolsio-integration",
+  "kind": "CapabilityPackage",
+  "name": "protocolsio-integration",
+  "slug": "protocolsio-integration--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/protocolsio-integration",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

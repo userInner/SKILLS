@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "design",
+  "description": "Redis data structure patterns, caching strategies, distributed locks, rate limiting, pub/sub, and connection management for production applications. Use when adding caching, a distributed lock, rate limiting, or pub/sub with Redis, or when key design needs review.",
+  "id": "github:affaan-m/ecc:skills/redis-patterns",
+  "kind": "CapabilityPackage",
+  "name": "redis-patterns",
+  "slug": "redis-patterns--affaan-m-ecc",
+  "source": {
+    "path": "skills/redis-patterns",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

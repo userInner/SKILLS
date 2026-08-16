@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "product",
+  "description": "Brainstorm feature ideas for a new product in initial discovery from PM, Designer, and Engineer perspectives. Use when starting product discovery for a new product, exploring features for a startup idea, or doing initial ideation.",
+  "id": "github:phuryn/pm-skills:pm-product-discovery/skills/brainstorm-ideas-new",
+  "kind": "CapabilityPackage",
+  "name": "brainstorm-ideas-new",
+  "slug": "brainstorm-ideas-new--phuryn-pm-skills",
+  "source": {
+    "path": "pm-product-discovery/skills/brainstorm-ideas-new",
+    "repository": "phuryn/pm-skills"
+  },
+  "type": "skill"
+}

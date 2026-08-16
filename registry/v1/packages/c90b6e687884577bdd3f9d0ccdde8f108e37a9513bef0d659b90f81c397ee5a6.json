@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "writing",
+  "description": "Use when creating new skills, editing existing skills, or verifying skills work before deployment",
+  "id": "github:obra/superpowers:skills/writing-skills",
+  "kind": "CapabilityPackage",
+  "name": "writing-skills",
+  "slug": "writing-skills--obra-superpowers",
+  "source": {
+    "path": "skills/writing-skills",
+    "repository": "obra/superpowers"
+  },
+  "type": "skill"
+}

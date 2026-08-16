@@ -1,0 +1,55 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:bf8c42f7b88b3a595f6b2384d82ab5be3e3e658df474f95012556af0c60dacac",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/workflow/subagent-driven-development--obra-superpowers"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:bf8c42f7b88b3a595f6b2384d82ab5be3e3e658df474f95012556af0c60dacac",
+    "fileCount": 7,
+    "totalBytes": 56664
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:obra/superpowers:skills/subagent-driven-development",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:6e67912fd8ea941d2cee3c4442ecebdd8390549f74a377f1763199daf105c18e",
+  "security": {
+    "staticScan": {
+      "findings": [
+        {
+          "file": "SKILL.md",
+          "rule": "recursive-delete"
+        }
+      ],
+      "status": "review"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "b36e0829c6d0140e93cfef2ca599b1b07d4a7797",
+    "path": "skills/subagent-driven-development",
+    "repository": "obra/superpowers",
+    "url": "https://github.com/obra/superpowers/tree/b36e0829c6d0140e93cfef2ca599b1b07d4a7797/skills/subagent-driven-development"
+  },
+  "status": "needs-review"
+}

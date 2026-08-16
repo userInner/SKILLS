@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:6a46d76577d3f6f351c3a34a221bc0aa5c3dcf04fc04aeae6481344ac3a0d3de",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/research/citation-management--k-dense-ai-scientific-agent-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:6a46d76577d3f6f351c3a34a221bc0aa5c3dcf04fc04aeae6481344ac3a0d3de",
+    "fileCount": 21,
+    "totalBytes": 277654
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:k-dense-ai/scientific-agent-skills:skills/citation-management",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:cd52c608f2ea0625457fa7ddf32dd7df87e82429699d7ff4fc3b4e1205fa1d63",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "b2a92ba052dcae4ef48e850b9e31ebf75706be48",
+    "path": "skills/citation-management",
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/b2a92ba052dcae4ef48e850b9e31ebf75706be48/skills/citation-management"
+  },
+  "status": "extracted"
+}

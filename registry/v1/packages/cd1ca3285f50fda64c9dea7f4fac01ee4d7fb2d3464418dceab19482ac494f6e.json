@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Kotlin testing patterns with Kotest, MockK, coroutine testing, property-based testing, and Kover coverage. Follows TDD methodology with idiomatic Kotlin practices.",
+  "id": "github:affaan-m/ecc:.kiro/skills/kotlin-testing",
+  "kind": "CapabilityPackage",
+  "name": "kotlin-testing",
+  "slug": "kotlin-testing--affaan-m-ecc",
+  "source": {
+    "path": ".kiro/skills/kotlin-testing",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Query the CZ CELLxGENE Census programmatically for versioned public single-cell and spatial transcriptomics data. Use when you need population-scale cell metadata, gene expression slices, Census summary counts, source H5AD URIs/downloads, embeddings, spatial Census data, or reference atlas comparisons across organisms, tissues, diseases, assays, and cell types. For analyzing your own local single-cell data use scanpy, anndata, or scvi-tools.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/cellxgene-census",
+  "kind": "CapabilityPackage",
+  "name": "cellxgene-census",
+  "slug": "cellxgene-census--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/cellxgene-census",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

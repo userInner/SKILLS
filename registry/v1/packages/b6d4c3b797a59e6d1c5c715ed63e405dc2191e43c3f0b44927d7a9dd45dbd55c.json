@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Structures git workflow practices. Use when making any code change. Use when committing, branching, resolving conflicts, or when you need to organize work across multiple parallel streams. Use when cutting a release, choosing a semantic version bump, tagging, or writing a changelog.",
+  "id": "github:addyosmani/agent-skills:skills/git-workflow-and-versioning",
+  "kind": "CapabilityPackage",
+  "name": "git-workflow-and-versioning",
+  "slug": "git-workflow-and-versioning--addyosmani-agent-skills",
+  "source": {
+    "path": "skills/git-workflow-and-versioning",
+    "repository": "addyosmani/agent-skills"
+  },
+  "type": "skill"
+}

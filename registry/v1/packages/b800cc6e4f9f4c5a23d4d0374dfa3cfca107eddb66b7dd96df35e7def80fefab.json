@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Hardens code against vulnerabilities. Use when handling user input, authentication, data storage, or external integrations. Use when building any feature that accepts untrusted data, manages user sessions, or interacts with third-party services. Use when personal data or privacy compliance (GDPR, CCPA) is involved.",
+  "id": "github:userinner/skills:skills/engineering/security-and-hardening",
+  "kind": "CapabilityPackage",
+  "name": "security-and-hardening",
+  "slug": "security-and-hardening",
+  "source": {
+    "path": "skills/engineering/security-and-hardening",
+    "repository": "userInner/SKILLS"
+  },
+  "type": "skill"
+}

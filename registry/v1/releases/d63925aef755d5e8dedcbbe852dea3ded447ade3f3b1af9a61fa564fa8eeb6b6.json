@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:12544dae8aced31a61ae6fab5d76c3b8033f0c763e4121144fefafd206f6cb74",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/product/ansoff-matrix--phuryn-pm-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:12544dae8aced31a61ae6fab5d76c3b8033f0c763e4121144fefafd206f6cb74",
+    "fileCount": 1,
+    "totalBytes": 5684
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:phuryn/pm-skills:pm-product-strategy/skills/ansoff-matrix",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:d63925aef755d5e8dedcbbe852dea3ded447ade3f3b1af9a61fa564fa8eeb6b6",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "18468a95b427e70e258b51389796367c6f684e7d",
+    "path": "pm-product-strategy/skills/ansoff-matrix",
+    "repository": "phuryn/pm-skills",
+    "url": "https://github.com/phuryn/pm-skills/tree/18468a95b427e70e258b51389796367c6f684e7d/pm-product-strategy/skills/ansoff-matrix"
+  },
+  "status": "extracted"
+}

@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Share durable, inspectable context and handoffs between Claude, Codex, Hermes, Cursor, OpenCode, and other agents through the local ECC Memory Vault. Use when an agent must save work state, transfer context, resume another agent's task, or search shared project knowledge.",
+  "id": "github:affaan-m/ecc:.cursor/skills/unified-memory",
+  "kind": "CapabilityPackage",
+  "name": "unified-memory",
+  "slug": "unified-memory--affaan-m-ecc--5bc61afbdb",
+  "source": {
+    "path": ".cursor/skills/unified-memory",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Orchestrate altering an existing, working feature to new desired behavior — update its tests to the new spec, change the implementation to match, review, and gated commit. Use when behavior is not broken but should be different.",
+  "id": "github:affaan-m/ecc:skills/orch-change-feature",
+  "kind": "CapabilityPackage",
+  "name": "orch-change-feature",
+  "slug": "orch-change-feature--affaan-m-ecc",
+  "source": {
+    "path": "skills/orch-change-feature",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

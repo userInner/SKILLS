@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "DiffDock and DiffDock-L molecular docking. Use for protein-small-molecule pose prediction from PDB or sequence plus SMILES/SDF/MOL2, batch docking, virtual screening, and pose-confidence interpretation. Not for binding affinity prediction.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/diffdock",
+  "kind": "CapabilityPackage",
+  "name": "diffdock",
+  "slug": "diffdock--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/diffdock",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

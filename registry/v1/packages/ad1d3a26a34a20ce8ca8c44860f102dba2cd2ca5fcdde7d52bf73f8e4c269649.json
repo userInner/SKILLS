@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Safe Python Netmiko patterns for read-only collection, bounded batch SSH, TextFSM parsing, guarded config changes, timeouts, and network automation error handling. Use when automating network device access with Python Netmiko, whether collecting state or pushing guarded config changes.",
+  "id": "github:affaan-m/ecc:skills/netmiko-ssh-automation",
+  "kind": "CapabilityPackage",
+  "name": "netmiko-ssh-automation",
+  "slug": "netmiko-ssh-automation--affaan-m-ecc",
+  "source": {
+    "path": "skills/netmiko-ssh-automation",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

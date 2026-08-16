@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:a5ecb8615d4af5f0333b83f2e3a7a77245f8a5e90fc681a6715f6f1271c3f444",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/design/frontend-patterns--affaan-m-ecc--a5ecb8615d"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:a5ecb8615d4af5f0333b83f2e3a7a77245f8a5e90fc681a6715f6f1271c3f444",
+    "fileCount": 1,
+    "totalBytes": 15432
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:affaan-m/ecc:skills/frontend-patterns",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:3be7ab75957c8e76483fa4a3565556f6c08a183c68e0e50767be41f8d374881a",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "path": "skills/frontend-patterns",
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC/tree/c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8/skills/frontend-patterns"
+  },
+  "status": "extracted"
+}

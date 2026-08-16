@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": ">",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/onekgpd",
+  "kind": "CapabilityPackage",
+  "name": "onekgpd",
+  "slug": "onekgpd--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/onekgpd",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

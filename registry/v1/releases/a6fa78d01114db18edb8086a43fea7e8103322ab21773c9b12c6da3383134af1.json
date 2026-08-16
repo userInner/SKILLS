@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:1da9182001d887c0fb8c62aeee35c8f65b438b32a30b79104baedcca9e0ebef6",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/engineering/finishing-a-development-branch--obra-superpowers"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:1da9182001d887c0fb8c62aeee35c8f65b438b32a30b79104baedcca9e0ebef6",
+    "fileCount": 1,
+    "totalBytes": 7781
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:obra/superpowers:skills/finishing-a-development-branch",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:a6fa78d01114db18edb8086a43fea7e8103322ab21773c9b12c6da3383134af1",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "b36e0829c6d0140e93cfef2ca599b1b07d4a7797",
+    "path": "skills/finishing-a-development-branch",
+    "repository": "obra/superpowers",
+    "url": "https://github.com/obra/superpowers/tree/b36e0829c6d0140e93cfef2ca599b1b07d4a7797/skills/finishing-a-development-branch"
+  },
+  "status": "extracted"
+}

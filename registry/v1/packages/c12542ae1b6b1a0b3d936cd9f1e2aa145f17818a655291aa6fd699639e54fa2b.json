@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "product",
+  "description": "Design experiments to test assumptions for an existing product — prototypes, A/B tests, spikes, and other low-effort validation methods. Use when validating assumptions, testing feature ideas cheaply, or planning product experiments.",
+  "id": "github:phuryn/pm-skills:pm-product-discovery/skills/brainstorm-experiments-existing",
+  "kind": "CapabilityPackage",
+  "name": "brainstorm-experiments-existing",
+  "slug": "brainstorm-experiments-existing--phuryn-pm-skills",
+  "source": {
+    "path": "pm-product-discovery/skills/brainstorm-experiments-existing",
+    "repository": "phuryn/pm-skills"
+  },
+  "type": "skill"
+}

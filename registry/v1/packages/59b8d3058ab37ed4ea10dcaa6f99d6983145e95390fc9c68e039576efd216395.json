@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "product",
+  "description": "Brainstorm 5 unique, memorable product names with rationale aligned to brand values and target audience. Use when naming a new product, rebranding, or exploring product name ideas.",
+  "id": "github:phuryn/pm-skills:pm-marketing-growth/skills/product-name",
+  "kind": "CapabilityPackage",
+  "name": "product-name",
+  "slug": "product-name--phuryn-pm-skills",
+  "source": {
+    "path": "pm-marketing-growth/skills/product-name",
+    "repository": "phuryn/pm-skills"
+  },
+  "type": "skill"
+}

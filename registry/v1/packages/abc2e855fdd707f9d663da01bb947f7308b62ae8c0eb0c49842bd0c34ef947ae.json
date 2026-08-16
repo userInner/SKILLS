@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "product",
+  "description": "Identify the best GTM motions and tools across 7 motion types: Inbound, Outbound, Paid Digital, Community, Partners, ABM, and PLG. Use when selecting marketing channels, choosing between inbound and outbound strategy, or planning cross-channel campaigns.",
+  "id": "github:phuryn/pm-skills:pm-go-to-market/skills/gtm-motions",
+  "kind": "CapabilityPackage",
+  "name": "gtm-motions",
+  "slug": "gtm-motions--phuryn-pm-skills",
+  "source": {
+    "path": "pm-go-to-market/skills/gtm-motions",
+    "repository": "phuryn/pm-skills"
+  },
+  "type": "skill"
+}

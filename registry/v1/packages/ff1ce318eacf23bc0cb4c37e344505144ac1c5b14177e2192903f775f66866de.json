@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Overrides default LLM truncation behavior. Enforces complete code generation, bans placeholder patterns, and handles token-limit splits cleanly. Apply to any task requiring exhaustive, unabridged output.",
+  "id": "github:leonxlnx/taste-skill:skills/output-skill",
+  "kind": "CapabilityPackage",
+  "name": "full-output-enforcement",
+  "slug": "full-output-enforcement--leonxlnx-taste-skill",
+  "source": {
+    "path": "skills/output-skill",
+    "repository": "Leonxlnx/taste-skill"
+  },
+  "type": "skill"
+}

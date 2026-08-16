@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "End-to-end methodology for AI agents and software engineers to add machine learning algorithms to existing non-ML codebases. Covers problem framing, data readiness, architectural decoupling, and baseline model integration. Use when adding a machine learning capability to a codebase that has none, from problem framing through a baseline model.",
+  "id": "github:affaan-m/ecc:skills/ml-adoption-playbook",
+  "kind": "CapabilityPackage",
+  "name": "ml-adoption-playbook",
+  "slug": "ml-adoption-playbook--affaan-m-ecc",
+  "source": {
+    "path": "skills/ml-adoption-playbook",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

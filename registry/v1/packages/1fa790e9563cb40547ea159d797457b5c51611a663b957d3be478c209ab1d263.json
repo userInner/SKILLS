@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Verification loop for Django projects: migrations, linting, tests with coverage, security scans, and deployment readiness checks before release or PR.",
+  "id": "github:affaan-m/ecc:skills/django-verification",
+  "kind": "CapabilityPackage",
+  "name": "django-verification",
+  "slug": "django-verification--affaan-m-ecc",
+  "source": {
+    "path": "skills/django-verification",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": ">",
+  "id": "github:affaan-m/ecc:skills/customs-trade-compliance",
+  "kind": "CapabilityPackage",
+  "name": "customs-trade-compliance",
+  "slug": "customs-trade-compliance--affaan-m-ecc",
+  "source": {
+    "path": "skills/customs-trade-compliance",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

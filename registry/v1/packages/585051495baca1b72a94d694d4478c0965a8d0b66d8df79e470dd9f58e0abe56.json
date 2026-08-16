@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Use when starting any conversation - establishes how to find and use skills, requiring skill invocation before ANY response including clarifying questions",
+  "id": "github:obra/superpowers:skills/using-superpowers",
+  "kind": "CapabilityPackage",
+  "name": "using-superpowers",
+  "slug": "using-superpowers--obra-superpowers",
+  "source": {
+    "path": "skills/using-superpowers",
+    "repository": "obra/superpowers"
+  },
+  "type": "skill"
+}

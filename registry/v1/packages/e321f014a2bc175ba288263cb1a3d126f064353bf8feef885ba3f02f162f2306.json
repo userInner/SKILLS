@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "research",
+  "description": "Draft, revise, and audit scientific manuscripts or reports with explicit evidence provenance, reporting-guideline coverage, authorship accountability, confidentiality controls, and local consistency checks. Use for manuscript sections, references, declarations, tables, figures, or submission preparation when scientific accuracy and traceability matter.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/scientific-writing",
+  "kind": "CapabilityPackage",
+  "name": "scientific-writing",
+  "slug": "scientific-writing--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/scientific-writing",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

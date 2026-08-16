@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Optional Foundry access for drafting.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/autoskill",
+  "kind": "CapabilityPackage",
+  "name": "autoskill",
+  "slug": "autoskill--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/autoskill",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

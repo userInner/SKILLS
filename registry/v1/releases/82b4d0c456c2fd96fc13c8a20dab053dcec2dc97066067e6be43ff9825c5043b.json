@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:e146809eed968b47276e2bee7a99c2fb0bb173d7fce0087d28594614ffcd2c29",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/product/product-lens--affaan-m-ecc"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:e146809eed968b47276e2bee7a99c2fb0bb173d7fce0087d28594614ffcd2c29",
+    "fileCount": 1,
+    "totalBytes": 3102
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:affaan-m/ecc:skills/product-lens",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:82b4d0c456c2fd96fc13c8a20dab053dcec2dc97066067e6be43ff9825c5043b",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "path": "skills/product-lens",
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC/tree/c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8/skills/product-lens"
+  },
+  "status": "extracted"
+}

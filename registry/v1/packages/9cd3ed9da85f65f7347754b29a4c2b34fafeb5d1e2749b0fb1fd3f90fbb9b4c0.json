@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "OpenRouter API key for the skill's LLM-powered steps.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/infographics",
+  "kind": "CapabilityPackage",
+  "name": "infographics",
+  "slug": "infographics--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/infographics",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

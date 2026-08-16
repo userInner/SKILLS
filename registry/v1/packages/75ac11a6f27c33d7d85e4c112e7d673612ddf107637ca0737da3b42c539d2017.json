@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Guide ECC installation, update, or reconfiguration from inside Claude Code, Codex, or Kimi while respecting each harness's real plugin, scope, and hook capabilities.",
+  "id": "github:affaan-m/ecc:skills/configure-ecc",
+  "kind": "CapabilityPackage",
+  "name": "configure-ecc",
+  "slug": "configure-ecc--affaan-m-ecc",
+  "source": {
+    "path": "skills/configure-ecc",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

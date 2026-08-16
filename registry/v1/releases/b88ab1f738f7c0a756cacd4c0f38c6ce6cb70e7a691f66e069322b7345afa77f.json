@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:bd242b0d706bbca163940d0b552e551081977eaee97fb5e22d0fc4a8d640d8cb",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/research/exploratory-data-analysis--k-dense-ai-scientific-agent-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:bd242b0d706bbca163940d0b552e551081977eaee97fb5e22d0fc4a8d640d8cb",
+    "fileCount": 21,
+    "totalBytes": 205478
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:k-dense-ai/scientific-agent-skills:skills/exploratory-data-analysis",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:b88ab1f738f7c0a756cacd4c0f38c6ce6cb70e7a691f66e069322b7345afa77f",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "b2a92ba052dcae4ef48e850b9e31ebf75706be48",
+    "path": "skills/exploratory-data-analysis",
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/b2a92ba052dcae4ef48e850b9e31ebf75706be48/skills/exploratory-data-analysis"
+  },
+  "status": "extracted"
+}

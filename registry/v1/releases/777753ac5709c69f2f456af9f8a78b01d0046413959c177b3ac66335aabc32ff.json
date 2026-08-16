@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:acd69db66d3ffe7c527bf3c2beea0e6c1e3715ac42d0d29dfd2cdbd4ce2831c8",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/engineering/ponytail-review--dietrichgebert-ponytail"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:acd69db66d3ffe7c527bf3c2beea0e6c1e3715ac42d0d29dfd2cdbd4ce2831c8",
+    "fileCount": 1,
+    "totalBytes": 2118
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:dietrichgebert/ponytail:.openclaw/skills/ponytail-review",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:777753ac5709c69f2f456af9f8a78b01d0046413959c177b3ac66335aabc32ff",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "2ed6c52c9d7e5e56942508591085fd45dea277d3",
+    "path": ".openclaw/skills/ponytail-review",
+    "repository": "DietrichGebert/ponytail",
+    "url": "https://github.com/DietrichGebert/ponytail/tree/2ed6c52c9d7e5e56942508591085fd45dea277d3/.openclaw/skills/ponytail-review"
+  },
+  "status": "extracted"
+}

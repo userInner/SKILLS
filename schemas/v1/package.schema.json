@@ -1,0 +1,27 @@
+{
+  "$id": "https://effecta.dev/schemas/v1/package.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "apiVersion": {"const": "effecta.dev/v1"},
+    "category": {"minLength": 1, "type": "string"},
+    "description": {"type": "string"},
+    "id": {"pattern": "^github:[^/]+/[^:]+:.+$", "type": "string"},
+    "kind": {"const": "CapabilityPackage"},
+    "name": {"minLength": 1, "type": "string"},
+    "slug": {"minLength": 1, "type": "string"},
+    "source": {
+      "additionalProperties": false,
+      "properties": {
+        "path": {"minLength": 1, "type": "string"},
+        "repository": {"pattern": "^[^/]+/[^/]+$", "type": "string"}
+      },
+      "required": ["repository", "path"],
+      "type": "object"
+    },
+    "type": {"enum": ["skill", "workflow", "mcp-server", "harness-plugin"]}
+  },
+  "required": ["apiVersion", "kind", "id", "type", "name", "slug", "category", "description", "source"],
+  "title": "Effecta CapabilityPackage v1",
+  "type": "object"
+}

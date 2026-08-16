@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:1a04ee3ccb611a17e855669fac6ffe90c5cbf2d5b9f0f5a71311630aade19914",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/product/porters-five-forces--phuryn-pm-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:1a04ee3ccb611a17e855669fac6ffe90c5cbf2d5b9f0f5a71311630aade19914",
+    "fileCount": 1,
+    "totalBytes": 8185
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:phuryn/pm-skills:pm-product-strategy/skills/porters-five-forces",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:21f9dfa3b13efc5e4ddb73cee032e532b649cf333bd06768c656a16dd4220e32",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "18468a95b427e70e258b51389796367c6f684e7d",
+    "path": "pm-product-strategy/skills/porters-five-forces",
+    "repository": "phuryn/pm-skills",
+    "url": "https://github.com/phuryn/pm-skills/tree/18468a95b427e70e258b51389796367c6f684e7d/pm-product-strategy/skills/porters-five-forces"
+  },
+  "status": "extracted"
+}

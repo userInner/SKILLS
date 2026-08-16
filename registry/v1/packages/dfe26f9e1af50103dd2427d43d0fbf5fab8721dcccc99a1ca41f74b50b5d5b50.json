@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "research",
+  "description": "Guided statistical analysis for research data - test selection, assumption checking, effect sizes, power analysis, Bayesian alternatives, and APA-formatted reporting. Use whenever a user wants to compare groups, test a hypothesis, analyze experimental or survey data, check statistical assumptions, compute required sample sizes, or write up results - even if they never name a specific test. Covers t-tests, ANOVA, chi-square, correlation, regression, non-parametric and Bayesian methods. For low-level model APIs, see the statsmodels and pymc skills.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/statistical-analysis",
+  "kind": "CapabilityPackage",
+  "name": "statistical-analysis",
+  "slug": "statistical-analysis--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/statistical-analysis",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

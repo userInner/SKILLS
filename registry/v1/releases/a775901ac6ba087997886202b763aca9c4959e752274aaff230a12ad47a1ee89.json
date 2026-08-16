@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:19e90f89a7ce04e2decb669aad479fa3704c371053866dfeaa40cd98fb587025",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/product/swot-analysis--phuryn-pm-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:19e90f89a7ce04e2decb669aad479fa3704c371053866dfeaa40cd98fb587025",
+    "fileCount": 1,
+    "totalBytes": 3813
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:phuryn/pm-skills:pm-product-strategy/skills/swot-analysis",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:a775901ac6ba087997886202b763aca9c4959e752274aaff230a12ad47a1ee89",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "18468a95b427e70e258b51389796367c6f684e7d",
+    "path": "pm-product-strategy/skills/swot-analysis",
+    "repository": "phuryn/pm-skills",
+    "url": "https://github.com/phuryn/pm-skills/tree/18468a95b427e70e258b51389796367c6f684e7d/pm-product-strategy/skills/swot-analysis"
+  },
+  "status": "extracted"
+}

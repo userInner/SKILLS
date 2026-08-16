@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "product",
+  "description": "Brainstorm an inspiring, achievable, and emotional product vision that motivates teams and aligns stakeholders. Use when defining or refining a product vision, creating a vision statement, or aligning the team around a shared direction.",
+  "id": "github:phuryn/pm-skills:pm-product-strategy/skills/product-vision",
+  "kind": "CapabilityPackage",
+  "name": "product-vision",
+  "slug": "product-vision--phuryn-pm-skills",
+  "source": {
+    "path": "pm-product-strategy/skills/product-vision",
+    "repository": "phuryn/pm-skills"
+  },
+  "type": "skill"
+}

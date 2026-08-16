@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Use for latency-sensitive systems such as realtime dashboards, market data, streaming agents, execution gateways, queues, caches, or HFT-like infrastructure where freshness and p95 latency matter. Use when p95 latency or data freshness matters — realtime dashboards, market data, streaming agents, queues, or caches.",
+  "id": "github:affaan-m/ecc:skills/latency-critical-systems",
+  "kind": "CapabilityPackage",
+  "name": "latency-critical-systems",
+  "slug": "latency-critical-systems--affaan-m-ecc",
+  "source": {
+    "path": "skills/latency-critical-systems",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

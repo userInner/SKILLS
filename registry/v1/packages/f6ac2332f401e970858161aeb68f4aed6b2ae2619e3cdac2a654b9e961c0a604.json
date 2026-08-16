@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Add one optional external Codex critique after the existing council has produced a decision draft. Use when an ambiguous, high-consequence decision would benefit from a separate model invocation's attempt to break the synthesis. Requires explicit consent before sending the compact draft and disagreement to OpenAI, labels same-provider reviews honestly, and marks the review absent when the adapter is unavailable.",
+  "id": "github:affaan-m/ecc:skills/council-multi-model",
+  "kind": "CapabilityPackage",
+  "name": "council-multi-model",
+  "slug": "council-multi-model--affaan-m-ecc",
+  "source": {
+    "path": "skills/council-multi-model",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

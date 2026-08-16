@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Transform Claude Code into a fully autonomous agent system with persistent memory, scheduled operations, computer use, and task queuing. Replaces standalone agent frameworks (Hermes, AutoGPT) by leveraging Claude Code's native crons, dispatch, MCP tools, and memory. Use when the user wants continuous autonomous operation, scheduled tasks, or a self-directing agent loop.",
+  "id": "github:affaan-m/ecc:skills/autonomous-agent-harness",
+  "kind": "CapabilityPackage",
+  "name": "autonomous-agent-harness",
+  "slug": "autonomous-agent-harness--affaan-m-ecc",
+  "source": {
+    "path": "skills/autonomous-agent-harness",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

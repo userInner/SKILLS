@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Explain and audit machine-learning predictions with SHAP. Use for selecting SHAP explainers and maskers, computing and validating feature attributions, handling multi-output explanations, and producing local or global SHAP visualizations.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/shap",
+  "kind": "CapabilityPackage",
+  "name": "shap",
+  "slug": "shap--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/shap",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

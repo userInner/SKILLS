@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Create and update pitch decks, one-pagers, investor memos, accelerator applications, financial models, and fundraising materials. Use when the user needs investor-facing documents, projections, use-of-funds tables, milestone plans, or materials that must stay internally consistent across multiple fundraising assets.",
+  "id": "github:affaan-m/ecc:.agents/skills/investor-materials",
+  "kind": "CapabilityPackage",
+  "name": "investor-materials",
+  "slug": "investor-materials--affaan-m-ecc",
+  "source": {
+    "path": ".agents/skills/investor-materials",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

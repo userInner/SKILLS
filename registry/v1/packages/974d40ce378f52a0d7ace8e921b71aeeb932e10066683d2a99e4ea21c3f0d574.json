@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "product",
+  "description": "Run and analyze molecular dynamics simulations with OpenMM and MDAnalysis. Set up protein/small molecule systems, define force fields, run energy minimization and production MD, analyze trajectories (RMSD, RMSF, contact maps, free energy surfaces). For structural biology, drug binding, and biophysics.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/molecular-dynamics",
+  "kind": "CapabilityPackage",
+  "name": "molecular-dynamics",
+  "slug": "molecular-dynamics--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/molecular-dynamics",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

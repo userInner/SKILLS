@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "design",
+  "description": "Compose Multiplatform and Jetpack Compose patterns for KMP projects — state management, navigation, theming, performance, and platform-specific UI. Use when building Compose or Jetpack Compose UI, state, navigation, or theming in a KMP project.",
+  "id": "github:affaan-m/ecc:skills/compose-multiplatform-patterns",
+  "kind": "CapabilityPackage",
+  "name": "compose-multiplatform-patterns",
+  "slug": "compose-multiplatform-patterns--affaan-m-ecc",
+  "source": {
+    "path": "skills/compose-multiplatform-patterns",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

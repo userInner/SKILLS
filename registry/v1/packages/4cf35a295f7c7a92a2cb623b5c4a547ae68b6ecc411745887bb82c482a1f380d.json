@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Conducts multi-axis code review. Use before merging any change. Use when reviewing code written by yourself, another agent, or a human. Use when you need to assess code quality across multiple dimensions before it enters the main branch.",
+  "id": "github:userinner/skills:skills/engineering/code-review-and-quality",
+  "kind": "CapabilityPackage",
+  "name": "code-review-and-quality",
+  "slug": "code-review-and-quality",
+  "source": {
+    "path": "skills/engineering/code-review-and-quality",
+    "repository": "userInner/SKILLS"
+  },
+  "type": "skill"
+}

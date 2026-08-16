@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Use when you have a written implementation plan to execute in a separate session with review checkpoints",
+  "id": "github:obra/superpowers:skills/executing-plans",
+  "kind": "CapabilityPackage",
+  "name": "executing-plans",
+  "slug": "executing-plans--obra-superpowers",
+  "source": {
+    "path": "skills/executing-plans",
+    "repository": "obra/superpowers"
+  },
+  "type": "skill"
+}

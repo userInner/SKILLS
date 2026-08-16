@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Pattern for progressively refining context retrieval to solve the subagent context problem. Use when a subagent lacks the context it needs and retrieval must be refined across passes.",
+  "id": "github:affaan-m/ecc:skills/iterative-retrieval",
+  "kind": "CapabilityPackage",
+  "name": "iterative-retrieval",
+  "slug": "iterative-retrieval--affaan-m-ecc",
+  "source": {
+    "path": "skills/iterative-retrieval",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

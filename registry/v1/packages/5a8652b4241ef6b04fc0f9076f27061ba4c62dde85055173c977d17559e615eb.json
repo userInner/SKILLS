@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Audits Claude Code context window consumption across agents, skills, MCP servers, and rules. Identifies bloat, redundant components, and produces prioritized token-savings recommendations. Use when the context window is filling up too fast and the agents, skills, MCP servers, or rules consuming it need to be identified.",
+  "id": "github:affaan-m/ecc:skills/context-budget",
+  "kind": "CapabilityPackage",
+  "name": "context-budget",
+  "slug": "context-budget--affaan-m-ecc",
+  "source": {
+    "path": "skills/context-budget",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

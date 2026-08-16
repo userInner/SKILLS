@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:3046291a12384cd67492c192893c847dab3c15dd26f29f8026bd408e9f94c070",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/design/jpa-patterns--affaan-m-ecc--3046291a12"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:3046291a12384cd67492c192893c847dab3c15dd26f29f8026bd408e9f94c070",
+    "fileCount": 1,
+    "totalBytes": 4679
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:affaan-m/ecc:skills/jpa-patterns",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:bf82898cc682fe693676a7aa2678802789f120e88f6a51f548fa97440e430e98",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "path": "skills/jpa-patterns",
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC/tree/c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8/skills/jpa-patterns"
+  },
+  "status": "extracted"
+}

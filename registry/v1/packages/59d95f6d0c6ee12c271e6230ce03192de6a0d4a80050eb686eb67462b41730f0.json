@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "High-performance genomic interval operations and bioinformatics file I/O on Polars DataFrames. Overlap, nearest, merge, coverage, complement, subtract for BED/VCF/BAM/GFF intervals. Streaming, cloud-native, faster bioframe alternative.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/polars-bio",
+  "kind": "CapabilityPackage",
+  "name": "polars-bio",
+  "slug": "polars-bio--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/polars-bio",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": ">",
+  "id": "github:affaan-m/ecc:.kiro/skills/backend-patterns",
+  "kind": "CapabilityPackage",
+  "name": "backend-patterns",
+  "slug": "backend-patterns--affaan-m-ecc--7da778e60d",
+  "source": {
+    "path": ".kiro/skills/backend-patterns",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

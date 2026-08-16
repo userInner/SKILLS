@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Guides agents through integrating transactional email sending via Mailtrap's Email API, including sandbox testing, domain verification, and API authentication. Use when implementing email-sending features, debugging delivery issues, or setting up safe dev/staging email testing.",
+  "id": "github:affaan-m/ecc:skills/mailtrap-email-integration",
+  "kind": "CapabilityPackage",
+  "name": "mailtrap-email-integration",
+  "slug": "mailtrap-email-integration--affaan-m-ecc",
+  "source": {
+    "path": "skills/mailtrap-email-integration",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

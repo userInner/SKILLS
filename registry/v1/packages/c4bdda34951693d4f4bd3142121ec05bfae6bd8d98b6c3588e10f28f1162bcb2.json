@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "research",
+  "description": "Write competitive research proposals for NSF, NIH, DOE, DARPA, and Taiwan NSTC. Agency-specific formatting, review criteria, budget preparation, broader impacts, significance statements, innovation narratives, and compliance with submission requirements.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/research-grants",
+  "kind": "CapabilityPackage",
+  "name": "research-grants",
+  "slug": "research-grants--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/research-grants",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

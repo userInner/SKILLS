@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:1f3d6fb8a89849d1f00b54f0f2edfebedbc3585a5c8ecf9e7feb872d0bdbacb1",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/research/bgpt-paper-search--k-dense-ai-scientific-agent-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:1f3d6fb8a89849d1f00b54f0f2edfebedbc3585a5c8ecf9e7feb872d0bdbacb1",
+    "fileCount": 1,
+    "totalBytes": 2852
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:k-dense-ai/scientific-agent-skills:skills/bgpt-paper-search",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:0ed693b18635c3cdf5c07ee795758f66c38b04998ba9e442316094fd5e879d08",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "b2a92ba052dcae4ef48e850b9e31ebf75706be48",
+    "path": "skills/bgpt-paper-search",
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/b2a92ba052dcae4ef48e850b9e31ebf75706be48/skills/bgpt-paper-search"
+  },
+  "status": "extracted"
+}

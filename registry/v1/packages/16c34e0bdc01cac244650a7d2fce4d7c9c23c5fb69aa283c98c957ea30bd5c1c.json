@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Evidence-first repo execution workflow for ECC. Use when the user wants a command run, a repo checked, a CI failure debugged, or a narrow fix pushed with exact proof of what was executed and verified.",
+  "id": "github:affaan-m/ecc:skills/terminal-ops",
+  "kind": "CapabilityPackage",
+  "name": "terminal-ops",
+  "slug": "terminal-ops--affaan-m-ecc",
+  "source": {
+    "path": "skills/terminal-ops",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

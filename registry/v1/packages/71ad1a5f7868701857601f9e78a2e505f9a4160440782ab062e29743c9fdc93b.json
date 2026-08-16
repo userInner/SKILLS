@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "growth",
+  "description": "Create platform-native content systems for X, LinkedIn, TikTok, YouTube, newsletters, and repurposed multi-platform campaigns. Use when the user wants social posts, threads, scripts, content calendars, or one source asset adapted cleanly across platforms.",
+  "id": "github:affaan-m/ecc:skills/content-engine",
+  "kind": "CapabilityPackage",
+  "name": "content-engine",
+  "slug": "content-engine--affaan-m-ecc--c42ebfdf61",
+  "source": {
+    "path": "skills/content-engine",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

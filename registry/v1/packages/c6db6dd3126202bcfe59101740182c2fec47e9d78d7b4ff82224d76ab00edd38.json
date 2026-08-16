@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": ">",
+  "id": "github:affaan-m/ecc:.kiro/skills/api-design",
+  "kind": "CapabilityPackage",
+  "name": "api-design",
+  "slug": "api-design--affaan-m-ecc--f4aa6d014b",
+  "source": {
+    "path": ".kiro/skills/api-design",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

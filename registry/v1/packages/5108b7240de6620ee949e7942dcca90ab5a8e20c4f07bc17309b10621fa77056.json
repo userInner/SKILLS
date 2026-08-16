@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Simulate a collaborative dev team session where multiple role-based personas (PM, Architect, Developer, QA) respond to the same problem together in one session. Use when designing a feature, reviewing a proposal, or onboarding a new initiative and you want multi-role perspective without switching agents manually.",
+  "id": "github:affaan-m/ecc:skills/dev-team",
+  "kind": "CapabilityPackage",
+  "name": "dev-team",
+  "slug": "dev-team--affaan-m-ecc",
+  "source": {
+    "path": "skills/dev-team",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

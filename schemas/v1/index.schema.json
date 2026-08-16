@@ -1,0 +1,62 @@
+{
+  "$id": "https://effecta.dev/schemas/v1/index.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "apiVersion": {"const": "effecta.dev/v1"},
+    "capabilities": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "category": {"minLength": 1, "type": "string"},
+          "contentDigest": {"pattern": "^sha256:[0-9a-f]{64}$", "type": "string"},
+          "description": {"type": "string"},
+          "license": {"minLength": 1, "type": "string"},
+          "localPath": {"minLength": 1, "type": "string"},
+          "name": {"minLength": 1, "type": "string"},
+          "packageFile": {"pattern": "^packages/[0-9a-f]{64}\\.json$", "type": "string"},
+          "packageId": {"minLength": 1, "type": "string"},
+          "releaseFile": {"pattern": "^releases/[0-9a-f]{64}\\.json$", "type": "string"},
+          "releaseId": {"pattern": "^sha256:[0-9a-f]{64}$", "type": "string"},
+          "sourcePath": {"minLength": 1, "type": "string"},
+          "sourceRank": {"type": ["integer", "null"]},
+          "sourceRepository": {"pattern": "^[^/]+/[^/]+$", "type": "string"},
+          "sourceStars": {"type": ["integer", "null"]},
+          "staticScanStatus": {"minLength": 1, "type": "string"},
+          "status": {"enum": ["direct", "extracted", "needs-review"]},
+          "type": {"enum": ["skill", "workflow", "mcp-server", "harness-plugin"]}
+        },
+        "required": ["packageId", "releaseId", "packageFile", "releaseFile", "name", "description", "type", "category", "status", "license", "contentDigest", "localPath", "sourceRepository", "sourcePath", "sourceRank", "sourceStars", "staticScanStatus"],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "counts": {
+      "additionalProperties": false,
+      "properties": {
+        "direct": {"minimum": 0, "type": "integer"},
+        "extracted": {"minimum": 0, "type": "integer"},
+        "needs-review": {"minimum": 0, "type": "integer"},
+        "total": {"minimum": 0, "type": "integer"}
+      },
+      "required": ["total", "direct", "extracted", "needs-review"],
+      "type": "object"
+    },
+    "generatorVersion": {"const": 1},
+    "inputDigests": {
+      "additionalProperties": false,
+      "properties": {
+        "catalog": {"pattern": "^sha256:[0-9a-f]{64}$", "type": "string"},
+        "communitySkills": {"pattern": "^sha256:[0-9a-f]{64}$", "type": "string"}
+      },
+      "required": ["catalog", "communitySkills"],
+      "type": "object"
+    },
+    "kind": {"const": "CapabilityIndex"},
+    "snapshotDate": {"format": "date", "type": "string"},
+    "sourceCommit": {"pattern": "^[0-9a-f]{40}$", "type": "string"}
+  },
+  "required": ["apiVersion", "kind", "generatorVersion", "snapshotDate", "sourceCommit", "inputDigests", "counts", "capabilities"],
+  "title": "Effecta CapabilityIndex v1",
+  "type": "object"
+}

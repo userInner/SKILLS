@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Use when the user wants a task done much faster through parallel work, concurrent agents, batched tool calls, isolated worktrees, or many independent verification lanes without losing correctness.",
+  "id": "github:affaan-m/ecc:skills/parallel-execution-optimizer",
+  "kind": "CapabilityPackage",
+  "name": "parallel-execution-optimizer",
+  "slug": "parallel-execution-optimizer--affaan-m-ecc",
+  "source": {
+    "path": "skills/parallel-execution-optimizer",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

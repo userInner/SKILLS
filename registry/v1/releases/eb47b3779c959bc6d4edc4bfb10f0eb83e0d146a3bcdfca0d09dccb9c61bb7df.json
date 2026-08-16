@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:3b99f6e4fe84adeff444b3afd8089300fd603d1b2018ccd10d22d729fb5dc8ce",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/design/fal-ai-media--affaan-m-ecc"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:3b99f6e4fe84adeff444b3afd8089300fd603d1b2018ccd10d22d729fb5dc8ce",
+    "fileCount": 1,
+    "totalBytes": 7158
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:affaan-m/ecc:skills/fal-ai-media",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:eb47b3779c959bc6d4edc4bfb10f0eb83e0d146a3bcdfca0d09dccb9c61bb7df",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "path": "skills/fal-ai-media",
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC/tree/c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8/skills/fal-ai-media"
+  },
+  "status": "extracted"
+}

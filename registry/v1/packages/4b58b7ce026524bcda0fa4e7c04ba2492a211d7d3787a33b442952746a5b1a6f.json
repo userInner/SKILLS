@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires technical rigor and verification, not performative agreement or blind implementation",
+  "id": "github:userinner/skills:skills/workflow/receiving-code-review",
+  "kind": "CapabilityPackage",
+  "name": "receiving-code-review",
+  "slug": "receiving-code-review",
+  "source": {
+    "path": "skills/workflow/receiving-code-review",
+    "repository": "userInner/SKILLS"
+  },
+  "type": "skill"
+}

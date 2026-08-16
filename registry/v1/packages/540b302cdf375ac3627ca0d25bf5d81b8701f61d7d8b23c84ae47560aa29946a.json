@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Diagnose interface errors, drops, CRCs, duplex mismatches, flapping, speed negotiation issues, and counter trends on routers, switches, and Linux hosts. Use when an interface shows errors, drops, CRCs, flapping, or a duplex or speed mismatch.",
+  "id": "github:affaan-m/ecc:skills/network-interface-health",
+  "kind": "CapabilityPackage",
+  "name": "network-interface-health",
+  "slug": "network-interface-health--affaan-m-ecc",
+  "source": {
+    "path": "skills/network-interface-health",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

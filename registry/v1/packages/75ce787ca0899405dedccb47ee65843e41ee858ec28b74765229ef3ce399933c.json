@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "research",
+  "description": "Optional OpenRouter key for explicit Perplexity use.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/research-lookup",
+  "kind": "CapabilityPackage",
+  "name": "research-lookup",
+  "slug": "research-lookup--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/research-lookup",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": ">",
+  "id": "github:affaan-m/ecc:skills/energy-procurement",
+  "kind": "CapabilityPackage",
+  "name": "energy-procurement",
+  "slug": "energy-procurement--affaan-m-ecc",
+  "source": {
+    "path": "skills/energy-procurement",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

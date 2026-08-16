@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:3d65cf32fe5004664d732df0fa76a2f418493b1ff845ebf83187c30f2d0e9062",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/product/beachhead-segment--phuryn-pm-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:3d65cf32fe5004664d732df0fa76a2f418493b1ff845ebf83187c30f2d0e9062",
+    "fileCount": 1,
+    "totalBytes": 5876
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:phuryn/pm-skills:pm-go-to-market/skills/beachhead-segment",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:c40a844eb712a353ff1ee48736fedc80b5d58d66e2703cda4b77bc11af7647a6",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "18468a95b427e70e258b51389796367c6f684e7d",
+    "path": "pm-go-to-market/skills/beachhead-segment",
+    "repository": "phuryn/pm-skills",
+    "url": "https://github.com/phuryn/pm-skills/tree/18468a95b427e70e258b51389796367c6f684e7d/pm-go-to-market/skills/beachhead-segment"
+  },
+  "status": "extracted"
+}

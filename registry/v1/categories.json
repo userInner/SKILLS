@@ -1,0 +1,55 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "categories": [
+    {
+      "direct": 4,
+      "extracted": 67,
+      "name": "design",
+      "needs-review": 5,
+      "total": 76
+    },
+    {
+      "direct": 12,
+      "extracted": 171,
+      "name": "engineering",
+      "needs-review": 4,
+      "total": 187
+    },
+    {
+      "direct": 6,
+      "extracted": 37,
+      "name": "growth",
+      "needs-review": 1,
+      "total": 44
+    },
+    {
+      "direct": 4,
+      "extracted": 60,
+      "name": "product",
+      "needs-review": 0,
+      "total": 64
+    },
+    {
+      "direct": 4,
+      "extracted": 33,
+      "name": "research",
+      "needs-review": 3,
+      "total": 40
+    },
+    {
+      "direct": 7,
+      "extracted": 265,
+      "name": "workflow",
+      "needs-review": 23,
+      "total": 295
+    },
+    {
+      "direct": 3,
+      "extracted": 15,
+      "name": "writing",
+      "needs-review": 2,
+      "total": 20
+    }
+  ],
+  "kind": "CategoryIndex"
+}

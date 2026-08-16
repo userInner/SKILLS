@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:968b315a5815e41d0cb68c253012fbb29e864f4077503075a0281da4a2a70298",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/product/pestle-analysis--phuryn-pm-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:968b315a5815e41d0cb68c253012fbb29e864f4077503075a0281da4a2a70298",
+    "fileCount": 1,
+    "totalBytes": 4647
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:phuryn/pm-skills:pm-product-strategy/skills/pestle-analysis",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:e947c666f92a25db4ac9c7729b8097217d291d7dabb4ddd68041d96d88a5a40b",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "18468a95b427e70e258b51389796367c6f684e7d",
+    "path": "pm-product-strategy/skills/pestle-analysis",
+    "repository": "phuryn/pm-skills",
+    "url": "https://github.com/phuryn/pm-skills/tree/18468a95b427e70e258b51389796367c6f684e7d/pm-product-strategy/skills/pestle-analysis"
+  },
+  "status": "extracted"
+}

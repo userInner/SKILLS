@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:c8ae64e6d6cbb86efd4e8bff2be238774ae8e8ccafca70e108f7a144ff729ffd",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/design/scientific-visualization--k-dense-ai-scientific-agent-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:c8ae64e6d6cbb86efd4e8bff2be238774ae8e8ccafca70e108f7a144ff729ffd",
+    "fileCount": 18,
+    "totalBytes": 190115
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:k-dense-ai/scientific-agent-skills:skills/scientific-visualization",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:261ed5547eff444a5e477d1296e2eb0ee9b7a82e745e7a41b78c6ff15113d08e",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "b2a92ba052dcae4ef48e850b9e31ebf75706be48",
+    "path": "skills/scientific-visualization",
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/b2a92ba052dcae4ef48e850b9e31ebf75706be48/skills/scientific-visualization"
+  },
+  "status": "extracted"
+}

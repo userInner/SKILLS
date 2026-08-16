@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:1278762f5b5e17d7b43de0c43ca3b6230343d4862d2db8b1d00c14029b9beb9f",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/product/monetization-strategy--phuryn-pm-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:1278762f5b5e17d7b43de0c43ca3b6230343d4862d2db8b1d00c14029b9beb9f",
+    "fileCount": 1,
+    "totalBytes": 6660
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:phuryn/pm-skills:pm-product-strategy/skills/monetization-strategy",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:8144ae9106bf43944ccf97741fa5308a7a6841a482e9697b2e6765543d807590",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "18468a95b427e70e258b51389796367c6f684e7d",
+    "path": "pm-product-strategy/skills/monetization-strategy",
+    "repository": "phuryn/pm-skills",
+    "url": "https://github.com/phuryn/pm-skills/tree/18468a95b427e70e258b51389796367c6f684e7d/pm-product-strategy/skills/monetization-strategy"
+  },
+  "status": "extracted"
+}

@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Guidance and local audit tools for Python workflows that directly use GeoPandas GeoSeries, GeoDataFrame, spatial operations, or vector-data I/O.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/geopandas",
+  "kind": "CapabilityPackage",
+  "name": "geopandas",
+  "slug": "geopandas--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/geopandas",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

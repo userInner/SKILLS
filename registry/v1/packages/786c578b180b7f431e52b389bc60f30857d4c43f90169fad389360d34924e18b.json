@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "growth",
+  "description": "Weighted social-graph ranking for warm intro discovery, bridge scoring, and network gap analysis across X and LinkedIn. Use when the user wants the reusable graph-ranking engine itself, not the broader outreach or network-maintenance workflow layered on top of it.",
+  "id": "github:affaan-m/ecc:skills/social-graph-ranker",
+  "kind": "CapabilityPackage",
+  "name": "social-graph-ranker",
+  "slug": "social-graph-ranker--affaan-m-ecc",
+  "source": {
+    "path": "skills/social-graph-ranker",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

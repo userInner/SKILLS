@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Kubernetes workload patterns, resource management, RBAC, probes, autoscaling, ConfigMap/Secret handling, and kubectl debugging for production-grade deployments. Use when writing or reviewing Kubernetes manifests, or debugging probes, RBAC, autoscaling, or resource limits.",
+  "id": "github:affaan-m/ecc:skills/kubernetes-patterns",
+  "kind": "CapabilityPackage",
+  "name": "kubernetes-patterns",
+  "slug": "kubernetes-patterns--affaan-m-ecc",
+  "source": {
+    "path": "skills/kubernetes-patterns",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

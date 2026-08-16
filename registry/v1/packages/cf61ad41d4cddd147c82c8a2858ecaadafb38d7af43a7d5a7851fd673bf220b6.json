@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Quarkus Security best practices for authentication, authorization, JWT/OIDC, RBAC, input validation, CSRF, secrets management, and dependency security. Use when reviewing Quarkus authn/authz, JWT or OIDC, RBAC, validation, or secrets.",
+  "id": "github:affaan-m/ecc:skills/quarkus-security",
+  "kind": "CapabilityPackage",
+  "name": "quarkus-security",
+  "slug": "quarkus-security--affaan-m-ecc",
+  "source": {
+    "path": "skills/quarkus-security",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

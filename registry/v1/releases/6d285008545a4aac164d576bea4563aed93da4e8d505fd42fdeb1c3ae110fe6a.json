@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:81646cb7df05cfb9528dd13b3de08a0278cf1b00abd7697f8563126cfbc1f7b9",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/design/deepspot-m--k-dense-ai-scientific-agent-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:81646cb7df05cfb9528dd13b3de08a0278cf1b00abd7697f8563126cfbc1f7b9",
+    "fileCount": 3,
+    "totalBytes": 19584
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:k-dense-ai/scientific-agent-skills:skills/deepspot-m",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:6d285008545a4aac164d576bea4563aed93da4e8d505fd42fdeb1c3ae110fe6a",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "b2a92ba052dcae4ef48e850b9e31ebf75706be48",
+    "path": "skills/deepspot-m",
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/b2a92ba052dcae4ef48e850b9e31ebf75706be48/skills/deepspot-m"
+  },
+  "status": "extracted"
+}

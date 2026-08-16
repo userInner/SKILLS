@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "research",
+  "description": "Evaluate scientific claims and evidence quality. Use for assessing experimental design validity, identifying biases and confounders, applying evidence grading frameworks (GRADE, Cochrane Risk of Bias), or teaching critical analysis. Best for understanding evidence quality, identifying flaws. For formal peer review writing use peer-review.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/scientific-critical-thinking",
+  "kind": "CapabilityPackage",
+  "name": "scientific-critical-thinking",
+  "slug": "scientific-critical-thinking--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/scientific-critical-thinking",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

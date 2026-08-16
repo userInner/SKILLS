@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:e0c4f49aa99ca449f63b8e875cf4c61beeb93c68a09bd86560b5dc5b01691cd7",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/product/onboarding--coreyhaines31-marketingskills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:e0c4f49aa99ca449f63b8e875cf4c61beeb93c68a09bd86560b5dc5b01691cd7",
+    "fileCount": 3,
+    "totalBytes": 20647
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:coreyhaines31/marketingskills:skills/onboarding",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:a45668ac1dfd9716b3c12850e28950c92a8cc63faa583ec17bf3ea02f40dd3f7",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "7868cb9251fad80a73d26e488a5ad5f6c4a9f335",
+    "path": "skills/onboarding",
+    "repository": "coreyhaines31/marketingskills",
+    "url": "https://github.com/coreyhaines31/marketingskills/tree/7868cb9251fad80a73d26e488a5ad5f6c4a9f335/skills/onboarding"
+  },
+  "status": "extracted"
+}

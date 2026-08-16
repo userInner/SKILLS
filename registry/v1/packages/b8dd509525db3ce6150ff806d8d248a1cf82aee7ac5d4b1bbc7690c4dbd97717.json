@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "research",
+  "description": "Create safety-bounded draft structures and run local deterministic checks for clinical case, diagnostic, trial, safety, and aggregate research reports. Use only with synthetic, de-identified, or aggregate inputs and verified source-fact manifests; every output requires qualified review.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/clinical-reports",
+  "kind": "CapabilityPackage",
+  "name": "clinical-reports",
+  "slug": "clinical-reports--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/clinical-reports",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

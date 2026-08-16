@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "writing",
+  "description": "Generate SQL queries from natural language descriptions. Supports BigQuery, PostgreSQL, MySQL, and other dialects. Reads database schemas from uploaded diagrams or documentation. Use when writing SQL, building data reports, exploring databases, or translating business questions into queries.",
+  "id": "github:phuryn/pm-skills:pm-data-analytics/skills/sql-queries",
+  "kind": "CapabilityPackage",
+  "name": "sql-queries",
+  "slug": "sql-queries--phuryn-pm-skills",
+  "source": {
+    "path": "pm-data-analytics/skills/sql-queries",
+    "repository": "phuryn/pm-skills"
+  },
+  "type": "skill"
+}

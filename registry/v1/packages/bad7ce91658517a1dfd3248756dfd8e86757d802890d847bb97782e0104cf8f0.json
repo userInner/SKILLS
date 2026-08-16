@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Evidence-first automation inventory and overlap audit workflow for ECC. Use when the user wants to know which jobs, hooks, connectors, MCP servers, or wrappers are live, broken, redundant, or missing before fixing anything.",
+  "id": "github:affaan-m/ecc:skills/automation-audit-ops",
+  "kind": "CapabilityPackage",
+  "name": "automation-audit-ops",
+  "slug": "automation-audit-ops--affaan-m-ecc",
+  "source": {
+    "path": "skills/automation-audit-ops",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

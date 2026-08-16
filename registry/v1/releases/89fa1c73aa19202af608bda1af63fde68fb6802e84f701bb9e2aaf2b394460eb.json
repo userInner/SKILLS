@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:d25e74a6f242b4288ee604953e9cf526a18781f6d9bd6ae610da34ae2ec620a0",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/product/market-sizing--phuryn-pm-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:d25e74a6f242b4288ee604953e9cf526a18781f6d9bd6ae610da34ae2ec620a0",
+    "fileCount": 1,
+    "totalBytes": 4424
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:phuryn/pm-skills:pm-market-research/skills/market-sizing",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:89fa1c73aa19202af608bda1af63fde68fb6802e84f701bb9e2aaf2b394460eb",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "18468a95b427e70e258b51389796367c6f684e7d",
+    "path": "pm-market-research/skills/market-sizing",
+    "repository": "phuryn/pm-skills",
+    "url": "https://github.com/phuryn/pm-skills/tree/18468a95b427e70e258b51389796367c6f684e7d/pm-market-research/skills/market-sizing"
+  },
+  "status": "extracted"
+}

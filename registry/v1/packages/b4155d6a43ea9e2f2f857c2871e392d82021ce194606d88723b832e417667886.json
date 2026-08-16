@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Use when working directly with the `esm` Python SDK, ESM3 or ESMC model IDs, Forge/Biohub inference clients, or ESMFold2 folding workflows.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/esm",
+  "kind": "CapabilityPackage",
+  "name": "esm",
+  "slug": "esm--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/esm",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

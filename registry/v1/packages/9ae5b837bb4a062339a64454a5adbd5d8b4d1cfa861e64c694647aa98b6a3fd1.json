@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Convert local Hermes operator workflows into sanitized ECC skills and release-pack artifacts. Use when preparing a Hermes workflow for public ECC reuse without leaking private workspace state, credentials, or local-only paths.",
+  "id": "github:affaan-m/ecc:skills/hermes-imports",
+  "kind": "CapabilityPackage",
+  "name": "hermes-imports",
+  "slug": "hermes-imports--affaan-m-ecc",
+  "source": {
+    "path": "skills/hermes-imports",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

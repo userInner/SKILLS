@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:f3e88e64b2fe76d11dd3ef0607d29d17da6f83317c9fd0380788b63a59d6c282",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/product/customer-journey-map--phuryn-pm-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:f3e88e64b2fe76d11dd3ef0607d29d17da6f83317c9fd0380788b63a59d6c282",
+    "fileCount": 1,
+    "totalBytes": 3268
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:phuryn/pm-skills:pm-market-research/skills/customer-journey-map",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:e9b8bc21dcfb10a8615dbc35b14f291fdcf6c96e6456d740dfd5f8eb357d1ca5",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "18468a95b427e70e258b51389796367c6f684e7d",
+    "path": "pm-market-research/skills/customer-journey-map",
+    "repository": "phuryn/pm-skills",
+    "url": "https://github.com/phuryn/pm-skills/tree/18468a95b427e70e258b51389796367c6f684e7d/pm-market-research/skills/customer-journey-map"
+  },
+  "status": "extracted"
+}

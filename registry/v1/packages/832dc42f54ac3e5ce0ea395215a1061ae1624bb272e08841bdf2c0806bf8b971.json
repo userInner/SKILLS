@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "research",
+  "description": "Search scientific papers and retrieve structured experimental data extracted from full-text studies via the BGPT MCP server. Returns 25+ fields per paper including methods, results, sample sizes, quality scores, and conclusions. Use for literature reviews, evidence synthesis, and finding experimental details not available in abstracts alone.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/bgpt-paper-search",
+  "kind": "CapabilityPackage",
+  "name": "bgpt-paper-search",
+  "slug": "bgpt-paper-search--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/bgpt-paper-search",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

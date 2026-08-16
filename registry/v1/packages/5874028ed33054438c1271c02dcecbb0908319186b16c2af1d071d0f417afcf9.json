@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Build and troubleshoot TorchDrug 0.2.1 workflows for molecular graphs, property prediction, self-supervised pretraining, molecule generation, retrosynthesis, protein representation learning, and knowledge graph reasoning. Use when code imports torchdrug or needs its datasets, models, tasks, or Engine.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/torchdrug",
+  "kind": "CapabilityPackage",
+  "name": "torchdrug",
+  "slug": "torchdrug--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/torchdrug",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

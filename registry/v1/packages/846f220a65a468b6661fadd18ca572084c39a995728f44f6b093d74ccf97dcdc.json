@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Motion tokens, spring presets, performance rules, device adaptation, accessibility enforcement, and SSR safety for React / Next.js using motion/react. Foundation layer — all other motion skills depend on this. Use when setting up motion tokens, spring presets, reduced-motion handling, or SSR-safe animation in React or Next.js.",
+  "id": "github:affaan-m/ecc:skills/motion-foundations",
+  "kind": "CapabilityPackage",
+  "name": "motion-foundations",
+  "slug": "motion-foundations--affaan-m-ecc",
+  "source": {
+    "path": "skills/motion-foundations",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Operate notifications as one ECC-native workflow across GitHub, Linear, desktop alerts, hooks, and connected communication surfaces. Use when the real problem is alert routing, deduplication, escalation, or inbox collapse.",
+  "id": "github:affaan-m/ecc:skills/unified-notifications-ops",
+  "kind": "CapabilityPackage",
+  "name": "unified-notifications-ops",
+  "slug": "unified-notifications-ops--affaan-m-ecc",
+  "source": {
+    "path": "skills/unified-notifications-ops",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

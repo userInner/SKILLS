@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "design",
+  "description": "Create user stories following the 3 C's (Card, Conversation, Confirmation) and INVEST criteria with descriptions, design links, and acceptance criteria. Use when writing user stories, breaking down features into backlog items, or defining acceptance criteria.",
+  "id": "github:phuryn/pm-skills:pm-execution/skills/user-stories",
+  "kind": "CapabilityPackage",
+  "name": "user-stories",
+  "slug": "user-stories--phuryn-pm-skills",
+  "source": {
+    "path": "pm-execution/skills/user-stories",
+    "repository": "phuryn/pm-skills"
+  },
+  "type": "skill"
+}
