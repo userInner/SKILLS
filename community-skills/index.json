@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-15T16:46:58+00:00",
+  "extractorVersion": 1,
   "sourceCount": 12,
-  "concreteSkillCount": 725,
+  "concreteSkillCount": 726,
   "directSkillCount": 40,
-  "extractedSkillCount": 647,
+  "extractedSkillCount": 648,
   "needsReviewCount": 38,
   "rejectedCount": 6,
   "skills": [
@@ -15779,14 +15779,14 @@
         "repository": "K-Dense-AI/scientific-agent-skills",
         "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "path": "skills/lab-hardware-cad",
-        "commit": "b2a92ba052dcae4ef48e850b9e31ebf75706be48",
+        "commit": "336c4f838a6c21b54e1e1f58cbbeae143d151fe2",
         "rank": 74,
-        "stars": 33570
+        "stars": 33607
       },
       "license": "MIT",
-      "contentDigest": "sha256:afbdd71c461c2699ffb4ce9589d5900f0d7cae65299b6cb0b9e86e8b53b134a3",
+      "contentDigest": "sha256:8cfc54279e44529821d649104b48e33deb0ac19b4371395170d56e387a0a8b61",
       "fileCount": 13,
-      "totalBytes": 131405,
+      "totalBytes": 172760,
       "staticScan": {
         "status": "passed",
         "findings": []
@@ -15794,9 +15794,9 @@
       "status": "extracted",
       "sourceRepository": "K-Dense-AI/scientific-agent-skills",
       "sourcePath": "skills/lab-hardware-cad",
-      "sourceCommit": "b2a92ba052dcae4ef48e850b9e31ebf75706be48",
+      "sourceCommit": "336c4f838a6c21b54e1e1f58cbbeae143d151fe2",
       "sourceRank": 74,
-      "sourceStars": 33570,
+      "sourceStars": 33607,
       "localPath": "community-skills/workflow/lab-hardware-cad--k-dense-ai-scientific-agent-skills"
     },
     {
@@ -16567,6 +16567,35 @@
       "sourceRank": 2,
       "sourceStars": 240233,
       "localPath": "community-skills/workflow/nanoclaw-repl--affaan-m-ecc"
+    },
+    {
+      "schemaVersion": 1,
+      "name": "nasiko-control-plane",
+      "category": "workflow",
+      "description": "Install, detect, and operate the optional Nasiko agent control plane through ECC with pinned artifacts, explicit consent, and telemetry and secrets boundaries.",
+      "source": {
+        "repository": "affaan-m/ECC",
+        "url": "https://github.com/affaan-m/ECC",
+        "path": "skills/nasiko-control-plane",
+        "commit": "d0366ea8e8d21649d8e98d3e87e851f87bffc9be",
+        "rank": 2,
+        "stars": 240233
+      },
+      "license": "MIT",
+      "contentDigest": "sha256:b9fbdfe0a4ba248cd94dd1dc09e365d19881f9ccddc8bb14b9fca4d48844c5f2",
+      "fileCount": 2,
+      "totalBytes": 2684,
+      "staticScan": {
+        "status": "passed",
+        "findings": []
+      },
+      "status": "extracted",
+      "sourceRepository": "affaan-m/ECC",
+      "sourcePath": "skills/nasiko-control-plane",
+      "sourceCommit": "d0366ea8e8d21649d8e98d3e87e851f87bffc9be",
+      "sourceRank": 2,
+      "sourceStars": 240233,
+      "localPath": "community-skills/workflow/nasiko-control-plane--affaan-m-ecc"
     },
     {
       "schemaVersion": 1,
@@ -20852,5 +20881,6 @@
       "reason": "duplicate-content",
       "duplicateOf": "community-skills/design/slides--nextlevelbuilder-ui-ux-pro-max-skill"
     }
-  ]
+  ],
+  "generatedAt": "2026-08-16T04:05:23+00:00"
 }

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "nasiko-control-plane",
+  "category": "workflow",
+  "description": "Install, detect, and operate the optional Nasiko agent control plane through ECC with pinned artifacts, explicit consent, and telemetry and secrets boundaries.",
+  "source": {
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "path": "skills/nasiko-control-plane",
+    "commit": "d0366ea8e8d21649d8e98d3e87e851f87bffc9be",
+    "rank": 2,
+    "stars": 240233
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:b9fbdfe0a4ba248cd94dd1dc09e365d19881f9ccddc8bb14b9fca4d48844c5f2",
+  "fileCount": 2,
+  "totalBytes": 2684,
+  "staticScan": {
+    "status": "passed",
+    "findings": []
+  },
+  "status": "extracted"
+}
