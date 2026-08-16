@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Development conventions and patterns for everything-claude-code. JavaScript project with conventional commits.",
+  "id": "github:affaan-m/ecc:.agents/skills/everything-claude-code",
+  "kind": "CapabilityPackage",
+  "name": "everything-claude-code",
+  "slug": "everything-claude-code--affaan-m-ecc",
+  "source": {
+    "path": ".agents/skills/everything-claude-code",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

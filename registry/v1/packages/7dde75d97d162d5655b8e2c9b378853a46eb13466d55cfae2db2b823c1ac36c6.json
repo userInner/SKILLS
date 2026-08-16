@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any success claims; evidence before assertions always",
+  "id": "github:userinner/skills:skills/workflow/verification-before-completion",
+  "kind": "CapabilityPackage",
+  "name": "verification-before-completion",
+  "slug": "verification-before-completion",
+  "source": {
+    "path": "skills/workflow/verification-before-completion",
+    "repository": "userInner/SKILLS"
+  },
+  "type": "skill"
+}

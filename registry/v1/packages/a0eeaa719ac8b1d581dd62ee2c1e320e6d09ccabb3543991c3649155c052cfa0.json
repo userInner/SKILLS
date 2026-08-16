@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "research",
+  "description": "Biological data toolkit. Sequence analysis, alignments, phylogenetic trees, diversity metrics (alpha/beta, UniFrac), ordination (PCoA), PERMANOVA, FASTA/Newick I/O, for microbiome analysis.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/scikit-bio",
+  "kind": "CapabilityPackage",
+  "name": "scikit-bio",
+  "slug": "scikit-bio--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/scikit-bio",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

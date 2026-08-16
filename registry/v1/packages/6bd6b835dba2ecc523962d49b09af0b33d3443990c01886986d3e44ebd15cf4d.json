@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Direct PubMed and NCBI E-utilities search workflows for biomedical literature, MeSH queries, PMID lookup, citation retrieval, and API-backed literature monitoring. Use when a task needs biomedical literature from PubMed rather than general web search.",
+  "id": "github:affaan-m/ecc:skills/scientific-db-pubmed-database",
+  "kind": "CapabilityPackage",
+  "name": "pubmed-database",
+  "slug": "pubmed-database--affaan-m-ecc",
+  "source": {
+    "path": "skills/scientific-db-pubmed-database",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

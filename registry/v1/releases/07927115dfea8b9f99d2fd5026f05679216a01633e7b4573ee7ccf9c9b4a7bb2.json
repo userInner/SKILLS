@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:09b46ddf991729f297f7dd84c4081fcfdc6e0a68a9050901b0d63a1933ed91e2",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/design/remotion-video-creation--affaan-m-ecc"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:09b46ddf991729f297f7dd84c4081fcfdc6e0a68a9050901b0d63a1933ed91e2",
+    "fileCount": 32,
+    "totalBytes": 78059
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:affaan-m/ecc:skills/remotion-video-creation",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:07927115dfea8b9f99d2fd5026f05679216a01633e7b4573ee7ccf9c9b4a7bb2",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "path": "skills/remotion-video-creation",
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC/tree/c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8/skills/remotion-video-creation"
+  },
+  "status": "extracted"
+}

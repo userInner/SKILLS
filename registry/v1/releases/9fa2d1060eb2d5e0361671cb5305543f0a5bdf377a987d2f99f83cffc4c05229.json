@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:567537497657bd993874a3b5637b9398c973b03869ae2ef27beebfa563ae8a23",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/product/molecular-dynamics--k-dense-ai-scientific-agent-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:567537497657bd993874a3b5637b9398c973b03869ae2ef27beebfa563ae8a23",
+    "fileCount": 2,
+    "totalBytes": 20364
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:k-dense-ai/scientific-agent-skills:skills/molecular-dynamics",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:9fa2d1060eb2d5e0361671cb5305543f0a5bdf377a987d2f99f83cffc4c05229",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "b2a92ba052dcae4ef48e850b9e31ebf75706be48",
+    "path": "skills/molecular-dynamics",
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/b2a92ba052dcae4ef48e850b9e31ebf75706be48/skills/molecular-dynamics"
+  },
+  "status": "extracted"
+}

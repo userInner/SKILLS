@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:b89f519c69de4e642a40a531d822db8cff4dc1a7a464537e24580a6e207d6e71",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "skills/growth/launch"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:b89f519c69de4e642a40a531d822db8cff4dc1a7a464537e24580a6e207d6e71",
+    "fileCount": 5,
+    "totalBytes": 21475
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "unknown",
+    "spdx": "see-package"
+  },
+  "packageId": "github:userinner/skills:skills/growth/launch",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:47fd1ee09c725f61ad5423ba6908080712029baacc612eff6af19c35c46af1ba",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "362c2197eccdb7e952e0e2dfd80bef939d34cfe5",
+    "path": "skills/growth/launch",
+    "repository": "userInner/SKILLS",
+    "url": "https://github.com/userInner/SKILLS/tree/362c2197eccdb7e952e0e2dfd80bef939d34cfe5/skills/growth/launch"
+  },
+  "status": "direct"
+}

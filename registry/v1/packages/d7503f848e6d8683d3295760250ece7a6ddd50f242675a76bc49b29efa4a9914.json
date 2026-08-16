@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Use this skill to measure performance baselines, detect regressions before/after PRs, and compare stack alternatives.",
+  "id": "github:affaan-m/ecc:skills/benchmark",
+  "kind": "CapabilityPackage",
+  "name": "benchmark",
+  "slug": "benchmark--affaan-m-ecc",
+  "source": {
+    "path": "skills/benchmark",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

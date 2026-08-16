@@ -1,0 +1,55 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:b34689698a84561056d4e4817e0e3d79227f7db8255a725c65fe4102a44823d8",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/research/scanpy--k-dense-ai-scientific-agent-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:b34689698a84561056d4e4817e0e3d79227f7db8255a725c65fe4102a44823d8",
+    "fileCount": 25,
+    "totalBytes": 121763
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:k-dense-ai/scientific-agent-skills:skills/scanpy",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:82e31fdec2389677c02b2518ddc8691635881aa21b05d843f9906a97426151b2",
+  "security": {
+    "staticScan": {
+      "findings": [
+        {
+          "file": "r_interop.md",
+          "rule": "privilege-escalation"
+        }
+      ],
+      "status": "review"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "b2a92ba052dcae4ef48e850b9e31ebf75706be48",
+    "path": "skills/scanpy",
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/b2a92ba052dcae4ef48e850b9e31ebf75706be48/skills/scanpy"
+  },
+  "status": "needs-review"
+}

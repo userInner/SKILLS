@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:0d1cdbf2c701c03c54cd2c3f202491d424ff2059d9ae0222415ec6d8b6508157",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/product/market-research--affaan-m-ecc"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:0d1cdbf2c701c03c54cd2c3f202491d424ff2059d9ae0222415ec6d8b6508157",
+    "fileCount": 2,
+    "totalBytes": 2477
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:affaan-m/ecc:.agents/skills/market-research",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:80a56f11d46a851fbcd30052f330fa6d3a0d1a266aa2d962548ae8c16d6b8142",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "path": ".agents/skills/market-research",
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC/tree/c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8/.agents/skills/market-research"
+  },
+  "status": "extracted"
+}

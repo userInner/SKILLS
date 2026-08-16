@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:1fc68e13000bfbe2f1e0c45c5bd5a25264e7e85f47212ef5f864d21bf2eafe9c",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/design/slides--nextlevelbuilder-ui-ux-pro-max-skill"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:1fc68e13000bfbe2f1e0c45c5bd5a25264e7e85f47212ef5f864d21bf2eafe9c",
+    "fileCount": 6,
+    "totalBytes": 19304
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:nextlevelbuilder/ui-ux-pro-max-skill:.claude/skills/slides",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:d8abcf6124331f8e254ddc3e317d7c6f447dcdc085ec766b28d2e6272424a9ec",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "a38d04c3d5c298c851dbe5e6ee1965ee3de42cb5",
+    "path": ".claude/skills/slides",
+    "repository": "nextlevelbuilder/ui-ux-pro-max-skill",
+    "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/tree/a38d04c3d5c298c851dbe5e6ee1965ee3de42cb5/.claude/skills/slides"
+  },
+  "status": "extracted"
+}

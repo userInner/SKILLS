@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:1cc1fd6789105632a7150852562fe50a965ba62a8e79cc092ef2cdfe05c708d6",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "skills/workflow/verification-before-completion"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:1cc1fd6789105632a7150852562fe50a965ba62a8e79cc092ef2cdfe05c708d6",
+    "fileCount": 4,
+    "totalBytes": 5714
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "unknown",
+    "spdx": "see-package"
+  },
+  "packageId": "github:userinner/skills:skills/workflow/verification-before-completion",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:1dc5e690eafeeee509530c63dff35c7c7449fd89c7e49c0e8a3f7fb3cf9da9f1",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "362c2197eccdb7e952e0e2dfd80bef939d34cfe5",
+    "path": "skills/workflow/verification-before-completion",
+    "repository": "userInner/SKILLS",
+    "url": "https://github.com/userInner/SKILLS/tree/362c2197eccdb7e952e0e2dfd80bef939d34cfe5/skills/workflow/verification-before-completion"
+  },
+  "status": "direct"
+}

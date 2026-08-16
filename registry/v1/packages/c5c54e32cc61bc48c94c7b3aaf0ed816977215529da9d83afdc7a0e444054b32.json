@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Run structured What-If scenario analysis with 4–6 branch possibility exploration (best, likely, worst, wild card, contrarian, second-order). Use when the user asks speculative what-if questions about uncertain futures, strategic forks, contingency planning, or stress-testing a decision before committing.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/what-if-oracle",
+  "kind": "CapabilityPackage",
+  "name": "what-if-oracle",
+  "slug": "what-if-oracle--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/what-if-oracle",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

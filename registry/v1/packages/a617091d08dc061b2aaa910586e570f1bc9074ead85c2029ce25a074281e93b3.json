@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Pythonic wrapper around RDKit with simplified interface and sensible defaults. Preferred for standard drug discovery including SMILES parsing, standardization, descriptors, fingerprints, clustering, 3D conformers, parallel processing. Returns native rdkit.Chem.Mol objects. For advanced control or custom parameters, use rdkit directly.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/datamol",
+  "kind": "CapabilityPackage",
+  "name": "datamol",
+  "slug": "datamol--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/datamol",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

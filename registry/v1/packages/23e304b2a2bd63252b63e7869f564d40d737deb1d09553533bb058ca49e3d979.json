@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "RFC-driven multi-agent DAG execution pattern with quality gates, merge queues, and work unit orchestration. Use when running RFC-driven multi-agent execution with quality gates and a merge queue.",
+  "id": "github:affaan-m/ecc:skills/ralphinho-rfc-pipeline",
+  "kind": "CapabilityPackage",
+  "name": "ralphinho-rfc-pipeline",
+  "slug": "ralphinho-rfc-pipeline--affaan-m-ecc",
+  "source": {
+    "path": "skills/ralphinho-rfc-pipeline",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

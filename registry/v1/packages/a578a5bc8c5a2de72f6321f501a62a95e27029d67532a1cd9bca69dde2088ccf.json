@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Clean Architecture patterns for Android and Kotlin Multiplatform projects — module structure, dependency rules, UseCases, Repositories, and data layer patterns. Use when structuring modules, layers, or data flow in an Android or KMP project.",
+  "id": "github:affaan-m/ecc:skills/android-clean-architecture",
+  "kind": "CapabilityPackage",
+  "name": "android-clean-architecture",
+  "slug": "android-clean-architecture--affaan-m-ecc",
+  "source": {
+    "path": "skills/android-clean-architecture",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

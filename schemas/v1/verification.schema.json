@@ -1,0 +1,21 @@
+{
+  "$id": "https://effecta.dev/schemas/v1/verification.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "apiVersion": {"const": "effecta.dev/v1"},
+    "environment": {"type": "object"},
+    "evidenceDigest": {"pattern": "^sha256:[0-9a-f]{64}$", "type": "string"},
+    "kind": {"const": "VerificationRecord"},
+    "metrics": {"type": "object"},
+    "releaseId": {"pattern": "^sha256:[0-9a-f]{64}$", "type": "string"},
+    "runId": {"minLength": 1, "type": "string"},
+    "signature": {"minLength": 1, "type": "string"},
+    "signedAt": {"format": "date-time", "type": "string"},
+    "status": {"enum": ["passed", "failed", "timed-out", "skipped"]},
+    "type": {"enum": ["static-scan", "sandbox-smoke", "sandbox-ab", "runtime-report"]}
+  },
+  "required": ["apiVersion", "kind", "releaseId", "runId", "type", "status", "environment", "metrics", "evidenceDigest", "signedAt", "signature"],
+  "title": "Effecta VerificationRecord v1",
+  "type": "object"
+}

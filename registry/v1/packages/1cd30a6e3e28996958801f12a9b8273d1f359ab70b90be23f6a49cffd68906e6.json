@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": ">",
+  "id": "github:affaan-m/ecc:skills/quality-nonconformance",
+  "kind": "CapabilityPackage",
+  "name": "quality-nonconformance",
+  "slug": "quality-nonconformance--affaan-m-ecc",
+  "source": {
+    "path": "skills/quality-nonconformance",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "product",
+  "description": "Identify the first beachhead market segment for a product launch. Evaluates segments against burning pain, willingness to pay, winnable market share, and referral potential. Use when choosing a first market, targeting an initial customer segment, or planning market entry strategy.",
+  "id": "github:phuryn/pm-skills:pm-go-to-market/skills/beachhead-segment",
+  "kind": "CapabilityPackage",
+  "name": "beachhead-segment",
+  "slug": "beachhead-segment--phuryn-pm-skills",
+  "source": {
+    "path": "pm-go-to-market/skills/beachhead-segment",
+    "repository": "phuryn/pm-skills"
+  },
+  "type": "skill"
+}

@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "PostgreSQL database patterns for query optimization, schema design, indexing, and security. Based on Supabase best practices. Use when designing PostgreSQL schemas, indexes, or RLS policies, or when a query is too slow.",
+  "id": "github:affaan-m/ecc:skills/postgres-patterns",
+  "kind": "CapabilityPackage",
+  "name": "postgres-patterns",
+  "slug": "postgres-patterns--affaan-m-ecc",
+  "source": {
+    "path": "skills/postgres-patterns",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

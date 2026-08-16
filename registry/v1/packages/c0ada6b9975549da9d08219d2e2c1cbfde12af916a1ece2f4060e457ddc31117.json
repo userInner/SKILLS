@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Next.js 16+ and Turbopack — incremental bundling, FS caching, dev speed, and when to use Turbopack vs webpack.",
+  "id": "github:affaan-m/ecc:.cursor/skills/nextjs-turbopack",
+  "kind": "CapabilityPackage",
+  "name": "nextjs-turbopack",
+  "slug": "nextjs-turbopack--affaan-m-ecc--e11a7bacab",
+  "source": {
+    "path": ".cursor/skills/nextjs-turbopack",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

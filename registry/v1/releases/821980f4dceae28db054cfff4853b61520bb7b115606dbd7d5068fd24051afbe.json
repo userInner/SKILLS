@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:64f2fbe7eb8e4e4693e03061af1e2fa808049068d9ecc47e44fc659154300f42",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/product/pricing-strategy--phuryn-pm-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:64f2fbe7eb8e4e4693e03061af1e2fa808049068d9ecc47e44fc659154300f42",
+    "fileCount": 1,
+    "totalBytes": 3666
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:phuryn/pm-skills:pm-product-strategy/skills/pricing-strategy",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:821980f4dceae28db054cfff4853b61520bb7b115606dbd7d5068fd24051afbe",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "18468a95b427e70e258b51389796367c6f684e7d",
+    "path": "pm-product-strategy/skills/pricing-strategy",
+    "repository": "phuryn/pm-skills",
+    "url": "https://github.com/phuryn/pm-skills/tree/18468a95b427e70e258b51389796367c6f684e7d/pm-product-strategy/skills/pricing-strategy"
+  },
+  "status": "extracted"
+}

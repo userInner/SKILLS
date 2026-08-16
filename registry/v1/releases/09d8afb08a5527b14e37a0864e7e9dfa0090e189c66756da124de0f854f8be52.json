@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:289100d8f478135ea3762e5572563bc22f4da47656b8de251bae4d87e9412efe",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/product/pre-mortem--phuryn-pm-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:289100d8f478135ea3762e5572563bc22f4da47656b8de251bae4d87e9412efe",
+    "fileCount": 1,
+    "totalBytes": 4082
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:phuryn/pm-skills:pm-execution/skills/pre-mortem",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:09d8afb08a5527b14e37a0864e7e9dfa0090e189c66756da124de0f854f8be52",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "18468a95b427e70e258b51389796367c6f684e7d",
+    "path": "pm-execution/skills/pre-mortem",
+    "repository": "phuryn/pm-skills",
+    "url": "https://github.com/phuryn/pm-skills/tree/18468a95b427e70e258b51389796367c6f684e7d/pm-execution/skills/pre-mortem"
+  },
+  "status": "extracted"
+}

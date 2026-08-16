@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Optional database URL for examples.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/modal",
+  "kind": "CapabilityPackage",
+  "name": "modal",
+  "slug": "modal--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/modal",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

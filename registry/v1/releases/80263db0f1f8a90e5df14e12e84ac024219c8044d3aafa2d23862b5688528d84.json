@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:021b7f0becd2e283a4da668c9ec1cc003a8fc385e12cdba21fd40725ff0702f2",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "skills/engineering/code-review-and-quality"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:021b7f0becd2e283a4da668c9ec1cc003a8fc385e12cdba21fd40725ff0702f2",
+    "fileCount": 4,
+    "totalBytes": 22614
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "unknown",
+    "spdx": "see-package"
+  },
+  "packageId": "github:userinner/skills:skills/engineering/code-review-and-quality",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:80263db0f1f8a90e5df14e12e84ac024219c8044d3aafa2d23862b5688528d84",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "362c2197eccdb7e952e0e2dfd80bef939d34cfe5",
+    "path": "skills/engineering/code-review-and-quality",
+    "repository": "userInner/SKILLS",
+    "url": "https://github.com/userInner/SKILLS/tree/362c2197eccdb7e952e0e2dfd80bef939d34cfe5/skills/engineering/code-review-and-quality"
+  },
+  "status": "direct"
+}

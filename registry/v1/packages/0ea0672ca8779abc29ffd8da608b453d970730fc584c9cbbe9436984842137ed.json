@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "design",
+  "description": "Design, implement, and audit inclusive digital products using WCAG 2.2 Level AA. Use when building or auditing UI that must meet WCAG 2.2 Level AA, or when reviewing a change for keyboard, contrast, or screen-reader support.",
+  "id": "github:affaan-m/ecc:skills/accessibility",
+  "kind": "CapabilityPackage",
+  "name": "accessibility",
+  "slug": "accessibility--affaan-m-ecc",
+  "source": {
+    "path": "skills/accessibility",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

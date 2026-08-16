@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "growth",
+  "description": "When the user wants to apply psychological principles, mental models, or behavioral science to marketing. Also use when the user mentions 'psychology,' 'mental models,' 'cognitive bias,' 'persuasion,' 'behavioral science,' 'why people buy,' 'decision-making,' 'consumer behavior,' 'anchoring,' 'social proof,' 'scarcity,' 'loss aversion,' 'framing,' or 'nudge.' Use this whenever someone wants to understand or leverage how people think and make decisions in a marketing context. For applying psychology to specific pages, see cro; for pricing tactics, see pricing; for copy framing, see copywriting.",
+  "id": "github:coreyhaines31/marketingskills:skills/marketing-psychology",
+  "kind": "CapabilityPackage",
+  "name": "marketing-psychology",
+  "slug": "marketing-psychology--coreyhaines31-marketingskills",
+  "source": {
+    "path": "skills/marketing-psychology",
+    "repository": "coreyhaines31/marketingskills"
+  },
+  "type": "skill"
+}

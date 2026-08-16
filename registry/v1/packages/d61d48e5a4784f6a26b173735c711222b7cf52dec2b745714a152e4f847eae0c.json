@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Idiomatic Go patterns, best practices, and conventions for building robust, efficient, and maintainable Go applications. Use when writing or reviewing Go code and idiomatic structure or conventions are in question.",
+  "id": "github:affaan-m/ecc:skills/golang-patterns",
+  "kind": "CapabilityPackage",
+  "name": "golang-patterns",
+  "slug": "golang-patterns--affaan-m-ecc",
+  "source": {
+    "path": "skills/golang-patterns",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

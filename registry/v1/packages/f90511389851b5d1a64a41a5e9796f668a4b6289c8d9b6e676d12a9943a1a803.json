@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "design",
+  "description": "Record polished UI demo videos using Playwright. Use when the user asks to create a demo, walkthrough, screen recording, or tutorial video of a web application. Produces WebM videos with visible cursor, natural pacing, and professional feel.",
+  "id": "github:affaan-m/ecc:skills/ui-demo",
+  "kind": "CapabilityPackage",
+  "name": "ui-demo",
+  "slug": "ui-demo--affaan-m-ecc",
+  "source": {
+    "path": "skills/ui-demo",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

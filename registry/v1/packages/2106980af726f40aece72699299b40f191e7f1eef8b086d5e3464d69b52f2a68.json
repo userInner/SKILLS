@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "research",
+  "description": "Pharmacokinetic and pharmacodynamic modelling and simulation - non-compartmental analysis, compartmental and population PK, PK/PD and exposure-response, TMDD, PBPK orientation, bioequivalence, allometric scaling and first-in-human dose, drug interaction prediction, and Bayesian therapeutic drug monitoring. Use when analysing concentration-time data, deriving exposure metrics, fitting PK or PD models, or evaluating dosing regimens. Triggers include \"pharmacokinetics\", \"pharmacodynamics\", \"PK/PD\", \"NCA\", \"non-compartmental\", \"AUC\", \"Cmax\", \"lambda z\", \"half-life\", \"clearance\", \"volume of distribution\", \"compartmental model\", \"population PK\", \"popPK\", \"NONMEM\", \"nlmixr2\", \"Pharmpy\", \"Monolix\", \"exposure-response\", \"Emax\", \"EC50\", \"indirect response\", \"effect compartment\", \"TMDD\", \"PBPK\", \"bioequivalence\", \"RSABE\", \"ABEL\", \"allometric scaling\", \"first-in-human\", \"MABEL\", \"drug-drug interaction\", \"DDI\", \"ICH M12\", \"concentration-QTc\", \"therapeutic drug monitoring\", \"MIPD\", and \"dosing regimen\".",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/pkpd-modeling",
+  "kind": "CapabilityPackage",
+  "name": "pkpd-modeling",
+  "slug": "pkpd-modeling--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/pkpd-modeling",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

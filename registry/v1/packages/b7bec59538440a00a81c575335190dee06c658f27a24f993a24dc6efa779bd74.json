@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Statistical models library for Python. Use when you need specific model classes (OLS, GLM, mixed models, ARIMA) with detailed diagnostics, residuals, and inference. Best for econometrics, time series, rigorous inference with coefficient tables. For guided statistical test selection with APA reporting use statistical-analysis.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/statsmodels",
+  "kind": "CapabilityPackage",
+  "name": "statsmodels",
+  "slug": "statsmodels--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/statsmodels",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

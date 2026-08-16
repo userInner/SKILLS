@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "design",
+  "description": "Build reusable Manim explainers for technical concepts, graphs, system diagrams, and product walkthroughs, then hand off to the wider ECC video stack if needed. Use when the user wants a clean animated explainer rather than a generic talking-head script.",
+  "id": "github:affaan-m/ecc:skills/manim-video",
+  "kind": "CapabilityPackage",
+  "name": "manim-video",
+  "slug": "manim-video--affaan-m-ecc",
+  "source": {
+    "path": "skills/manim-video",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

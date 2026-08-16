@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "product",
+  "description": "Use this skill to validate the \"why\" before building, run product diagnostics, and pressure-test product direction before the request becomes an implementation contract.",
+  "id": "github:affaan-m/ecc:skills/product-lens",
+  "kind": "CapabilityPackage",
+  "name": "product-lens",
+  "slug": "product-lens--affaan-m-ecc",
+  "source": {
+    "path": "skills/product-lens",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:fc979bef01dda461abdfce5cff26d217b59c3e9e82fbd8d0c6d6f2ced2112505",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "skills/engineering/performance-optimization"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:fc979bef01dda461abdfce5cff26d217b59c3e9e82fbd8d0c6d6f2ced2112505",
+    "fileCount": 4,
+    "totalBytes": 17206
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "unknown",
+    "spdx": "see-package"
+  },
+  "packageId": "github:userinner/skills:skills/engineering/performance-optimization",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:06940018d58823c15ae341b9608171619cd7e937e24f997b0c6a8c1ef904af88",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "362c2197eccdb7e952e0e2dfd80bef939d34cfe5",
+    "path": "skills/engineering/performance-optimization",
+    "repository": "userInner/SKILLS",
+    "url": "https://github.com/userInner/SKILLS/tree/362c2197eccdb7e952e0e2dfd80bef939d34cfe5/skills/engineering/performance-optimization"
+  },
+  "status": "direct"
+}

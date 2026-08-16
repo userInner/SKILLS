@@ -1,0 +1,55 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:557fde020cc8361ddccb6e9f898b93e31912823151a9cc198d06960891e55713",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/workflow/repo-scan--affaan-m-ecc"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:557fde020cc8361ddccb6e9f898b93e31912823151a9cc198d06960891e55713",
+    "fileCount": 1,
+    "totalBytes": 7242
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:affaan-m/ecc:skills/repo-scan",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:e6da01745df3962ef4bbc4819d90ba5875499a5f713d31cfa44c072b9e91f6a6",
+  "security": {
+    "staticScan": {
+      "findings": [
+        {
+          "file": "SKILL.md",
+          "rule": "recursive-delete"
+        }
+      ],
+      "status": "review"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "path": "skills/repo-scan",
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC/tree/c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8/skills/repo-scan"
+  },
+  "status": "needs-review"
+}

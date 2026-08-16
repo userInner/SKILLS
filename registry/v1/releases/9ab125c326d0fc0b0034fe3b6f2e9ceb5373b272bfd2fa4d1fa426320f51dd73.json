@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:b9fbdfe0a4ba248cd94dd1dc09e365d19881f9ccddc8bb14b9fca4d48844c5f2",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/workflow/nasiko-control-plane--affaan-m-ecc"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:b9fbdfe0a4ba248cd94dd1dc09e365d19881f9ccddc8bb14b9fca4d48844c5f2",
+    "fileCount": 2,
+    "totalBytes": 2684
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:affaan-m/ecc:skills/nasiko-control-plane",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:9ab125c326d0fc0b0034fe3b6f2e9ceb5373b272bfd2fa4d1fa426320f51dd73",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "d0366ea8e8d21649d8e98d3e87e851f87bffc9be",
+    "path": "skills/nasiko-control-plane",
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC/tree/d0366ea8e8d21649d8e98d3e87e851f87bffc9be/skills/nasiko-control-plane"
+  },
+  "status": "extracted"
+}

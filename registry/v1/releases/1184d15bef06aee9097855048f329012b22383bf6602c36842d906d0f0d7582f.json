@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:8cfc54279e44529821d649104b48e33deb0ac19b4371395170d56e387a0a8b61",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/workflow/lab-hardware-cad--k-dense-ai-scientific-agent-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:8cfc54279e44529821d649104b48e33deb0ac19b4371395170d56e387a0a8b61",
+    "fileCount": 13,
+    "totalBytes": 172760
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:k-dense-ai/scientific-agent-skills:skills/lab-hardware-cad",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:1184d15bef06aee9097855048f329012b22383bf6602c36842d906d0f0d7582f",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "336c4f838a6c21b54e1e1f58cbbeae143d151fe2",
+    "path": "skills/lab-hardware-cad",
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/336c4f838a6c21b54e1e1f58cbbeae143d151fe2/skills/lab-hardware-cad"
+  },
+  "status": "extracted"
+}

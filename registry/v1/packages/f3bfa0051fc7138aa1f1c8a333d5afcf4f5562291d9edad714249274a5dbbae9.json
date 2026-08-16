@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Bayesian modeling with PyMC. Build hierarchical models, MCMC (NUTS), variational inference, LOO/WAIC comparison, posterior checks, for probabilistic programming and inference.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/pymc",
+  "kind": "CapabilityPackage",
+  "name": "pymc",
+  "slug": "pymc--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/pymc",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

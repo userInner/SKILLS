@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Constraint-based metabolic modeling (COBRA). FBA, FVA, gene knockouts, flux sampling, SBML models, for systems biology and metabolic engineering analysis.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/cobrapy",
+  "kind": "CapabilityPackage",
+  "name": "cobrapy",
+  "slug": "cobrapy--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/cobrapy",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

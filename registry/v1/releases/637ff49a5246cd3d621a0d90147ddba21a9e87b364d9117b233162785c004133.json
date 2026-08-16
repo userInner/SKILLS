@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:24fe78359ae9d09591883914a736191b8b087dfcf4daf075ca3c22c2defb8b9e",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/product/positioning-ideas--phuryn-pm-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:24fe78359ae9d09591883914a736191b8b087dfcf4daf075ca3c22c2defb8b9e",
+    "fileCount": 1,
+    "totalBytes": 3002
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:phuryn/pm-skills:pm-marketing-growth/skills/positioning-ideas",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:637ff49a5246cd3d621a0d90147ddba21a9e87b364d9117b233162785c004133",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "18468a95b427e70e258b51389796367c6f684e7d",
+    "path": "pm-marketing-growth/skills/positioning-ideas",
+    "repository": "phuryn/pm-skills",
+    "url": "https://github.com/phuryn/pm-skills/tree/18468a95b427e70e258b51389796367c6f684e7d/pm-marketing-growth/skills/positioning-ideas"
+  },
+  "status": "extracted"
+}

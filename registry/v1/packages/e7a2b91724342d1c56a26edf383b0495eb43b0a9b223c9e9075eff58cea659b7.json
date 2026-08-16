@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Build, inspect, test, and analyze bounded process-based discrete-event simulations with SimPy, including events, resources, interrupts, monitoring, replications, warm-up, and reproducible output analysis.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/simpy",
+  "kind": "CapabilityPackage",
+  "name": "simpy",
+  "slug": "simpy--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/simpy",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

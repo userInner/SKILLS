@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "writing",
+  "description": "Comprehensive markdown and Mermaid diagram writing skill. Use when creating any scientific document, report, analysis, or visualization. Establishes text-based diagrams as the default documentation standard with full style guides (markdown + mermaid), 24 diagram type references, and 9 document templates.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/markdown-mermaid-writing",
+  "kind": "CapabilityPackage",
+  "name": "markdown-mermaid-writing",
+  "slug": "markdown-mermaid-writing--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/markdown-mermaid-writing",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

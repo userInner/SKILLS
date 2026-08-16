@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Use Geniml for audited local genomic-interval workflows: validate BED and universe contracts, plan Region2Vec or scEmbed runs, inspect model/tokenizer compatibility, and assess consensus universes.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/geniml",
+  "kind": "CapabilityPackage",
+  "name": "geniml",
+  "slug": "geniml--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/geniml",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Build a stakeholder map using a power/interest grid, identify communication strategies per quadrant, and generate a communication plan. Use when managing stakeholders, preparing for a launch, aligning cross-functional teams, or planning stakeholder engagement.",
+  "id": "github:phuryn/pm-skills:pm-execution/skills/stakeholder-map",
+  "kind": "CapabilityPackage",
+  "name": "stakeholder-map",
+  "slug": "stakeholder-map--phuryn-pm-skills",
+  "source": {
+    "path": "pm-execution/skills/stakeholder-map",
+    "repository": "phuryn/pm-skills"
+  },
+  "type": "skill"
+}

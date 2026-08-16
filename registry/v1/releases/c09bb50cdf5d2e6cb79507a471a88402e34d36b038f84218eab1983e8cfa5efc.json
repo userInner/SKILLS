@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:0188349c2aa0b0b5dbfdd0c00ca8547fb0b220d97ff0e326d3b309da4ba6e4d5",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/design/cirq--k-dense-ai-scientific-agent-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:0188349c2aa0b0b5dbfdd0c00ca8547fb0b220d97ff0e326d3b309da4ba6e4d5",
+    "fileCount": 7,
+    "totalBytes": 78135
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:k-dense-ai/scientific-agent-skills:skills/cirq",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:c09bb50cdf5d2e6cb79507a471a88402e34d36b038f84218eab1983e8cfa5efc",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "b2a92ba052dcae4ef48e850b9e31ebf75706be48",
+    "path": "skills/cirq",
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/b2a92ba052dcae4ef48e850b9e31ebf75706be48/skills/cirq"
+  },
+  "status": "extracted"
+}

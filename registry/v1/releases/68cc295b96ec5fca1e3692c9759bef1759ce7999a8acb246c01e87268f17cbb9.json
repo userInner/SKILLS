@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:4420846507a793edf4d47c14001e629d76d24dd664339cb706b55478f7d8ceed",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/design/liquid-glass-design--affaan-m-ecc"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:4420846507a793edf4d47c14001e629d76d24dd664339cb706b55478f7d8ceed",
+    "fileCount": 1,
+    "totalBytes": 9119
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:affaan-m/ecc:skills/liquid-glass-design",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:68cc295b96ec5fca1e3692c9759bef1759ce7999a8acb246c01e87268f17cbb9",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "path": "skills/liquid-glass-design",
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC/tree/c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8/skills/liquid-glass-design"
+  },
+  "status": "extracted"
+}

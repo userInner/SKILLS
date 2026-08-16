@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "product",
+  "description": "Identify 3-5 potential customer segments with demographics, JTBD, and product fit analysis. Use when exploring market segments, identifying target audiences, evaluating new markets, or learning how to segment a market.",
+  "id": "github:phuryn/pm-skills:pm-market-research/skills/market-segments",
+  "kind": "CapabilityPackage",
+  "name": "market-segments",
+  "slug": "market-segments--phuryn-pm-skills",
+  "source": {
+    "path": "pm-market-research/skills/market-segments",
+    "repository": "phuryn/pm-skills"
+  },
+  "type": "skill"
+}

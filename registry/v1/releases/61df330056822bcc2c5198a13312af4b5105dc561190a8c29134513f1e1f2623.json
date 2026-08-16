@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:2699f333a4cf2c43ef49b7cdf66674b5a19d05c1ca6a9a848dd4ec0acc41984d",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/design/gpt-taste--leonxlnx-taste-skill"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:2699f333a4cf2c43ef49b7cdf66674b5a19d05c1ca6a9a848dd4ec0acc41984d",
+    "fileCount": 1,
+    "totalBytes": 7857
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:leonxlnx/taste-skill:skills/gpt-tasteskill",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:61df330056822bcc2c5198a13312af4b5105dc561190a8c29134513f1e1f2623",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "e988add20dab0fa97d7a76781c48961c8184288e",
+    "path": "skills/gpt-tasteskill",
+    "repository": "Leonxlnx/taste-skill",
+    "url": "https://github.com/Leonxlnx/taste-skill/tree/e988add20dab0fa97d7a76781c48961c8184288e/skills/gpt-tasteskill"
+  },
+  "status": "extracted"
+}

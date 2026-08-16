@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "product",
+  "description": "Generate a Lean Canvas with problem, solution, metrics, cost structure, UVP, unfair advantage, channels, segments, and revenue. Use when exploring a lean startup canvas, testing a business hypothesis, or modeling a new venture.",
+  "id": "github:phuryn/pm-skills:pm-product-strategy/skills/lean-canvas",
+  "kind": "CapabilityPackage",
+  "name": "lean-canvas",
+  "slug": "lean-canvas--phuryn-pm-skills",
+  "source": {
+    "path": "pm-product-strategy/skills/lean-canvas",
+    "repository": "phuryn/pm-skills"
+  },
+  "type": "skill"
+}

@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:bffb232df644ec961261c77a3de98bd227703878165da3600bb2433fd644bd7b",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/product/competitive-battlecard--phuryn-pm-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:bffb232df644ec961261c77a3de98bd227703878165da3600bb2433fd644bd7b",
+    "fileCount": 1,
+    "totalBytes": 2886
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:phuryn/pm-skills:pm-go-to-market/skills/competitive-battlecard",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:fc78cfb8344189948e522460deec1ac208ba1c306f33ed49ddaebc0dc49f39d6",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "18468a95b427e70e258b51389796367c6f684e7d",
+    "path": "pm-go-to-market/skills/competitive-battlecard",
+    "repository": "phuryn/pm-skills",
+    "url": "https://github.com/phuryn/pm-skills/tree/18468a95b427e70e258b51389796367c6f684e7d/pm-go-to-market/skills/competitive-battlecard"
+  },
+  "status": "extracted"
+}

@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": ">-",
+  "id": "github:affaan-m/ecc:skills/competitive-report-structure",
+  "kind": "CapabilityPackage",
+  "name": "competitive-report-structure",
+  "slug": "competitive-report-structure--affaan-m-ecc--802d957b9d",
+  "source": {
+    "path": "skills/competitive-report-structure",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

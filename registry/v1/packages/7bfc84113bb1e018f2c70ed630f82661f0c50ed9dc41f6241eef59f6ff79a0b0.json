@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Rowan computational chemistry API key.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/rowan",
+  "kind": "CapabilityPackage",
+  "name": "rowan",
+  "slug": "rowan--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/rowan",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

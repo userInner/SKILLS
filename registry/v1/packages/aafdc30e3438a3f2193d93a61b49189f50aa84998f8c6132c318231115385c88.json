@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Quick reference for ponytail's modes, skills, and commands. One-shot display.",
+  "id": "github:dietrichgebert/ponytail:.openclaw/skills/ponytail-help",
+  "kind": "CapabilityPackage",
+  "name": "ponytail-help",
+  "slug": "ponytail-help--dietrichgebert-ponytail",
+  "source": {
+    "path": ".openclaw/skills/ponytail-help",
+    "repository": "DietrichGebert/ponytail"
+  },
+  "type": "skill"
+}

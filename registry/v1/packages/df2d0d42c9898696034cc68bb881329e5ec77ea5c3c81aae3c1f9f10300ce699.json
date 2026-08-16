@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Use Gtars for local genomic interval models and set algebra, overlaps and counts, consensus and coverage, tokenization, fragment processing, and refget/BEDbase planning across Python, Rust, and the CLI.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/gtars",
+  "kind": "CapabilityPackage",
+  "name": "gtars",
+  "slug": "gtars--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/gtars",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

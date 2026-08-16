@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "For optional Claude API calls.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/neuropixels-analysis",
+  "kind": "CapabilityPackage",
+  "name": "neuropixels-analysis",
+  "slug": "neuropixels-analysis--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/neuropixels-analysis",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

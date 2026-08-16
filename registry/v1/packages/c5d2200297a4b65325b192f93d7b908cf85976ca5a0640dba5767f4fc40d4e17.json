@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "product",
+  "description": "Facilitate a structured sprint retrospective — what went well, what didn't, and prioritized action items with owners and deadlines. Use when running a retrospective, reflecting on a sprint, creating action items from team feedback, or learning how to run effective retros.",
+  "id": "github:phuryn/pm-skills:pm-execution/skills/retro",
+  "kind": "CapabilityPackage",
+  "name": "retro",
+  "slug": "retro--phuryn-pm-skills",
+  "source": {
+    "path": "pm-execution/skills/retro",
+    "repository": "phuryn/pm-skills"
+  },
+  "type": "skill"
+}

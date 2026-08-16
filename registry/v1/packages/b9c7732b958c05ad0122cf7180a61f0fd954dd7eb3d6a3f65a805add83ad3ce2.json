@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "product",
+  "description": "Create a structured customer interview script with JTBD probing questions, warm-up, core exploration, and wrap-up sections. Follows The Mom Test principles — no leading questions, no pitching, focus on past behavior. Use when preparing for user interviews, creating interview guides, or planning discovery research.",
+  "id": "github:phuryn/pm-skills:pm-product-discovery/skills/interview-script",
+  "kind": "CapabilityPackage",
+  "name": "interview-script",
+  "slug": "interview-script--phuryn-pm-skills",
+  "source": {
+    "path": "pm-product-discovery/skills/interview-script",
+    "repository": "phuryn/pm-skills"
+  },
+  "type": "skill"
+}

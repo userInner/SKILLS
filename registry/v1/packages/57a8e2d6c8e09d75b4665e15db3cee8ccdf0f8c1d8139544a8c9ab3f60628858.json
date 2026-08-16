@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Zotero library type: ''user'' or ''group'' (default ''user'').",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/pyzotero",
+  "kind": "CapabilityPackage",
+  "name": "pyzotero",
+  "slug": "pyzotero--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/pyzotero",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

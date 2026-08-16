@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "design",
+  "description": ">",
+  "id": "github:affaan-m/ecc:skills/frontend-a11y",
+  "kind": "CapabilityPackage",
+  "name": "frontend-a11y",
+  "slug": "frontend-a11y--affaan-m-ecc",
+  "source": {
+    "path": "skills/frontend-a11y",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

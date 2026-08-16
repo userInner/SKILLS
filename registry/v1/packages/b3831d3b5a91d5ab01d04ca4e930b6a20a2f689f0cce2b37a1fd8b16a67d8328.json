@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": ">-",
+  "id": "github:affaan-m/ecc:skills/prompt-optimizer",
+  "kind": "CapabilityPackage",
+  "name": "prompt-optimizer",
+  "slug": "prompt-optimizer--affaan-m-ecc",
+  "source": {
+    "path": "skills/prompt-optimizer",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

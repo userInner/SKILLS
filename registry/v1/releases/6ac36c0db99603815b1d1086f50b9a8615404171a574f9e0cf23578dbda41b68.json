@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:e325f75c16a739d4fe984881bef097f5394d4ac2d377455eb7fc5940b7b100c1",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/research/scientific-critical-thinking--k-dense-ai-scientific-agent-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:e325f75c16a739d4fe984881bef097f5394d4ac2d377455eb7fc5940b7b100c1",
+    "fileCount": 8,
+    "totalBytes": 105830
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:k-dense-ai/scientific-agent-skills:skills/scientific-critical-thinking",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:6ac36c0db99603815b1d1086f50b9a8615404171a574f9e0cf23578dbda41b68",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "b2a92ba052dcae4ef48e850b9e31ebf75706be48",
+    "path": "skills/scientific-critical-thinking",
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/b2a92ba052dcae4ef48e850b9e31ebf75706be48/skills/scientific-critical-thinking"
+  },
+  "status": "extracted"
+}

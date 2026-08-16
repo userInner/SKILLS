@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "design",
+  "description": "Google quantum computing framework. Use when targeting Google Quantum AI hardware, designing noise-aware circuits, or running quantum characterization experiments. Best for Google hardware, noise modeling, and low-level circuit design. For IBM hardware use qiskit; for quantum ML with autodiff use pennylane; for physics simulations use qutip.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/cirq",
+  "kind": "CapabilityPackage",
+  "name": "cirq",
+  "slug": "cirq--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/cirq",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

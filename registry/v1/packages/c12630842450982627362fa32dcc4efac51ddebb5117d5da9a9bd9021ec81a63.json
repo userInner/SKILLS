@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Build monitoring dashboards that answer real operator questions for Grafana, SigNoz, and similar platforms. Use when turning metrics into a working dashboard instead of a vanity board.",
+  "id": "github:affaan-m/ecc:skills/dashboard-builder",
+  "kind": "CapabilityPackage",
+  "name": "dashboard-builder",
+  "slug": "dashboard-builder--affaan-m-ecc",
+  "source": {
+    "path": "skills/dashboard-builder",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

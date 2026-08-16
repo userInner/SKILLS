@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "product",
+  "description": "Identify the Ideal Customer Profile (ICP) from research data with demographics, behaviors, JTBD, and needs. Use when defining your ICP, analyzing PMF survey data, or understanding who your best customers are.",
+  "id": "github:phuryn/pm-skills:pm-go-to-market/skills/ideal-customer-profile",
+  "kind": "CapabilityPackage",
+  "name": "ideal-customer-profile",
+  "slug": "ideal-customer-profile--phuryn-pm-skills",
+  "source": {
+    "path": "pm-go-to-market/skills/ideal-customer-profile",
+    "repository": "phuryn/pm-skills"
+  },
+  "type": "skill"
+}

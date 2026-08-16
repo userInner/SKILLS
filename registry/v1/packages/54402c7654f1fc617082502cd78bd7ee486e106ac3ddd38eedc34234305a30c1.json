@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Suggests manual context compaction at logical intervals to preserve context through task phases rather than arbitrary auto-compaction.",
+  "id": "github:affaan-m/ecc:.kiro/skills/strategic-compact",
+  "kind": "CapabilityPackage",
+  "name": "strategic-compact",
+  "slug": "strategic-compact--affaan-m-ecc--740e53e6d4",
+  "source": {
+    "path": ".kiro/skills/strategic-compact",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Use when implementation is complete, all tests pass, and you need to decide how to integrate the work",
+  "id": "github:obra/superpowers:skills/finishing-a-development-branch",
+  "kind": "CapabilityPackage",
+  "name": "finishing-a-development-branch",
+  "slug": "finishing-a-development-branch--obra-superpowers",
+  "source": {
+    "path": "skills/finishing-a-development-branch",
+    "repository": "obra/superpowers"
+  },
+  "type": "skill"
+}

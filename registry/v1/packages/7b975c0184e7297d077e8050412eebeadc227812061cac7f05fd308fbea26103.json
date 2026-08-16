@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Head-to-head comparison of coding agents (Claude Code, Aider, Codex, etc.) on custom tasks with pass rate, cost, time, and consistency metrics. Use when choosing between coding agents, or when a change to an agent setup needs measured pass rate, cost, and time rather than an impression.",
+  "id": "github:affaan-m/ecc:skills/agent-eval",
+  "kind": "CapabilityPackage",
+  "name": "agent-eval",
+  "slug": "agent-eval--affaan-m-ecc",
+  "source": {
+    "path": "skills/agent-eval",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

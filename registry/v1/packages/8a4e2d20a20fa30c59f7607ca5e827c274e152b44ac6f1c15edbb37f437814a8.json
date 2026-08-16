@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "NCBI API key to raise Entrez rate limits.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/biopython",
+  "kind": "CapabilityPackage",
+  "name": "biopython",
+  "slug": "biopython--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/biopython",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

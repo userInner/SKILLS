@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "growth",
+  "description": "Identify growth loops (flywheels) for sustainable traction. Evaluates 5 loop types: Viral, Usage, Collaboration, User-Generated, and Referral. Use when designing growth mechanisms, building product-led traction, or understanding how growth loops work.",
+  "id": "github:phuryn/pm-skills:pm-go-to-market/skills/growth-loops",
+  "kind": "CapabilityPackage",
+  "name": "growth-loops",
+  "slug": "growth-loops--phuryn-pm-skills",
+  "source": {
+    "path": "pm-go-to-market/skills/growth-loops",
+    "repository": "phuryn/pm-skills"
+  },
+  "type": "skill"
+}

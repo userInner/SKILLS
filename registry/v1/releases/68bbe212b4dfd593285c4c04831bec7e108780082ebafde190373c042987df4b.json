@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:ff85f74d35b999a1caf26a38c6f311e8e1ba2475094f9ef0d104d479b6bab93d",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "skills/engineering/codebase-design"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:ff85f74d35b999a1caf26a38c6f311e8e1ba2475094f9ef0d104d479b6bab93d",
+    "fileCount": 6,
+    "totalBytes": 13860
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "unknown",
+    "spdx": "see-package"
+  },
+  "packageId": "github:userinner/skills:skills/engineering/codebase-design",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:68bbe212b4dfd593285c4c04831bec7e108780082ebafde190373c042987df4b",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "f919ee8605d120fe32fb44b23dd50339089317de",
+    "path": "skills/engineering/codebase-design",
+    "repository": "userInner/SKILLS",
+    "url": "https://github.com/userInner/SKILLS/tree/f919ee8605d120fe32fb44b23dd50339089317de/skills/engineering/codebase-design"
+  },
+  "status": "direct"
+}

@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Scan skills to extract cross-cutting principles and distill them into rules — append, revise, or create new rule files. Use when the same principle keeps recurring across skills and belongs in a rule file instead.",
+  "id": "github:affaan-m/ecc:skills/rules-distill",
+  "kind": "CapabilityPackage",
+  "name": "rules-distill",
+  "slug": "rules-distill--affaan-m-ecc",
+  "source": {
+    "path": "skills/rules-distill",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

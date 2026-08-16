@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:86bcab342c3e9830a7029de2b93e9d61dabc70a86a37d8bbd4c4978d24052dc0",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/design/ui-styling--nextlevelbuilder-ui-ux-pro-max-skill"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:86bcab342c3e9830a7029de2b93e9d61dabc70a86a37d8bbd4c4978d24052dc0",
+    "fileCount": 12,
+    "totalBytes": 111175
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:nextlevelbuilder/ui-ux-pro-max-skill:cli/assets/skills/ui-styling",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:a794a7cfafbcd07733f7eedef07d70d5d9f67a6b4f2c0c70e452d33bebcd69fc",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "a38d04c3d5c298c851dbe5e6ee1965ee3de42cb5",
+    "path": "cli/assets/skills/ui-styling",
+    "repository": "nextlevelbuilder/ui-ux-pro-max-skill",
+    "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/tree/a38d04c3d5c298c851dbe5e6ee1965ee3de42cb5/cli/assets/skills/ui-styling"
+  },
+  "status": "extracted"
+}

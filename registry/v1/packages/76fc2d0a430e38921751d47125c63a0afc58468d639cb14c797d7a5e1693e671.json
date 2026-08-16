@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Verification loop for Laravel projects: env checks, linting, static analysis, tests with coverage, security scans, and deployment readiness. Use when verifying a Laravel project before merge or deploy — lint, static analysis, tests, coverage, security.",
+  "id": "github:affaan-m/ecc:skills/laravel-verification",
+  "kind": "CapabilityPackage",
+  "name": "laravel-verification",
+  "slug": "laravel-verification--affaan-m-ecc",
+  "source": {
+    "path": "skills/laravel-verification",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

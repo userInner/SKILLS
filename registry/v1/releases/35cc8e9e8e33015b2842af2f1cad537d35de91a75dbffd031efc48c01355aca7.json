@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:e11a7bacab6046fce07e6b7b5c8569fccfa48eccd28e51da9bf43f5146c7d07e",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/workflow/nextjs-turbopack--affaan-m-ecc--e11a7bacab"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:e11a7bacab6046fce07e6b7b5c8569fccfa48eccd28e51da9bf43f5146c7d07e",
+    "fileCount": 1,
+    "totalBytes": 2162
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:affaan-m/ecc:.cursor/skills/nextjs-turbopack",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:35cc8e9e8e33015b2842af2f1cad537d35de91a75dbffd031efc48c01355aca7",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "path": ".cursor/skills/nextjs-turbopack",
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC/tree/c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8/.cursor/skills/nextjs-turbopack"
+  },
+  "status": "extracted"
+}

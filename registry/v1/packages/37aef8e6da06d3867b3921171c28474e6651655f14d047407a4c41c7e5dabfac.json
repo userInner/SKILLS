@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "research",
+  "description": "Prepare journal manuscripts, conference papers, research posters, and grant documents using venue-specific formatting guidance and bundled LaTeX scaffolds. Use when selecting an official template, checking current page or anonymity rules, adapting academic writing to a venue, or inspecting a submission PDF.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/venue-templates",
+  "kind": "CapabilityPackage",
+  "name": "venue-templates",
+  "slug": "venue-templates--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/venue-templates",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

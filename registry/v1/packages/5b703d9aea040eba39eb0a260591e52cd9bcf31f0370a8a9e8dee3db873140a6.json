@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "product",
+  "description": "Analyze and design pricing strategies including pricing models, competitive pricing analysis, willingness-to-pay estimation, and price elasticity. Use when setting prices, evaluating pricing models, preparing for a pricing change, or comparing freemium vs paid approaches.",
+  "id": "github:phuryn/pm-skills:pm-product-strategy/skills/pricing-strategy",
+  "kind": "CapabilityPackage",
+  "name": "pricing-strategy",
+  "slug": "pricing-strategy--phuryn-pm-skills",
+  "source": {
+    "path": "pm-product-strategy/skills/pricing-strategy",
+    "repository": "phuryn/pm-skills"
+  },
+  "type": "skill"
+}

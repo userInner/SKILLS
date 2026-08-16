@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "design",
+  "description": "Best practices for Remotion - Video creation in React. 29 domain-specific rules covering 3D, animations, audio, captions, charts, transitions, and more. Use when building video in React with Remotion — animations, audio, captions, charts, or transitions.",
+  "id": "github:affaan-m/ecc:skills/remotion-video-creation",
+  "kind": "CapabilityPackage",
+  "name": "remotion-video-creation",
+  "slug": "remotion-video-creation--affaan-m-ecc",
+  "source": {
+    "path": "skills/remotion-video-creation",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

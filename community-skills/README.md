@@ -35,6 +35,6 @@
 python3 scripts/extract_community_skills.py
 ```
 
-排行榜更新成功后，GitHub Actions 会自动运行提取器和校验器。只有具体 Skill 发生变化时才会更新 `automation/community-skills` 候选分支并创建或刷新审核 PR；不会自动合并到主分支。
+GitHub Actions 会在同一次任务中更新来源排行、提取具体 Skill、生成 registry/v1 并完成校验。只有结果发生变化时才会更新 `automation/skill-registry` 候选分支并创建或刷新一个审核 PR；不会自动合并到主分支。
 
 提取器只处理 `catalog.json` 中状态为 `selected-import` 且许可证在允许列表中的来源；翻译文档、测试夹具、vendor、缓存、重复内容、超大文件和超大包会被排除。

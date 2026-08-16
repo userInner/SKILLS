@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:3c78dc46abd67b6400560a3205c504b3c128ae2f005c13392108cae9ac212811",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "skills/writing/article-writing"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:3c78dc46abd67b6400560a3205c504b3c128ae2f005c13392108cae9ac212811",
+    "fileCount": 4,
+    "totalBytes": 5079
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "unknown",
+    "spdx": "see-package"
+  },
+  "packageId": "github:userinner/skills:skills/writing/article-writing",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:2f676239f833160229dfe202ff71a9b56d66bab0e7352e51730e236097ddea0d",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "f919ee8605d120fe32fb44b23dd50339089317de",
+    "path": "skills/writing/article-writing",
+    "repository": "userInner/SKILLS",
+    "url": "https://github.com/userInner/SKILLS/tree/f919ee8605d120fe32fb44b23dd50339089317de/skills/writing/article-writing"
+  },
+  "status": "direct"
+}

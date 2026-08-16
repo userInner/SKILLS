@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:0c7151b529a908846de67a408dff8f9e0704101ce223e4a9c556f23df941fe55",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/research/clinical-decision-support--k-dense-ai-scientific-agent-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:0c7151b529a908846de67a408dff8f9e0704101ce223e4a9c556f23df941fe55",
+    "fileCount": 28,
+    "totalBytes": 195066
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:k-dense-ai/scientific-agent-skills:skills/clinical-decision-support",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:80d02d116b0416b5b48a4b06b0acd6bd00fdf64296abf62949373f53231b2448",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "b2a92ba052dcae4ef48e850b9e31ebf75706be48",
+    "path": "skills/clinical-decision-support",
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/b2a92ba052dcae4ef48e850b9e31ebf75706be48/skills/clinical-decision-support"
+  },
+  "status": "extracted"
+}

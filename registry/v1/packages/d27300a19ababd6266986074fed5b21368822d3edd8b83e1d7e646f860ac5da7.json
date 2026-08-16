@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "design",
+  "description": "Anti-slop frontend skill for landing pages, portfolios, and redesigns. The agent reads the brief, infers the right design direction, and ships interfaces that do not look templated. Real design systems when applicable, audit-first on redesigns, strict pre-flight check.",
+  "id": "github:userinner/skills:skills/design/design-taste-frontend",
+  "kind": "CapabilityPackage",
+  "name": "design-taste-frontend",
+  "slug": "design-taste-frontend",
+  "source": {
+    "path": "skills/design/design-taste-frontend",
+    "repository": "userInner/SKILLS"
+  },
+  "type": "skill"
+}

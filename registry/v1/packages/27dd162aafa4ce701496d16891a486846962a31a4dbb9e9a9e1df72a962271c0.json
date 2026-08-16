@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Use this skill when writing new features, fixing bugs, or refactoring code. Enforces test-driven development with 80%+ coverage including unit, integration, and E2E tests.",
+  "id": "github:affaan-m/ecc:skills/tdd-workflow",
+  "kind": "CapabilityPackage",
+  "name": "tdd-workflow",
+  "slug": "tdd-workflow--affaan-m-ecc--2a0fee8b4d",
+  "source": {
+    "path": "skills/tdd-workflow",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

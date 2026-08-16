@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:1b21f68ed93cb190920801c6047e6860b01769bc9170c5d8424aadb34bae66ed",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/product/product-name--phuryn-pm-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:1b21f68ed93cb190920801c6047e6860b01769bc9170c5d8424aadb34bae66ed",
+    "fileCount": 1,
+    "totalBytes": 2196
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:phuryn/pm-skills:pm-marketing-growth/skills/product-name",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:490af914191aa6f3038c5df01827363267e8930d3b849257d5e67ab3eed8aac2",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "18468a95b427e70e258b51389796367c6f684e7d",
+    "path": "pm-marketing-growth/skills/product-name",
+    "repository": "phuryn/pm-skills",
+    "url": "https://github.com/phuryn/pm-skills/tree/18468a95b427e70e258b51389796367c6f684e7d/pm-marketing-growth/skills/product-name"
+  },
+  "status": "extracted"
+}

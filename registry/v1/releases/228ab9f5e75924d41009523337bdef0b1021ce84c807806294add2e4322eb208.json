@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:e8cefd5f6db9fac89c2068dbf4699ccf6e0a71ecec9eed512465c47d2e9fcfa9",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/product/opportunity-solution-tree--phuryn-pm-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:e8cefd5f6db9fac89c2068dbf4699ccf6e0a71ecec9eed512465c47d2e9fcfa9",
+    "fileCount": 1,
+    "totalBytes": 4281
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:phuryn/pm-skills:pm-product-discovery/skills/opportunity-solution-tree",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:228ab9f5e75924d41009523337bdef0b1021ce84c807806294add2e4322eb208",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "18468a95b427e70e258b51389796367c6f684e7d",
+    "path": "pm-product-discovery/skills/opportunity-solution-tree",
+    "repository": "phuryn/pm-skills",
+    "url": "https://github.com/phuryn/pm-skills/tree/18468a95b427e70e258b51389796367c6f684e7d/pm-product-discovery/skills/opportunity-solution-tree"
+  },
+  "status": "extracted"
+}

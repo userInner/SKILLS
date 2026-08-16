@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Vue.js 3 Composition API patterns, component architecture, reactivity best practices, Pinia state management, Vue Router navigation, and Nuxt SSR patterns. Activates for Vue, Nuxt, Vite, or Pinia projects. Use when building or reviewing Vue 3, Nuxt, or Pinia code — Composition API, reactivity, or router navigation.",
+  "id": "github:affaan-m/ecc:skills/vue-patterns",
+  "kind": "CapabilityPackage",
+  "name": "vue-patterns",
+  "slug": "vue-patterns--affaan-m-ecc",
+  "source": {
+    "path": "skills/vue-patterns",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

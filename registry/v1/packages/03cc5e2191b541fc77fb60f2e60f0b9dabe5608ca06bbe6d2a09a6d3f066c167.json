@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Format and structurally validate local treatment-plan documentation after clinical decisions have already been supplied and verified by authorized licensed professionals. Use for source traceability, clinician-authored intervention records, goals and checkpoints, shared-decision records, reconciliation handoffs, and release gates—not for clinical decision-making.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/treatment-plans",
+  "kind": "CapabilityPackage",
+  "name": "treatment-plans",
+  "slug": "treatment-plans--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/treatment-plans",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

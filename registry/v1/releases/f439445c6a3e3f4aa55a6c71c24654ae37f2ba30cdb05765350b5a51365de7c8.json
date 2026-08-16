@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:6c7b75a367ad0eb6bb1be16f66e593d654ac84234ea3a4f0dca883ede74d926a",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/design/etetoolkit--k-dense-ai-scientific-agent-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:6c7b75a367ad0eb6bb1be16f66e593d654ac84234ea3a4f0dca883ede74d926a",
+    "fileCount": 8,
+    "totalBytes": 103881
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:k-dense-ai/scientific-agent-skills:skills/etetoolkit",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:f439445c6a3e3f4aa55a6c71c24654ae37f2ba30cdb05765350b5a51365de7c8",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "b2a92ba052dcae4ef48e850b9e31ebf75706be48",
+    "path": "skills/etetoolkit",
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/b2a92ba052dcae4ef48e850b9e31ebf75706be48/skills/etetoolkit"
+  },
+  "status": "extracted"
+}

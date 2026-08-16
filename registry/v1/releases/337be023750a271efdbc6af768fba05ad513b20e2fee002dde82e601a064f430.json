@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:612718a930bfa631701c9d6fec51b50192be1596d326eb937af663b284dd0992",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/research/sentiment-analysis--phuryn-pm-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:612718a930bfa631701c9d6fec51b50192be1596d326eb937af663b284dd0992",
+    "fileCount": 1,
+    "totalBytes": 3500
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:phuryn/pm-skills:pm-market-research/skills/sentiment-analysis",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:337be023750a271efdbc6af768fba05ad513b20e2fee002dde82e601a064f430",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "18468a95b427e70e258b51389796367c6f684e7d",
+    "path": "pm-market-research/skills/sentiment-analysis",
+    "repository": "phuryn/pm-skills",
+    "url": "https://github.com/phuryn/pm-skills/tree/18468a95b427e70e258b51389796367c6f684e7d/pm-market-research/skills/sentiment-analysis"
+  },
+  "status": "extracted"
+}

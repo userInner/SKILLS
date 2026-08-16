@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:c13d6eb5db0f529d106c6d1345ff6a9390d99ec7240381153808ccaf5290fdc4",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/product/user-personas--phuryn-pm-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:c13d6eb5db0f529d106c6d1345ff6a9390d99ec7240381153808ccaf5290fdc4",
+    "fileCount": 1,
+    "totalBytes": 3047
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:phuryn/pm-skills:pm-market-research/skills/user-personas",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:0ab99b5a00032a748cb6d4396923448ab5bf0379c13b4752efd69162d7f5cf10",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "18468a95b427e70e258b51389796367c6f684e7d",
+    "path": "pm-market-research/skills/user-personas",
+    "repository": "phuryn/pm-skills",
+    "url": "https://github.com/phuryn/pm-skills/tree/18468a95b427e70e258b51389796367c6f684e7d/pm-market-research/skills/user-personas"
+  },
+  "status": "extracted"
+}

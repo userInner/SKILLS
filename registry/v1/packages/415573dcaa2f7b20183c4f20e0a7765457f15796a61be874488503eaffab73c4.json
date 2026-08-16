@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Build, review, migrate, and safely plan MATLAB or GNU Octave numerical workflows, including arrays, tabular/time data, tests, projects, graphics, MAT files, and explicit Python interoperability.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/matlab",
+  "kind": "CapabilityPackage",
+  "name": "matlab",
+  "slug": "matlab--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/matlab",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

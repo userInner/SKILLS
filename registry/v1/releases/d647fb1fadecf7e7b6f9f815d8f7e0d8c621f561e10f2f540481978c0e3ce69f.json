@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:45d3a91659bdf9b60ca068e57c7efabfce440d960b24aeef7035c75bce5d4882",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "skills/design/frontend-design"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:45d3a91659bdf9b60ca068e57c7efabfce440d960b24aeef7035c75bce5d4882",
+    "fileCount": 2,
+    "totalBytes": 9047
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "unknown",
+    "spdx": "see-package"
+  },
+  "packageId": "github:userinner/skills:skills/design/frontend-design",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:d647fb1fadecf7e7b6f9f815d8f7e0d8c621f561e10f2f540481978c0e3ce69f",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "362c2197eccdb7e952e0e2dfd80bef939d34cfe5",
+    "path": "skills/design/frontend-design",
+    "repository": "userInner/SKILLS",
+    "url": "https://github.com/userInner/SKILLS/tree/362c2197eccdb7e952e0e2dfd80bef939d34cfe5/skills/design/frontend-design"
+  },
+  "status": "direct"
+}

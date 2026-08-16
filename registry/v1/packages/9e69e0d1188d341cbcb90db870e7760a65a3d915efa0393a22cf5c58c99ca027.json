@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": ">",
+  "id": "github:affaan-m/ecc:.kiro/skills/golang-testing",
+  "kind": "CapabilityPackage",
+  "name": "golang-testing",
+  "slug": "golang-testing--affaan-m-ecc",
+  "source": {
+    "path": ".kiro/skills/golang-testing",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

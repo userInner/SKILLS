@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:1c3788ddd159127ca41abd3389777850d7cea4a5043e9ffd3ce4fa4b2923dc2d",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/product/interview-script--phuryn-pm-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:1c3788ddd159127ca41abd3389777850d7cea4a5043e9ffd3ce4fa4b2923dc2d",
+    "fileCount": 1,
+    "totalBytes": 4817
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:phuryn/pm-skills:pm-product-discovery/skills/interview-script",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:5d1ef5a0d4e80e17ba4634841e9b9e742c1baee61320b0c4842bf4b5bf664507",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "18468a95b427e70e258b51389796367c6f684e7d",
+    "path": "pm-product-discovery/skills/interview-script",
+    "repository": "phuryn/pm-skills",
+    "url": "https://github.com/phuryn/pm-skills/tree/18468a95b427e70e258b51389796367c6f684e7d/pm-product-discovery/skills/interview-script"
+  },
+  "status": "extracted"
+}

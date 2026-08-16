@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Deployment workflows, CI/CD pipeline patterns, Docker containerization, health checks, rollback strategies, and production readiness checklists for web applications. Use when setting up CI/CD, containerizing an app, or checking production readiness before a release.",
+  "id": "github:affaan-m/ecc:skills/deployment-patterns",
+  "kind": "CapabilityPackage",
+  "name": "deployment-patterns",
+  "slug": "deployment-patterns--affaan-m-ecc--6e6c7b19a1",
+  "source": {
+    "path": "skills/deployment-patterns",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

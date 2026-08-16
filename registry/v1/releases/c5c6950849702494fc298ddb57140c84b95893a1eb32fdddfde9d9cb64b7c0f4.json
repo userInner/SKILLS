@@ -1,0 +1,59 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:007a91dbd2b6683f9c18069f4bd284a3b6e6ff02914ede5e994e658adb43cbe5",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/research/paperclip--k-dense-ai-scientific-agent-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:007a91dbd2b6683f9c18069f4bd284a3b6e6ff02914ede5e994e658adb43cbe5",
+    "fileCount": 7,
+    "totalBytes": 93364
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:k-dense-ai/scientific-agent-skills:skills/paperclip",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:c5c6950849702494fc298ddb57140c84b95893a1eb32fdddfde9d9cb64b7c0f4",
+  "security": {
+    "staticScan": {
+      "findings": [
+        {
+          "file": "SKILL.md",
+          "rule": "pipe-to-shell"
+        },
+        {
+          "file": "installation.md",
+          "rule": "pipe-to-shell"
+        }
+      ],
+      "status": "review"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "b2a92ba052dcae4ef48e850b9e31ebf75706be48",
+    "path": "skills/paperclip",
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/b2a92ba052dcae4ef48e850b9e31ebf75706be48/skills/paperclip"
+  },
+  "status": "needs-review"
+}

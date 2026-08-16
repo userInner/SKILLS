@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Inspect the availability of model serving on a completed Itô compute booking and, when the canonical backend becomes available, hand off an explicitly confirmed serving manifest. Use after ito-compute has booked GPU nodes and the user asks for an OpenAI-compatible endpoint, ito-serve, hosted Kimi, or self-hosted open-weights inference. ECC implements no serving stack of its own.",
+  "id": "github:affaan-m/ecc:skills/ito-inference",
+  "kind": "CapabilityPackage",
+  "name": "ito-inference",
+  "slug": "ito-inference--affaan-m-ecc",
+  "source": {
+    "path": "skills/ito-inference",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

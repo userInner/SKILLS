@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Advanced motion patterns for React / Next.js — drag & drop, gestures, text animations, SVG path drawing, custom hooks, imperative sequences (useAnimate), loaders, and the full API decision tree. Requires motion-foundations. Use when building drag and drop, gestures, text or SVG animation, or imperative animation sequences in React or Next.js.",
+  "id": "github:affaan-m/ecc:skills/motion-advanced",
+  "kind": "CapabilityPackage",
+  "name": "motion-advanced",
+  "slug": "motion-advanced--affaan-m-ecc",
+  "source": {
+    "path": "skills/motion-advanced",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

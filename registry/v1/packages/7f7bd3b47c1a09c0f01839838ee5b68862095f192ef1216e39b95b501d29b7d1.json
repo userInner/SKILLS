@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "design",
+  "description": "Clean editorial-style interfaces. Warm monochrome palette, typographic contrast, flat bento grids, muted pastels. No gradients, no heavy shadows.",
+  "id": "github:leonxlnx/taste-skill:skills/minimalist-skill",
+  "kind": "CapabilityPackage",
+  "name": "minimalist-ui",
+  "slug": "minimalist-ui--leonxlnx-taste-skill",
+  "source": {
+    "path": "skills/minimalist-skill",
+    "repository": "Leonxlnx/taste-skill"
+  },
+  "type": "skill"
+}

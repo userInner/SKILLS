@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "research",
+  "description": "Prepare and validate research-only clinical decision-support evaluation, evidence-profile, cohort, survival, biomarker/model, privacy, and governance artifacts. Use for aggregate or synthetic research documentation and traceability—not patient care or live clinical operation.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/clinical-decision-support",
+  "kind": "CapabilityPackage",
+  "name": "clinical-decision-support",
+  "slug": "clinical-decision-support--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/clinical-decision-support",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

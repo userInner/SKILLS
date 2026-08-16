@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Evidence-first ECC Tools burn and billing audit workflow. Use when investigating runaway PR creation, quota bypass, premium-model leakage, duplicate jobs, or GitHub App cost spikes in the ECC Tools repo.",
+  "id": "github:affaan-m/ecc:skills/ecc-tools-cost-audit",
+  "kind": "CapabilityPackage",
+  "name": "ecc-tools-cost-audit",
+  "slug": "ecc-tools-cost-audit--affaan-m-ecc",
+  "source": {
+    "path": "skills/ecc-tools-cost-audit",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

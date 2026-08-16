@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:757ea257e985105fc29d2a4b5d1885555370b70c2a5b20b9c19fdb7a52589012",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/product/product-marketing--coreyhaines31-marketingskills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:757ea257e985105fc29d2a4b5d1885555370b70c2a5b20b9c19fdb7a52589012",
+    "fileCount": 2,
+    "totalBytes": 16647
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:coreyhaines31/marketingskills:skills/product-marketing",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:cac9ce037972a5e29ecc8f414f90c7c44f235bd0cf06e5a70e54e9a9e0289961",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "7868cb9251fad80a73d26e488a5ad5f6c4a9f335",
+    "path": "skills/product-marketing",
+    "repository": "coreyhaines31/marketingskills",
+    "url": "https://github.com/coreyhaines31/marketingskills/tree/7868cb9251fad80a73d26e488a5ad5f6c4a9f335/skills/product-marketing"
+  },
+  "status": "extracted"
+}

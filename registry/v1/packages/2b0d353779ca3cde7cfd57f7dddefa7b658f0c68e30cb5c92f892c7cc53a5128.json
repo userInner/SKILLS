@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Python/HTSlib workflows for genomic files. Use when reading, querying, filtering, or writing SAM/BAM/CRAM, VCF/BCF, FASTA/FASTQ, or tabix data with pysam, including pileup, coverage, indexing, and CRAM references.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/pysam",
+  "kind": "CapabilityPackage",
+  "name": "pysam",
+  "slug": "pysam--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/pysam",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

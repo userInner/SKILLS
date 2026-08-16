@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "product",
+  "description": ">",
+  "id": "github:affaan-m/ecc:skills/production-scheduling",
+  "kind": "CapabilityPackage",
+  "name": "production-scheduling",
+  "slug": "production-scheduling--affaan-m-ecc",
+  "source": {
+    "path": "skills/production-scheduling",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

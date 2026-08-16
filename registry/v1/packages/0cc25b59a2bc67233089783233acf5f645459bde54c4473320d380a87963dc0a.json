@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Develop and review PyLabRobot lab-automation resources, liquid-handling plans, offline simulations, and supported-device integrations. Use for PyLabRobot protocols or API questions; keep physical execution behind an explicit operator safety gate.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/pylabrobot",
+  "kind": "CapabilityPackage",
+  "name": "pylabrobot",
+  "slug": "pylabrobot--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/pylabrobot",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

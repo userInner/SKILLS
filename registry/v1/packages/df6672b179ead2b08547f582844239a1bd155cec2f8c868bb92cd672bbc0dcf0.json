@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "design",
+  "description": "SwiftUI architecture patterns, state management with @Observable, view composition, navigation, performance optimization, and modern iOS/macOS UI best practices. Use when building or reviewing SwiftUI views, @Observable state, navigation, or render performance.",
+  "id": "github:affaan-m/ecc:skills/swiftui-patterns",
+  "kind": "CapabilityPackage",
+  "name": "swiftui-patterns",
+  "slug": "swiftui-patterns--affaan-m-ecc",
+  "source": {
+    "path": "skills/swiftui-patterns",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

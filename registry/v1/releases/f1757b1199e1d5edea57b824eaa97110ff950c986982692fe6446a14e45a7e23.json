@@ -1,0 +1,55 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:bf2314ce0f1a14ddfcd333838b9a0b31b066df49a53d478b0dd2eb5d272cf732",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/design/frontend-slides--affaan-m-ecc--bf2314ce0f"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:bf2314ce0f1a14ddfcd333838b9a0b31b066df49a53d478b0dd2eb5d272cf732",
+    "fileCount": 7,
+    "totalBytes": 51704
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:affaan-m/ecc:skills/frontend-slides",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:f1757b1199e1d5edea57b824eaa97110ff950c986982692fe6446a14e45a7e23",
+  "security": {
+    "staticScan": {
+      "findings": [
+        {
+          "file": "export-pdf.sh",
+          "rule": "recursive-delete"
+        }
+      ],
+      "status": "review"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "path": "skills/frontend-slides",
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC/tree/c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8/skills/frontend-slides"
+  },
+  "status": "needs-review"
+}

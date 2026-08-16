@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Securely integrate with the official LabArchives ELN REST-like API and Inventory API v1. Use for regional endpoint selection, signed-request construction, user authorization and UID flows, local LA container validation, and verified LabArchives integration workflows.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/labarchive-integration",
+  "kind": "CapabilityPackage",
+  "name": "labarchive-integration",
+  "slug": "labarchive-integration--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/labarchive-integration",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

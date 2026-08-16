@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Laravel security best practices — authentication, authorization, Eloquent safety, CSRF, XSS prevention, API security, and secure deployment configurations. Use when reviewing Laravel auth, Eloquent safety, CSRF, XSS, API security, or deployment configuration.",
+  "id": "github:affaan-m/ecc:skills/laravel-security",
+  "kind": "CapabilityPackage",
+  "name": "laravel-security",
+  "slug": "laravel-security--affaan-m-ecc",
+  "source": {
+    "path": "skills/laravel-security",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

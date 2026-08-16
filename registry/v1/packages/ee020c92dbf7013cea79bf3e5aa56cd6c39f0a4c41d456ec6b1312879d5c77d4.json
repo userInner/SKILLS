@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "design",
+  "description": "JPA/Hibernate patterns for entity design, relationships, query optimization, transactions, auditing, indexing, pagination, and pooling in Spring Boot. Use when designing JPA entities or relationships, or when a Hibernate query, transaction, or N+1 problem needs fixing.",
+  "id": "github:affaan-m/ecc:skills/jpa-patterns",
+  "kind": "CapabilityPackage",
+  "name": "jpa-patterns",
+  "slug": "jpa-patterns--affaan-m-ecc--3046291a12",
+  "source": {
+    "path": "skills/jpa-patterns",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

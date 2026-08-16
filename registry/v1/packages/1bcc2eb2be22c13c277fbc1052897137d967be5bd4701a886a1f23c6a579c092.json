@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "design",
+  "description": ">",
+  "id": "github:affaan-m/ecc:.kiro/skills/frontend-patterns",
+  "kind": "CapabilityPackage",
+  "name": "frontend-patterns",
+  "slug": "frontend-patterns--affaan-m-ecc--09cce1c626",
+  "source": {
+    "path": ".kiro/skills/frontend-patterns",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

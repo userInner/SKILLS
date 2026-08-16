@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "PyTorch Geometric (PyG) for graph neural networks — node/link/graph classification, message passing (GCN, GAT, GraphSAGE, GIN), heterogeneous graphs, neighbor sampling, and custom datasets. Use when working with torch_geometric, not for general NetworkX analytics or non-graph PyTorch models.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/torch-geometric",
+  "kind": "CapabilityPackage",
+  "name": "torch-geometric",
+  "slug": "torch-geometric--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/torch-geometric",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

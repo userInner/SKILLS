@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Real-time structural Code Health via CodeScene MCP — review before edits, verify score deltas after changes, gate commits and PRs. Use when reviewing code quality, refactoring, checking if AI changes degraded a file, or before commit/PR.",
+  "id": "github:affaan-m/ecc:skills/codehealth-mcp",
+  "kind": "CapabilityPackage",
+  "name": "codehealth-mcp",
+  "slug": "codehealth-mcp--affaan-m-ecc",
+  "source": {
+    "path": "skills/codehealth-mcp",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Operate long-lived agent workloads with observability, security boundaries, and lifecycle management. Use when running long-lived agent workloads that need observability, security boundaries, or lifecycle control.",
+  "id": "github:affaan-m/ecc:skills/enterprise-agent-ops",
+  "kind": "CapabilityPackage",
+  "name": "enterprise-agent-ops",
+  "slug": "enterprise-agent-ops--affaan-m-ecc",
+  "source": {
+    "path": "skills/enterprise-agent-ops",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

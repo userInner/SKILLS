@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Use after completing any non-trivial task. The agent self-rates its output on 5 axes — accuracy, completeness, clarity, actionability, conciseness — with concrete evidence per criterion. Produces a structured 1-5 scorecard with specific improvement suggestions.",
+  "id": "github:affaan-m/ecc:skills/agent-self-evaluation",
+  "kind": "CapabilityPackage",
+  "name": "agent-self-evaluation",
+  "slug": "agent-self-evaluation--affaan-m-ecc",
+  "source": {
+    "path": "skills/agent-self-evaluation",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

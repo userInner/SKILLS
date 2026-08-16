@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Optional gi_ bearer key for the REST /v1 API and a higher MCP quota. The hosted MCP demo runs keyless; request a key at contact@genomicintelligence.ai.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/genomic-intelligence",
+  "kind": "CapabilityPackage",
+  "name": "genomic-intelligence",
+  "slug": "genomic-intelligence--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/genomic-intelligence",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

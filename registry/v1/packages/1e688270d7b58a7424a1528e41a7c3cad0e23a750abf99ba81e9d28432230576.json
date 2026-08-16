@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "research",
+  "description": "Conduct multi-source web research, synthesize findings, and deliver cited reports with explicit source attribution. Use when the user requests a deep dive, current-state review, competitive analysis, due diligence, technology evaluation, or any answer requiring evidence across multiple sources.",
+  "id": "github:userinner/skills:skills/research/deep-research",
+  "kind": "CapabilityPackage",
+  "name": "deep-research",
+  "slug": "deep-research",
+  "source": {
+    "path": "skills/research/deep-research",
+    "repository": "userInner/SKILLS"
+  },
+  "type": "skill"
+}

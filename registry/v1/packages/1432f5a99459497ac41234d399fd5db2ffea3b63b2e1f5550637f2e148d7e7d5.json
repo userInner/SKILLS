@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Use this skill to monitor and verify a deployed URL after releases — checks HTTP endpoints, SSE streams, static assets, console errors, and performance regressions after deploys, merges, or dependency upgrades. Smoke / canary / post-deploy verification.",
+  "id": "github:affaan-m/ecc:skills/canary-watch",
+  "kind": "CapabilityPackage",
+  "name": "canary-watch",
+  "slug": "canary-watch--affaan-m-ecc",
+  "source": {
+    "path": "skills/canary-watch",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Review a diff for over-engineering. Finds what to delete: reinvented stdlib, needless deps, speculative abstractions. One line per finding.",
+  "id": "github:dietrichgebert/ponytail:.openclaw/skills/ponytail-review",
+  "kind": "CapabilityPackage",
+  "name": "ponytail-review",
+  "slug": "ponytail-review--dietrichgebert-ponytail",
+  "source": {
+    "path": ".openclaw/skills/ponytail-review",
+    "repository": "DietrichGebert/ponytail"
+  },
+  "type": "skill"
+}

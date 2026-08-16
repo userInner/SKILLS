@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Email for NCBI service identification.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/bioservices",
+  "kind": "CapabilityPackage",
+  "name": "bioservices",
+  "slug": "bioservices--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/bioservices",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

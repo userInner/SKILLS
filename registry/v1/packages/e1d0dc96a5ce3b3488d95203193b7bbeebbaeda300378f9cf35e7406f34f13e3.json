@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "product",
+  "description": "Identify risky assumptions for a feature idea in an existing product across Value, Usability, Viability, and Feasibility. Uses multi-perspective devil's advocate thinking. Use when stress-testing a feature idea, doing risk assessment, or preparing for assumption mapping.",
+  "id": "github:phuryn/pm-skills:pm-product-discovery/skills/identify-assumptions-existing",
+  "kind": "CapabilityPackage",
+  "name": "identify-assumptions-existing",
+  "slug": "identify-assumptions-existing--phuryn-pm-skills",
+  "source": {
+    "path": "pm-product-discovery/skills/identify-assumptions-existing",
+    "repository": "phuryn/pm-skills"
+  },
+  "type": "skill"
+}

@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Hunt for exploitable, bounty-worthy security issues in repositories. Focuses on remotely reachable vulnerabilities that qualify for real reports instead of noisy local-only findings. Use when hunting reportable, remotely reachable vulnerabilities in a repository.",
+  "id": "github:affaan-m/ecc:skills/security-bounty-hunter",
+  "kind": "CapabilityPackage",
+  "name": "security-bounty-hunter",
+  "slug": "security-bounty-hunter--affaan-m-ecc",
+  "source": {
+    "path": "skills/security-bounty-hunter",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

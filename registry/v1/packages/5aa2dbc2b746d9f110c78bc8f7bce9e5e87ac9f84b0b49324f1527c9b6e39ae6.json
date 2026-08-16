@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Use this skill to prevent destructive operations when working on production systems or running agents autonomously.",
+  "id": "github:affaan-m/ecc:skills/safety-guard",
+  "kind": "CapabilityPackage",
+  "name": "safety-guard",
+  "slug": "safety-guard--affaan-m-ecc",
+  "source": {
+    "path": "skills/safety-guard",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

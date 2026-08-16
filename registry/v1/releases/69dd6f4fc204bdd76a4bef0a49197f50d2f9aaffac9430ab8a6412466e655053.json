@@ -1,0 +1,63 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:254c40951cd40118e27b8e3661640453b36b488edc51d94257ea68a4b7b552ec",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/workflow/omero-integration--k-dense-ai-scientific-agent-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:254c40951cd40118e27b8e3661640453b36b488edc51d94257ea68a4b7b552ec",
+    "fileCount": 15,
+    "totalBytes": 144235
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:k-dense-ai/scientific-agent-skills:skills/omero-integration",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:69dd6f4fc204bdd76a4bef0a49197f50d2f9aaffac9430ab8a6412466e655053",
+  "security": {
+    "staticScan": {
+      "findings": [
+        {
+          "file": "advanced.md",
+          "rule": "privilege-escalation"
+        },
+        {
+          "file": "scripts.md",
+          "rule": "shell-eval"
+        },
+        {
+          "file": "tables.md",
+          "rule": "shell-eval"
+        }
+      ],
+      "status": "review"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "b2a92ba052dcae4ef48e850b9e31ebf75706be48",
+    "path": "skills/omero-integration",
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/b2a92ba052dcae4ef48e850b9e31ebf75706be48/skills/omero-integration"
+  },
+  "status": "needs-review"
+}

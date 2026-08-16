@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "product",
+  "description": "Design a detailed value proposition using a 6-part JTBD template — Who, Why, What before, How, What after, Alternatives. Use when creating a value proposition, analyzing customer value delivery, or articulating why customers should choose your product.",
+  "id": "github:phuryn/pm-skills:pm-product-strategy/skills/value-proposition",
+  "kind": "CapabilityPackage",
+  "name": "value-proposition",
+  "slug": "value-proposition--phuryn-pm-skills",
+  "source": {
+    "path": "pm-product-strategy/skills/value-proposition",
+    "repository": "phuryn/pm-skills"
+  },
+  "type": "skill"
+}

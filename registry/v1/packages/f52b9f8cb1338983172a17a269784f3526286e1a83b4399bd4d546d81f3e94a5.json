@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "design",
+  "description": "Create and audit truthful, accessible, publication-ready scientific figures with Matplotlib, Seaborn, or Plotly. Use for figure design, multi-panel layouts, uncertainty and missing-data displays, color/contrast review, image metadata validation, and journal export planning.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/scientific-visualization",
+  "kind": "CapabilityPackage",
+  "name": "scientific-visualization",
+  "slug": "scientific-visualization--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/scientific-visualization",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

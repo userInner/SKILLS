@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "research",
+  "description": "Structured scholarly-work evaluation for papers, proposals, literature reviews, methods sections, evidence quality, citation support, and research-writing feedback. Use when evaluating academic or scientific work — papers, proposals, methods sections, or evidence quality — against a repeatable rubric.",
+  "id": "github:affaan-m/ecc:skills/scientific-thinking-scholar-evaluation",
+  "kind": "CapabilityPackage",
+  "name": "scholar-evaluation",
+  "slug": "scholar-evaluation--affaan-m-ecc",
+  "source": {
+    "path": "skills/scientific-thinking-scholar-evaluation",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "product",
+  "description": "Discover and evaluate Laravel packages via LaraPlugins.io MCP. Use when the user wants to find plugins, check package health, or assess Laravel/PHP compatibility.",
+  "id": "github:affaan-m/ecc:skills/laravel-plugin-discovery",
+  "kind": "CapabilityPackage",
+  "name": "laravel-plugin-discovery",
+  "slug": "laravel-plugin-discovery--affaan-m-ecc",
+  "source": {
+    "path": "skills/laravel-plugin-discovery",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

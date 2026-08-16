@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Spring Security best practices for authn/authz, validation, CSRF, secrets, headers, rate limiting, and dependency security in Java Spring Boot services. Use when reviewing Spring Security authn/authz, validation, CSRF, secrets, headers, or rate limiting.",
+  "id": "github:affaan-m/ecc:skills/springboot-security",
+  "kind": "CapabilityPackage",
+  "name": "springboot-security",
+  "slug": "springboot-security--affaan-m-ecc--4114c901c5",
+  "source": {
+    "path": "skills/springboot-security",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

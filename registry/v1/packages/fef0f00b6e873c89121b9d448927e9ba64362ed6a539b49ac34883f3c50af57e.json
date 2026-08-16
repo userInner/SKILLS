@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": ">-",
+  "id": "github:affaan-m/ecc:skills/blueprint",
+  "kind": "CapabilityPackage",
+  "name": "blueprint",
+  "slug": "blueprint--affaan-m-ecc",
+  "source": {
+    "path": "skills/blueprint",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

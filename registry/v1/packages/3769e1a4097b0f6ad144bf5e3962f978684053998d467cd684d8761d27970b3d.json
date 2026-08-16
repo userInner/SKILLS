@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "research",
+  "description": "Prepare evidence-bounded, constructive peer-review drafts and structured manuscript assessments. Use for authorized review of scientific manuscripts, protocols, preprints, or research proposals; reporting-guideline selection; claim–evidence checks; methods, statistics, reproducibility, ethics, figure/table, and citation critique; or revision-response planning.",
+  "id": "github:userinner/skills:skills/research/peer-review",
+  "kind": "CapabilityPackage",
+  "name": "peer-review",
+  "slug": "peer-review",
+  "source": {
+    "path": "skills/research/peer-review",
+    "repository": "userInner/SKILLS"
+  },
+  "type": "skill"
+}

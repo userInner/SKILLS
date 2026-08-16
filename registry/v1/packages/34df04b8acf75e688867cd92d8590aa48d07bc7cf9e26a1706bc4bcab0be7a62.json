@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Idiomatic Rust patterns, ownership, error handling, traits, concurrency, and best practices for building safe, performant applications. Use when writing or reviewing Rust code and ownership, error handling, traits, or concurrency is in question.",
+  "id": "github:affaan-m/ecc:skills/rust-patterns",
+  "kind": "CapabilityPackage",
+  "name": "rust-patterns",
+  "slug": "rust-patterns--affaan-m-ecc",
+  "source": {
+    "path": "skills/rust-patterns",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

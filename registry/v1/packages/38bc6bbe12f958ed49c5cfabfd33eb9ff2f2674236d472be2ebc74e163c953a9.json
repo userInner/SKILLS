@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "design",
+  "description": "Generate transcriptome-wide virtual spatial transcriptomics from H&E histology with DeepSpot-M. Use when you need spatial gene expression in log1p-CPM for 224x224 tiles at about 20x, want to query protein-coding genes by symbol instead of a fixed panel, or want to run prediction across a whole slide after tiling with histolab.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/deepspot-m",
+  "kind": "CapabilityPackage",
+  "name": "deepspot-m",
+  "slug": "deepspot-m--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/deepspot-m",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "research",
+  "description": "Provide qualitative-first, evidence-traceable developmental review of scholarly works and audit low-stakes research-assessment rubrics with optional local quality controls. Never use for ranking people or consequential decisions.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/scholar-evaluation",
+  "kind": "CapabilityPackage",
+  "name": "scholar-evaluation",
+  "slug": "scholar-evaluation--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/scholar-evaluation",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

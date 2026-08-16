@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Suggests manual context compaction at logical intervals to preserve context through task phases rather than arbitrary auto-compaction. Use when a session is approaching a context limit and a task phase is a natural place to compact.",
+  "id": "github:affaan-m/ecc:.agents/skills/strategic-compact",
+  "kind": "CapabilityPackage",
+  "name": "strategic-compact",
+  "slug": "strategic-compact--affaan-m-ecc",
+  "source": {
+    "path": ".agents/skills/strategic-compact",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

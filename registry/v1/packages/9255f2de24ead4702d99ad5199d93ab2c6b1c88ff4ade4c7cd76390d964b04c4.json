@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Use this skill when adding authentication, handling user input, working with secrets, creating API endpoints, or implementing payment/sensitive features. Provides comprehensive security checklist and patterns.",
+  "id": "github:affaan-m/ecc:skills/security-review",
+  "kind": "CapabilityPackage",
+  "name": "security-review",
+  "slug": "security-review--affaan-m-ecc--6521251623",
+  "source": {
+    "path": "skills/security-review",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

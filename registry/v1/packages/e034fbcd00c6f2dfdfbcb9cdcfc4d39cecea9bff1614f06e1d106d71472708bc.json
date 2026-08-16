@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Show ponytail measured impact as a scoreboard: less code, less cost, more speed, from the benchmark medians. One-shot display.",
+  "id": "github:dietrichgebert/ponytail:.openclaw/skills/ponytail-gain",
+  "kind": "CapabilityPackage",
+  "name": "ponytail-gain",
+  "slug": "ponytail-gain--dietrichgebert-ponytail",
+  "source": {
+    "path": ".openclaw/skills/ponytail-gain",
+    "repository": "DietrichGebert/ponytail"
+  },
+  "type": "skill"
+}

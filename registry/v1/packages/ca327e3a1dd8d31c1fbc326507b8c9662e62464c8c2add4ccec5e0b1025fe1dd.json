@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "research",
+  "description": "USPTO patent and trademark data workflow for official record lookup, PatentSearch queries, TSDR checks, assignment data, and reproducible IP research logs. Use when a task needs official United States patent or trademark records from USPTO systems.",
+  "id": "github:affaan-m/ecc:skills/scientific-db-uspto-database",
+  "kind": "CapabilityPackage",
+  "name": "uspto-database",
+  "slug": "uspto-database--affaan-m-ecc",
+  "source": {
+    "path": "skills/scientific-db-uspto-database",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

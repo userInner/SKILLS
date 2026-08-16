@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "research",
+  "description": "Perform cohort analysis on user engagement data — retention curves, feature adoption trends, and segment-level insights. Use when analyzing user retention by cohort, studying feature adoption over time, investigating churn patterns, or identifying engagement trends.",
+  "id": "github:phuryn/pm-skills:pm-data-analytics/skills/cohort-analysis",
+  "kind": "CapabilityPackage",
+  "name": "cohort-analysis",
+  "slug": "cohort-analysis--phuryn-pm-skills",
+  "source": {
+    "path": "pm-data-analytics/skills/cohort-analysis",
+    "repository": "phuryn/pm-skills"
+  },
+  "type": "skill"
+}

@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "design",
+  "description": "Multi-objective optimization framework. NSGA-II, NSGA-III, MOEA/D, Pareto fronts, constraint handling, benchmarks (ZDT, DTLZ), for engineering design and optimization problems.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/pymoo",
+  "kind": "CapabilityPackage",
+  "name": "pymoo",
+  "slug": "pymoo--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/pymoo",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

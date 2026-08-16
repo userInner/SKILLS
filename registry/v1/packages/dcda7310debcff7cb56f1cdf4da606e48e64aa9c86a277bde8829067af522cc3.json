@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Perl testing patterns using Test2::V0, Test::More, prove runner, mocking, coverage with Devel::Cover, and TDD methodology. Use when writing Perl tests with Test2::V0 or Test::More, or measuring coverage.",
+  "id": "github:affaan-m/ecc:skills/perl-testing",
+  "kind": "CapabilityPackage",
+  "name": "perl-testing",
+  "slug": "perl-testing--affaan-m-ecc",
+  "source": {
+    "path": "skills/perl-testing",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

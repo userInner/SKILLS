@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Use this skill to automate visual testing and UI interaction verification using browser automation after deploying features.",
+  "id": "github:affaan-m/ecc:skills/browser-qa",
+  "kind": "CapabilityPackage",
+  "name": "browser-qa",
+  "slug": "browser-qa--affaan-m-ecc",
+  "source": {
+    "path": "skills/browser-qa",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

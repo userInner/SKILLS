@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": ">",
+  "id": "github:affaan-m/ecc:.kiro/skills/deployment-patterns",
+  "kind": "CapabilityPackage",
+  "name": "deployment-patterns",
+  "slug": "deployment-patterns--affaan-m-ecc",
+  "source": {
+    "path": ".kiro/skills/deployment-patterns",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

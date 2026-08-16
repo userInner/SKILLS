@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "product",
+  "description": "Analyze competitors with strengths, weaknesses, and differentiation opportunities. Identifies direct competitors and maps the competitive landscape. Use when doing competitive research, preparing a competitive brief, or finding differentiation opportunities.",
+  "id": "github:userinner/skills:skills/product/competitor-analysis",
+  "kind": "CapabilityPackage",
+  "name": "competitor-analysis",
+  "slug": "competitor-analysis",
+  "source": {
+    "path": "skills/product/competitor-analysis",
+    "repository": "userInner/SKILLS"
+  },
+  "type": "skill"
+}

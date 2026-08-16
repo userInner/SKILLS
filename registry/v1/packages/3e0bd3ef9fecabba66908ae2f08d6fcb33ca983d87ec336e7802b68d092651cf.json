@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation.",
+  "id": "github:userinner/skills:skills/workflow/brainstorming",
+  "kind": "CapabilityPackage",
+  "name": "brainstorming",
+  "slug": "brainstorming",
+  "source": {
+    "path": "skills/workflow/brainstorming",
+    "repository": "userInner/SKILLS"
+  },
+  "type": "skill"
+}

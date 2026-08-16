@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "research",
+  "description": "Analyze user feedback data to identify segments with sentiment scores, JTBD, and product satisfaction insights. Use when analyzing user feedback at scale, running sentiment analysis on reviews or surveys, or identifying satisfaction patterns.",
+  "id": "github:phuryn/pm-skills:pm-market-research/skills/sentiment-analysis",
+  "kind": "CapabilityPackage",
+  "name": "sentiment-analysis",
+  "slug": "sentiment-analysis--phuryn-pm-skills",
+  "source": {
+    "path": "pm-market-research/skills/sentiment-analysis",
+    "repository": "phuryn/pm-skills"
+  },
+  "type": "skill"
+}

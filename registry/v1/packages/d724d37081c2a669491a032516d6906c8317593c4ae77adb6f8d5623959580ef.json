@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": ">-",
+  "id": "github:affaan-m/ecc:skills/token-budget-advisor",
+  "kind": "CapabilityPackage",
+  "name": "token-budget-advisor",
+  "slug": "token-budget-advisor--affaan-m-ecc",
+  "source": {
+    "path": "skills/token-budget-advisor",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

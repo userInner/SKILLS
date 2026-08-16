@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:7e0da7c25d7bcbe9ead5d2c56cb3de0de9a8eface5524285cf420a2e900e28da",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/research/paperzilla--k-dense-ai-scientific-agent-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:7e0da7c25d7bcbe9ead5d2c56cb3de0de9a8eface5524285cf420a2e900e28da",
+    "fileCount": 1,
+    "totalBytes": 3745
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:k-dense-ai/scientific-agent-skills:skills/paperzilla",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:a9a142b7629e68d37dd6e82313acc7b296e2d13fc768edbbb0bd163e093afb37",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "b2a92ba052dcae4ef48e850b9e31ebf75706be48",
+    "path": "skills/paperzilla",
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/b2a92ba052dcae4ef48e850b9e31ebf75706be48/skills/paperzilla"
+  },
+  "status": "extracted"
+}

@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Laravel architecture patterns, routing/controllers, Eloquent ORM, service layers, queues, events, caching, and API resources for production apps. Use when building or reviewing Laravel apps — controllers, Eloquent, service layers, queues, or API resources.",
+  "id": "github:affaan-m/ecc:skills/laravel-patterns",
+  "kind": "CapabilityPackage",
+  "name": "laravel-patterns",
+  "slug": "laravel-patterns--affaan-m-ecc",
+  "source": {
+    "path": "skills/laravel-patterns",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:3f361c22323f2818ac30e1ddee1ed6ac0a8322d7f3ba7b458122b83ead23ba58",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/design/genomic-coordinates--k-dense-ai-scientific-agent-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:3f361c22323f2818ac30e1ddee1ed6ac0a8322d7f3ba7b458122b83ead23ba58",
+    "fileCount": 10,
+    "totalBytes": 103607
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:k-dense-ai/scientific-agent-skills:skills/genomic-coordinates",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:69df123dadfb8b6a25d7ec6e2a5b8982dcf9aa7c498a384bde9b7cfc1d7adc4f",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "b2a92ba052dcae4ef48e850b9e31ebf75706be48",
+    "path": "skills/genomic-coordinates",
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/b2a92ba052dcae4ef48e850b9e31ebf75706be48/skills/genomic-coordinates"
+  },
+  "status": "extracted"
+}

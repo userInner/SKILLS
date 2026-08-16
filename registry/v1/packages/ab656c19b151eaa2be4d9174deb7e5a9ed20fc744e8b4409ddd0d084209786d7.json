@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Interactive agent picker for composing and dispatching parallel teams. Use when composing and dispatching a parallel team of agents for a task.",
+  "id": "github:affaan-m/ecc:skills/team-builder",
+  "kind": "CapabilityPackage",
+  "name": "team-builder",
+  "slug": "team-builder--affaan-m-ecc",
+  "source": {
+    "path": "skills/team-builder",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

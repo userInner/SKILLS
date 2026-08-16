@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Plan a sprint with capacity estimation, story selection, dependency mapping, and risk identification. Use when preparing for sprint planning, estimating team capacity, selecting stories, or balancing sprint scope against velocity.",
+  "id": "github:phuryn/pm-skills:pm-execution/skills/sprint-plan",
+  "kind": "CapabilityPackage",
+  "name": "sprint-plan",
+  "slug": "sprint-plan--phuryn-pm-skills",
+  "source": {
+    "path": "pm-execution/skills/sprint-plan",
+    "repository": "phuryn/pm-skills"
+  },
+  "type": "skill"
+}

@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Build persistent multi-agent operating systems on Claude Code. Covers kernel architecture, specialist agents, slash commands, file-based memory, scheduled automation, and state management without external databases. Use when building a persistent multi-agent system on Claude Code with its own memory, commands, and scheduling.",
+  "id": "github:affaan-m/ecc:skills/agentic-os",
+  "kind": "CapabilityPackage",
+  "name": "agentic-os",
+  "slug": "agentic-os--affaan-m-ecc",
+  "source": {
+    "path": "skills/agentic-os",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

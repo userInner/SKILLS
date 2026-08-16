@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "writing",
+  "description": "|",
+  "id": "github:userinner/skills:skills/writing/humanizer",
+  "kind": "CapabilityPackage",
+  "name": "humanizer",
+  "slug": "humanizer",
+  "source": {
+    "path": "skills/writing/humanizer",
+    "repository": "userInner/SKILLS"
+  },
+  "type": "skill"
+}

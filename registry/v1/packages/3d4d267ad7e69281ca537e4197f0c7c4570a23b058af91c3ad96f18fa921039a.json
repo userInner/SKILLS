@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "research",
+  "description": "Formulate evidence-bounded scientific questions, candidate hypotheses, rival explanations, causal or associational claims, discriminating predictions, measurements, and preregistration-ready analysis plans. Use when turning observations or preliminary findings into transparent, testable research plans without treating hypotheses as facts.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/hypothesis-generation",
+  "kind": "CapabilityPackage",
+  "name": "hypothesis-generation",
+  "slug": "hypothesis-generation--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/hypothesis-generation",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

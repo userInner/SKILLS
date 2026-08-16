@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "design",
+  "description": "Design, implement, and refactor Ports & Adapters systems with clear domain boundaries, dependency inversion, and testable use-case orchestration across TypeScript, Java, Kotlin, and Go services. Use when introducing or refactoring toward Ports and Adapters, or when domain logic has become entangled with I/O.",
+  "id": "github:affaan-m/ecc:skills/hexagonal-architecture",
+  "kind": "CapabilityPackage",
+  "name": "hexagonal-architecture",
+  "slug": "hexagonal-architecture--affaan-m-ecc",
+  "source": {
+    "path": "skills/hexagonal-architecture",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

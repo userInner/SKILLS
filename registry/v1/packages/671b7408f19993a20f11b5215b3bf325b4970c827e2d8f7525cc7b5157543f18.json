@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "growth",
+  "description": "Cache expensive file processing results using SHA-256 content hashes — path-independent, auto-invalidating, with service layer separation.",
+  "id": "github:affaan-m/ecc:.kiro/skills/content-hash-cache-pattern",
+  "kind": "CapabilityPackage",
+  "name": "content-hash-cache-pattern",
+  "slug": "content-hash-cache-pattern--affaan-m-ecc",
+  "source": {
+    "path": ".kiro/skills/content-hash-cache-pattern",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:ae559d7004be21d6d848dd4d20e1d70336e8652a92896570b2f90debe4a61748",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/design/pathway-enrichment--k-dense-ai-scientific-agent-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:ae559d7004be21d6d848dd4d20e1d70336e8652a92896570b2f90debe4a61748",
+    "fileCount": 5,
+    "totalBytes": 41305
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:k-dense-ai/scientific-agent-skills:skills/pathway-enrichment",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:aa61c0893c46d5ff1b9f6d20e7da6fa89da1b2efb1c20144fd54b52e04714169",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "b2a92ba052dcae4ef48e850b9e31ebf75706be48",
+    "path": "skills/pathway-enrichment",
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/b2a92ba052dcae4ef48e850b9e31ebf75706be48/skills/pathway-enrichment"
+  },
+  "status": "extracted"
+}

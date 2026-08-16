@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Verification loop for Quarkus projects: build, static analysis, tests with coverage, security scans, native compilation, and diff review before release or PR.",
+  "id": "github:affaan-m/ecc:skills/quarkus-verification",
+  "kind": "CapabilityPackage",
+  "name": "quarkus-verification",
+  "slug": "quarkus-verification--affaan-m-ecc",
+  "source": {
+    "path": "skills/quarkus-verification",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

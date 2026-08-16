@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Analyze and engineer protein glycosylation. Scan sequences for N-glycosylation sequons (N-X-S/T), predict O-glycosylation hotspots, and access curated glycoengineering tools (NetOGlyc, GlycoShield, GlycoWorkbench). For glycoprotein engineering, therapeutic antibody optimization, and vaccine design.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/glycoengineering",
+  "kind": "CapabilityPackage",
+  "name": "glycoengineering",
+  "slug": "glycoengineering--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/glycoengineering",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Create product backlog items in Why-What-Acceptance format — independent, valuable, testable items with strategic context. Use when writing structured backlog items, breaking features into work items, or using the WWA format.",
+  "id": "github:phuryn/pm-skills:pm-execution/skills/wwas",
+  "kind": "CapabilityPackage",
+  "name": "wwas",
+  "slug": "wwas--phuryn-pm-skills",
+  "source": {
+    "path": "pm-execution/skills/wwas",
+    "repository": "phuryn/pm-skills"
+  },
+  "type": "skill"
+}

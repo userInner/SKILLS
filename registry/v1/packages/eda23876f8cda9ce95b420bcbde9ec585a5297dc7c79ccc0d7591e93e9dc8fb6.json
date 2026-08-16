@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Create CodeTour `.tour` files — persona-targeted, step-by-step walkthroughs with real file and line anchors. Use for onboarding tours, architecture walkthroughs, PR tours, RCA tours, and structured \"explain how this works\" requests. Use when the user asks for a code tour, onboarding walkthrough, PR tour, or an explanation of how a subsystem works.",
+  "id": "github:affaan-m/ecc:skills/code-tour",
+  "kind": "CapabilityPackage",
+  "name": "code-tour",
+  "slug": "code-tour--affaan-m-ecc",
+  "source": {
+    "path": "skills/code-tour",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

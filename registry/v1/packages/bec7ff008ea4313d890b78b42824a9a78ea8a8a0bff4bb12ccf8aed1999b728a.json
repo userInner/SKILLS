@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Database migration best practices for schema changes, data migrations, rollbacks, and zero-downtime deployments across PostgreSQL, MySQL, and common ORMs (Prisma, Drizzle, Kysely, Django, TypeORM, golang-migrate). Use when writing a schema or data migration, planning a rollback, or aiming for zero-downtime deployment.",
+  "id": "github:affaan-m/ecc:skills/database-migrations",
+  "kind": "CapabilityPackage",
+  "name": "database-migrations",
+  "slug": "database-migrations--affaan-m-ecc--49d0ee763f",
+  "source": {
+    "path": "skills/database-migrations",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

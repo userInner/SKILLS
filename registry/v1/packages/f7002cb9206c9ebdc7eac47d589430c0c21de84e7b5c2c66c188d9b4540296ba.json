@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "design",
+  "description": "OpenRouter API key used for image generation.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/generate-image",
+  "kind": "CapabilityPackage",
+  "name": "generate-image",
+  "slug": "generate-image--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/generate-image",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

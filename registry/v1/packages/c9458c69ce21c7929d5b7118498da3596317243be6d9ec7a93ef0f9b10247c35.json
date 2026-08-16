@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": ">",
+  "id": "github:affaan-m/ecc:.kiro/skills/agentic-engineering",
+  "kind": "CapabilityPackage",
+  "name": "agentic-engineering",
+  "slug": "agentic-engineering--affaan-m-ecc",
+  "source": {
+    "path": ".kiro/skills/agentic-engineering",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

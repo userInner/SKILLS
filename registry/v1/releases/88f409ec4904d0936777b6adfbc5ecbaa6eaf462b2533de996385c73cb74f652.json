@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:dfffdf505f4dfc50314196ae572f7864d4252f702be427673a02bd68a5ed5a88",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/product/value-proposition--phuryn-pm-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:dfffdf505f4dfc50314196ae572f7864d4252f702be427673a02bd68a5ed5a88",
+    "fileCount": 1,
+    "totalBytes": 5836
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:phuryn/pm-skills:pm-product-strategy/skills/value-proposition",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:88f409ec4904d0936777b6adfbc5ecbaa6eaf462b2533de996385c73cb74f652",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "18468a95b427e70e258b51389796367c6f684e7d",
+    "path": "pm-product-strategy/skills/value-proposition",
+    "repository": "phuryn/pm-skills",
+    "url": "https://github.com/phuryn/pm-skills/tree/18468a95b427e70e258b51389796367c6f684e7d/pm-product-strategy/skills/value-proposition"
+  },
+  "status": "extracted"
+}

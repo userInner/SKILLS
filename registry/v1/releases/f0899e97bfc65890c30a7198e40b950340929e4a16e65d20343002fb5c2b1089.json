@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:92f909eddf3b371e4737a85f60a8024cec6ae5cfb523561b8c56f86fcf3f52b0",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/workflow/ponytail-help--dietrichgebert-ponytail--92f909eddf"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:92f909eddf3b371e4737a85f60a8024cec6ae5cfb523561b8c56f86fcf3f52b0",
+    "fileCount": 1,
+    "totalBytes": 2796
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:dietrichgebert/ponytail:skills/ponytail-help",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:f0899e97bfc65890c30a7198e40b950340929e4a16e65d20343002fb5c2b1089",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "2ed6c52c9d7e5e56942508591085fd45dea277d3",
+    "path": "skills/ponytail-help",
+    "repository": "DietrichGebert/ponytail",
+    "url": "https://github.com/DietrichGebert/ponytail/tree/2ed6c52c9d7e5e56942508591085fd45dea277d3/skills/ponytail-help"
+  },
+  "status": "extracted"
+}

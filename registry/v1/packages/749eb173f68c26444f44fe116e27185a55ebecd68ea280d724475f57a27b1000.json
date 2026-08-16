@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "design",
+  "description": "Builds production-quality, accessible, responsive user-facing UIs. Use when building or modifying interfaces and pages, creating components, implementing layouts, meeting WCAG accessibility requirements, managing state, or when the output needs to look and feel production-quality rather than AI-generated.",
+  "id": "github:addyosmani/agent-skills:skills/frontend-ui-engineering",
+  "kind": "CapabilityPackage",
+  "name": "frontend-ui-engineering",
+  "slug": "frontend-ui-engineering--addyosmani-agent-skills",
+  "source": {
+    "path": "skills/frontend-ui-engineering",
+    "repository": "addyosmani/agent-skills"
+  },
+  "type": "skill"
+}

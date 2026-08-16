@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Process, clean, compare, and search tandem mass spectra with matchms. Use for MS/MS file I/O, metadata harmonization, peak filtering, spectral similarity, library matching, score matrices, and molecular-similarity networks. Use pyopenms instead for LC-MS feature detection or proteomics pipelines.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/matchms",
+  "kind": "CapabilityPackage",
+  "name": "matchms",
+  "slug": "matchms--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/matchms",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

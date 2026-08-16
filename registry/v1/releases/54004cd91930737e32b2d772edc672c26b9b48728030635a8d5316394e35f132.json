@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:b9005a11a5dfa17f3538bba1e2cf396ebd4b879ff287fd4fa8f1293ffec6d018",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/product/production-scheduling--affaan-m-ecc"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:b9005a11a5dfa17f3538bba1e2cf396ebd4b879ff287fd4fa8f1293ffec6d018",
+    "fileCount": 1,
+    "totalBytes": 28577
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:affaan-m/ecc:skills/production-scheduling",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:54004cd91930737e32b2d772edc672c26b9b48728030635a8d5316394e35f132",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "path": "skills/production-scheduling",
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC/tree/c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8/skills/production-scheduling"
+  },
+  "status": "extracted"
+}

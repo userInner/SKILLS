@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Use Therapeutics Data Commons through the PyTDC Python package for registry discovery, approved dataset access, task-aware splits, evaluator metrics, benchmark groups, and bounded molecular-oracle workflows.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/pytdc",
+  "kind": "CapabilityPackage",
+  "name": "pytdc",
+  "slug": "pytdc--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/pytdc",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

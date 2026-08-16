@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Use when completing tasks, implementing major features, or before merging to verify work meets requirements",
+  "id": "github:obra/superpowers:skills/requesting-code-review",
+  "kind": "CapabilityPackage",
+  "name": "requesting-code-review",
+  "slug": "requesting-code-review--obra-superpowers",
+  "source": {
+    "path": "skills/requesting-code-review",
+    "repository": "obra/superpowers"
+  },
+  "type": "skill"
+}

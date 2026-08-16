@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:9ec91734e032e929edca2dcc19c225462857fb9519dcc071983a28bdbfa1ccdf",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "skills/workflow/receiving-code-review"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:9ec91734e032e929edca2dcc19c225462857fb9519dcc071983a28bdbfa1ccdf",
+    "fileCount": 4,
+    "totalBytes": 8253
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "unknown",
+    "spdx": "see-package"
+  },
+  "packageId": "github:userinner/skills:skills/workflow/receiving-code-review",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:ba880c8f9ec716fca8aac27b420a4a13f2fb1bf8bf78279dd779309d67b771b2",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "362c2197eccdb7e952e0e2dfd80bef939d34cfe5",
+    "path": "skills/workflow/receiving-code-review",
+    "repository": "userInner/SKILLS",
+    "url": "https://github.com/userInner/SKILLS/tree/362c2197eccdb7e952e0e2dfd80bef939d34cfe5/skills/workflow/receiving-code-review"
+  },
+  "status": "direct"
+}

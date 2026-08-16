@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Use when multiple consumers and providers must evolve an API or event schema without field drift, integration surprises, or one side silently redefining the interface.",
+  "id": "github:affaan-m/ecc:skills/contract-first",
+  "kind": "CapabilityPackage",
+  "name": "contract-first",
+  "slug": "contract-first--affaan-m-ecc",
+  "source": {
+    "path": "skills/contract-first",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

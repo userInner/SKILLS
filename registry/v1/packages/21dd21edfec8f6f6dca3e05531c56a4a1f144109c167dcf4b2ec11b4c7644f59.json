@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "writing",
+  "description": "Machine learning in Python with scikit-learn. Use when working with supervised learning (classification, regression), unsupervised learning (clustering, dimensionality reduction), model evaluation, hyperparameter tuning, preprocessing, or building ML pipelines. Provides comprehensive reference documentation for algorithms, preprocessing techniques, pipelines, and best practices.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/scikit-learn",
+  "kind": "CapabilityPackage",
+  "name": "scikit-learn",
+  "slug": "scikit-learn--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/scikit-learn",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

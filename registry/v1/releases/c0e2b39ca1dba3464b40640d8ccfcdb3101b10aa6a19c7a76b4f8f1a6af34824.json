@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:86f3772687aa5633b7a16db0f21d235210d484b11c812ad5fa947cb2e5161f19",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "skills/engineering/eval-harness"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:86f3772687aa5633b7a16db0f21d235210d484b11c812ad5fa947cb2e5161f19",
+    "fileCount": 4,
+    "totalBytes": 7774
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "unknown",
+    "spdx": "see-package"
+  },
+  "packageId": "github:userinner/skills:skills/engineering/eval-harness",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:c0e2b39ca1dba3464b40640d8ccfcdb3101b10aa6a19c7a76b4f8f1a6af34824",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "f919ee8605d120fe32fb44b23dd50339089317de",
+    "path": "skills/engineering/eval-harness",
+    "repository": "userInner/SKILLS",
+    "url": "https://github.com/userInner/SKILLS/tree/f919ee8605d120fe32fb44b23dd50339089317de/skills/engineering/eval-harness"
+  },
+  "status": "direct"
+}

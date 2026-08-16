@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "X/Twitter API integration for posting tweets, threads, reading timelines, search, and analytics. Covers OAuth auth patterns, rate limits, and platform-native content posting. Use when the user wants to interact with X programmatically.",
+  "id": "github:affaan-m/ecc:skills/x-api",
+  "kind": "CapabilityPackage",
+  "name": "x-api",
+  "slug": "x-api--affaan-m-ecc--2319c264fc",
+  "source": {
+    "path": "skills/x-api",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "design",
+  "description": "Teaches the AI to design like a high-end agency. Defines the exact fonts, spacing, shadows, card structures, and animations that make a website feel expensive. Blocks all the common defaults that make AI designs look cheap or generic.",
+  "id": "github:leonxlnx/taste-skill:skills/soft-skill",
+  "kind": "CapabilityPackage",
+  "name": "high-end-visual-design",
+  "slug": "high-end-visual-design--leonxlnx-taste-skill",
+  "source": {
+    "path": "skills/soft-skill",
+    "repository": "Leonxlnx/taste-skill"
+  },
+  "type": "skill"
+}

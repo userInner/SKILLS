@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "growth",
+  "description": "Build a source-derived writing style profile from real posts, essays, launch notes, docs, or site copy, then reuse that profile across content, outreach, and social workflows. Use when the user wants voice consistency without generic AI writing tropes.",
+  "id": "github:affaan-m/ecc:skills/brand-voice",
+  "kind": "CapabilityPackage",
+  "name": "brand-voice",
+  "slug": "brand-voice--affaan-m-ecc",
+  "source": {
+    "path": "skills/brand-voice",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

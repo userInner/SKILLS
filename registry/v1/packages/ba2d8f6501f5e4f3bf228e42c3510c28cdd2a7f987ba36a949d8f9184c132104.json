@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "design",
+  "description": "Statistical visualization with pandas integration. Use for quick exploration of distributions, relationships, and categorical comparisons with attractive defaults. Best for box plots, violin plots, pair plots, heatmaps. Built on matplotlib. For interactive plots use plotly; for publication styling use scientific-visualization.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/seaborn",
+  "kind": "CapabilityPackage",
+  "name": "seaborn",
+  "slug": "seaborn--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/seaborn",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

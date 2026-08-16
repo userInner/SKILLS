@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": ">",
+  "id": "github:affaan-m/ecc:.kiro/skills/python-patterns",
+  "kind": "CapabilityPackage",
+  "name": "python-patterns",
+  "slug": "python-patterns--affaan-m-ecc",
+  "source": {
+    "path": ".kiro/skills/python-patterns",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": ">",
+  "id": "github:affaan-m/ecc:.kiro/skills/e2e-testing",
+  "kind": "CapabilityPackage",
+  "name": "e2e-testing",
+  "slug": "e2e-testing--affaan-m-ecc--c87ba3ba67",
+  "source": {
+    "path": ".kiro/skills/e2e-testing",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:31b1f669dce6ae6c1c85c6e34be65d249cae3c4d9ce1dff50f727e6613d9a02c",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/research/ontology-term-resolution--k-dense-ai-scientific-agent-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:31b1f669dce6ae6c1c85c6e34be65d249cae3c4d9ce1dff50f727e6613d9a02c",
+    "fileCount": 7,
+    "totalBytes": 55382
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:k-dense-ai/scientific-agent-skills:skills/ontology-term-resolution",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:ca6479559db9a5ba2ad5ae2ece89a64999c41e73833f39be8b7d860e0de6348b",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "b2a92ba052dcae4ef48e850b9e31ebf75706be48",
+    "path": "skills/ontology-term-resolution",
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/b2a92ba052dcae4ef48e850b9e31ebf75706be48/skills/ontology-term-resolution"
+  },
+  "status": "extracted"
+}

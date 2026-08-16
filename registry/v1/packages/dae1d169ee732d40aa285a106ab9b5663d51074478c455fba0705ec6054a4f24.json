@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Pythonic idioms, PEP 8 standards, type hints, and best practices for building robust, efficient, and maintainable Python applications. Use when writing or reviewing Python code and idiomatic structure, typing, or PEP 8 is in question.",
+  "id": "github:affaan-m/ecc:skills/python-patterns",
+  "kind": "CapabilityPackage",
+  "name": "python-patterns",
+  "slug": "python-patterns--affaan-m-ecc",
+  "source": {
+    "path": "skills/python-patterns",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

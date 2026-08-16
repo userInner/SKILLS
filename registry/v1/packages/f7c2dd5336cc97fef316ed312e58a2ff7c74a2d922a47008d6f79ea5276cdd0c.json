@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "growth",
+  "description": "Generate value proposition statements for marketing, sales, and onboarding from existing value propositions. Use when writing marketing copy, creating sales messaging, or crafting onboarding messages.",
+  "id": "github:phuryn/pm-skills:pm-marketing-growth/skills/value-prop-statements",
+  "kind": "CapabilityPackage",
+  "name": "value-prop-statements",
+  "slug": "value-prop-statements--phuryn-pm-skills",
+  "source": {
+    "path": "pm-marketing-growth/skills/value-prop-statements",
+    "repository": "phuryn/pm-skills"
+  },
+  "type": "skill"
+}

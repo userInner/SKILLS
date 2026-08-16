@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:54738e4e7fc20dc4a688f34784706fe0bc10cfc31a4604fbb981b8e5ee30284f",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "skills/engineering/context-engineering"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:54738e4e7fc20dc4a688f34784706fe0bc10cfc31a4604fbb981b8e5ee30284f",
+    "fileCount": 4,
+    "totalBytes": 13121
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "unknown",
+    "spdx": "see-package"
+  },
+  "packageId": "github:userinner/skills:skills/engineering/context-engineering",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:c696bb9214d359409742f8992c0b5a7fbbf443e666ea4267e3f1925f41602653",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "362c2197eccdb7e952e0e2dfd80bef939d34cfe5",
+    "path": "skills/engineering/context-engineering",
+    "repository": "userInner/SKILLS",
+    "url": "https://github.com/userInner/SKILLS/tree/362c2197eccdb7e952e0e2dfd80bef939d34cfe5/skills/engineering/context-engineering"
+  },
+  "status": "direct"
+}

@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:37431186aa173c65bb52c7afece0b317cb7353ff550df80742d3b4338b3581af",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/design/frontend-design-direction--affaan-m-ecc"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:37431186aa173c65bb52c7afece0b317cb7353ff550df80742d3b4338b3581af",
+    "fileCount": 1,
+    "totalBytes": 4360
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:affaan-m/ecc:skills/frontend-design-direction",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:e9af948f1815826780655c190bbf78e0f2f82cb256dc42bcec12e6b18bf2a1b7",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "path": "skills/frontend-design-direction",
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC/tree/c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8/skills/frontend-design-direction"
+  },
+  "status": "extracted"
+}

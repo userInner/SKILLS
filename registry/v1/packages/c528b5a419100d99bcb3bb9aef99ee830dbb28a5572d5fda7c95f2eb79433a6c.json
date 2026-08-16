@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Security checklist for Solidity AMM contracts, liquidity pools, and swap flows. Covers reentrancy, CEI ordering, donation or inflation attacks, oracle manipulation, slippage, admin controls, and integer math. Use when auditing or writing Solidity AMM, liquidity pool, or swap code.",
+  "id": "github:affaan-m/ecc:skills/defi-amm-security",
+  "kind": "CapabilityPackage",
+  "name": "defi-amm-security",
+  "slug": "defi-amm-security--affaan-m-ecc",
+  "source": {
+    "path": "skills/defi-amm-security",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

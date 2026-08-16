@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Cheminformatics toolkit for fine-grained molecular control. SMILES/SDF parsing, descriptors (MW, LogP, TPSA), fingerprints, substructure search, 2D/3D generation, similarity, reactions. For standard workflows with simpler interface, use datamol (wrapper around RDKit). Use rdkit for advanced control, custom sanitization, specialized algorithms.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/rdkit",
+  "kind": "CapabilityPackage",
+  "name": "rdkit",
+  "slug": "rdkit--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/rdkit",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

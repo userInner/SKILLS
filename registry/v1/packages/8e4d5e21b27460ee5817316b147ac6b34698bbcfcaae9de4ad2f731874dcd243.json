@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "research",
+  "description": "Evidence-first current-state research workflow for ECC. Use when the user wants fresh facts, comparisons, enrichment, or a recommendation built from current public evidence and any supplied local context.",
+  "id": "github:affaan-m/ecc:skills/research-ops",
+  "kind": "CapabilityPackage",
+  "name": "research-ops",
+  "slug": "research-ops--affaan-m-ecc",
+  "source": {
+    "path": "skills/research-ops",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

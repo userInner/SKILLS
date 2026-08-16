@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "HIPAA-specific entrypoint for healthcare privacy and security work. Use when a task is explicitly framed around HIPAA, PHI handling, covered entities, BAAs, breach posture, or US healthcare compliance requirements.",
+  "id": "github:affaan-m/ecc:skills/hipaa-compliance",
+  "kind": "CapabilityPackage",
+  "name": "hipaa-compliance",
+  "slug": "hipaa-compliance--affaan-m-ecc",
+  "source": {
+    "path": "skills/hipaa-compliance",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

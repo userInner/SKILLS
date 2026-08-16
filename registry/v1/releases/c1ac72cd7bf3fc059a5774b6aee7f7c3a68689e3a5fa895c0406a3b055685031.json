@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:86e644ec5e6b568bfe0c3806679c4eee7eed3681a6d758937e697d806c78cf0f",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/design/pathogen-variant-surveillance--k-dense-ai-scientific-agent-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:86e644ec5e6b568bfe0c3806679c4eee7eed3681a6d758937e697d806c78cf0f",
+    "fileCount": 9,
+    "totalBytes": 104694
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:k-dense-ai/scientific-agent-skills:skills/pathogen-variant-surveillance",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:c1ac72cd7bf3fc059a5774b6aee7f7c3a68689e3a5fa895c0406a3b055685031",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "b2a92ba052dcae4ef48e850b9e31ebf75706be48",
+    "path": "skills/pathogen-variant-surveillance",
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/b2a92ba052dcae4ef48e850b9e31ebf75706be48/skills/pathogen-variant-surveillance"
+  },
+  "status": "extracted"
+}

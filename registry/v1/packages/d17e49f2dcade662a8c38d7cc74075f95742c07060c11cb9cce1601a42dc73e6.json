@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Operate and extend NanoClaw v2, ECC's zero-dependency session-aware REPL built on claude -p. Use when operating or extending the NanoClaw REPL.",
+  "id": "github:affaan-m/ecc:skills/nanoclaw-repl",
+  "kind": "CapabilityPackage",
+  "name": "nanoclaw-repl",
+  "slug": "nanoclaw-repl--affaan-m-ecc",
+  "source": {
+    "path": "skills/nanoclaw-repl",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

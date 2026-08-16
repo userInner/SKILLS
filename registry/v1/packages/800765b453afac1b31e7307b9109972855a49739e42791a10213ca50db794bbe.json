@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Guide users through ECC's current agents, skills, commands, hooks, rules, install profiles, and project onboarding by reading the live repository surface before answering.",
+  "id": "github:affaan-m/ecc:skills/ecc-guide",
+  "kind": "CapabilityPackage",
+  "name": "ecc-guide",
+  "slug": "ecc-guide--affaan-m-ecc",
+  "source": {
+    "path": "skills/ecc-guide",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

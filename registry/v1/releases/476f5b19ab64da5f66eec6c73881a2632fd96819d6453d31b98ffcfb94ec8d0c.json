@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:35139dfe9a8e513b4022a0c2a2247d973420deedd24df62c1ebd7320eba93ff3",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/product/startup-canvas--phuryn-pm-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:35139dfe9a8e513b4022a0c2a2247d973420deedd24df62c1ebd7320eba93ff3",
+    "fileCount": 1,
+    "totalBytes": 6346
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:phuryn/pm-skills:pm-product-strategy/skills/startup-canvas",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:476f5b19ab64da5f66eec6c73881a2632fd96819d6453d31b98ffcfb94ec8d0c",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "18468a95b427e70e258b51389796367c6f684e7d",
+    "path": "pm-product-strategy/skills/startup-canvas",
+    "repository": "phuryn/pm-skills",
+    "url": "https://github.com/phuryn/pm-skills/tree/18468a95b427e70e258b51389796367c6f684e7d/pm-product-strategy/skills/startup-canvas"
+  },
+  "status": "extracted"
+}

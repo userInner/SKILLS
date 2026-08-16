@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Orchestrate building a brand-new feature end to end — research, plan, TDD implementation, review, and gated commit — by delegating each phase to the matching ECC agent. Use when adding a capability that does not exist yet.",
+  "id": "github:affaan-m/ecc:skills/orch-add-feature",
+  "kind": "CapabilityPackage",
+  "name": "orch-add-feature",
+  "slug": "orch-add-feature--affaan-m-ecc",
+  "source": {
+    "path": "skills/orch-add-feature",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

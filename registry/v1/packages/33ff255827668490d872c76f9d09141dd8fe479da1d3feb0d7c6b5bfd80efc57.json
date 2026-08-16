@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Apply concrete design-engineering details that make interfaces feel polished. Use when reviewing or improving UI spacing, typography, borders, shadows, motion, hit areas, icons, text wrapping, and interaction states.",
+  "id": "github:affaan-m/ecc:skills/make-interfaces-feel-better",
+  "kind": "CapabilityPackage",
+  "name": "make-interfaces-feel-better",
+  "slug": "make-interfaces-feel-better--affaan-m-ecc",
+  "source": {
+    "path": "skills/make-interfaces-feel-better",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

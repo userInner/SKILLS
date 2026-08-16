@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Install, detect, and operate the optional Nasiko agent control plane through ECC with pinned artifacts, explicit consent, and telemetry and secrets boundaries.",
+  "id": "github:affaan-m/ecc:skills/nasiko-control-plane",
+  "kind": "CapabilityPackage",
+  "name": "nasiko-control-plane",
+  "slug": "nasiko-control-plane--affaan-m-ecc",
+  "source": {
+    "path": "skills/nasiko-control-plane",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

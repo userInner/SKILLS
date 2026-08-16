@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "writing",
+  "description": "Summarize a meeting transcript into structured notes with date, participants, topic, key decisions, summary points, and action items. Use when processing meeting recordings, creating meeting notes, writing meeting minutes, or recapping discussions.",
+  "id": "github:phuryn/pm-skills:pm-execution/skills/summarize-meeting",
+  "kind": "CapabilityPackage",
+  "name": "summarize-meeting",
+  "slug": "summarize-meeting--phuryn-pm-skills",
+  "source": {
+    "path": "pm-execution/skills/summarize-meeting",
+    "repository": "phuryn/pm-skills"
+  },
+  "type": "skill"
+}

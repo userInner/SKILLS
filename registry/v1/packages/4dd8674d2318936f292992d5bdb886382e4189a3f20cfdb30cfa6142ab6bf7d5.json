@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Design task-local harnesses, eval gates, and reusable skill extraction for Claude dynamic workflow mode and other adaptive agent harnesses. Use when building a task-local harness, adding eval gates, or extracting a reusable skill from ad-hoc work.",
+  "id": "github:affaan-m/ecc:skills/dynamic-workflow-mode",
+  "kind": "CapabilityPackage",
+  "name": "dynamic-workflow-mode",
+  "slug": "dynamic-workflow-mode--affaan-m-ecc",
+  "source": {
+    "path": "skills/dynamic-workflow-mode",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

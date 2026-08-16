@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:12edf21abd5059dda26aa65008e0e153101c672cfe4714acb87e3490574aed46",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/research/cohort-analysis--phuryn-pm-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:12edf21abd5059dda26aa65008e0e153101c672cfe4714acb87e3490574aed46",
+    "fileCount": 1,
+    "totalBytes": 5026
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:phuryn/pm-skills:pm-data-analytics/skills/cohort-analysis",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:727cecd842b94620885880e43a372e9efb4660e45968f8bd1ee49d9eb12eb2e3",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "18468a95b427e70e258b51389796367c6f684e7d",
+    "path": "pm-data-analytics/skills/cohort-analysis",
+    "repository": "phuryn/pm-skills",
+    "url": "https://github.com/phuryn/pm-skills/tree/18468a95b427e70e258b51389796367c6f684e7d/pm-data-analytics/skills/cohort-analysis"
+  },
+  "status": "extracted"
+}

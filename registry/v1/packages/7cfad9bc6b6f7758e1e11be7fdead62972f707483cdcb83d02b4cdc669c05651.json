@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "writing",
+  "description": "规划、研究、起草、续写、重写和校验长篇书稿，并用外部项目文件维持跨章节的一致性。用于小说、非虚构、传记、教材、方法书、回忆录等书籍项目；尤其适用于需要章节级推进、人物或事实连续性、资料溯源、控制文风、压缩长上下文、检查全稿结构，或把 Markdown 书稿导出为 DOCX/PDF 的任务。",
+  "id": "github:userinner/skills:skills/writing/write-book",
+  "kind": "CapabilityPackage",
+  "name": "write-book",
+  "slug": "write-book",
+  "source": {
+    "path": "skills/writing/write-book",
+    "repository": "userInner/SKILLS"
+  },
+  "type": "skill"
+}

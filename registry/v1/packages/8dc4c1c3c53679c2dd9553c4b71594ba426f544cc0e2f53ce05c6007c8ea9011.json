@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "product",
+  "description": "Identify risky assumptions for a new product idea across 8 risk categories including Go-to-Market, Strategy, and Team. Use when evaluating startup risks, assessing a new product concept, or mapping assumptions for a new venture.",
+  "id": "github:phuryn/pm-skills:pm-product-discovery/skills/identify-assumptions-new",
+  "kind": "CapabilityPackage",
+  "name": "identify-assumptions-new",
+  "slug": "identify-assumptions-new--phuryn-pm-skills",
+  "source": {
+    "path": "pm-product-discovery/skills/identify-assumptions-new",
+    "repository": "phuryn/pm-skills"
+  },
+  "type": "skill"
+}

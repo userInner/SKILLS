@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": ">",
+  "id": "github:affaan-m/ecc:.kiro/skills/postgres-patterns",
+  "kind": "CapabilityPackage",
+  "name": "postgres-patterns",
+  "slug": "postgres-patterns--affaan-m-ecc",
+  "source": {
+    "path": ".kiro/skills/postgres-patterns",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Patient safety evaluation harness for healthcare application deployments. Automated test suites for CDSS accuracy, PHI exposure, clinical workflow integrity, and integration compliance. Blocks deployments on safety failures. Use when a healthcare deployment must be gated on patient-safety tests for CDSS accuracy, PHI exposure, and workflow integrity.",
+  "id": "github:affaan-m/ecc:skills/healthcare-eval-harness",
+  "kind": "CapabilityPackage",
+  "name": "healthcare-eval-harness",
+  "slug": "healthcare-eval-harness--affaan-m-ecc",
+  "source": {
+    "path": "skills/healthcare-eval-harness",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

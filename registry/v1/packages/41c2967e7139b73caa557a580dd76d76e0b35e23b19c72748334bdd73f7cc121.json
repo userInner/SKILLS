@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Draft cold emails, warm intro blurbs, follow-ups, update emails, and investor communications for fundraising. Use when the user wants outreach to angels, VCs, strategic investors, or accelerators and needs concise, personalized, investor-facing messaging.",
+  "id": "github:affaan-m/ecc:.agents/skills/investor-outreach",
+  "kind": "CapabilityPackage",
+  "name": "investor-outreach",
+  "slug": "investor-outreach--affaan-m-ecc",
+  "source": {
+    "path": ".agents/skills/investor-outreach",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

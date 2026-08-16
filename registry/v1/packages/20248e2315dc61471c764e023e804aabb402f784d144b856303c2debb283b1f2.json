@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "React component testing with React Testing Library, Vitest/Jest, MSW for network mocking, accessibility assertions with axe, and the decision boundary between component tests and Playwright/Cypress end-to-end runs. Use when writing or fixing tests for React components, hooks, or pages.",
+  "id": "github:affaan-m/ecc:.kiro/skills/react-testing",
+  "kind": "CapabilityPackage",
+  "name": "react-testing",
+  "slug": "react-testing--affaan-m-ecc",
+  "source": {
+    "path": ".kiro/skills/react-testing",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

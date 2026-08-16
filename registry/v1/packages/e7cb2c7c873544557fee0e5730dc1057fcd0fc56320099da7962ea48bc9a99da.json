@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "GitHub repository operations, automation, and management. Issue triage, PR management, CI/CD operations, release management, and security monitoring using the gh CLI. Use when the user wants to manage GitHub issues, PRs, CI status, releases, contributors, stale items, or any GitHub operational task beyond simple git commands.",
+  "id": "github:affaan-m/ecc:skills/github-ops",
+  "kind": "CapabilityPackage",
+  "name": "github-ops",
+  "slug": "github-ops--affaan-m-ecc",
+  "source": {
+    "path": "skills/github-ops",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

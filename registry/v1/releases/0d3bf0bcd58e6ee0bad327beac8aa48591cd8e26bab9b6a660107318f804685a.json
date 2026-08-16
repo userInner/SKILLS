@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:09c1204d4f7d62fbb3a6b8dc5e6b6e3eb586b6b35520098bf9e5096fab33f3ea",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/product/gtm-motions--phuryn-pm-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:09c1204d4f7d62fbb3a6b8dc5e6b6e3eb586b6b35520098bf9e5096fab33f3ea",
+    "fileCount": 1,
+    "totalBytes": 7556
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:phuryn/pm-skills:pm-go-to-market/skills/gtm-motions",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:0d3bf0bcd58e6ee0bad327beac8aa48591cd8e26bab9b6a660107318f804685a",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "18468a95b427e70e258b51389796367c6f684e7d",
+    "path": "pm-go-to-market/skills/gtm-motions",
+    "repository": "phuryn/pm-skills",
+    "url": "https://github.com/phuryn/pm-skills/tree/18468a95b427e70e258b51389796367c6f684e7d/pm-go-to-market/skills/gtm-motions"
+  },
+  "status": "extracted"
+}

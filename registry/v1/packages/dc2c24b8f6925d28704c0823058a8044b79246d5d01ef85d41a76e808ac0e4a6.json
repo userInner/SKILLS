@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Idiomatic Rust patterns, ownership, error handling, traits, concurrency, and best practices for building safe, performant applications.",
+  "id": "github:affaan-m/ecc:.kiro/skills/rust-patterns",
+  "kind": "CapabilityPackage",
+  "name": "rust-patterns",
+  "slug": "rust-patterns--affaan-m-ecc",
+  "source": {
+    "path": ".kiro/skills/rust-patterns",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

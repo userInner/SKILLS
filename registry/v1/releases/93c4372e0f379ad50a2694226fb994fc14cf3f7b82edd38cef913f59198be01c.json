@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:837e11512d0cf5d480b8a43d7a51deafcba8b64ce8bca46fbef0a0d1887930a4",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "skills/design/ui-ux-pro-max"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:837e11512d0cf5d480b8a43d7a51deafcba8b64ce8bca46fbef0a0d1887930a4",
+    "fileCount": 50,
+    "totalBytes": 3317756
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "unknown",
+    "spdx": "see-package"
+  },
+  "packageId": "github:userinner/skills:skills/design/ui-ux-pro-max",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:93c4372e0f379ad50a2694226fb994fc14cf3f7b82edd38cef913f59198be01c",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "362c2197eccdb7e952e0e2dfd80bef939d34cfe5",
+    "path": "skills/design/ui-ux-pro-max",
+    "repository": "userInner/SKILLS",
+    "url": "https://github.com/userInner/SKILLS/tree/362c2197eccdb7e952e0e2dfd80bef939d34cfe5/skills/design/ui-ux-pro-max"
+  },
+  "status": "direct"
+}

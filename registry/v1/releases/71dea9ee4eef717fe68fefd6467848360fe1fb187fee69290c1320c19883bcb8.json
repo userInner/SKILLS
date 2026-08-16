@@ -1,0 +1,59 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:f4e99d1a1fb15baef281f094b41dbb61c2b785662a330d79a2104940ebf48ff7",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/workflow/geomaster--k-dense-ai-scientific-agent-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:f4e99d1a1fb15baef281f094b41dbb61c2b785662a330d79a2104940ebf48ff7",
+    "fileCount": 16,
+    "totalBytes": 164421
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:k-dense-ai/scientific-agent-skills:skills/geomaster",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:71dea9ee4eef717fe68fefd6467848360fe1fb187fee69290c1320c19883bcb8",
+  "security": {
+    "staticScan": {
+      "findings": [
+        {
+          "file": "machine-learning.md",
+          "rule": "shell-eval"
+        },
+        {
+          "file": "troubleshooting.md",
+          "rule": "privilege-escalation"
+        }
+      ],
+      "status": "review"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "b2a92ba052dcae4ef48e850b9e31ebf75706be48",
+    "path": "skills/geomaster",
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/b2a92ba052dcae4ef48e850b9e31ebf75706be48/skills/geomaster"
+  },
+  "status": "needs-review"
+}

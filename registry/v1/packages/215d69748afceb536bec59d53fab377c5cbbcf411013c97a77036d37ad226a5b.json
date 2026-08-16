@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Open-source pipeline: fork, sanitize, and package private projects for safe public release. Chains 3 agents (forker, sanitizer, packager). Triggers: '/opensource', 'open source this', 'make this public', 'prepare for open source'. Use when a private project must be forked, stripped of secrets, and packaged for public release.",
+  "id": "github:affaan-m/ecc:skills/opensource-pipeline",
+  "kind": "CapabilityPackage",
+  "name": "opensource-pipeline",
+  "slug": "opensource-pipeline--affaan-m-ecc",
+  "source": {
+    "path": "skills/opensource-pipeline",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

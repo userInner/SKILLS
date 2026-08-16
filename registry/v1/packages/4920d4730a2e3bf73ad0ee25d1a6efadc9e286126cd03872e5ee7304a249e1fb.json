@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Use only when writing/updating/fixing C++ tests, configuring GoogleTest/CTest, diagnosing failing or flaky tests, or adding coverage/sanitizers.",
+  "id": "github:affaan-m/ecc:skills/cpp-testing",
+  "kind": "CapabilityPackage",
+  "name": "cpp-testing",
+  "slug": "cpp-testing--affaan-m-ecc--02cc1c750a",
+  "source": {
+    "path": "skills/cpp-testing",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

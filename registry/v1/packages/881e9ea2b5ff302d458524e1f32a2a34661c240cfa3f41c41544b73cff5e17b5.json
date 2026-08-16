@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "design",
+  "description": "Patterns for robust error handling across TypeScript, Python, and Go. Covers typed errors, error boundaries, retries, circuit breakers, and user-facing error messages. Use when designing error types, retries, circuit breakers, or user-facing failure messages in TypeScript, Python, or Go.",
+  "id": "github:affaan-m/ecc:skills/error-handling",
+  "kind": "CapabilityPackage",
+  "name": "error-handling",
+  "slug": "error-handling--affaan-m-ecc",
+  "source": {
+    "path": "skills/error-handling",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

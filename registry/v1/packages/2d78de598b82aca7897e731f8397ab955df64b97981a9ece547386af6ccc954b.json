@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Discover and evaluate Agent Skills when users ask \"find a skill for X\", \"is there a skill that can...\", or want to extend an Agent. Search the local SKILLS catalog and public ecosystem, verify license, scripts, dependencies, permissions, and provenance, and install only after explicit user approval.",
+  "id": "github:userinner/skills:skills/workflow/find-skills",
+  "kind": "CapabilityPackage",
+  "name": "find-skills",
+  "slug": "find-skills",
+  "source": {
+    "path": "skills/workflow/find-skills",
+    "repository": "userInner/SKILLS"
+  },
+  "type": "skill"
+}

@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:88608d2d1a113a0a4d925048a62da1e7317af096a7449aee4435004f7175e9b5",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/product/prioritize-assumptions--phuryn-pm-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:88608d2d1a113a0a4d925048a62da1e7317af096a7449aee4435004f7175e9b5",
+    "fileCount": 1,
+    "totalBytes": 2311
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:phuryn/pm-skills:pm-product-discovery/skills/prioritize-assumptions",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:dac8c49d2107b4c618ff32509d03e34ee0e6f3f15a878ee3000a0d654c8f3eed",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "18468a95b427e70e258b51389796367c6f684e7d",
+    "path": "pm-product-discovery/skills/prioritize-assumptions",
+    "repository": "phuryn/pm-skills",
+    "url": "https://github.com/phuryn/pm-skills/tree/18468a95b427e70e258b51389796367c6f684e7d/pm-product-discovery/skills/prioritize-assumptions"
+  },
+  "status": "extracted"
+}

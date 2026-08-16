@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Use when implementing any feature or bugfix, before writing implementation code",
+  "id": "github:userinner/skills:skills/workflow/test-driven-development",
+  "kind": "CapabilityPackage",
+  "name": "test-driven-development",
+  "slug": "test-driven-development",
+  "source": {
+    "path": "skills/workflow/test-driven-development",
+    "repository": "userInner/SKILLS"
+  },
+  "type": "skill"
+}

@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "research",
+  "description": "Search 11 academic literature APIs for papers, preprints, citations, and open-access full text, and return results with reproducible provenance. Covers PubMed, PMC (full text), Europe PMC (full-text and preprint search), bioRxiv, medRxiv, arXiv, OpenAlex, Crossref, Semantic Scholar, CORE, Unpaywall. Use when searching for papers, citations, DOI/PMID/arXiv lookups, abstracts, full text, open-access PDFs, preprints, citation graphs, author publications, or any scholarly literature query. Triggers on mentions of any supported database or requests like \"find papers on X\", \"look up this DOI\", \"who cites this paper\", or \"get me the PDF\".",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/paper-lookup",
+  "kind": "CapabilityPackage",
+  "name": "paper-lookup",
+  "slug": "paper-lookup--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/paper-lookup",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

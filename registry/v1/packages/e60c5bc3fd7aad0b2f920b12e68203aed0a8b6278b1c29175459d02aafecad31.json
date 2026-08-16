@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Prepares production launches. Use when preparing to deploy to production. Use when you need a pre-launch checklist, when setting up monitoring, when planning a staged rollout, or when you need a rollback strategy.",
+  "id": "github:userinner/skills:skills/engineering/shipping-and-launch",
+  "kind": "CapabilityPackage",
+  "name": "shipping-and-launch",
+  "slug": "shipping-and-launch",
+  "source": {
+    "path": "skills/engineering/shipping-and-launch",
+    "repository": "userInner/SKILLS"
+  },
+  "type": "skill"
+}

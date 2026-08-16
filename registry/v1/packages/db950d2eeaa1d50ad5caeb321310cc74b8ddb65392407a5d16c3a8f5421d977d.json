@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Review prediction-market, basket, oracle, and trading-agent workflows for compliance, safety, data-quality, privacy, and execution risk. Use before any workflow handles venue auth, user portfolio data, API keys, or trade planning.",
+  "id": "github:affaan-m/ecc:skills/prediction-market-risk-review",
+  "kind": "CapabilityPackage",
+  "name": "prediction-market-risk-review",
+  "slug": "prediction-market-risk-review--affaan-m-ecc",
+  "source": {
+    "path": "skills/prediction-market-risk-review",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

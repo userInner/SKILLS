@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Discovers and invokes agent skills. Use when starting a session or when you need to discover which skill applies to the current task. This is the meta-skill that governs how all other skills are discovered and invoked.",
+  "id": "github:addyosmani/agent-skills:skills/using-agent-skills",
+  "kind": "CapabilityPackage",
+  "name": "using-agent-skills",
+  "slug": "using-agent-skills--addyosmani-agent-skills",
+  "source": {
+    "path": "skills/using-agent-skills",
+    "repository": "addyosmani/agent-skills"
+  },
+  "type": "skill"
+}

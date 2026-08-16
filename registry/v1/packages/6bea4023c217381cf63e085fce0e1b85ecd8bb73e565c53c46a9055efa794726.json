@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "growth",
+  "description": "Reorganize the user's X and LinkedIn network with review-first pruning, add/follow recommendations, and channel-specific warm outreach drafted in the user's real voice. Use when the user wants to clean up following lists, grow toward current priorities, or rebalance a social graph around higher-signal relationships.",
+  "id": "github:affaan-m/ecc:skills/connections-optimizer",
+  "kind": "CapabilityPackage",
+  "name": "connections-optimizer",
+  "slug": "connections-optimizer--affaan-m-ecc",
+  "source": {
+    "path": "skills/connections-optimizer",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Generate iOS app icons as PNG imagesets for Xcode asset catalogs from SF Symbols (5000+ Apple-native) or Iconify API (275k+ open source icons from 200+ collections). Use when generating icons, creating icon assets, adding icons to asset catalog, or searching for icons for iOS projects.",
+  "id": "github:affaan-m/ecc:skills/ios-icon-gen",
+  "kind": "CapabilityPackage",
+  "name": "ios-icon-gen",
+  "slug": "ios-icon-gen--affaan-m-ecc",
+  "source": {
+    "path": "skills/ios-icon-gen",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

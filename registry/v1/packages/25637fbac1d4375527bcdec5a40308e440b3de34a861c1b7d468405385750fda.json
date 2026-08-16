@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": ">",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/bids",
+  "kind": "CapabilityPackage",
+  "name": "bids",
+  "slug": "bids--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/bids",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

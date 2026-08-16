@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Operate across Google Drive, Docs, Sheets, and Slides as one workflow surface for plans, trackers, decks, and shared documents. Use when the user needs to find, summarize, edit, migrate, or clean up Google Workspace assets without dropping to raw tool calls.",
+  "id": "github:affaan-m/ecc:skills/google-workspace-ops",
+  "kind": "CapabilityPackage",
+  "name": "google-workspace-ops",
+  "slug": "google-workspace-ops--affaan-m-ecc",
+  "source": {
+    "path": "skills/google-workspace-ops",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

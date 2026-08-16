@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "growth",
+  "description": "Audit, plan, and implement SEO improvements across technical SEO, on-page optimization, structured data, Core Web Vitals, and content strategy. Use when the user wants better search visibility, SEO remediation, schema markup, sitemap/robots work, or keyword mapping.",
+  "id": "github:affaan-m/ecc:skills/seo",
+  "kind": "CapabilityPackage",
+  "name": "seo",
+  "slug": "seo--affaan-m-ecc",
+  "source": {
+    "path": "skills/seo",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

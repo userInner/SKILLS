@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "research",
+  "description": "Particle Image Velocimetry (PIV) analysis with OpenPIV. Use when extracting velocity fields from PIV image pairs, analyzing fluid dynamics or flow visualization experiments, cross-correlating interrogation windows, validating and replacing spurious PIV vectors, or computing vorticity, strain rate, and turbulence statistics from measured velocity fields.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/openpiv",
+  "kind": "CapabilityPackage",
+  "name": "openpiv",
+  "slug": "openpiv--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/openpiv",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

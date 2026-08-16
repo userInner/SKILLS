@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "growth",
+  "description": "Use after a complex task, failure, or when reviewing what was learned. Teaches how to write growth logs that extract reusable patterns — not diary entries.",
+  "id": "github:affaan-m/ecc:skills/growth-log",
+  "kind": "CapabilityPackage",
+  "name": "growth-log",
+  "slug": "growth-log--affaan-m-ecc",
+  "source": {
+    "path": "skills/growth-log",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

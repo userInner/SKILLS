@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Comprehensive PM resume review and tailoring against 10 best practices including XYZ+S formula, keyword optimization, job-specific tailoring, and structure. Use when reviewing a PM resume, preparing for job applications, or improving resume impact.",
+  "id": "github:phuryn/pm-skills:pm-toolkit/skills/review-resume",
+  "kind": "CapabilityPackage",
+  "name": "review-resume",
+  "slug": "review-resume--phuryn-pm-skills",
+  "source": {
+    "path": "pm-toolkit/skills/review-resume",
+    "repository": "phuryn/pm-skills"
+  },
+  "type": "skill"
+}

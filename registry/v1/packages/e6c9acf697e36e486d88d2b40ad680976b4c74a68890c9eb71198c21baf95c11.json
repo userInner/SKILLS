@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Use pydicom to read, inspect, write, transform, and safely preflight local DICOM datasets and pixel data. Applies to DICOM metadata, transfer syntaxes, compression plugins, frames, private elements, JSON, and bounded de-identification review.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/pydicom",
+  "kind": "CapabilityPackage",
+  "name": "pydicom",
+  "slug": "pydicom--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/pydicom",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

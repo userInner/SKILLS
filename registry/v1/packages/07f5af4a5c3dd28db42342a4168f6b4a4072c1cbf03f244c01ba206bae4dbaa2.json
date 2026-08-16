@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Ktor server patterns including routing DSL, plugins, authentication, Koin DI, kotlinx.serialization, WebSockets, and testApplication testing. Use when building a Ktor server — routing, plugins, auth, DI, serialization, or tests.",
+  "id": "github:affaan-m/ecc:skills/kotlin-ktor-patterns",
+  "kind": "CapabilityPackage",
+  "name": "kotlin-ktor-patterns",
+  "slug": "kotlin-ktor-patterns--affaan-m-ecc",
+  "source": {
+    "path": "skills/kotlin-ktor-patterns",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

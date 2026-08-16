@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:bd64cf3802351fc627cdfc7862c0ed4aa77a1046828f280b1467b748b403e109",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/research/hypothesis-generation--k-dense-ai-scientific-agent-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:bd64cf3802351fc627cdfc7862c0ed4aa77a1046828f280b1467b748b403e109",
+    "fileCount": 27,
+    "totalBytes": 255211
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:k-dense-ai/scientific-agent-skills:skills/hypothesis-generation",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:2546c1c5a31a1d876affb9fa3e63011508914cc705bae99d536430e48f2c68f5",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "b2a92ba052dcae4ef48e850b9e31ebf75706be48",
+    "path": "skills/hypothesis-generation",
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/b2a92ba052dcae4ef48e850b9e31ebf75706be48/skills/hypothesis-generation"
+  },
+  "status": "extracted"
+}

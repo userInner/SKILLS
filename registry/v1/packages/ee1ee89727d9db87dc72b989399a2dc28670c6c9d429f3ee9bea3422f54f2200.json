@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Use when executing implementation plans with independent tasks in the current session",
+  "id": "github:obra/superpowers:skills/subagent-driven-development",
+  "kind": "CapabilityPackage",
+  "name": "subagent-driven-development",
+  "slug": "subagent-driven-development--obra-superpowers",
+  "source": {
+    "path": "skills/subagent-driven-development",
+    "repository": "obra/superpowers"
+  },
+  "type": "skill"
+}

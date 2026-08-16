@@ -1,0 +1,71 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:e3c55c0fb83e15f7015776c79509a3dd27ae9967eada654fddf2872cc7bd8893",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/workflow/nextflow--k-dense-ai-scientific-agent-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:e3c55c0fb83e15f7015776c79509a3dd27ae9967eada654fddf2872cc7bd8893",
+    "fileCount": 8,
+    "totalBytes": 78703
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:k-dense-ai/scientific-agent-skills:skills/nextflow",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:69be36e2d1a1778b50419e22bd43c0833c157021a21647701e681e8e7e534072",
+  "security": {
+    "staticScan": {
+      "findings": [
+        {
+          "file": "SKILL.md",
+          "rule": "pipe-to-shell"
+        },
+        {
+          "file": "SKILL.md",
+          "rule": "privilege-escalation"
+        },
+        {
+          "file": "developing.md",
+          "rule": "shell-eval"
+        },
+        {
+          "file": "language.md",
+          "rule": "shell-eval"
+        },
+        {
+          "file": "testing.md",
+          "rule": "pipe-to-shell"
+        }
+      ],
+      "status": "review"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "b2a92ba052dcae4ef48e850b9e31ebf75706be48",
+    "path": "skills/nextflow",
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/b2a92ba052dcae4ef48e850b9e31ebf75706be48/skills/nextflow"
+  },
+  "status": "needs-review"
+}

@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Thread-safe data persistence in Swift using actors — in-memory cache with file-backed storage, eliminating data races by design. Use when persisting data in Swift and a data race or thread-safety problem needs designing out.",
+  "id": "github:affaan-m/ecc:skills/swift-actor-persistence",
+  "kind": "CapabilityPackage",
+  "name": "swift-actor-persistence",
+  "slug": "swift-actor-persistence--affaan-m-ecc--bfbf6d8c8e",
+  "source": {
+    "path": "skills/swift-actor-persistence",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

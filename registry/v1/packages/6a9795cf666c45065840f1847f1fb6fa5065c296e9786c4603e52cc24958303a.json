@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Modern Perl 5.36+ idioms, best practices, and conventions for building robust, maintainable Perl applications. Use when writing or reviewing modern Perl 5.36+ code.",
+  "id": "github:affaan-m/ecc:skills/perl-patterns",
+  "kind": "CapabilityPackage",
+  "name": "perl-patterns",
+  "slug": "perl-patterns--affaan-m-ecc",
+  "source": {
+    "path": "skills/perl-patterns",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

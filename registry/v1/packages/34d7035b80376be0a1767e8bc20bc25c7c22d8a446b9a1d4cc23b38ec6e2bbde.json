@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": ">",
+  "id": "github:affaan-m/ecc:.kiro/skills/search-first",
+  "kind": "CapabilityPackage",
+  "name": "search-first",
+  "slug": "search-first--affaan-m-ecc",
+  "source": {
+    "path": ".kiro/skills/search-first",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Open plans and HTML artifacts in a local browser canvas where the human annotates elements, chats, and approves or requests changes without leaving the page. Use when presenting a plan for review, or when feedback like \"move this, change that\" is easier pointed at than typed.",
+  "id": "github:affaan-m/ecc:.agents/skills/plan-canvas",
+  "kind": "CapabilityPackage",
+  "name": "plan-canvas",
+  "slug": "plan-canvas--affaan-m-ecc",
+  "source": {
+    "path": ".agents/skills/plan-canvas",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

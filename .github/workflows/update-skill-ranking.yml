@@ -1,4 +1,4 @@
-name: Update Skill ranking
+name: Refresh Skill registry
 
 on:
   schedule:
@@ -6,38 +6,135 @@ on:
   workflow_dispatch:
 
 concurrency:
-  group: update-skill-ranking
+  group: refresh-skill-registry
   cancel-in-progress: false
 
+# Pull requests only receive the read-only validation workflow. Write access is
+# confined to this trusted schedule/manual workflow running from the default branch.
 permissions:
-  contents: write
+  contents: read
 
 jobs:
-  update:
+  refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 60
+    permissions:
+      contents: write
+      pull-requests: write
+    env:
+      UPDATE_BRANCH: automation/skill-registry
     steps:
-      - uses: actions/checkout@v7
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
-          fetch-depth: 1
+          fetch-depth: 0
           ref: ${{ github.event.repository.default_branch }}
 
-      - name: Test indexer
-        run: python3 -m unittest scripts/test_update_skill_ranking.py
+      - name: Load current candidate baseline
+        id: baseline
+        shell: bash
+        run: |
+          comparison_ref="HEAD"
+          candidate_sha=""
+          base_changed="false"
+          if git ls-remote --exit-code --heads origin "$UPDATE_BRANCH" >/dev/null 2>&1; then
+            git fetch origin "$UPDATE_BRANCH:refs/remotes/origin/$UPDATE_BRANCH"
+            comparison_ref="refs/remotes/origin/$UPDATE_BRANCH"
+            candidate_sha="$(git rev-parse "$comparison_ref")"
+            if [ "$(git merge-base "$comparison_ref" HEAD)" != "$(git rev-parse HEAD)" ]; then
+              base_changed="true"
+            fi
+            for path in catalog.json RANKING.md README.md community-skills registry/v1; do
+              if git cat-file -e "$comparison_ref:$path" 2>/dev/null; then
+                git restore --source="$comparison_ref" -- "$path"
+              fi
+            done
+          fi
+          echo "comparison_ref=$comparison_ref" >> "$GITHUB_OUTPUT"
+          echo "candidate_sha=$candidate_sha" >> "$GITHUB_OUTPUT"
+          echo "base_changed=$base_changed" >> "$GITHUB_OUTPUT"
+
+      - name: Test automation and registry rules
+        run: >-
+          python3 -m unittest
+          scripts/test_update_skill_ranking.py
+          scripts/test_extract_community_skills.py
+          scripts/test_validate_community_skills.py
+          scripts/test_build_registry_v1.py
+          scripts/test_workflow_policy.py
 
       - name: Refresh GitHub Skill sources
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
         run: python3 scripts/update_skill_ranking.py
 
-      - name: Commit generated ranking
+      - name: Extract concrete Skill packages
+        run: python3 scripts/extract_community_skills.py
+
+      - name: Validate generated packages
+        run: python3 scripts/validate_community_skills.py
+
+      - name: Build deterministic registry v1
+        run: python3 scripts/build_registry_v1.py
+
+      - name: Verify deterministic registry v1
+        run: python3 scripts/build_registry_v1.py --check
+
+      - name: Detect candidate changes
+        id: changes
+        shell: bash
         run: |
-          if git diff --quiet -- catalog.json RANKING.md README.md; then
-            echo "No ranking changes"
+          comparison_ref="${{ steps.baseline.outputs.comparison_ref }}"
+          git add catalog.json RANKING.md README.md community-skills registry/v1
+          if git diff --cached --quiet HEAD -- catalog.json RANKING.md README.md community-skills registry/v1; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No registry changes against the default branch"
             exit 0
           fi
+          if git diff --cached --quiet "$comparison_ref" -- catalog.json RANKING.md README.md community-skills registry/v1 \
+            && [ "${{ steps.baseline.outputs.base_changed }}" != "true" ]; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No changes against the current candidate"
+            exit 0
+          fi
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Open or update review PR
+        if: steps.changes.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          CANDIDATE_SHA: ${{ steps.baseline.outputs.candidate_sha }}
+        shell: bash
+        run: |
+          base_branch="${{ github.event.repository.default_branch }}"
+          repository_count="$(jq -r '.repositoryCount' catalog.json)"
+          concrete_count="$(jq -r '.concreteSkillCount' community-skills/index.json)"
+          direct_count="$(jq -r '.directSkillCount' community-skills/index.json)"
+          extracted_count="$(jq -r '.extractedSkillCount' community-skills/index.json)"
+          review_count="$(jq -r '.needsReviewCount' community-skills/index.json)"
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add catalog.json RANKING.md README.md
-          git commit -m "chore: update Skill source ranking"
-          git push origin "HEAD:${{ github.event.repository.default_branch }}"
+          git commit -m "chore: refresh Skill registry candidate"
+
+          if [ -n "$CANDIDATE_SHA" ]; then
+            git push --force-with-lease="refs/heads/$UPDATE_BRANCH:$CANDIDATE_SHA" origin "HEAD:refs/heads/$UPDATE_BRANCH"
+          else
+            git push origin "HEAD:refs/heads/$UPDATE_BRANCH"
+          fi
+
+          existing_pr="$(gh pr list --repo "$GITHUB_REPOSITORY" --head "$UPDATE_BRANCH" --base "$base_branch" --state open --json number --jq '.[0].number // empty')"
+          body="$(printf '%s\n\n%s\n%s\n%s\n%s\n%s\n\n%s' \
+            'GitHub 自动发现任务生成的统一候选更新。此 PR 不会自动合并。' \
+            "- 来源仓库：$repository_count" \
+            "- 具体 Skill：$concrete_count" \
+            "- 可直装：$direct_count" \
+            "- 已提取待验收：$extracted_count" \
+            "- 待安全审查：$review_count" \
+            '已完成排行榜生成、具体 Skill 提取、静态校验与 registry/v1 确定性检查。第三方包只被读取和扫描，未在工作流中执行。请人工审阅变化后再合并。')"
+
+          if [ -n "$existing_pr" ]; then
+            gh pr edit "$existing_pr" --repo "$GITHUB_REPOSITORY" --title "chore: refresh Skill registry" --body "$body"
+            echo "Updated PR #$existing_pr"
+          else
+            gh pr create --repo "$GITHUB_REPOSITORY" --base "$base_branch" --head "$UPDATE_BRANCH" --title "chore: refresh Skill registry" --body "$body"
+          fi

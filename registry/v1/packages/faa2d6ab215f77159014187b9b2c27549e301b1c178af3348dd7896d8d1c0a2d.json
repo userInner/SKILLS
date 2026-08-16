@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "product",
+  "description": "Analyze and prioritize a list of feature requests by theme, strategic alignment, impact, effort, and risk. Use when reviewing customer feature requests, triaging a backlog, or making prioritization decisions.",
+  "id": "github:phuryn/pm-skills:pm-product-discovery/skills/analyze-feature-requests",
+  "kind": "CapabilityPackage",
+  "name": "analyze-feature-requests",
+  "slug": "analyze-feature-requests--phuryn-pm-skills",
+  "source": {
+    "path": "pm-product-discovery/skills/analyze-feature-requests",
+    "repository": "phuryn/pm-skills"
+  },
+  "type": "skill"
+}

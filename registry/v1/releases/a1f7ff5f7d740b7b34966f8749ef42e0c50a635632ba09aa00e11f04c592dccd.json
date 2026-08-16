@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:528e9419ffcd3da1f74c1b21d8a1a0bbec4afa72449d32a983361e39224c2f7c",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/product/analyze-feature-requests--phuryn-pm-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:528e9419ffcd3da1f74c1b21d8a1a0bbec4afa72449d32a983361e39224c2f7c",
+    "fileCount": 1,
+    "totalBytes": 2274
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:phuryn/pm-skills:pm-product-discovery/skills/analyze-feature-requests",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:a1f7ff5f7d740b7b34966f8749ef42e0c50a635632ba09aa00e11f04c592dccd",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "18468a95b427e70e258b51389796367c6f684e7d",
+    "path": "pm-product-discovery/skills/analyze-feature-requests",
+    "repository": "phuryn/pm-skills",
+    "url": "https://github.com/phuryn/pm-skills/tree/18468a95b427e70e258b51389796367c6f684e7d/pm-product-discovery/skills/analyze-feature-requests"
+  },
+  "status": "extracted"
+}

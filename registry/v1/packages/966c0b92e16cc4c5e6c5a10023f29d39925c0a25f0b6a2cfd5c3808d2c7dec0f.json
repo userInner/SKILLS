@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Protected Health Information (PHI) and Personally Identifiable Information (PII) compliance patterns for healthcare applications. Covers data classification, access control, audit trails, encryption, and common leak vectors. Use when code touches PHI or PII in a healthcare system, or when auditing access control, audit trails, or leak vectors.",
+  "id": "github:affaan-m/ecc:skills/healthcare-phi-compliance",
+  "kind": "CapabilityPackage",
+  "name": "healthcare-phi-compliance",
+  "slug": "healthcare-phi-compliance--affaan-m-ecc",
+  "source": {
+    "path": "skills/healthcare-phi-compliance",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

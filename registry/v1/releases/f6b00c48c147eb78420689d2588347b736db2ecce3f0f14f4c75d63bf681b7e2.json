@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:b112019f49f80172d42faa01b62d3cd52b32ff764227a7d36e457c8a4db564ef",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "skills/design/design-taste-frontend"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:b112019f49f80172d42faa01b62d3cd52b32ff764227a7d36e457c8a4db564ef",
+    "fileCount": 4,
+    "totalBytes": 89425
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "unknown",
+    "spdx": "see-package"
+  },
+  "packageId": "github:userinner/skills:skills/design/design-taste-frontend",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:f6b00c48c147eb78420689d2588347b736db2ecce3f0f14f4c75d63bf681b7e2",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "362c2197eccdb7e952e0e2dfd80bef939d34cfe5",
+    "path": "skills/design/design-taste-frontend",
+    "repository": "userInner/SKILLS",
+    "url": "https://github.com/userInner/SKILLS/tree/362c2197eccdb7e952e0e2dfd80bef939d34cfe5/skills/design/design-taste-frontend"
+  },
+  "status": "direct"
+}

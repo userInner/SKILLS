@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "research",
+  "description": "Paperclip API key from https://paperclip.gxl.ai/keys. Preferred over browser OAuth. Not required — the skill also covers installing the CLI and signing in interactively.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/paperclip",
+  "kind": "CapabilityPackage",
+  "name": "paperclip",
+  "slug": "paperclip--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/paperclip",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

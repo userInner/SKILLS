@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:56336dcc1f5f17148fa1319362ad40b1fc8062198affd1a9156908598ba8e7ff",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/research/clinical-reports--k-dense-ai-scientific-agent-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:56336dcc1f5f17148fa1319362ad40b1fc8062198affd1a9156908598ba8e7ff",
+    "fileCount": 36,
+    "totalBytes": 193278
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:k-dense-ai/scientific-agent-skills:skills/clinical-reports",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:af0a0c24a41f624ff2631ca189c6e7426f05c0e0890ccd7ebc8e81f277c8c6de",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "b2a92ba052dcae4ef48e850b9e31ebf75706be48",
+    "path": "skills/clinical-reports",
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/b2a92ba052dcae4ef48e850b9e31ebf75706be48/skills/clinical-reports"
+  },
+  "status": "extracted"
+}

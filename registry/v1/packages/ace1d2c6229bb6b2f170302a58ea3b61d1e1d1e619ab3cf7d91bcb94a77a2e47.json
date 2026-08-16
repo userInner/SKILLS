@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Patterns for continuous autonomous agent loops with quality gates, evals, and recovery controls. Use when running an agent loop that must self-check, gate on evals, and recover from failures.",
+  "id": "github:affaan-m/ecc:skills/continuous-agent-loop",
+  "kind": "CapabilityPackage",
+  "name": "continuous-agent-loop",
+  "slug": "continuous-agent-loop--affaan-m-ecc",
+  "source": {
+    "path": "skills/continuous-agent-loop",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

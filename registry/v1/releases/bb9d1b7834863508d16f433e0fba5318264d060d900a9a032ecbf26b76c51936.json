@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:7d08899d66e55d0bc832f06da96446a7a261a8b274bf0dbe54c54c18fa488c08",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/research/pkpd-modeling--k-dense-ai-scientific-agent-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:7d08899d66e55d0bc832f06da96446a7a261a8b274bf0dbe54c54c18fa488c08",
+    "fileCount": 28,
+    "totalBytes": 316809
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:k-dense-ai/scientific-agent-skills:skills/pkpd-modeling",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:bb9d1b7834863508d16f433e0fba5318264d060d900a9a032ecbf26b76c51936",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "b2a92ba052dcae4ef48e850b9e31ebf75706be48",
+    "path": "skills/pkpd-modeling",
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/b2a92ba052dcae4ef48e850b9e31ebf75706be48/skills/pkpd-modeling"
+  },
+  "status": "extracted"
+}

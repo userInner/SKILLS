@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Neural search via Exa MCP for web, code, and company research. Use when the user needs web search, code examples, company intel, people lookup, or AI-powered deep research with Exa's neural search engine.",
+  "id": "github:affaan-m/ecc:skills/exa-search",
+  "kind": "CapabilityPackage",
+  "name": "exa-search",
+  "slug": "exa-search--affaan-m-ecc",
+  "source": {
+    "path": "skills/exa-search",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

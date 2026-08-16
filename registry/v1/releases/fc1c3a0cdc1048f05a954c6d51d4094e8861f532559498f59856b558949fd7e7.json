@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:ce3c141786ea582099e4e67c47537998dbc1222c618dd031ddd47607e0cd1f7c",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "skills/workflow/brainstorming"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:ce3c141786ea582099e4e67c47537998dbc1222c618dd031ddd47607e0cd1f7c",
+    "fileCount": 11,
+    "totalBytes": 81311
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "unknown",
+    "spdx": "see-package"
+  },
+  "packageId": "github:userinner/skills:skills/workflow/brainstorming",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:fc1c3a0cdc1048f05a954c6d51d4094e8861f532559498f59856b558949fd7e7",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "362c2197eccdb7e952e0e2dfd80bef939d34cfe5",
+    "path": "skills/workflow/brainstorming",
+    "repository": "userInner/SKILLS",
+    "url": "https://github.com/userInner/SKILLS/tree/362c2197eccdb7e952e0e2dfd80bef939d34cfe5/skills/workflow/brainstorming"
+  },
+  "status": "direct"
+}

@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Bootstrap pointer that installs the external repo-scan skill from a pinned, reviewable commit. Use when repo-scan must be installed before running its cross-stack source-code asset audit; this ECC pointer does not perform the audit itself.",
+  "id": "github:affaan-m/ecc:skills/repo-scan",
+  "kind": "CapabilityPackage",
+  "name": "repo-scan",
+  "slug": "repo-scan--affaan-m-ecc",
+  "source": {
+    "path": "skills/repo-scan",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:8dbcb90df1b95f2c4af24575aa0dfeb55c8eb504d301e8bf09cb0444f6780333",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/design/design-taste-frontend-v1--leonxlnx-taste-skill"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:8dbcb90df1b95f2c4af24575aa0dfeb55c8eb504d301e8bf09cb0444f6780333",
+    "fileCount": 1,
+    "totalBytes": 21195
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:leonxlnx/taste-skill:skills/taste-skill-v1",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:bf17082d01281cedda7417dcfe6f50ce956512187deb94d46435e48900a86712",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "e988add20dab0fa97d7a76781c48961c8184288e",
+    "path": "skills/taste-skill-v1",
+    "repository": "Leonxlnx/taste-skill",
+    "url": "https://github.com/Leonxlnx/taste-skill/tree/e988add20dab0fa97d7a76781c48961c8184288e/skills/taste-skill-v1"
+  },
+  "status": "extracted"
+}

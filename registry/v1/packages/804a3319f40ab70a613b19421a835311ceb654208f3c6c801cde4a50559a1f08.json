@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "design",
+  "description": "Use this skill to generate or audit design systems, check visual consistency, and review PRs that touch styling. Use when generating or auditing a design system, checking visual consistency, or reviewing a PR that touches styling.",
+  "id": "github:affaan-m/ecc:skills/design-system",
+  "kind": "CapabilityPackage",
+  "name": "design-system",
+  "slug": "design-system--affaan-m-ecc",
+  "source": {
+    "path": "skills/design-system",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "product",
+  "description": "Create refined user personas from research data — 3 personas with JTBD, pains, gains, and unexpected insights. Use when building personas from survey data, creating user profiles from research, or segmenting users for product decisions.",
+  "id": "github:phuryn/pm-skills:pm-market-research/skills/user-personas",
+  "kind": "CapabilityPackage",
+  "name": "user-personas",
+  "slug": "user-personas--phuryn-pm-skills",
+  "source": {
+    "path": "pm-market-research/skills/user-personas",
+    "repository": "phuryn/pm-skills"
+  },
+  "type": "skill"
+}

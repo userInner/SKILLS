@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Cost optimization patterns for LLM API usage — model routing by task complexity, budget tracking, retry logic, and prompt caching. Use when LLM spend needs to come down, or when routing tasks across model tiers and budgets.",
+  "id": "github:affaan-m/ecc:skills/cost-aware-llm-pipeline",
+  "kind": "CapabilityPackage",
+  "name": "cost-aware-llm-pipeline",
+  "slug": "cost-aware-llm-pipeline--affaan-m-ecc",
+  "source": {
+    "path": "skills/cost-aware-llm-pipeline",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

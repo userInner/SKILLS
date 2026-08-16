@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:c9f0f9dc9dee16dcbe5d5f38a99653ae4657ddb66b0747b29e65ab6cfe02ae13",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/product/identify-assumptions-existing--phuryn-pm-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:c9f0f9dc9dee16dcbe5d5f38a99653ae4657ddb66b0747b29e65ab6cfe02ae13",
+    "fileCount": 1,
+    "totalBytes": 2102
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:phuryn/pm-skills:pm-product-discovery/skills/identify-assumptions-existing",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:96d0fa767299d87712df12966b415c13632ac35fe13e8360d8243411c5501bf8",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "18468a95b427e70e258b51389796367c6f684e7d",
+    "path": "pm-product-discovery/skills/identify-assumptions-existing",
+    "repository": "phuryn/pm-skills",
+    "url": "https://github.com/phuryn/pm-skills/tree/18468a95b427e70e258b51389796367c6f684e7d/pm-product-discovery/skills/identify-assumptions-existing"
+  },
+  "status": "extracted"
+}

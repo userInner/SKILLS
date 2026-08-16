@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes",
+  "id": "github:userinner/skills:skills/engineering/systematic-debugging",
+  "kind": "CapabilityPackage",
+  "name": "systematic-debugging",
+  "slug": "systematic-debugging",
+  "source": {
+    "path": "skills/engineering/systematic-debugging",
+    "repository": "userInner/SKILLS"
+  },
+  "type": "skill"
+}

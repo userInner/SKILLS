@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:0614cc9560eb8f6c910165839db1e2221cce6b3d51e860df26459807b16ca03d",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "skills/research/peer-review"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:0614cc9560eb8f6c910165839db1e2221cce6b3d51e860df26459807b16ca03d",
+    "fileCount": 27,
+    "totalBytes": 190225
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "unknown",
+    "spdx": "see-package"
+  },
+  "packageId": "github:userinner/skills:skills/research/peer-review",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:25a0ec41c663a721f7364baa95450686a5f0db1d079798f88bc2867cd79f0fdd",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "362c2197eccdb7e952e0e2dfd80bef939d34cfe5",
+    "path": "skills/research/peer-review",
+    "repository": "userInner/SKILLS",
+    "url": "https://github.com/userInner/SKILLS/tree/362c2197eccdb7e952e0e2dfd80bef939d34cfe5/skills/research/peer-review"
+  },
+  "status": "direct"
+}

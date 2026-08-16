@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Tamarind Bio API key sent as the x-api-key header.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/tamarind",
+  "kind": "CapabilityPackage",
+  "name": "tamarind",
+  "slug": "tamarind--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/tamarind",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

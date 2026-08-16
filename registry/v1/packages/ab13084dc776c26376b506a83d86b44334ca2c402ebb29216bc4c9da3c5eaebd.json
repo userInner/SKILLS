@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "growth",
+  "description": "Zero-shot time series forecasting with Google's TimesFM foundation model. Use for any univariate time series (sales, sensors, energy, vitals, weather) without training a custom model. Supports CSV/DataFrame/array inputs with point forecasts and prediction intervals. Includes a preflight system checker script to verify RAM/GPU before first use.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/timesfm-forecasting",
+  "kind": "CapabilityPackage",
+  "name": "timesfm-forecasting",
+  "slug": "timesfm-forecasting--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/timesfm-forecasting",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

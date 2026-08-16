@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:d6c2bd805439f7e5755a1f19db065551034542e8f51778cc41fde6cc6de9e5b6",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "skills/workflow/dispatching-parallel-agents"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:d6c2bd805439f7e5755a1f19db065551034542e8f51778cc41fde6cc6de9e5b6",
+    "fileCount": 4,
+    "totalBytes": 8140
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "unknown",
+    "spdx": "see-package"
+  },
+  "packageId": "github:userinner/skills:skills/workflow/dispatching-parallel-agents",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:96a92ee1030555d593f87b73425ed6ee0e0d3f80b26896850014f6e08ea59a0b",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "362c2197eccdb7e952e0e2dfd80bef939d34cfe5",
+    "path": "skills/workflow/dispatching-parallel-agents",
+    "repository": "userInner/SKILLS",
+    "url": "https://github.com/userInner/SKILLS/tree/362c2197eccdb7e952e0e2dfd80bef939d34cfe5/skills/workflow/dispatching-parallel-agents"
+  },
+  "status": "direct"
+}

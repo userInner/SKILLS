@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Use PathML for local, research-only computational pathology workflows: load and tile slides, build preprocessing and QC pipelines, manage h5path data, quantify multiplex images, construct spatial graphs, and plan bounded model inference.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/pathml",
+  "kind": "CapabilityPackage",
+  "name": "pathml",
+  "slug": "pathml--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/pathml",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

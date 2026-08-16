@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": ">",
+  "id": "github:affaan-m/ecc:.kiro/skills/coding-standards",
+  "kind": "CapabilityPackage",
+  "name": "coding-standards",
+  "slug": "coding-standards--affaan-m-ecc--f71633fe08",
+  "source": {
+    "path": ".kiro/skills/coding-standards",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

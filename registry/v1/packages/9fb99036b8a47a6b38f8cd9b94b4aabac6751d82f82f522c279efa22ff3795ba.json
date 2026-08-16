@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Molecular featurization for ML (100+ featurizers). ECFP, MACCS, descriptors, pretrained models (ChemBERTa), convert SMILES to features, for QSAR and molecular ML.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/molfeat",
+  "kind": "CapabilityPackage",
+  "name": "molfeat",
+  "slug": "molfeat--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/molfeat",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}

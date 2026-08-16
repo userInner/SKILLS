@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": ">",
+  "id": "github:affaan-m/ecc:skills/carrier-relationship-management",
+  "kind": "CapabilityPackage",
+  "name": "carrier-relationship-management",
+  "slug": "carrier-relationship-management--affaan-m-ecc",
+  "source": {
+    "path": "skills/carrier-relationship-management",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

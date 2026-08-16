@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": ">",
+  "id": "github:dietrichgebert/ponytail:skills/ponytail-review",
+  "kind": "CapabilityPackage",
+  "name": "ponytail-review",
+  "slug": "ponytail-review--dietrichgebert-ponytail",
+  "source": {
+    "path": "skills/ponytail-review",
+    "repository": "DietrichGebert/ponytail"
+  },
+  "type": "skill"
+}

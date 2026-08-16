@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": ">",
+  "id": "github:affaan-m/ecc:skills/returns-reverse-logistics",
+  "kind": "CapabilityPackage",
+  "name": "returns-reverse-logistics",
+  "slug": "returns-reverse-logistics--affaan-m-ecc",
+  "source": {
+    "path": "skills/returns-reverse-logistics",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

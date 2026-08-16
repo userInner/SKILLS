@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "A comprehensive verification system for Claude Code sessions. Use when verifying a Claude Code session's work before claiming it is complete.",
+  "id": "github:affaan-m/ecc:skills/verification-loop",
+  "kind": "CapabilityPackage",
+  "name": "verification-loop",
+  "slug": "verification-loop--affaan-m-ecc",
+  "source": {
+    "path": "skills/verification-loop",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}

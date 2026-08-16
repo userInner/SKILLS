@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:c2ec7e457cda908cd13caf90152cf270ef738135e8b32825466cde60b008d874",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "skills/research/experimental-design"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:c2ec7e457cda908cd13caf90152cf270ef738135e8b32825466cde60b008d874",
+    "fileCount": 10,
+    "totalBytes": 55970
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "unknown",
+    "spdx": "see-package"
+  },
+  "packageId": "github:userinner/skills:skills/research/experimental-design",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:c004840bded1aaafc92c2b836e698d704b29e548c291b42f6c956283ca3f7dea",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "362c2197eccdb7e952e0e2dfd80bef939d34cfe5",
+    "path": "skills/research/experimental-design",
+    "repository": "userInner/SKILLS",
+    "url": "https://github.com/userInner/SKILLS/tree/362c2197eccdb7e952e0e2dfd80bef939d34cfe5/skills/research/experimental-design"
+  },
+  "status": "direct"
+}

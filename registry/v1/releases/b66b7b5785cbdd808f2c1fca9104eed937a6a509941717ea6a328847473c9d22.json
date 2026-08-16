@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:47dfe1a38e853f6b912e2a1a0e4ac9cfe6656929db4cf219cade118ed80128c3",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/design/manim-video--affaan-m-ecc"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:47dfe1a38e853f6b912e2a1a0e4ac9cfe6656929db4cf219cade118ed80128c3",
+    "fileCount": 2,
+    "totalBytes": 5803
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:affaan-m/ecc:skills/manim-video",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:b66b7b5785cbdd808f2c1fca9104eed937a6a509941717ea6a328847473c9d22",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8",
+    "path": "skills/manim-video",
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC/tree/c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8/skills/manim-video"
+  },
+  "status": "extracted"
+}

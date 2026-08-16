@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:9d08a2fd4f71d9fa9f6808506fed4a8231ab451e2016570ab80514074571c64a",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/design/imagegen-frontend-mobile--leonxlnx-taste-skill"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:9d08a2fd4f71d9fa9f6808506fed4a8231ab451e2016570ab80514074571c64a",
+    "fileCount": 1,
+    "totalBytes": 40326
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:leonxlnx/taste-skill:skills/imagegen-frontend-mobile",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:2f0af664d140fa02e683b35e046824cfc3da8ab4df9bf88fbcfe0f9d9adbf1b8",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "e988add20dab0fa97d7a76781c48961c8184288e",
+    "path": "skills/imagegen-frontend-mobile",
+    "repository": "Leonxlnx/taste-skill",
+    "url": "https://github.com/Leonxlnx/taste-skill/tree/e988add20dab0fa97d7a76781c48961c8184288e/skills/imagegen-frontend-mobile"
+  },
+  "status": "extracted"
+}

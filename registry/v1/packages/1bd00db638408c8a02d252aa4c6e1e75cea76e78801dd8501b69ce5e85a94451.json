@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "engineering",
+  "description": "Engineering operating model for teams where AI agents generate a large share of implementation output. Use when setting team process, review gates, or ownership rules for a codebase largely written by agents.",
+  "id": "github:affaan-m/ecc:skills/ai-first-engineering",
+  "kind": "CapabilityPackage",
+  "name": "ai-first-engineering",
+  "slug": "ai-first-engineering--affaan-m-ecc",
+  "source": {
+    "path": "skills/ai-first-engineering",
+    "repository": "affaan-m/ECC"
+  },
+  "type": "skill"
+}
