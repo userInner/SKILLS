@@ -6,6 +6,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 WORKFLOWS = ROOT / ".github" / "workflows"
 REFRESH_WORKFLOW = WORKFLOWS / "update-skill-ranking.yml"
+VALIDATE_WORKFLOW = WORKFLOWS / "validate-community-skills.yml"
 LEGACY_EXTRACT_WORKFLOW = WORKFLOWS / "extract-community-skills.yml"
 
 
@@ -46,6 +47,10 @@ class WorkflowPolicyTests(unittest.TestCase):
         for workflow in WORKFLOWS.glob("*.yml"):
             for reference in action_pattern.findall(workflow.read_text()):
                 self.assertRegex(reference, r"^[0-9a-f]{40}$", workflow.name)
+
+    def test_registry_validation_has_full_git_history(self):
+        text = VALIDATE_WORKFLOW.read_text()
+        self.assertIn("fetch-depth: 0", text)
 
 
 if __name__ == "__main__":
