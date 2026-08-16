@@ -53,7 +53,8 @@ jobs:
         id: changes
         run: |
           comparison_ref="${{ steps.baseline.outputs.comparison_ref }}"
-          if git diff --quiet "$comparison_ref" -- README.md community-skills; then
+          git add README.md community-skills
+          if git diff --cached --quiet "$comparison_ref" -- README.md community-skills; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
             echo "No concrete Skill changes"
             exit 0
