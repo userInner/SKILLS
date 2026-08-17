@@ -1,0 +1,54 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "checks": [
+    {
+      "name": "immutable-source",
+      "status": "passed",
+      "summary": "来源固定到完整 Git Commit。"
+    },
+    {
+      "name": "content-digest",
+      "status": "passed",
+      "summary": "目录 SHA-256 与 Registry 记录一致。"
+    },
+    {
+      "name": "package-integrity",
+      "status": "passed",
+      "summary": "SKILL.md、文件边界和 4 个包文件通过。"
+    },
+    {
+      "name": "static-scan",
+      "status": "passed",
+      "summary": "基础静态规则无未解决发现。"
+    },
+    {
+      "name": "isolated-install",
+      "status": "passed",
+      "summary": "隔离目录复制后摘要一致，SKILL.md 可重新加载。"
+    }
+  ],
+  "contentDigest": "sha256:86f3772687aa5633b7a16db0f21d235210d484b11c812ad5fa947cb2e5161f19",
+  "environment": {
+    "filesystem": "ephemeral-directory",
+    "networkAccess": false,
+    "policyVersion": 1,
+    "runner": "github-actions",
+    "sourceCodeExecution": false
+  },
+  "evidenceDigest": "sha256:1fcdcbc45c09b5352d51ae9d5fc54329de9f13897d962e9a376568f039f6ec02",
+  "kind": "VerificationRecord",
+  "level": "isolated-install",
+  "metrics": {
+    "commandsExecuted": 0,
+    "fileCount": 4,
+    "networkRequests": 0,
+    "totalBytes": 7774
+  },
+  "releaseId": "sha256:c0e2b39ca1dba3464b40640d8ccfcdb3101b10aa6a19c7a76b4f8f1a6af34824",
+  "runId": "github-actions:31997567428:1",
+  "signature": "github-actions:https://github.com/userInner/SKILLS/actions/runs/31997567428@88a607b42f8cc572fbffa60b38a0ded9feb9b18d",
+  "signedAt": "2026-08-17T05:20:40Z",
+  "status": "passed",
+  "summary": "固定 Commit、目录摘要、静态规则和隔离复制均通过；未执行来源脚本。",
+  "type": "sandbox-smoke"
+}
