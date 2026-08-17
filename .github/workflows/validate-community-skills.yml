@@ -12,11 +12,17 @@ on:
       - "scripts/test_validate_community_skills.py"
       - "scripts/build_registry_v1.py"
       - "scripts/test_build_registry_v1.py"
+      - "scripts/verify_registry_skills.py"
+      - "scripts/test_verify_registry_skills.py"
+      - "scripts/check_verification_auto_merge.py"
+      - "scripts/test_check_verification_auto_merge.py"
       - "scripts/test_workflow_policy.py"
       - "schemas/v1/**"
       - "registry/v1/**"
       - ".github/workflows/update-skill-ranking.yml"
       - ".github/workflows/validate-community-skills.yml"
+      - ".github/workflows/verify-registry-skills.yml"
+      - "verifications/v1/**"
   push:
     branches:
       - master
@@ -29,11 +35,17 @@ on:
       - "scripts/test_validate_community_skills.py"
       - "scripts/build_registry_v1.py"
       - "scripts/test_build_registry_v1.py"
+      - "scripts/verify_registry_skills.py"
+      - "scripts/test_verify_registry_skills.py"
+      - "scripts/check_verification_auto_merge.py"
+      - "scripts/test_check_verification_auto_merge.py"
       - "scripts/test_workflow_policy.py"
       - "schemas/v1/**"
       - "registry/v1/**"
       - ".github/workflows/update-skill-ranking.yml"
       - ".github/workflows/validate-community-skills.yml"
+      - ".github/workflows/verify-registry-skills.yml"
+      - "verifications/v1/**"
 
 permissions:
   contents: read
@@ -54,6 +66,8 @@ jobs:
           scripts/test_extract_community_skills.py
           scripts/test_validate_community_skills.py
           scripts/test_build_registry_v1.py
+          scripts/test_verify_registry_skills.py
+          scripts/test_check_verification_auto_merge.py
           scripts/test_workflow_policy.py
       - name: Validate concrete Skill packages
         run: python3 scripts/validate_community_skills.py

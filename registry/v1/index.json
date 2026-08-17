@@ -15257,7 +15257,8 @@
   "generatorVersion": 1,
   "inputDigests": {
     "catalog": "sha256:f06943e0c61e9b7c429135ef6080ad0ad49130f7ac35346d4639666b9fc580de",
-    "communitySkills": "sha256:50779977bf88e0ba8e8239102c4b455c47cc9bfd0aeaae84f4cb4738b07acc25"
+    "communitySkills": "sha256:50779977bf88e0ba8e8239102c4b455c47cc9bfd0aeaae84f4cb4738b07acc25",
+    "verifications": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
   },
   "kind": "CapabilityIndex",
   "snapshotDate": "2026-08-16"

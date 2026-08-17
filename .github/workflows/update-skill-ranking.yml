@@ -63,6 +63,8 @@ jobs:
           scripts/test_extract_community_skills.py
           scripts/test_validate_community_skills.py
           scripts/test_build_registry_v1.py
+          scripts/test_verify_registry_skills.py
+          scripts/test_check_verification_auto_merge.py
           scripts/test_workflow_policy.py
 
       - name: Refresh GitHub Skill sources

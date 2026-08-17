@@ -7,6 +7,7 @@ ROOT = Path(__file__).resolve().parents[1]
 WORKFLOWS = ROOT / ".github" / "workflows"
 REFRESH_WORKFLOW = WORKFLOWS / "update-skill-ranking.yml"
 VALIDATE_WORKFLOW = WORKFLOWS / "validate-community-skills.yml"
+VERIFY_WORKFLOW = WORKFLOWS / "verify-registry-skills.yml"
 LEGACY_EXTRACT_WORKFLOW = WORKFLOWS / "extract-community-skills.yml"
 
 
@@ -63,6 +64,16 @@ class WorkflowPolicyTests(unittest.TestCase):
     def test_registry_validation_supports_trusted_dispatch(self):
         text = VALIDATE_WORKFLOW.read_text()
         self.assertIn("workflow_dispatch:", text)
+
+    def test_verification_pipeline_is_append_only_and_uses_required_validation(self):
+        text = VERIFY_WORKFLOW.read_text()
+        self.assertIn("python3 scripts/verify_registry_skills.py", text)
+        self.assertIn("python3 scripts/check_verification_auto_merge.py --base HEAD", text)
+        self.assertIn("automation/skill-verification", text)
+        self.assertIn("gh workflow run validate-community-skills.yml", text)
+        self.assertIn("gh pr merge", text)
+        self.assertIn("statuses: write", text)
+        self.assertNotIn("pull_request_target:", text)
 
     def test_auto_merge_guard_rejects_unexpected_files(self):
         text = REFRESH_WORKFLOW.read_text()

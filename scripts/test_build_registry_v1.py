@@ -183,6 +183,40 @@ class BuildRegistryV1Tests(unittest.TestCase):
             with self.assertRaises(MODULE.RegistryError):
                 MODULE.write_registry(root, root / "registry" / "v1", direct_commit=COMMIT)
 
+    def test_embeds_matching_verification_and_copies_evidence(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            self.fixture(root)
+            initial = MODULE.write_registry(root, root / "registry" / "initial", direct_commit=COMMIT)
+            capability = next(item for item in initial["capabilities"] if item["status"] == "direct")
+            record = {
+                "apiVersion": MODULE.API_VERSION,
+                "checks": [{"name": "isolated-install", "status": "passed", "summary": "copied"}],
+                "contentDigest": capability["contentDigest"],
+                "environment": {"sourceCodeExecution": False},
+                "kind": "VerificationRecord",
+                "level": "isolated-install",
+                "metrics": {"commandsExecuted": 0, "networkRequests": 0},
+                "releaseId": capability["releaseId"],
+                "runId": "test:1",
+                "signedAt": "2026-08-17T00:00:00Z",
+                "signature": "test:signature",
+                "status": "passed",
+                "summary": "passed",
+                "type": "sandbox-smoke",
+            }
+            record["evidenceDigest"] = MODULE.verification_evidence_digest(record)
+            evidence = root / "verifications" / "v1" / (capability["releaseId"].removeprefix("sha256:") + ".json")
+            MODULE.write_json(evidence, record)
+
+            output = root / "registry" / "with-verification"
+            index = MODULE.write_registry(root, output, direct_commit=COMMIT)
+            verified = next(item for item in index["capabilities"] if item["releaseId"] == capability["releaseId"])
+
+            self.assertEqual(verified["verification"], record)
+            self.assertTrue((output / verified["verificationFile"]).is_file())
+            self.assertEqual(index["inputDigests"]["verifications"], MODULE.tree_digest(root / "verifications" / "v1"))
+
 
 if __name__ == "__main__":
     unittest.main()
