@@ -16906,10 +16906,10 @@
   },
   "generatorVersion": 1,
   "inputDigests": {
-    "catalog": "sha256:f06943e0c61e9b7c429135ef6080ad0ad49130f7ac35346d4639666b9fc580de",
+    "catalog": "sha256:456cff5c1a557ff3f406df878a9a3535649ffa9e83baba57d0703e64ae814982",
     "communitySkills": "sha256:50779977bf88e0ba8e8239102c4b455c47cc9bfd0aeaae84f4cb4738b07acc25",
     "verifications": "sha256:d1aed26938f815a99033007d3ae3cafe00c919b3791fc218de715d53ef99efcf"
   },
   "kind": "CapabilityIndex",
-  "snapshotDate": "2026-08-16"
+  "snapshotDate": "2026-08-17"
 }

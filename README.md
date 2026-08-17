@@ -89,64 +89,64 @@
 
 ## 高星来源索引（Top 50）
 
-快照日期 **2026-08-16**。共收录 **1671** 个超过 300 Star 的来源，其中 **1667** 个已核验包含 `SKILL.md`。Star 会变化，排名不代表安全或质量背书。
+快照日期 **2026-08-17**。共收录 **1674** 个超过 300 Star 的来源，其中 **1670** 个已核验包含 `SKILL.md`。Star 会变化，排名不代表安全或质量背书。
 
 自动发现只进入索引；许可证、依赖、权限和隔离测试通过后，才可能进入直装目录。
 
-README 仅展示前 50 名；[查看完整 1671 项排行榜](RANKING.md)。
+README 仅展示前 50 名；[查看完整 1674 项排行榜](RANKING.md)。
 
 | 排名 | 项目 | Stars | 许可证 | SKILL.md 数 | 本仓库状态 |
 |---:|---|---:|---|---:|---|
-| 1 | [vinta/awesome-python](https://github.com/vinta/awesome-python) | 314,228 | 未识别 | 2 | 索引，许可证未识别 |
-| 2 | [obra/superpowers](https://github.com/obra/superpowers) | 272,630 | MIT | 14 | 已精选导入 |
-| 3 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | 240,369 | MIT | 896 | 已精选导入 |
-| 4 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 231,267 | MIT | 198 | 索引，Agent 框架耦合 |
-| 5 | [mattpocock/skills](https://github.com/mattpocock/skills) | 218,796 | MIT | 35 | 已精选导入 |
-| 6 | [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) | 202,911 | 未识别 | 1 | 索引，许可证未识别 |
-| 7 | [ultraworkers/claw-code](https://github.com/ultraworkers/claw-code) | 195,058 | MIT | 0 | 索引，框架耦合 |
-| 8 | [anthropics/skills](https://github.com/anthropics/skills) | 169,634 | 未识别 | 18 | 索引，许可证未识别 |
-| 9 | [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | 145,691 | MIT | 0 | 索引 |
-| 10 | [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | 132,821 | Apache-2.0 | 9 | 索引，Skill 集合待审查 |
-| 11 | [github/spec-kit](https://github.com/github/spec-kit) | 129,392 | MIT | 1 | 索引，框架耦合 |
-| 12 | [garrytan/gstack](https://github.com/garrytan/gstack) | 128,198 | MIT | 61 | 索引，框架耦合 |
-| 13 | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | 117,166 | MIT | 13 | 已精选导入 |
-| 14 | [browser-use/browser-use](https://github.com/browser-use/browser-use) | 109,379 | MIT | 7 | 索引，框架耦合 |
-| 15 | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | 106,893 | Apache-2.0 | 1 | 索引，待人工审查 |
-| 16 | [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | 104,122 | MIT | 1 | 索引，待人工审查 |
-| 17 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 103,691 | MIT | 12 | 已精选导入 |
-| 18 | [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) | 98,464 | 未识别 | 24 | 索引，许可证未识别 |
-| 19 | [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | 90,866 | Apache-2.0 | 22 | 索引，项目附带 Skill |
-| 20 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | 87,610 | MIT | 24 | 已精选导入 |
-| 21 | [nexu-io/open-design](https://github.com/nexu-io/open-design) | 87,243 | Apache-2.0 | 532 | 索引 |
-| 22 | [koala73/worldmonitor](https://github.com/koala73/worldmonitor) | 82,264 | AGPL-3.0 | 25 | 索引，待人工审查 |
-| 23 | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | 80,075 | MIT | 33 | 索引，框架耦合 |
-| 24 | [Egonex-AI/Understand-Anything](https://github.com/Egonex-AI/Understand-Anything) | 79,469 | MIT | 9 | 索引，框架耦合 |
-| 25 | [paperclipai/paperclip](https://github.com/paperclipai/paperclip) | 78,395 | MIT | 52 | 索引，待人工审查 |
-| 26 | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | 76,983 | MIT | 13 | 已精选导入 |
-| 27 | [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling) | 74,381 | BSD-3-Clause | 1 | 索引，待人工审查 |
-| 28 | [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) | 74,350 | MIT | 4 | 索引 |
-| 29 | [thedaviddias/Front-End-Checklist](https://github.com/thedaviddias/Front-End-Checklist) | 73,539 | 未识别 | 390 | 索引，许可证未识别 |
-| 30 | [datawhalechina/hello-agents](https://github.com/datawhalechina/hello-agents) | 73,168 | 未识别 | 6 | 索引，许可证未识别 |
-| 31 | [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) | 72,590 | 未识别 | 864 | 索引，许可证未识别 |
-| 32 | [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | 72,175 | MIT | 1 | 索引 |
-| 33 | [openinterpreter/openinterpreter](https://github.com/openinterpreter/openinterpreter) | 68,029 | Apache-2.0 | 21 | 索引，待人工审查 |
-| 34 | [code-yeongyu/oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent) | 67,935 | 未识别 | 66 | 索引，许可证未识别 |
-| 35 | [Fission-AI/OpenSpec](https://github.com/Fission-AI/OpenSpec) | 65,036 | MIT | 13 | 索引，框架耦合 |
-| 36 | [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) | 64,554 | MIT | 9 | 索引 |
-| 37 | [santifer/career-ops](https://github.com/santifer/career-ops) | 64,019 | MIT | 12 | 索引 |
-| 38 | [mem0ai/mem0](https://github.com/mem0ai/mem0) | 63,360 | Apache-2.0 | 42 | 索引，项目附带 Skill |
-| 39 | [1c7/chinese-independent-developer](https://github.com/1c7/chinese-independent-developer) | 60,808 | 未识别 | 1 | 索引，许可证未识别 |
-| 40 | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | 59,535 | Apache-2.0 | 17 | 索引，待人工审查 |
-| 41 | [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | 58,346 | MIT | 1 | 索引 |
-| 42 | [remotion-dev/remotion](https://github.com/remotion-dev/remotion) | 56,447 | 未识别 | 68 | 索引，许可证未识别 |
-| 43 | [usestrix/strix](https://github.com/usestrix/strix) | 53,018 | Apache-2.0 | 4 | 索引，待人工审查 |
-| 44 | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 50,544 | AGPL-3.0 | 19 | 索引，项目附带 Skill |
-| 45 | [jamiepine/voicebox](https://github.com/jamiepine/voicebox) | 50,524 | MIT | 4 | 索引，待人工审查 |
-| 46 | [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) | 48,278 | AGPL-3.0 | 138 | 索引，待人工审查 |
-| 47 | [prisma/prisma](https://github.com/prisma/prisma) | 47,576 | Apache-2.0 | 21 | 索引，项目附带 Skill |
-| 48 | [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) | 47,549 | Apache-2.0 | 150 | 索引，项目附带 Skill |
-| 49 | [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master) | 47,168 | MIT | 1 | 索引，待人工审查 |
-| 50 | [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch) | 46,859 | MIT | 13 | 索引，项目附带 Skill |
+| 1 | [vinta/awesome-python](https://github.com/vinta/awesome-python) | 314,343 | 未识别 | 2 | 索引，许可证未识别 |
+| 2 | [obra/superpowers](https://github.com/obra/superpowers) | 272,878 | MIT | 14 | 已精选导入 |
+| 3 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | 240,531 | MIT | 896 | 已精选导入 |
+| 4 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 231,605 | MIT | 198 | 索引，Agent 框架耦合 |
+| 5 | [mattpocock/skills](https://github.com/mattpocock/skills) | 219,463 | MIT | 35 | 已精选导入 |
+| 6 | [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) | 203,129 | 未识别 | 1 | 索引，许可证未识别 |
+| 7 | [ultraworkers/claw-code](https://github.com/ultraworkers/claw-code) | 195,070 | MIT | 0 | 索引，框架耦合 |
+| 8 | [anthropics/skills](https://github.com/anthropics/skills) | 169,788 | 未识别 | 18 | 索引，许可证未识别 |
+| 9 | [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | 145,871 | MIT | 0 | 索引 |
+| 10 | [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | 132,909 | Apache-2.0 | 9 | 索引，Skill 集合待审查 |
+| 11 | [github/spec-kit](https://github.com/github/spec-kit) | 129,592 | MIT | 1 | 索引，框架耦合 |
+| 12 | [garrytan/gstack](https://github.com/garrytan/gstack) | 128,291 | MIT | 61 | 索引，框架耦合 |
+| 13 | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | 117,382 | MIT | 13 | 已精选导入 |
+| 14 | [browser-use/browser-use](https://github.com/browser-use/browser-use) | 109,457 | MIT | 7 | 索引，框架耦合 |
+| 15 | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | 107,176 | Apache-2.0 | 1 | 索引，待人工审查 |
+| 16 | [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | 104,825 | MIT | 1 | 索引，待人工审查 |
+| 17 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 104,209 | MIT | 12 | 已精选导入 |
+| 18 | [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) | 98,566 | 未识别 | 24 | 索引，许可证未识别 |
+| 19 | [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | 90,923 | Apache-2.0 | 22 | 索引，项目附带 Skill |
+| 20 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | 87,812 | MIT | 24 | 已精选导入 |
+| 21 | [nexu-io/open-design](https://github.com/nexu-io/open-design) | 87,742 | Apache-2.0 | 532 | 索引 |
+| 22 | [koala73/worldmonitor](https://github.com/koala73/worldmonitor) | 82,455 | AGPL-3.0 | 25 | 索引，待人工审查 |
+| 23 | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | 80,115 | MIT | 33 | 索引，框架耦合 |
+| 24 | [Egonex-AI/Understand-Anything](https://github.com/Egonex-AI/Understand-Anything) | 79,541 | MIT | 9 | 索引，框架耦合 |
+| 25 | [paperclipai/paperclip](https://github.com/paperclipai/paperclip) | 78,555 | MIT | 52 | 索引，待人工审查 |
+| 26 | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | 77,150 | MIT | 13 | 已精选导入 |
+| 27 | [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling) | 74,621 | BSD-3-Clause | 1 | 索引，待人工审查 |
+| 28 | [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) | 74,402 | MIT | 4 | 索引 |
+| 29 | [thedaviddias/Front-End-Checklist](https://github.com/thedaviddias/Front-End-Checklist) | 73,541 | 未识别 | 390 | 索引，许可证未识别 |
+| 30 | [datawhalechina/hello-agents](https://github.com/datawhalechina/hello-agents) | 73,247 | 未识别 | 6 | 索引，许可证未识别 |
+| 31 | [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) | 72,627 | 未识别 | 864 | 索引，许可证未识别 |
+| 32 | [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | 72,351 | MIT | 1 | 索引 |
+| 33 | [openinterpreter/openinterpreter](https://github.com/openinterpreter/openinterpreter) | 68,036 | Apache-2.0 | 21 | 索引，待人工审查 |
+| 34 | [code-yeongyu/oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent) | 67,967 | 未识别 | 66 | 索引，许可证未识别 |
+| 35 | [Fission-AI/OpenSpec](https://github.com/Fission-AI/OpenSpec) | 65,104 | MIT | 13 | 索引，框架耦合 |
+| 36 | [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) | 64,583 | MIT | 9 | 索引 |
+| 37 | [santifer/career-ops](https://github.com/santifer/career-ops) | 64,113 | MIT | 12 | 索引 |
+| 38 | [mem0ai/mem0](https://github.com/mem0ai/mem0) | 63,396 | Apache-2.0 | 42 | 索引，项目附带 Skill |
+| 39 | [1c7/chinese-independent-developer](https://github.com/1c7/chinese-independent-developer) | 60,812 | 未识别 | 1 | 索引，许可证未识别 |
+| 40 | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | 59,708 | Apache-2.0 | 17 | 索引，待人工审查 |
+| 41 | [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | 58,415 | MIT | 1 | 索引 |
+| 42 | [remotion-dev/remotion](https://github.com/remotion-dev/remotion) | 56,521 | 未识别 | 68 | 索引，许可证未识别 |
+| 43 | [usestrix/strix](https://github.com/usestrix/strix) | 53,441 | Apache-2.0 | 4 | 索引，待人工审查 |
+| 44 | [jamiepine/voicebox](https://github.com/jamiepine/voicebox) | 50,590 | MIT | 4 | 索引，待人工审查 |
+| 45 | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 50,581 | AGPL-3.0 | 19 | 索引，项目附带 Skill |
+| 46 | [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) | 48,411 | AGPL-3.0 | 138 | 索引，待人工审查 |
+| 47 | [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) | 47,649 | Apache-2.0 | 150 | 索引，项目附带 Skill |
+| 48 | [prisma/prisma](https://github.com/prisma/prisma) | 47,579 | Apache-2.0 | 21 | 索引，项目附带 Skill |
+| 49 | [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master) | 47,311 | MIT | 1 | 索引，待人工审查 |
+| 50 | [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch) | 46,950 | MIT | 13 | 索引，项目附带 Skill |
 
 ## 安装
 
