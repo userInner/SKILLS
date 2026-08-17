@@ -94,6 +94,17 @@ def content_digest(package_root: Path, files: list[Path]) -> str:
     return "sha256:" + digest.hexdigest()
 
 
+def tree_digest(path: Path) -> str:
+    digest = hashlib.sha256()
+    if path.is_dir():
+        for item in sorted(path.glob("*.json")):
+            digest.update(item.name.encode())
+            digest.update(b"\0")
+            digest.update(item.read_bytes())
+            digest.update(b"\0")
+    return "sha256:" + digest.hexdigest()
+
+
 def path_commit(root: Path, relative_path: str) -> str:
     try:
         result = subprocess.run(
@@ -335,7 +346,45 @@ def build_categories(entries: list[dict]) -> dict:
     }
 
 
-def validate_generated(index: dict, packages: dict[str, dict], releases: dict[str, dict]) -> None:
+def verification_evidence_digest(record: dict) -> str:
+    payload = {key: value for key, value in record.items() if key not in {"evidenceDigest", "signature"}}
+    return sha256_bytes(canonical_json(payload))
+
+
+def load_verifications(root: Path, releases: dict[str, dict]) -> dict[str, dict]:
+    records: dict[str, dict] = {}
+    directory = root / "verifications" / "v1"
+    if not directory.is_dir():
+        return records
+    for path in sorted(directory.glob("*.json")):
+        record = json.loads(path.read_text())
+        release_identifier = str(record.get("releaseId") or "")
+        if path.name != release_identifier.removeprefix("sha256:") + ".json":
+            raise RegistryError(f"verification filename does not match releaseId: {path}")
+        if release_identifier in records:
+            raise RegistryError(f"duplicate verification for {release_identifier}")
+        release = releases.get(release_identifier)
+        if release is None:
+            continue
+        if record.get("apiVersion") != API_VERSION or record.get("kind") != "VerificationRecord":
+            raise RegistryError(f"unsupported verification schema for {release_identifier}")
+        if record.get("contentDigest") != release["content"]["digest"]:
+            raise RegistryError(f"verification content digest mismatch for {release_identifier}")
+        if record.get("status") not in {"passed", "failed", "timed-out", "skipped"}:
+            raise RegistryError(f"invalid verification status for {release_identifier}")
+        checks = record.get("checks")
+        if not isinstance(checks, list) or not checks:
+            raise RegistryError(f"verification checks missing for {release_identifier}")
+        if record.get("evidenceDigest") != verification_evidence_digest(record):
+            raise RegistryError(f"verification evidence digest mismatch for {release_identifier}")
+        for required in ("level", "runId", "signedAt", "signature", "summary", "type"):
+            if not record.get(required):
+                raise RegistryError(f"verification {required} missing for {release_identifier}")
+        records[release_identifier] = record
+    return records
+
+
+def validate_generated(index: dict, packages: dict[str, dict], releases: dict[str, dict], verifications: dict[str, dict]) -> None:
     entries = index["capabilities"]
     if index["counts"]["total"] != len(entries):
         raise RegistryError("registry total count mismatch")
@@ -350,6 +399,13 @@ def validate_generated(index: dict, packages: dict[str, dict], releases: dict[st
             raise RegistryError(f"package/release mismatch for {package['id']}")
         if item["contentDigest"] != release["content"]["digest"]:
             raise RegistryError(f"digest mismatch for {package['id']}")
+        verification = verifications.get(item["releaseId"])
+        if verification is None:
+            if "verification" in item or "verificationFile" in item:
+                raise RegistryError(f"unexpected verification reference for {package['id']}")
+            continue
+        if item.get("verification") != verification:
+            raise RegistryError(f"verification mismatch for {package['id']}")
 
 
 def write_registry(root: Path, output: Path, direct_commit: str | None = None) -> dict:
@@ -367,6 +423,13 @@ def write_registry(root: Path, output: Path, direct_commit: str | None = None) -
 
     observations = build_source_observations(catalog)
     entries, packages, releases = build_objects(root, catalog, community_index, direct_commit)
+    verifications = load_verifications(root, releases)
+    for item in entries:
+        verification = verifications.get(item["releaseId"])
+        if verification is None:
+            continue
+        item["verification"] = verification
+        item["verificationFile"] = "verifications/" + item["releaseId"].removeprefix("sha256:") + ".json"
     status_counts = {status: sum(item["status"] == status for item in entries) for status in ("direct", "extracted", "needs-review")}
     index = {
         "apiVersion": API_VERSION,
@@ -376,11 +439,12 @@ def write_registry(root: Path, output: Path, direct_commit: str | None = None) -
         "inputDigests": {
             "catalog": file_digest(catalog_path),
             "communitySkills": file_digest(community_path),
+            "verifications": tree_digest(root / "verifications" / "v1"),
         },
         "kind": "CapabilityIndex",
         "snapshotDate": catalog["snapshotDate"],
     }
-    validate_generated(index, packages, releases)
+    validate_generated(index, packages, releases, verifications)
 
     output.parent.mkdir(parents=True, exist_ok=True)
     with tempfile.TemporaryDirectory(prefix="effecta-registry-v1-", dir=output.parent) as temporary:
@@ -402,6 +466,8 @@ def write_registry(root: Path, output: Path, direct_commit: str | None = None) -
             write_json(staging / "packages" / object_filename(identifier), package)
         for rid, release in sorted(releases.items()):
             write_json(staging / "releases" / (rid.removeprefix("sha256:") + ".json"), release)
+        for rid, verification in sorted(verifications.items()):
+            write_json(staging / "verifications" / (rid.removeprefix("sha256:") + ".json"), verification)
 
         if output.exists():
             shutil.rmtree(output)

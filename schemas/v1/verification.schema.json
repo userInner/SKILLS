@@ -4,18 +4,35 @@
   "additionalProperties": false,
   "properties": {
     "apiVersion": {"const": "effecta.dev/v1"},
+    "checks": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "name": {"minLength": 1, "type": "string"},
+          "status": {"enum": ["passed", "failed"]},
+          "summary": {"minLength": 1, "type": "string"}
+        },
+        "required": ["name", "status", "summary"],
+        "type": "object"
+      },
+      "minItems": 1,
+      "type": "array"
+    },
+    "contentDigest": {"pattern": "^sha256:[0-9a-f]{64}$", "type": "string"},
     "environment": {"type": "object"},
     "evidenceDigest": {"pattern": "^sha256:[0-9a-f]{64}$", "type": "string"},
     "kind": {"const": "VerificationRecord"},
+    "level": {"const": "isolated-install"},
     "metrics": {"type": "object"},
     "releaseId": {"pattern": "^sha256:[0-9a-f]{64}$", "type": "string"},
     "runId": {"minLength": 1, "type": "string"},
     "signature": {"minLength": 1, "type": "string"},
     "signedAt": {"format": "date-time", "type": "string"},
     "status": {"enum": ["passed", "failed", "timed-out", "skipped"]},
+    "summary": {"minLength": 1, "type": "string"},
     "type": {"enum": ["static-scan", "sandbox-smoke", "sandbox-ab", "runtime-report"]}
   },
-  "required": ["apiVersion", "kind", "releaseId", "runId", "type", "status", "environment", "metrics", "evidenceDigest", "signedAt", "signature"],
+  "required": ["apiVersion", "kind", "releaseId", "contentDigest", "runId", "type", "status", "level", "summary", "checks", "environment", "metrics", "evidenceDigest", "signedAt", "signature"],
   "title": "Effecta VerificationRecord v1",
   "type": "object"
 }

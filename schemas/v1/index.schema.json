@@ -26,7 +26,9 @@
           "sourceUrl": {"format": "uri", "pattern": "^https://github\\.com/", "type": "string"},
           "staticScanStatus": {"minLength": 1, "type": "string"},
           "status": {"enum": ["direct", "extracted", "needs-review"]},
-          "type": {"enum": ["skill", "workflow", "mcp-server", "harness-plugin"]}
+          "type": {"enum": ["skill", "workflow", "mcp-server", "harness-plugin"]},
+          "verification": {"$ref": "verification.schema.json"},
+          "verificationFile": {"pattern": "^verifications/[0-9a-f]{64}\\.json$", "type": "string"}
         },
         "required": ["packageId", "releaseId", "packageFile", "releaseFile", "name", "description", "type", "category", "status", "license", "contentDigest", "localPath", "sourceRepository", "sourceCommit", "sourcePath", "sourceRank", "sourceStars", "sourceUrl", "staticScanStatus"],
         "type": "object"
@@ -49,9 +51,10 @@
       "additionalProperties": false,
       "properties": {
         "catalog": {"pattern": "^sha256:[0-9a-f]{64}$", "type": "string"},
-        "communitySkills": {"pattern": "^sha256:[0-9a-f]{64}$", "type": "string"}
+        "communitySkills": {"pattern": "^sha256:[0-9a-f]{64}$", "type": "string"},
+        "verifications": {"pattern": "^sha256:[0-9a-f]{64}$", "type": "string"}
       },
-      "required": ["catalog", "communitySkills"],
+      "required": ["catalog", "communitySkills", "verifications"],
       "type": "object"
     },
     "kind": {"const": "CapabilityIndex"},

@@ -1,0 +1,157 @@
+name: Verify Skill releases
+
+on:
+  schedule:
+    - cron: "47 4 * * *"
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Maximum new release records"
+        required: false
+        default: "30"
+
+concurrency:
+  group: verify-skill-releases
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      actions: write
+      contents: write
+      pull-requests: write
+      statuses: write
+    env:
+      UPDATE_BRANCH: automation/skill-verification
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0
+          ref: ${{ github.event.repository.default_branch }}
+
+      - name: Load current verification candidate
+        id: baseline
+        shell: bash
+        run: |
+          candidate_sha=""
+          if git ls-remote --exit-code --heads origin "$UPDATE_BRANCH" >/dev/null 2>&1; then
+            git fetch origin "$UPDATE_BRANCH:refs/remotes/origin/$UPDATE_BRANCH"
+            candidate_sha="$(git rev-parse "refs/remotes/origin/$UPDATE_BRANCH")"
+            for path in verifications/v1; do
+              if git cat-file -e "refs/remotes/origin/$UPDATE_BRANCH:$path" 2>/dev/null; then
+                git restore --source="refs/remotes/origin/$UPDATE_BRANCH" -- "$path"
+              fi
+            done
+          fi
+          echo "candidate_sha=$candidate_sha" >> "$GITHUB_OUTPUT"
+
+      - name: Test verification policy
+        run: >-
+          python3 -m unittest
+          scripts/test_verify_registry_skills.py
+          scripts/test_check_verification_auto_merge.py
+          scripts/test_build_registry_v1.py
+          scripts/test_workflow_policy.py
+
+      - name: Verify next balanced Skill batch
+        shell: bash
+        run: |
+          limit="${{ inputs.limit || '30' }}"
+          python3 scripts/verify_registry_skills.py --limit "$limit"
+
+      - name: Build and check registry
+        run: |
+          python3 scripts/build_registry_v1.py
+          python3 scripts/build_registry_v1.py --check
+
+      - name: Detect evidence additions
+        id: changes
+        shell: bash
+        run: |
+          git add verifications/v1 registry/v1
+          if git diff --cached --quiet HEAD -- verifications/v1 registry/v1; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No unverified Skill releases remain"
+            exit 0
+          fi
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+          python3 scripts/check_verification_auto_merge.py --base HEAD
+
+      - name: Open or update verification PR
+        id: candidate
+        if: steps.changes.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          CANDIDATE_SHA: ${{ steps.baseline.outputs.candidate_sha }}
+        shell: bash
+        run: |
+          base_branch="${{ github.event.repository.default_branch }}"
+          added_count="$(git diff --cached --name-only --diff-filter=A -- verifications/v1 | wc -l | tr -d ' ')"
+          passed_count="$(git diff --cached --name-only --diff-filter=A -- verifications/v1 | xargs -r jq -s '[.[] | select(.status == "passed")] | length')"
+          failed_count="$((added_count - passed_count))"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: add Skill verification evidence"
+          if [ -n "$CANDIDATE_SHA" ]; then
+            git push --force-with-lease="refs/heads/$UPDATE_BRANCH:$CANDIDATE_SHA" origin "HEAD:refs/heads/$UPDATE_BRANCH"
+          else
+            git push origin "HEAD:refs/heads/$UPDATE_BRANCH"
+          fi
+          body="$(printf '%s\n\n%s\n%s\n%s\n\n%s' \
+            '平台自动核验新增的不可变证据记录。' \
+            "- 新增记录：$added_count" \
+            "- 通过：$passed_count" \
+            "- 未通过：$failed_count" \
+            '检查固定 Commit、内容摘要、SKILL.md 边界、基础静态规则和隔离复制。来源脚本不会执行，网络请求数和来源命令执行数均为 0。')"
+          existing_pr="$(gh pr list --repo "$GITHUB_REPOSITORY" --head "$UPDATE_BRANCH" --base "$base_branch" --state open --json number --jq '.[0].number // empty')"
+          if [ -n "$existing_pr" ]; then
+            gh pr edit "$existing_pr" --repo "$GITHUB_REPOSITORY" --title "chore: add Skill verification evidence" --body "$body"
+          else
+            gh pr create --repo "$GITHUB_REPOSITORY" --base "$base_branch" --head "$UPDATE_BRANCH" --title "chore: add Skill verification evidence" --body "$body"
+          fi
+          echo "candidate_sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+          echo "pr_number=$(gh pr list --repo "$GITHUB_REPOSITORY" --head "$UPDATE_BRANCH" --base "$base_branch" --state open --json number --jq '.[0].number')" >> "$GITHUB_OUTPUT"
+
+      - name: Run required validation
+        if: steps.changes.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          candidate_sha="${{ steps.candidate.outputs.candidate_sha }}"
+          run_url="https://github.com/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
+          gh api --method POST "repos/$GITHUB_REPOSITORY/statuses/$candidate_sha" -f state=pending -f context=validate -f description='Independent verification validation is running' -f target_url="$run_url"
+          gh workflow run validate-community-skills.yml --repo "$GITHUB_REPOSITORY" --ref "$UPDATE_BRANCH"
+          validation_id=""
+          for attempt in $(seq 1 30); do
+            validation_id="$(gh run list --repo "$GITHUB_REPOSITORY" --workflow validate-community-skills.yml --event workflow_dispatch --branch "$UPDATE_BRANCH" --limit 20 --json databaseId,headSha --jq "map(select(.headSha == \"$candidate_sha\")) | sort_by(.databaseId) | last | .databaseId // empty")"
+            [ -n "$validation_id" ] && break
+            sleep 2
+          done
+          [ -n "$validation_id" ] || exit 1
+          validation_url="$(gh run view "$validation_id" --repo "$GITHUB_REPOSITORY" --json url --jq '.url')"
+          if ! gh run watch "$validation_id" --repo "$GITHUB_REPOSITORY" --interval 5 --exit-status; then
+            gh api --method POST "repos/$GITHUB_REPOSITORY/statuses/$candidate_sha" -f state=failure -f context=validate -f description='Independent verification validation failed' -f target_url="$validation_url"
+            exit 1
+          fi
+          gh api --method POST "repos/$GITHUB_REPOSITORY/statuses/$candidate_sha" -f state=success -f context=validate -f description='Independent verification validation passed' -f target_url="$validation_url"
+
+      - name: Merge verified evidence
+        if: steps.changes.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          pr_number="${{ steps.candidate.outputs.pr_number }}"
+          for attempt in $(seq 1 30); do
+            if gh pr merge "$pr_number" --repo "$GITHUB_REPOSITORY" --merge --delete-branch; then
+              exit 0
+            fi
+            sleep 2
+          done
+          exit 1
