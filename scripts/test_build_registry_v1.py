@@ -103,6 +103,8 @@ class BuildRegistryV1Tests(unittest.TestCase):
                 self.assertEqual(package["id"], item["packageId"])
                 self.assertEqual(release["releaseId"], item["releaseId"])
                 self.assertEqual(release["packageId"], package["id"])
+                self.assertEqual(item["sourceCommit"], release["source"]["commit"])
+                self.assertEqual(item["sourceUrl"], release["source"]["url"])
 
     def test_same_input_generates_identical_tree(self):
         with tempfile.TemporaryDirectory() as temporary:

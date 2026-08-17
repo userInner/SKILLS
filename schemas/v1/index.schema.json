@@ -18,15 +18,17 @@
           "packageId": {"minLength": 1, "type": "string"},
           "releaseFile": {"pattern": "^releases/[0-9a-f]{64}\\.json$", "type": "string"},
           "releaseId": {"pattern": "^sha256:[0-9a-f]{64}$", "type": "string"},
+          "sourceCommit": {"pattern": "^[0-9a-f]{40}$", "type": "string"},
           "sourcePath": {"minLength": 1, "type": "string"},
           "sourceRank": {"type": ["integer", "null"]},
           "sourceRepository": {"pattern": "^[^/]+/[^/]+$", "type": "string"},
           "sourceStars": {"type": ["integer", "null"]},
+          "sourceUrl": {"format": "uri", "pattern": "^https://github\\.com/", "type": "string"},
           "staticScanStatus": {"minLength": 1, "type": "string"},
           "status": {"enum": ["direct", "extracted", "needs-review"]},
           "type": {"enum": ["skill", "workflow", "mcp-server", "harness-plugin"]}
         },
-        "required": ["packageId", "releaseId", "packageFile", "releaseFile", "name", "description", "type", "category", "status", "license", "contentDigest", "localPath", "sourceRepository", "sourcePath", "sourceRank", "sourceStars", "staticScanStatus"],
+        "required": ["packageId", "releaseId", "packageFile", "releaseFile", "name", "description", "type", "category", "status", "license", "contentDigest", "localPath", "sourceRepository", "sourceCommit", "sourcePath", "sourceRank", "sourceStars", "sourceUrl", "staticScanStatus"],
         "type": "object"
       },
       "type": "array"
