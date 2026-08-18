@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760" role="img" aria-labelledby="title desc">
+  <title id="title">Agent Skills Index three-minute demo</title>
+  <desc id="desc">Clone the repository, install a curated Skill into a temporary directory, verify its digest, then invoke it in Codex or Claude Code.</desc>
+  <rect width="1400" height="760" fill="#f5f2e9"/>
+  <g stroke="#17202b" stroke-width="1" opacity=".14">
+    <path d="M60 0v760M180 0v760M300 0v760M420 0v760M540 0v760M660 0v760M780 0v760M900 0v760M1020 0v760M1140 0v760M1260 0v760M1380 0v760"/>
+    <path d="M0 80h1400M0 200h1400M0 320h1400M0 440h1400M0 560h1400M0 680h1400"/>
+  </g>
+  <text x="76" y="86" fill="#111820" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="26" font-weight="700">THREE-MINUTE DEMO</text>
+  <text x="76" y="126" fill="#56606c" font-family="ui-sans-serif, system-ui, sans-serif" font-size="20">A real copy, a real digest, no dependency installation.</text>
+  <g transform="translate(76 178)">
+    <rect width="1248" height="446" rx="14" fill="#101820"/>
+    <circle cx="28" cy="27" r="6" fill="#f1a51a"/>
+    <circle cx="50" cy="27" r="6" fill="#1b5bd6"/>
+    <circle cx="72" cy="27" r="6" fill="#d9ddd9"/>
+    <text x="28" y="86" fill="#9aa6b2" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="19">$ git clone --depth 1 https://github.com/userInner/SKILLS.git</text>
+    <text x="28" y="128" fill="#9aa6b2" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="19">$ cd SKILLS</text>
+    <text x="28" y="170" fill="#f3f5f7" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="19">$ python3 scripts/demo_install.py systematic-debugging</text>
+    <text x="28" y="232" fill="#74d39b" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18">✓ Found curated Skill: systematic-debugging</text>
+    <text x="28" y="268" fill="#74d39b" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18">✓ Copied and verified every file</text>
+    <text x="28" y="304" fill="#74d39b" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18">✓ SHA-256: verified locally</text>
+    <rect x="28" y="340" width="1192" height="1" fill="#33414e"/>
+    <text x="28" y="388" fill="#8fb8ff" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18">Codex</text>
+    <text x="130" y="388" fill="#f3f5f7" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18">Use $systematic-debugging to investigate a reproducible bug.</text>
+    <text x="28" y="424" fill="#f0b14a" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18">Claude</text>
+    <text x="130" y="424" fill="#f3f5f7" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18">/systematic-debugging</text>
+  </g>
+  <g transform="translate(76 670)" font-family="ui-sans-serif, system-ui, sans-serif">
+    <rect width="12" height="12" fill="#1b5bd6"/>
+    <text x="25" y="13" fill="#303945" font-size="17">DISCOVER</text>
+    <path d="M144 6h54" stroke="#1b5bd6" stroke-width="2"/>
+    <rect x="218" width="12" height="12" fill="#1b5bd6"/>
+    <text x="243" y="13" fill="#303945" font-size="17">COPY</text>
+    <path d="M324 6h54" stroke="#1b5bd6" stroke-width="2"/>
+    <rect x="398" width="12" height="12" fill="#1b5bd6"/>
+    <text x="423" y="13" fill="#303945" font-size="17">VERIFY</text>
+    <path d="M530 6h54" stroke="#1b5bd6" stroke-width="2"/>
+    <rect x="604" width="12" height="12" fill="#f1a51a"/>
+    <text x="629" y="13" fill="#303945" font-size="17">CHOOSE TO INSTALL</text>
+  </g>
+</svg>

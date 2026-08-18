@@ -301,7 +301,7 @@ def update_readme(path: Path, index: dict, category_count: int, direct_skill_cou
         raise RuntimeError("README direct Skill summary marker was not found")
     start = text.index("## 高星来源索引")
     end = text.index("\n## ", start + 3)
-    summary = render_ranking(index, limit=50).rstrip()
+    summary = render_ranking(index, limit=10).rstrip()
     path.write_text(text[:start] + summary + "\n\n" + text[end + 1 :])
 
 
