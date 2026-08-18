@@ -285,13 +285,13 @@ class RankingTests(unittest.TestCase):
                     for rank in range(1, 61)
                 ],
             },
-            limit=50,
+            limit=10,
         )
 
-        self.assertIn("## 高星来源索引（Top 50）", text)
+        self.assertIn("## 高星来源索引（Top 10）", text)
         self.assertIn("[查看完整 1662 项排行榜](RANKING.md)", text)
-        self.assertIn("| 50 |", text)
-        self.assertNotIn("| 51 |", text)
+        self.assertIn("| 10 |", text)
+        self.assertNotIn("| 11 |", text)
 
     def test_local_skill_stats_uses_installable_skill_files(self):
         root = Path(self.id().replace(".", "-"))

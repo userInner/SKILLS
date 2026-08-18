@@ -1,0 +1,57 @@
+name: 试用反馈 / Trial feedback
+description: 分享一次真实、可复现的 Skill 使用结果
+title: "[反馈] "
+labels:
+  - feedback
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢试用。请只填写可公开的信息，不要粘贴密钥、账号、客户数据或私有代码。
+  - type: input
+    id: skill
+    attributes:
+      label: Skill
+      description: 使用的 Skill 名称或目录链接
+      placeholder: systematic-debugging
+    validations:
+      required: true
+  - type: dropdown
+    id: agent
+    attributes:
+      label: Agent
+      options:
+        - Codex
+        - Claude Code
+        - 其他兼容 Agent
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: 环境
+      description: 操作系统和 Agent 版本；不确定可写 unknown
+      placeholder: macOS 26 / Codex desktop
+    validations:
+      required: true
+  - type: textarea
+    id: task
+    attributes:
+      label: 真实任务与最小复现
+      description: 你想完成什么，以及别人如何重复这次试用
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: 结果
+      description: 哪部分有用、哪部分失败、实际输出与预期有何不同
+    validations:
+      required: true
+  - type: checkboxes
+    id: consent
+    attributes:
+      label: 公开确认
+      options:
+        - label: 我确认内容可公开，且不包含密钥、个人隐私或私有项目数据
+          required: true

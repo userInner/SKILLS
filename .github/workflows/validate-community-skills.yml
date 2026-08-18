@@ -17,6 +17,8 @@ on:
       - "scripts/check_verification_auto_merge.py"
       - "scripts/test_check_verification_auto_merge.py"
       - "scripts/test_workflow_policy.py"
+      - "scripts/demo_install.py"
+      - "scripts/test_demo_install.py"
       - "schemas/v1/**"
       - "registry/v1/**"
       - ".github/workflows/update-skill-ranking.yml"
@@ -40,6 +42,8 @@ on:
       - "scripts/check_verification_auto_merge.py"
       - "scripts/test_check_verification_auto_merge.py"
       - "scripts/test_workflow_policy.py"
+      - "scripts/demo_install.py"
+      - "scripts/test_demo_install.py"
       - "schemas/v1/**"
       - "registry/v1/**"
       - ".github/workflows/update-skill-ranking.yml"
@@ -68,6 +72,7 @@ jobs:
           scripts/test_build_registry_v1.py
           scripts/test_verify_registry_skills.py
           scripts/test_check_verification_auto_merge.py
+          scripts/test_demo_install.py
           scripts/test_workflow_policy.py
       - name: Validate concrete Skill packages
         run: python3 scripts/validate_community_skills.py
