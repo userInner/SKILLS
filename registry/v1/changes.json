@@ -1,10 +1,10 @@
 {
   "apiVersion": "effecta.dev/v1",
   "counts": {
-    "direct": 40,
+    "direct": 41,
     "extracted": 648,
     "needs-review": 38,
-    "total": 726
+    "total": 727
   },
   "kind": "RegistryBackfill",
   "mode": "initial-v1-backfill",

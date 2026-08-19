@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Optimize Chinese technical resumes, screen and apply to matching jobs, write tailored recruiter greetings, monitor recruiting messages, and prepare or send safe routine replies. Use for BOSS Zhipin and similar China job-search workflows involving AI Agent, AI application, full-stack, backend, career transitions, application tracking, interview funnel improvement, or recurring recruiting-message automation.",
+  "id": "github:userinner/skills:skills/workflow/job-search-agent-cn",
+  "kind": "CapabilityPackage",
+  "name": "job-search-agent-cn",
+  "slug": "job-search-agent-cn",
+  "source": {
+    "path": "skills/workflow/job-search-agent-cn",
+    "repository": "userInner/SKILLS"
+  },
+  "type": "skill"
+}

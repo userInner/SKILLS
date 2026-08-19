@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI 求职自动化"
+  short_description: "优化技术简历、筛选岗位、定制沟通并安全跟进招聘消息"
+  default_prompt: "使用 $job-search-agent-cn 优化我的简历并安全地筛选、沟通和跟进匹配岗位。"

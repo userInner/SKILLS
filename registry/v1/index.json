@@ -17019,6 +17019,27 @@
     },
     {
       "category": "workflow",
+      "contentDigest": "sha256:1a4e853a08b56316140b473f01f781423a84d46800be5953b82d2f6fbb7fad33",
+      "description": "Optimize Chinese technical resumes, screen and apply to matching jobs, write tailored recruiter greetings, monitor recruiting messages, and prepare or send safe routine replies. Use for BOSS Zhipin and similar China job-search workflows involving AI Agent, AI application, full-stack, backend, career transitions, application tracking, interview funnel improvement, or recurring recruiting-message automation.",
+      "license": "see-package",
+      "localPath": "skills/workflow/job-search-agent-cn",
+      "name": "job-search-agent-cn",
+      "packageFile": "packages/0854553bee019017d67e65171a323e2e7f0bf61125442c8abf79794eaff38b79.json",
+      "packageId": "github:userinner/skills:skills/workflow/job-search-agent-cn",
+      "releaseFile": "releases/8367bd077337d07277e121a50a8fe40603d3eb3bc5702e844b797c58a6ca738b.json",
+      "releaseId": "sha256:8367bd077337d07277e121a50a8fe40603d3eb3bc5702e844b797c58a6ca738b",
+      "sourceCommit": "a70eb8cacef94000e56aa3769516f43786d3fe3f",
+      "sourcePath": "skills/workflow/job-search-agent-cn",
+      "sourceRank": null,
+      "sourceRepository": "userInner/SKILLS",
+      "sourceStars": null,
+      "sourceUrl": "https://github.com/userInner/SKILLS/tree/a70eb8cacef94000e56aa3769516f43786d3fe3f/skills/workflow/job-search-agent-cn",
+      "staticScanStatus": "passed",
+      "status": "direct",
+      "type": "skill"
+    },
+    {
+      "category": "workflow",
       "contentDigest": "sha256:1a59f3a88c377a66a5087461bbdf6b3de7b30ce691dac1ff95c88d08ce354689",
       "description": "JetBrains Exposed ORM patterns including DSL queries, DAO pattern, transactions, HikariCP connection pooling, Flyway migrations, and repository pattern. Use when working with the Exposed ORM — DSL or DAO queries, transactions, pooling, or migrations.",
       "license": "MIT",
@@ -21849,15 +21870,15 @@
     }
   ],
   "counts": {
-    "direct": 40,
+    "direct": 41,
     "extracted": 648,
     "needs-review": 38,
-    "total": 726
+    "total": 727
   },
   "generatorVersion": 1,
   "inputDigests": {
     "catalog": "sha256:456cff5c1a557ff3f406df878a9a3535649ffa9e83baba57d0703e64ae814982",
-    "communitySkills": "sha256:50779977bf88e0ba8e8239102c4b455c47cc9bfd0aeaae84f4cb4738b07acc25",
+    "communitySkills": "sha256:121c3b6a6e89c5f7fbd98b908499b38a831c8bf7b20dc03c8cdcb7d170f47cbf",
     "verifications": "sha256:ceadb9659a25a7dd8603bbbaa8fabcb76df346a17b88839351b0d7d2b0ad0fed"
   },
   "kind": "CapabilityIndex",
