@@ -1197,7 +1197,62 @@
       "sourceUrl": "https://github.com/affaan-m/ECC/tree/c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8/.kiro/skills/frontend-patterns",
       "staticScanStatus": "passed",
       "status": "extracted",
-      "type": "skill"
+      "type": "skill",
+      "verification": {
+        "apiVersion": "effecta.dev/v1",
+        "checks": [
+          {
+            "name": "immutable-source",
+            "status": "passed",
+            "summary": "来源固定到完整 Git Commit。"
+          },
+          {
+            "name": "content-digest",
+            "status": "passed",
+            "summary": "目录 SHA-256 与 Registry 记录一致。"
+          },
+          {
+            "name": "package-integrity",
+            "status": "passed",
+            "summary": "SKILL.md、文件边界和 1 个包文件通过。"
+          },
+          {
+            "name": "static-scan",
+            "status": "passed",
+            "summary": "基础静态规则无未解决发现。"
+          },
+          {
+            "name": "isolated-install",
+            "status": "passed",
+            "summary": "隔离目录复制后摘要一致，SKILL.md 可重新加载。"
+          }
+        ],
+        "contentDigest": "sha256:09cce1c626a238378b7a9cca4980f3985f310eba899f0e74176c7542140c28d1",
+        "environment": {
+          "filesystem": "ephemeral-directory",
+          "networkAccess": false,
+          "policyVersion": 1,
+          "runner": "github-actions",
+          "sourceCodeExecution": false
+        },
+        "evidenceDigest": "sha256:8b0e4860c9c64dcf76bd30c0e6ee841c57198b84c98a9a0e112b7d632a678c3b",
+        "kind": "VerificationRecord",
+        "level": "isolated-install",
+        "metrics": {
+          "commandsExecuted": 0,
+          "fileCount": 1,
+          "networkRequests": 0,
+          "totalBytes": 15346
+        },
+        "releaseId": "sha256:b1d04605b7da4d42289d70739de1d82ac58dfee37c9a987b35e2421e262e9f92",
+        "runId": "github-actions:32218208143:1",
+        "signature": "github-actions:https://github.com/userInner/SKILLS/actions/runs/32218208143@334c282be00f44fbdf941f6bffae7ee781403f44",
+        "signedAt": "2026-08-19T05:07:00Z",
+        "status": "passed",
+        "summary": "固定 Commit、目录摘要、静态规则和隔离复制均通过；未执行来源脚本。",
+        "type": "sandbox-smoke"
+      },
+      "verificationFile": "verifications/b1d04605b7da4d42289d70739de1d82ac58dfee37c9a987b35e2421e262e9f92.json"
     },
     {
       "category": "design",
@@ -1218,7 +1273,62 @@
       "sourceUrl": "https://github.com/affaan-m/ECC/tree/c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8/skills/frontend-patterns",
       "staticScanStatus": "passed",
       "status": "extracted",
-      "type": "skill"
+      "type": "skill",
+      "verification": {
+        "apiVersion": "effecta.dev/v1",
+        "checks": [
+          {
+            "name": "immutable-source",
+            "status": "passed",
+            "summary": "来源固定到完整 Git Commit。"
+          },
+          {
+            "name": "content-digest",
+            "status": "passed",
+            "summary": "目录 SHA-256 与 Registry 记录一致。"
+          },
+          {
+            "name": "package-integrity",
+            "status": "passed",
+            "summary": "SKILL.md、文件边界和 1 个包文件通过。"
+          },
+          {
+            "name": "static-scan",
+            "status": "passed",
+            "summary": "基础静态规则无未解决发现。"
+          },
+          {
+            "name": "isolated-install",
+            "status": "passed",
+            "summary": "隔离目录复制后摘要一致，SKILL.md 可重新加载。"
+          }
+        ],
+        "contentDigest": "sha256:a5ecb8615d4af5f0333b83f2e3a7a77245f8a5e90fc681a6715f6f1271c3f444",
+        "environment": {
+          "filesystem": "ephemeral-directory",
+          "networkAccess": false,
+          "policyVersion": 1,
+          "runner": "github-actions",
+          "sourceCodeExecution": false
+        },
+        "evidenceDigest": "sha256:d6e21986ba1ffd8c6f7cc616aed520e06d92c10e4e4305e7b3455f61afec75b5",
+        "kind": "VerificationRecord",
+        "level": "isolated-install",
+        "metrics": {
+          "commandsExecuted": 0,
+          "fileCount": 1,
+          "networkRequests": 0,
+          "totalBytes": 15432
+        },
+        "releaseId": "sha256:3be7ab75957c8e76483fa4a3565556f6c08a183c68e0e50767be41f8d374881a",
+        "runId": "github-actions:32218208143:1",
+        "signature": "github-actions:https://github.com/userInner/SKILLS/actions/runs/32218208143@334c282be00f44fbdf941f6bffae7ee781403f44",
+        "signedAt": "2026-08-19T05:07:00Z",
+        "status": "passed",
+        "summary": "固定 Commit、目录摘要、静态规则和隔离复制均通过；未执行来源脚本。",
+        "type": "sandbox-smoke"
+      },
+      "verificationFile": "verifications/3be7ab75957c8e76483fa4a3565556f6c08a183c68e0e50767be41f8d374881a.json"
     },
     {
       "category": "design",
@@ -1239,7 +1349,62 @@
       "sourceUrl": "https://github.com/affaan-m/ECC/tree/c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8/.agents/skills/frontend-slides",
       "staticScanStatus": "passed",
       "status": "extracted",
-      "type": "skill"
+      "type": "skill",
+      "verification": {
+        "apiVersion": "effecta.dev/v1",
+        "checks": [
+          {
+            "name": "immutable-source",
+            "status": "passed",
+            "summary": "来源固定到完整 Git Commit。"
+          },
+          {
+            "name": "content-digest",
+            "status": "passed",
+            "summary": "目录 SHA-256 与 Registry 记录一致。"
+          },
+          {
+            "name": "package-integrity",
+            "status": "passed",
+            "summary": "SKILL.md、文件边界和 3 个包文件通过。"
+          },
+          {
+            "name": "static-scan",
+            "status": "passed",
+            "summary": "基础静态规则无未解决发现。"
+          },
+          {
+            "name": "isolated-install",
+            "status": "passed",
+            "summary": "隔离目录复制后摘要一致，SKILL.md 可重新加载。"
+          }
+        ],
+        "contentDigest": "sha256:9f25cb406b7f47c6b991f6699e947093c3e1f4b3889860291adfdcbb55ec392f",
+        "environment": {
+          "filesystem": "ephemeral-directory",
+          "networkAccess": false,
+          "policyVersion": 1,
+          "runner": "github-actions",
+          "sourceCodeExecution": false
+        },
+        "evidenceDigest": "sha256:1073e00a70518516f55400f0534a44ed0dff65661e360246862e92afb3890813",
+        "kind": "VerificationRecord",
+        "level": "isolated-install",
+        "metrics": {
+          "commandsExecuted": 0,
+          "fileCount": 3,
+          "networkRequests": 0,
+          "totalBytes": 15958
+        },
+        "releaseId": "sha256:82e86a4cbf66521f689d6fe3c1e93dd3209a3028dba245e3f353e31c25e91ca3",
+        "runId": "github-actions:32218208143:1",
+        "signature": "github-actions:https://github.com/userInner/SKILLS/actions/runs/32218208143@334c282be00f44fbdf941f6bffae7ee781403f44",
+        "signedAt": "2026-08-19T05:07:00Z",
+        "status": "passed",
+        "summary": "固定 Commit、目录摘要、静态规则和隔离复制均通过；未执行来源脚本。",
+        "type": "sandbox-smoke"
+      },
+      "verificationFile": "verifications/82e86a4cbf66521f689d6fe3c1e93dd3209a3028dba245e3f353e31c25e91ca3.json"
     },
     {
       "category": "design",
@@ -1260,7 +1425,62 @@
       "sourceUrl": "https://github.com/affaan-m/ECC/tree/c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8/.cursor/skills/frontend-slides",
       "staticScanStatus": "passed",
       "status": "extracted",
-      "type": "skill"
+      "type": "skill",
+      "verification": {
+        "apiVersion": "effecta.dev/v1",
+        "checks": [
+          {
+            "name": "immutable-source",
+            "status": "passed",
+            "summary": "来源固定到完整 Git Commit。"
+          },
+          {
+            "name": "content-digest",
+            "status": "passed",
+            "summary": "目录 SHA-256 与 Registry 记录一致。"
+          },
+          {
+            "name": "package-integrity",
+            "status": "passed",
+            "summary": "SKILL.md、文件边界和 2 个包文件通过。"
+          },
+          {
+            "name": "static-scan",
+            "status": "passed",
+            "summary": "基础静态规则无未解决发现。"
+          },
+          {
+            "name": "isolated-install",
+            "status": "passed",
+            "summary": "隔离目录复制后摘要一致，SKILL.md 可重新加载。"
+          }
+        ],
+        "contentDigest": "sha256:cccb713359c795ca0ee9bf536a814a47468d131c25acece27dbecb067e091f9f",
+        "environment": {
+          "filesystem": "ephemeral-directory",
+          "networkAccess": false,
+          "policyVersion": 1,
+          "runner": "github-actions",
+          "sourceCodeExecution": false
+        },
+        "evidenceDigest": "sha256:170097906fd3d4513cb1d3a74bda5affa5a67e64cb020fd2b3118cc110d0e4b7",
+        "kind": "VerificationRecord",
+        "level": "isolated-install",
+        "metrics": {
+          "commandsExecuted": 0,
+          "fileCount": 2,
+          "networkRequests": 0,
+          "totalBytes": 15703
+        },
+        "releaseId": "sha256:6030711f1eea1b892b768fb3b169ef3a33f5acddfd8039d676f27ea003223403",
+        "runId": "github-actions:32218208143:1",
+        "signature": "github-actions:https://github.com/userInner/SKILLS/actions/runs/32218208143@334c282be00f44fbdf941f6bffae7ee781403f44",
+        "signedAt": "2026-08-19T05:07:00Z",
+        "status": "passed",
+        "summary": "固定 Commit、目录摘要、静态规则和隔离复制均通过；未执行来源脚本。",
+        "type": "sandbox-smoke"
+      },
+      "verificationFile": "verifications/6030711f1eea1b892b768fb3b169ef3a33f5acddfd8039d676f27ea003223403.json"
     },
     {
       "category": "design",
@@ -1386,7 +1606,62 @@
       "sourceUrl": "https://github.com/affaan-m/ECC/tree/c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8/skills/hexagonal-architecture",
       "staticScanStatus": "passed",
       "status": "extracted",
-      "type": "skill"
+      "type": "skill",
+      "verification": {
+        "apiVersion": "effecta.dev/v1",
+        "checks": [
+          {
+            "name": "immutable-source",
+            "status": "passed",
+            "summary": "来源固定到完整 Git Commit。"
+          },
+          {
+            "name": "content-digest",
+            "status": "passed",
+            "summary": "目录 SHA-256 与 Registry 记录一致。"
+          },
+          {
+            "name": "package-integrity",
+            "status": "passed",
+            "summary": "SKILL.md、文件边界和 1 个包文件通过。"
+          },
+          {
+            "name": "static-scan",
+            "status": "passed",
+            "summary": "基础静态规则无未解决发现。"
+          },
+          {
+            "name": "isolated-install",
+            "status": "passed",
+            "summary": "隔离目录复制后摘要一致，SKILL.md 可重新加载。"
+          }
+        ],
+        "contentDigest": "sha256:a33bef0fc4273c233e8c15cacd202376fdb87eb143d9b5cf070af094622ebaf8",
+        "environment": {
+          "filesystem": "ephemeral-directory",
+          "networkAccess": false,
+          "policyVersion": 1,
+          "runner": "github-actions",
+          "sourceCodeExecution": false
+        },
+        "evidenceDigest": "sha256:2e45bc5567bfa118847ae9aeafd5fa833cd145501f020c5f9ded90e19088dc96",
+        "kind": "VerificationRecord",
+        "level": "isolated-install",
+        "metrics": {
+          "commandsExecuted": 0,
+          "fileCount": 1,
+          "networkRequests": 0,
+          "totalBytes": 11520
+        },
+        "releaseId": "sha256:7259aa069ea55688fe383858ebefae6adefcd9cd251496fca269538a1a011bd8",
+        "runId": "github-actions:32218208143:1",
+        "signature": "github-actions:https://github.com/userInner/SKILLS/actions/runs/32218208143@334c282be00f44fbdf941f6bffae7ee781403f44",
+        "signedAt": "2026-08-19T05:07:00Z",
+        "status": "passed",
+        "summary": "固定 Commit、目录摘要、静态规则和隔离复制均通过；未执行来源脚本。",
+        "type": "sandbox-smoke"
+      },
+      "verificationFile": "verifications/7259aa069ea55688fe383858ebefae6adefcd9cd251496fca269538a1a011bd8.json"
     },
     {
       "category": "design",
@@ -2525,7 +2800,62 @@
       "sourceUrl": "https://github.com/affaan-m/ECC/tree/c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8/skills/ai-first-engineering",
       "staticScanStatus": "passed",
       "status": "extracted",
-      "type": "skill"
+      "type": "skill",
+      "verification": {
+        "apiVersion": "effecta.dev/v1",
+        "checks": [
+          {
+            "name": "immutable-source",
+            "status": "passed",
+            "summary": "来源固定到完整 Git Commit。"
+          },
+          {
+            "name": "content-digest",
+            "status": "passed",
+            "summary": "目录 SHA-256 与 Registry 记录一致。"
+          },
+          {
+            "name": "package-integrity",
+            "status": "passed",
+            "summary": "SKILL.md、文件边界和 1 个包文件通过。"
+          },
+          {
+            "name": "static-scan",
+            "status": "passed",
+            "summary": "基础静态规则无未解决发现。"
+          },
+          {
+            "name": "isolated-install",
+            "status": "passed",
+            "summary": "隔离目录复制后摘要一致，SKILL.md 可重新加载。"
+          }
+        ],
+        "contentDigest": "sha256:1b8a55dc6cf88058d9bd0401064a614106c23a91d10390a805f13fe5c36b7117",
+        "environment": {
+          "filesystem": "ephemeral-directory",
+          "networkAccess": false,
+          "policyVersion": 1,
+          "runner": "github-actions",
+          "sourceCodeExecution": false
+        },
+        "evidenceDigest": "sha256:6eb6d943604a00c481c8e73d80598f82e8f4411d0f4da21fab0b35549441db40",
+        "kind": "VerificationRecord",
+        "level": "isolated-install",
+        "metrics": {
+          "commandsExecuted": 0,
+          "fileCount": 1,
+          "networkRequests": 0,
+          "totalBytes": 1454
+        },
+        "releaseId": "sha256:0f7ded81837dad4163832235d6bb9aceae771d827d63c5c7becf2a6c9f314949",
+        "runId": "github-actions:32218208143:1",
+        "signature": "github-actions:https://github.com/userInner/SKILLS/actions/runs/32218208143@334c282be00f44fbdf941f6bffae7ee781403f44",
+        "signedAt": "2026-08-19T05:07:00Z",
+        "status": "passed",
+        "summary": "固定 Commit、目录摘要、静态规则和隔离复制均通过；未执行来源脚本。",
+        "type": "sandbox-smoke"
+      },
+      "verificationFile": "verifications/0f7ded81837dad4163832235d6bb9aceae771d827d63c5c7becf2a6c9f314949.json"
     },
     {
       "category": "engineering",
@@ -2546,7 +2876,62 @@
       "sourceUrl": "https://github.com/affaan-m/ECC/tree/c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8/skills/ai-regression-testing",
       "staticScanStatus": "passed",
       "status": "extracted",
-      "type": "skill"
+      "type": "skill",
+      "verification": {
+        "apiVersion": "effecta.dev/v1",
+        "checks": [
+          {
+            "name": "immutable-source",
+            "status": "passed",
+            "summary": "来源固定到完整 Git Commit。"
+          },
+          {
+            "name": "content-digest",
+            "status": "passed",
+            "summary": "目录 SHA-256 与 Registry 记录一致。"
+          },
+          {
+            "name": "package-integrity",
+            "status": "passed",
+            "summary": "SKILL.md、文件边界和 1 个包文件通过。"
+          },
+          {
+            "name": "static-scan",
+            "status": "passed",
+            "summary": "基础静态规则无未解决发现。"
+          },
+          {
+            "name": "isolated-install",
+            "status": "passed",
+            "summary": "隔离目录复制后摘要一致，SKILL.md 可重新加载。"
+          }
+        ],
+        "contentDigest": "sha256:99367bdb3736488bbfc7801e3c7a6bcc3d505776d13653806ba00997e6a138fc",
+        "environment": {
+          "filesystem": "ephemeral-directory",
+          "networkAccess": false,
+          "policyVersion": 1,
+          "runner": "github-actions",
+          "sourceCodeExecution": false
+        },
+        "evidenceDigest": "sha256:283d7068fb0c1e2f3e7362241396a12a5c6da5213f430e494cc0755df9e2a29b",
+        "kind": "VerificationRecord",
+        "level": "isolated-install",
+        "metrics": {
+          "commandsExecuted": 0,
+          "fileCount": 1,
+          "networkRequests": 0,
+          "totalBytes": 11659
+        },
+        "releaseId": "sha256:ba48b96a5e3a288f1141c1001daef8e5fa737b78577897585dd4910b4f6ba2dc",
+        "runId": "github-actions:32218208143:1",
+        "signature": "github-actions:https://github.com/userInner/SKILLS/actions/runs/32218208143@334c282be00f44fbdf941f6bffae7ee781403f44",
+        "signedAt": "2026-08-19T05:07:00Z",
+        "status": "passed",
+        "summary": "固定 Commit、目录摘要、静态规则和隔离复制均通过；未执行来源脚本。",
+        "type": "sandbox-smoke"
+      },
+      "verificationFile": "verifications/ba48b96a5e3a288f1141c1001daef8e5fa737b78577897585dd4910b4f6ba2dc.json"
     },
     {
       "category": "engineering",
@@ -2567,7 +2952,62 @@
       "sourceUrl": "https://github.com/affaan-m/ECC/tree/c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8/skills/angular-developer",
       "staticScanStatus": "passed",
       "status": "extracted",
-      "type": "skill"
+      "type": "skill",
+      "verification": {
+        "apiVersion": "effecta.dev/v1",
+        "checks": [
+          {
+            "name": "immutable-source",
+            "status": "passed",
+            "summary": "来源固定到完整 Git Commit。"
+          },
+          {
+            "name": "content-digest",
+            "status": "passed",
+            "summary": "目录 SHA-256 与 Registry 记录一致。"
+          },
+          {
+            "name": "package-integrity",
+            "status": "passed",
+            "summary": "SKILL.md、文件边界和 36 个包文件通过。"
+          },
+          {
+            "name": "static-scan",
+            "status": "passed",
+            "summary": "基础静态规则无未解决发现。"
+          },
+          {
+            "name": "isolated-install",
+            "status": "passed",
+            "summary": "隔离目录复制后摘要一致，SKILL.md 可重新加载。"
+          }
+        ],
+        "contentDigest": "sha256:63e691cefb5fa513bf745f95a20478cc19152548ae7c65cec0494333eeaf802a",
+        "environment": {
+          "filesystem": "ephemeral-directory",
+          "networkAccess": false,
+          "policyVersion": 1,
+          "runner": "github-actions",
+          "sourceCodeExecution": false
+        },
+        "evidenceDigest": "sha256:a2ebf81c8d5340d13c23f864b34f76b4d0cf9d98f84cd9e7d8b9f4a15c8f15ba",
+        "kind": "VerificationRecord",
+        "level": "isolated-install",
+        "metrics": {
+          "commandsExecuted": 0,
+          "fileCount": 36,
+          "networkRequests": 0,
+          "totalBytes": 131192
+        },
+        "releaseId": "sha256:ef71110ea4026f99fe2da099dd00911d9018a8a66469db1fefbfa5628c5bf191",
+        "runId": "github-actions:32218208143:1",
+        "signature": "github-actions:https://github.com/userInner/SKILLS/actions/runs/32218208143@334c282be00f44fbdf941f6bffae7ee781403f44",
+        "signedAt": "2026-08-19T05:07:00Z",
+        "status": "passed",
+        "summary": "固定 Commit、目录摘要、静态规则和隔离复制均通过；未执行来源脚本。",
+        "type": "sandbox-smoke"
+      },
+      "verificationFile": "verifications/ef71110ea4026f99fe2da099dd00911d9018a8a66469db1fefbfa5628c5bf191.json"
     },
     {
       "category": "engineering",
@@ -2664,7 +3104,62 @@
       "sourceUrl": "https://github.com/affaan-m/ECC/tree/c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8/skills/api-connector-builder",
       "staticScanStatus": "passed",
       "status": "extracted",
-      "type": "skill"
+      "type": "skill",
+      "verification": {
+        "apiVersion": "effecta.dev/v1",
+        "checks": [
+          {
+            "name": "immutable-source",
+            "status": "passed",
+            "summary": "来源固定到完整 Git Commit。"
+          },
+          {
+            "name": "content-digest",
+            "status": "passed",
+            "summary": "目录 SHA-256 与 Registry 记录一致。"
+          },
+          {
+            "name": "package-integrity",
+            "status": "passed",
+            "summary": "SKILL.md、文件边界和 1 个包文件通过。"
+          },
+          {
+            "name": "static-scan",
+            "status": "passed",
+            "summary": "基础静态规则无未解决发现。"
+          },
+          {
+            "name": "isolated-install",
+            "status": "passed",
+            "summary": "隔离目录复制后摘要一致，SKILL.md 可重新加载。"
+          }
+        ],
+        "contentDigest": "sha256:e9953fcb44fa63c25107de36735a4c8f9c3e62b3c190e4415ddcd526f4ce23e0",
+        "environment": {
+          "filesystem": "ephemeral-directory",
+          "networkAccess": false,
+          "policyVersion": 1,
+          "runner": "github-actions",
+          "sourceCodeExecution": false
+        },
+        "evidenceDigest": "sha256:1cb31f1d1d32f69a7b0b70c7604716dcec0b56f277e5aec194a9c00314cea639",
+        "kind": "VerificationRecord",
+        "level": "isolated-install",
+        "metrics": {
+          "commandsExecuted": 0,
+          "fileCount": 1,
+          "networkRequests": 0,
+          "totalBytes": 2664
+        },
+        "releaseId": "sha256:9a0db304485580ca2618aa04f4a66f1f7cee7d9933b7e9ea9fa04c267ead292f",
+        "runId": "github-actions:32218208143:1",
+        "signature": "github-actions:https://github.com/userInner/SKILLS/actions/runs/32218208143@334c282be00f44fbdf941f6bffae7ee781403f44",
+        "signedAt": "2026-08-19T05:07:00Z",
+        "status": "passed",
+        "summary": "固定 Commit、目录摘要、静态规则和隔离复制均通过；未执行来源脚本。",
+        "type": "sandbox-smoke"
+      },
+      "verificationFile": "verifications/9a0db304485580ca2618aa04f4a66f1f7cee7d9933b7e9ea9fa04c267ead292f.json"
     },
     {
       "category": "engineering",
@@ -2685,7 +3180,62 @@
       "sourceUrl": "https://github.com/affaan-m/ECC/tree/c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8/.agents/skills/api-design",
       "staticScanStatus": "passed",
       "status": "extracted",
-      "type": "skill"
+      "type": "skill",
+      "verification": {
+        "apiVersion": "effecta.dev/v1",
+        "checks": [
+          {
+            "name": "immutable-source",
+            "status": "passed",
+            "summary": "来源固定到完整 Git Commit。"
+          },
+          {
+            "name": "content-digest",
+            "status": "passed",
+            "summary": "目录 SHA-256 与 Registry 记录一致。"
+          },
+          {
+            "name": "package-integrity",
+            "status": "passed",
+            "summary": "SKILL.md、文件边界和 2 个包文件通过。"
+          },
+          {
+            "name": "static-scan",
+            "status": "passed",
+            "summary": "基础静态规则无未解决发现。"
+          },
+          {
+            "name": "isolated-install",
+            "status": "passed",
+            "summary": "隔离目录复制后摘要一致，SKILL.md 可重新加载。"
+          }
+        ],
+        "contentDigest": "sha256:80b08e1c5f27b20b344d4728cb9a64c49d2d18b32539c6c47de9585354dc72b9",
+        "environment": {
+          "filesystem": "ephemeral-directory",
+          "networkAccess": false,
+          "policyVersion": 1,
+          "runner": "github-actions",
+          "sourceCodeExecution": false
+        },
+        "evidenceDigest": "sha256:945f74e24fe60e008ebc2de0b3536a75c93b45161c69ec4c28c2081dc14c234c",
+        "kind": "VerificationRecord",
+        "level": "isolated-install",
+        "metrics": {
+          "commandsExecuted": 0,
+          "fileCount": 2,
+          "networkRequests": 0,
+          "totalBytes": 13468
+        },
+        "releaseId": "sha256:4940ceec5d5e82d1b2fef96df72df03521dc50121e5d8ff79148b582e906f60f",
+        "runId": "github-actions:32218208143:1",
+        "signature": "github-actions:https://github.com/userInner/SKILLS/actions/runs/32218208143@334c282be00f44fbdf941f6bffae7ee781403f44",
+        "signedAt": "2026-08-19T05:07:00Z",
+        "status": "passed",
+        "summary": "固定 Commit、目录摘要、静态规则和隔离复制均通过；未执行来源脚本。",
+        "type": "sandbox-smoke"
+      },
+      "verificationFile": "verifications/4940ceec5d5e82d1b2fef96df72df03521dc50121e5d8ff79148b582e906f60f.json"
     },
     {
       "category": "engineering",
@@ -7830,7 +8380,62 @@
       "sourceUrl": "https://github.com/affaan-m/ECC/tree/c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8/skills/content-hash-cache-pattern",
       "staticScanStatus": "passed",
       "status": "extracted",
-      "type": "skill"
+      "type": "skill",
+      "verification": {
+        "apiVersion": "effecta.dev/v1",
+        "checks": [
+          {
+            "name": "immutable-source",
+            "status": "passed",
+            "summary": "来源固定到完整 Git Commit。"
+          },
+          {
+            "name": "content-digest",
+            "status": "passed",
+            "summary": "目录 SHA-256 与 Registry 记录一致。"
+          },
+          {
+            "name": "package-integrity",
+            "status": "passed",
+            "summary": "SKILL.md、文件边界和 1 个包文件通过。"
+          },
+          {
+            "name": "static-scan",
+            "status": "passed",
+            "summary": "基础静态规则无未解决发现。"
+          },
+          {
+            "name": "isolated-install",
+            "status": "passed",
+            "summary": "隔离目录复制后摘要一致，SKILL.md 可重新加载。"
+          }
+        ],
+        "contentDigest": "sha256:8132173cf3a4219ec2e9926b140cf7308cf75bfe38f8ab6b68589805311562a7",
+        "environment": {
+          "filesystem": "ephemeral-directory",
+          "networkAccess": false,
+          "policyVersion": 1,
+          "runner": "github-actions",
+          "sourceCodeExecution": false
+        },
+        "evidenceDigest": "sha256:65f6ff0d4991efd52133d09dba7c6b406de6cbea92936746438b6d48850b07fb",
+        "kind": "VerificationRecord",
+        "level": "isolated-install",
+        "metrics": {
+          "commandsExecuted": 0,
+          "fileCount": 1,
+          "networkRequests": 0,
+          "totalBytes": 5732
+        },
+        "releaseId": "sha256:2e506b6171b558336c7bc34611c77acd84fd2ea4a45aa5ff81edfd00d7893350",
+        "runId": "github-actions:32218208143:1",
+        "signature": "github-actions:https://github.com/userInner/SKILLS/actions/runs/32218208143@334c282be00f44fbdf941f6bffae7ee781403f44",
+        "signedAt": "2026-08-19T05:07:00Z",
+        "status": "passed",
+        "summary": "固定 Commit、目录摘要、静态规则和隔离复制均通过；未执行来源脚本。",
+        "type": "sandbox-smoke"
+      },
+      "verificationFile": "verifications/2e506b6171b558336c7bc34611c77acd84fd2ea4a45aa5ff81edfd00d7893350.json"
     },
     {
       "category": "growth",
@@ -7948,7 +8553,62 @@
       "sourceUrl": "https://github.com/affaan-m/ECC/tree/c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8/skills/crosspost",
       "staticScanStatus": "passed",
       "status": "extracted",
-      "type": "skill"
+      "type": "skill",
+      "verification": {
+        "apiVersion": "effecta.dev/v1",
+        "checks": [
+          {
+            "name": "immutable-source",
+            "status": "passed",
+            "summary": "来源固定到完整 Git Commit。"
+          },
+          {
+            "name": "content-digest",
+            "status": "passed",
+            "summary": "目录 SHA-256 与 Registry 记录一致。"
+          },
+          {
+            "name": "package-integrity",
+            "status": "passed",
+            "summary": "SKILL.md、文件边界和 1 个包文件通过。"
+          },
+          {
+            "name": "static-scan",
+            "status": "passed",
+            "summary": "基础静态规则无未解决发现。"
+          },
+          {
+            "name": "isolated-install",
+            "status": "passed",
+            "summary": "隔离目录复制后摘要一致，SKILL.md 可重新加载。"
+          }
+        ],
+        "contentDigest": "sha256:c15ffd7b05b964f2cee351d423683f39721932444692b0d1de5aa9a016198ccb",
+        "environment": {
+          "filesystem": "ephemeral-directory",
+          "networkAccess": false,
+          "policyVersion": 1,
+          "runner": "github-actions",
+          "sourceCodeExecution": false
+        },
+        "evidenceDigest": "sha256:34631cc86456ad1b2d8311edda82c8be0d73b103ddf635a2c12cd0c825188909",
+        "kind": "VerificationRecord",
+        "level": "isolated-install",
+        "metrics": {
+          "commandsExecuted": 0,
+          "fileCount": 1,
+          "networkRequests": 0,
+          "totalBytes": 3447
+        },
+        "releaseId": "sha256:8b11db010ae17acb4dc5bc23c84e39d2a9c19cf7f5275f8a2ffa9688459b15a9",
+        "runId": "github-actions:32218208143:1",
+        "signature": "github-actions:https://github.com/userInner/SKILLS/actions/runs/32218208143@334c282be00f44fbdf941f6bffae7ee781403f44",
+        "signedAt": "2026-08-19T05:07:00Z",
+        "status": "passed",
+        "summary": "固定 Commit、目录摘要、静态规则和隔离复制均通过；未执行来源脚本。",
+        "type": "sandbox-smoke"
+      },
+      "verificationFile": "verifications/8b11db010ae17acb4dc5bc23c84e39d2a9c19cf7f5275f8a2ffa9688459b15a9.json"
     },
     {
       "category": "growth",
@@ -8142,7 +8802,62 @@
       "sourceUrl": "https://github.com/affaan-m/ECC/tree/c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8/skills/growth-log",
       "staticScanStatus": "passed",
       "status": "extracted",
-      "type": "skill"
+      "type": "skill",
+      "verification": {
+        "apiVersion": "effecta.dev/v1",
+        "checks": [
+          {
+            "name": "immutable-source",
+            "status": "passed",
+            "summary": "来源固定到完整 Git Commit。"
+          },
+          {
+            "name": "content-digest",
+            "status": "passed",
+            "summary": "目录 SHA-256 与 Registry 记录一致。"
+          },
+          {
+            "name": "package-integrity",
+            "status": "passed",
+            "summary": "SKILL.md、文件边界和 1 个包文件通过。"
+          },
+          {
+            "name": "static-scan",
+            "status": "passed",
+            "summary": "基础静态规则无未解决发现。"
+          },
+          {
+            "name": "isolated-install",
+            "status": "passed",
+            "summary": "隔离目录复制后摘要一致，SKILL.md 可重新加载。"
+          }
+        ],
+        "contentDigest": "sha256:8984af16190a48ffba871e6941823ecdbce9d0990612d00c3866a666b8720580",
+        "environment": {
+          "filesystem": "ephemeral-directory",
+          "networkAccess": false,
+          "policyVersion": 1,
+          "runner": "github-actions",
+          "sourceCodeExecution": false
+        },
+        "evidenceDigest": "sha256:ad2599fe01109b8c33e0d94d704e6ce2e829ba69b382df4d2c4b21322a4b9bc5",
+        "kind": "VerificationRecord",
+        "level": "isolated-install",
+        "metrics": {
+          "commandsExecuted": 0,
+          "fileCount": 1,
+          "networkRequests": 0,
+          "totalBytes": 6766
+        },
+        "releaseId": "sha256:e8ef8266a4451b7a05ac873c42026811548f5f24463b73921cd06f7625633b45",
+        "runId": "github-actions:32218208143:1",
+        "signature": "github-actions:https://github.com/userInner/SKILLS/actions/runs/32218208143@334c282be00f44fbdf941f6bffae7ee781403f44",
+        "signedAt": "2026-08-19T05:07:00Z",
+        "status": "passed",
+        "summary": "固定 Commit、目录摘要、静态规则和隔离复制均通过；未执行来源脚本。",
+        "type": "sandbox-smoke"
+      },
+      "verificationFile": "verifications/e8ef8266a4451b7a05ac873c42026811548f5f24463b73921cd06f7625633b45.json"
     },
     {
       "category": "growth",
@@ -8281,7 +8996,62 @@
       "sourceUrl": "https://github.com/affaan-m/ECC/tree/c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8/skills/marketing-campaign",
       "staticScanStatus": "passed",
       "status": "extracted",
-      "type": "skill"
+      "type": "skill",
+      "verification": {
+        "apiVersion": "effecta.dev/v1",
+        "checks": [
+          {
+            "name": "immutable-source",
+            "status": "passed",
+            "summary": "来源固定到完整 Git Commit。"
+          },
+          {
+            "name": "content-digest",
+            "status": "passed",
+            "summary": "目录 SHA-256 与 Registry 记录一致。"
+          },
+          {
+            "name": "package-integrity",
+            "status": "passed",
+            "summary": "SKILL.md、文件边界和 1 个包文件通过。"
+          },
+          {
+            "name": "static-scan",
+            "status": "passed",
+            "summary": "基础静态规则无未解决发现。"
+          },
+          {
+            "name": "isolated-install",
+            "status": "passed",
+            "summary": "隔离目录复制后摘要一致，SKILL.md 可重新加载。"
+          }
+        ],
+        "contentDigest": "sha256:9299bb0a41877cab33323fccbbb8c13fe6ee225f7ca2a866b6523e639492b568",
+        "environment": {
+          "filesystem": "ephemeral-directory",
+          "networkAccess": false,
+          "policyVersion": 1,
+          "runner": "github-actions",
+          "sourceCodeExecution": false
+        },
+        "evidenceDigest": "sha256:8d5614176f9be449b3044e3d2d370ac2bff79e87a16cb827a8be3616883d3306",
+        "kind": "VerificationRecord",
+        "level": "isolated-install",
+        "metrics": {
+          "commandsExecuted": 0,
+          "fileCount": 1,
+          "networkRequests": 0,
+          "totalBytes": 5293
+        },
+        "releaseId": "sha256:d1918ff3446226bde352aa37d43fe56c37a6a8ab48f4b5c805d6e2e3571bb8e2",
+        "runId": "github-actions:32218208143:1",
+        "signature": "github-actions:https://github.com/userInner/SKILLS/actions/runs/32218208143@334c282be00f44fbdf941f6bffae7ee781403f44",
+        "signedAt": "2026-08-19T05:07:00Z",
+        "status": "passed",
+        "summary": "固定 Commit、目录摘要、静态规则和隔离复制均通过；未执行来源脚本。",
+        "type": "sandbox-smoke"
+      },
+      "verificationFile": "verifications/d1918ff3446226bde352aa37d43fe56c37a6a8ab48f4b5c805d6e2e3571bb8e2.json"
     },
     {
       "category": "growth",
@@ -8777,7 +9547,62 @@
       "sourceUrl": "https://github.com/coreyhaines31/marketingskills/tree/7868cb9251fad80a73d26e488a5ad5f6c4a9f335/skills/ads",
       "staticScanStatus": "passed",
       "status": "extracted",
-      "type": "skill"
+      "type": "skill",
+      "verification": {
+        "apiVersion": "effecta.dev/v1",
+        "checks": [
+          {
+            "name": "immutable-source",
+            "status": "passed",
+            "summary": "来源固定到完整 Git Commit。"
+          },
+          {
+            "name": "content-digest",
+            "status": "passed",
+            "summary": "目录 SHA-256 与 Registry 记录一致。"
+          },
+          {
+            "name": "package-integrity",
+            "status": "passed",
+            "summary": "SKILL.md、文件边界和 12 个包文件通过。"
+          },
+          {
+            "name": "static-scan",
+            "status": "passed",
+            "summary": "基础静态规则无未解决发现。"
+          },
+          {
+            "name": "isolated-install",
+            "status": "passed",
+            "summary": "隔离目录复制后摘要一致，SKILL.md 可重新加载。"
+          }
+        ],
+        "contentDigest": "sha256:4285b67ecb6d7134d55743edfcdb223a3755db2be444d23580e49fc55424c967",
+        "environment": {
+          "filesystem": "ephemeral-directory",
+          "networkAccess": false,
+          "policyVersion": 1,
+          "runner": "github-actions",
+          "sourceCodeExecution": false
+        },
+        "evidenceDigest": "sha256:bab105a2e755b1dd94f7d0f72df0b7f558716d9bc1be0ae17f8127d18f53eff7",
+        "kind": "VerificationRecord",
+        "level": "isolated-install",
+        "metrics": {
+          "commandsExecuted": 0,
+          "fileCount": 12,
+          "networkRequests": 0,
+          "totalBytes": 109796
+        },
+        "releaseId": "sha256:fd104f319902d36968b7266b32d20fd86ecb3d1fa6f9287e691eb52c8277cadb",
+        "runId": "github-actions:32218208143:1",
+        "signature": "github-actions:https://github.com/userInner/SKILLS/actions/runs/32218208143@334c282be00f44fbdf941f6bffae7ee781403f44",
+        "signedAt": "2026-08-19T05:07:00Z",
+        "status": "passed",
+        "summary": "固定 Commit、目录摘要、静态规则和隔离复制均通过；未执行来源脚本。",
+        "type": "sandbox-smoke"
+      },
+      "verificationFile": "verifications/fd104f319902d36968b7266b32d20fd86ecb3d1fa6f9287e691eb52c8277cadb.json"
     },
     {
       "category": "product",
@@ -10390,7 +11215,62 @@
       "sourceUrl": "https://github.com/affaan-m/ECC/tree/c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8/skills/product-lens",
       "staticScanStatus": "passed",
       "status": "extracted",
-      "type": "skill"
+      "type": "skill",
+      "verification": {
+        "apiVersion": "effecta.dev/v1",
+        "checks": [
+          {
+            "name": "immutable-source",
+            "status": "passed",
+            "summary": "来源固定到完整 Git Commit。"
+          },
+          {
+            "name": "content-digest",
+            "status": "passed",
+            "summary": "目录 SHA-256 与 Registry 记录一致。"
+          },
+          {
+            "name": "package-integrity",
+            "status": "passed",
+            "summary": "SKILL.md、文件边界和 1 个包文件通过。"
+          },
+          {
+            "name": "static-scan",
+            "status": "passed",
+            "summary": "基础静态规则无未解决发现。"
+          },
+          {
+            "name": "isolated-install",
+            "status": "passed",
+            "summary": "隔离目录复制后摘要一致，SKILL.md 可重新加载。"
+          }
+        ],
+        "contentDigest": "sha256:e146809eed968b47276e2bee7a99c2fb0bb173d7fce0087d28594614ffcd2c29",
+        "environment": {
+          "filesystem": "ephemeral-directory",
+          "networkAccess": false,
+          "policyVersion": 1,
+          "runner": "github-actions",
+          "sourceCodeExecution": false
+        },
+        "evidenceDigest": "sha256:a194bed928a82e2903af019f36e13beca61d3ae938c66bf12f252a8ed45643c3",
+        "kind": "VerificationRecord",
+        "level": "isolated-install",
+        "metrics": {
+          "commandsExecuted": 0,
+          "fileCount": 1,
+          "networkRequests": 0,
+          "totalBytes": 3102
+        },
+        "releaseId": "sha256:82b4d0c456c2fd96fc13c8a20dab053dcec2dc97066067e6be43ff9825c5043b",
+        "runId": "github-actions:32218208143:1",
+        "signature": "github-actions:https://github.com/userInner/SKILLS/actions/runs/32218208143@334c282be00f44fbdf941f6bffae7ee781403f44",
+        "signedAt": "2026-08-19T05:07:00Z",
+        "status": "passed",
+        "summary": "固定 Commit、目录摘要、静态规则和隔离复制均通过；未执行来源脚本。",
+        "type": "sandbox-smoke"
+      },
+      "verificationFile": "verifications/82b4d0c456c2fd96fc13c8a20dab053dcec2dc97066067e6be43ff9825c5043b.json"
     },
     {
       "category": "product",
@@ -10550,7 +11430,62 @@
       "sourceUrl": "https://github.com/affaan-m/ECC/tree/c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8/skills/production-audit",
       "staticScanStatus": "passed",
       "status": "extracted",
-      "type": "skill"
+      "type": "skill",
+      "verification": {
+        "apiVersion": "effecta.dev/v1",
+        "checks": [
+          {
+            "name": "immutable-source",
+            "status": "passed",
+            "summary": "来源固定到完整 Git Commit。"
+          },
+          {
+            "name": "content-digest",
+            "status": "passed",
+            "summary": "目录 SHA-256 与 Registry 记录一致。"
+          },
+          {
+            "name": "package-integrity",
+            "status": "passed",
+            "summary": "SKILL.md、文件边界和 1 个包文件通过。"
+          },
+          {
+            "name": "static-scan",
+            "status": "passed",
+            "summary": "基础静态规则无未解决发现。"
+          },
+          {
+            "name": "isolated-install",
+            "status": "passed",
+            "summary": "隔离目录复制后摘要一致，SKILL.md 可重新加载。"
+          }
+        ],
+        "contentDigest": "sha256:ebac45cc26b7dc011b08a46045de8d1cc104100e5ae5668b43004333ed906a27",
+        "environment": {
+          "filesystem": "ephemeral-directory",
+          "networkAccess": false,
+          "policyVersion": 1,
+          "runner": "github-actions",
+          "sourceCodeExecution": false
+        },
+        "evidenceDigest": "sha256:418e0dc15863ab606fd40549f40ba74594841bab499bf918485a4b4234842755",
+        "kind": "VerificationRecord",
+        "level": "isolated-install",
+        "metrics": {
+          "commandsExecuted": 0,
+          "fileCount": 1,
+          "networkRequests": 0,
+          "totalBytes": 7727
+        },
+        "releaseId": "sha256:9bd3d848ace1dcc17df4324f92f58f036bf42e5fc591e076435c87ff5116a7da",
+        "runId": "github-actions:32218208143:1",
+        "signature": "github-actions:https://github.com/userInner/SKILLS/actions/runs/32218208143@334c282be00f44fbdf941f6bffae7ee781403f44",
+        "signedAt": "2026-08-19T05:07:00Z",
+        "status": "passed",
+        "summary": "固定 Commit、目录摘要、静态规则和隔离复制均通过；未执行来源脚本。",
+        "type": "sandbox-smoke"
+      },
+      "verificationFile": "verifications/9bd3d848ace1dcc17df4324f92f58f036bf42e5fc591e076435c87ff5116a7da.json"
     },
     {
       "category": "product",
@@ -10571,7 +11506,62 @@
       "sourceUrl": "https://github.com/affaan-m/ECC/tree/c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8/skills/production-scheduling",
       "staticScanStatus": "passed",
       "status": "extracted",
-      "type": "skill"
+      "type": "skill",
+      "verification": {
+        "apiVersion": "effecta.dev/v1",
+        "checks": [
+          {
+            "name": "immutable-source",
+            "status": "passed",
+            "summary": "来源固定到完整 Git Commit。"
+          },
+          {
+            "name": "content-digest",
+            "status": "passed",
+            "summary": "目录 SHA-256 与 Registry 记录一致。"
+          },
+          {
+            "name": "package-integrity",
+            "status": "passed",
+            "summary": "SKILL.md、文件边界和 1 个包文件通过。"
+          },
+          {
+            "name": "static-scan",
+            "status": "passed",
+            "summary": "基础静态规则无未解决发现。"
+          },
+          {
+            "name": "isolated-install",
+            "status": "passed",
+            "summary": "隔离目录复制后摘要一致，SKILL.md 可重新加载。"
+          }
+        ],
+        "contentDigest": "sha256:b9005a11a5dfa17f3538bba1e2cf396ebd4b879ff287fd4fa8f1293ffec6d018",
+        "environment": {
+          "filesystem": "ephemeral-directory",
+          "networkAccess": false,
+          "policyVersion": 1,
+          "runner": "github-actions",
+          "sourceCodeExecution": false
+        },
+        "evidenceDigest": "sha256:f4f9200b8506b5d55b659954fac343cd85ef4b98f6582fb4dfbaab8c30aa6203",
+        "kind": "VerificationRecord",
+        "level": "isolated-install",
+        "metrics": {
+          "commandsExecuted": 0,
+          "fileCount": 1,
+          "networkRequests": 0,
+          "totalBytes": 28577
+        },
+        "releaseId": "sha256:54004cd91930737e32b2d772edc672c26b9b48728030635a8d5316394e35f132",
+        "runId": "github-actions:32218208143:1",
+        "signature": "github-actions:https://github.com/userInner/SKILLS/actions/runs/32218208143@334c282be00f44fbdf941f6bffae7ee781403f44",
+        "signedAt": "2026-08-19T05:07:00Z",
+        "status": "passed",
+        "summary": "固定 Commit、目录摘要、静态规则和隔离复制均通过；未执行来源脚本。",
+        "type": "sandbox-smoke"
+      },
+      "verificationFile": "verifications/54004cd91930737e32b2d772edc672c26b9b48728030635a8d5316394e35f132.json"
     },
     {
       "category": "product",
@@ -10933,7 +11923,62 @@
       "sourceUrl": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/b2a92ba052dcae4ef48e850b9e31ebf75706be48/skills/clinical-decision-support",
       "staticScanStatus": "passed",
       "status": "extracted",
-      "type": "skill"
+      "type": "skill",
+      "verification": {
+        "apiVersion": "effecta.dev/v1",
+        "checks": [
+          {
+            "name": "immutable-source",
+            "status": "passed",
+            "summary": "来源固定到完整 Git Commit。"
+          },
+          {
+            "name": "content-digest",
+            "status": "passed",
+            "summary": "目录 SHA-256 与 Registry 记录一致。"
+          },
+          {
+            "name": "package-integrity",
+            "status": "passed",
+            "summary": "SKILL.md、文件边界和 28 个包文件通过。"
+          },
+          {
+            "name": "static-scan",
+            "status": "passed",
+            "summary": "基础静态规则无未解决发现。"
+          },
+          {
+            "name": "isolated-install",
+            "status": "passed",
+            "summary": "隔离目录复制后摘要一致，SKILL.md 可重新加载。"
+          }
+        ],
+        "contentDigest": "sha256:0c7151b529a908846de67a408dff8f9e0704101ce223e4a9c556f23df941fe55",
+        "environment": {
+          "filesystem": "ephemeral-directory",
+          "networkAccess": false,
+          "policyVersion": 1,
+          "runner": "github-actions",
+          "sourceCodeExecution": false
+        },
+        "evidenceDigest": "sha256:7f316aff18795957c2425b35597f13e9aaccc9fe235051753684c0c4dda00db8",
+        "kind": "VerificationRecord",
+        "level": "isolated-install",
+        "metrics": {
+          "commandsExecuted": 0,
+          "fileCount": 28,
+          "networkRequests": 0,
+          "totalBytes": 195066
+        },
+        "releaseId": "sha256:80d02d116b0416b5b48a4b06b0acd6bd00fdf64296abf62949373f53231b2448",
+        "runId": "github-actions:32218208143:1",
+        "signature": "github-actions:https://github.com/userInner/SKILLS/actions/runs/32218208143@334c282be00f44fbdf941f6bffae7ee781403f44",
+        "signedAt": "2026-08-19T05:07:00Z",
+        "status": "passed",
+        "summary": "固定 Commit、目录摘要、静态规则和隔离复制均通过；未执行来源脚本。",
+        "type": "sandbox-smoke"
+      },
+      "verificationFile": "verifications/80d02d116b0416b5b48a4b06b0acd6bd00fdf64296abf62949373f53231b2448.json"
     },
     {
       "category": "research",
@@ -10954,7 +11999,62 @@
       "sourceUrl": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/b2a92ba052dcae4ef48e850b9e31ebf75706be48/skills/clinical-reports",
       "staticScanStatus": "passed",
       "status": "extracted",
-      "type": "skill"
+      "type": "skill",
+      "verification": {
+        "apiVersion": "effecta.dev/v1",
+        "checks": [
+          {
+            "name": "immutable-source",
+            "status": "passed",
+            "summary": "来源固定到完整 Git Commit。"
+          },
+          {
+            "name": "content-digest",
+            "status": "passed",
+            "summary": "目录 SHA-256 与 Registry 记录一致。"
+          },
+          {
+            "name": "package-integrity",
+            "status": "passed",
+            "summary": "SKILL.md、文件边界和 36 个包文件通过。"
+          },
+          {
+            "name": "static-scan",
+            "status": "passed",
+            "summary": "基础静态规则无未解决发现。"
+          },
+          {
+            "name": "isolated-install",
+            "status": "passed",
+            "summary": "隔离目录复制后摘要一致，SKILL.md 可重新加载。"
+          }
+        ],
+        "contentDigest": "sha256:56336dcc1f5f17148fa1319362ad40b1fc8062198affd1a9156908598ba8e7ff",
+        "environment": {
+          "filesystem": "ephemeral-directory",
+          "networkAccess": false,
+          "policyVersion": 1,
+          "runner": "github-actions",
+          "sourceCodeExecution": false
+        },
+        "evidenceDigest": "sha256:7207b5f003fe520b7c07b0fcafe4f990c16eb98abd7bc024d06f64f4bddeed0c",
+        "kind": "VerificationRecord",
+        "level": "isolated-install",
+        "metrics": {
+          "commandsExecuted": 0,
+          "fileCount": 36,
+          "networkRequests": 0,
+          "totalBytes": 193278
+        },
+        "releaseId": "sha256:af0a0c24a41f624ff2631ca189c6e7426f05c0e0890ccd7ebc8e81f277c8c6de",
+        "runId": "github-actions:32218208143:1",
+        "signature": "github-actions:https://github.com/userInner/SKILLS/actions/runs/32218208143@334c282be00f44fbdf941f6bffae7ee781403f44",
+        "signedAt": "2026-08-19T05:07:00Z",
+        "status": "passed",
+        "summary": "固定 Commit、目录摘要、静态规则和隔离复制均通过；未执行来源脚本。",
+        "type": "sandbox-smoke"
+      },
+      "verificationFile": "verifications/af0a0c24a41f624ff2631ca189c6e7426f05c0e0890ccd7ebc8e81f277c8c6de.json"
     },
     {
       "category": "research",
@@ -11300,7 +12400,62 @@
       "sourceUrl": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/b2a92ba052dcae4ef48e850b9e31ebf75706be48/skills/exploratory-data-analysis",
       "staticScanStatus": "passed",
       "status": "extracted",
-      "type": "skill"
+      "type": "skill",
+      "verification": {
+        "apiVersion": "effecta.dev/v1",
+        "checks": [
+          {
+            "name": "immutable-source",
+            "status": "passed",
+            "summary": "来源固定到完整 Git Commit。"
+          },
+          {
+            "name": "content-digest",
+            "status": "passed",
+            "summary": "目录 SHA-256 与 Registry 记录一致。"
+          },
+          {
+            "name": "package-integrity",
+            "status": "passed",
+            "summary": "SKILL.md、文件边界和 21 个包文件通过。"
+          },
+          {
+            "name": "static-scan",
+            "status": "passed",
+            "summary": "基础静态规则无未解决发现。"
+          },
+          {
+            "name": "isolated-install",
+            "status": "passed",
+            "summary": "隔离目录复制后摘要一致，SKILL.md 可重新加载。"
+          }
+        ],
+        "contentDigest": "sha256:bd242b0d706bbca163940d0b552e551081977eaee97fb5e22d0fc4a8d640d8cb",
+        "environment": {
+          "filesystem": "ephemeral-directory",
+          "networkAccess": false,
+          "policyVersion": 1,
+          "runner": "github-actions",
+          "sourceCodeExecution": false
+        },
+        "evidenceDigest": "sha256:f84db073423107e5f18daaf0080e820f30f8b742a7423e0e10f85ccb030f0ec3",
+        "kind": "VerificationRecord",
+        "level": "isolated-install",
+        "metrics": {
+          "commandsExecuted": 0,
+          "fileCount": 21,
+          "networkRequests": 0,
+          "totalBytes": 205478
+        },
+        "releaseId": "sha256:b88ab1f738f7c0a756cacd4c0f38c6ce6cb70e7a691f66e069322b7345afa77f",
+        "runId": "github-actions:32218208143:1",
+        "signature": "github-actions:https://github.com/userInner/SKILLS/actions/runs/32218208143@334c282be00f44fbdf941f6bffae7ee781403f44",
+        "signedAt": "2026-08-19T05:07:00Z",
+        "status": "passed",
+        "summary": "固定 Commit、目录摘要、静态规则和隔离复制均通过；未执行来源脚本。",
+        "type": "sandbox-smoke"
+      },
+      "verificationFile": "verifications/b88ab1f738f7c0a756cacd4c0f38c6ce6cb70e7a691f66e069322b7345afa77f.json"
     },
     {
       "category": "research",
@@ -11321,7 +12476,62 @@
       "sourceUrl": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/b2a92ba052dcae4ef48e850b9e31ebf75706be48/skills/hugging-science",
       "staticScanStatus": "passed",
       "status": "extracted",
-      "type": "skill"
+      "type": "skill",
+      "verification": {
+        "apiVersion": "effecta.dev/v1",
+        "checks": [
+          {
+            "name": "immutable-source",
+            "status": "passed",
+            "summary": "来源固定到完整 Git Commit。"
+          },
+          {
+            "name": "content-digest",
+            "status": "passed",
+            "summary": "目录 SHA-256 与 Registry 记录一致。"
+          },
+          {
+            "name": "package-integrity",
+            "status": "passed",
+            "summary": "SKILL.md、文件边界和 7 个包文件通过。"
+          },
+          {
+            "name": "static-scan",
+            "status": "passed",
+            "summary": "基础静态规则无未解决发现。"
+          },
+          {
+            "name": "isolated-install",
+            "status": "passed",
+            "summary": "隔离目录复制后摘要一致，SKILL.md 可重新加载。"
+          }
+        ],
+        "contentDigest": "sha256:5bf65d400d7034aca5ab2ef41b81918605d846616e78982e1b20bc5114949c56",
+        "environment": {
+          "filesystem": "ephemeral-directory",
+          "networkAccess": false,
+          "policyVersion": 1,
+          "runner": "github-actions",
+          "sourceCodeExecution": false
+        },
+        "evidenceDigest": "sha256:429c8f4187c07299d61977bad1e4902b140018cd5b3b28d175ef42f004614217",
+        "kind": "VerificationRecord",
+        "level": "isolated-install",
+        "metrics": {
+          "commandsExecuted": 0,
+          "fileCount": 7,
+          "networkRequests": 0,
+          "totalBytes": 48542
+        },
+        "releaseId": "sha256:f0af6e146ca8ce0319948f41698dea86424f2a568ae70adc7d41da2b1b8eaa10",
+        "runId": "github-actions:32218208143:1",
+        "signature": "github-actions:https://github.com/userInner/SKILLS/actions/runs/32218208143@334c282be00f44fbdf941f6bffae7ee781403f44",
+        "signedAt": "2026-08-19T05:07:00Z",
+        "status": "passed",
+        "summary": "固定 Commit、目录摘要、静态规则和隔离复制均通过；未执行来源脚本。",
+        "type": "sandbox-smoke"
+      },
+      "verificationFile": "verifications/f0af6e146ca8ce0319948f41698dea86424f2a568ae70adc7d41da2b1b8eaa10.json"
     },
     {
       "category": "research",
@@ -12530,7 +13740,62 @@
       "sourceUrl": "https://github.com/affaan-m/ECC/tree/c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8/.agents/skills/agent-introspection-debugging",
       "staticScanStatus": "passed",
       "status": "extracted",
-      "type": "skill"
+      "type": "skill",
+      "verification": {
+        "apiVersion": "effecta.dev/v1",
+        "checks": [
+          {
+            "name": "immutable-source",
+            "status": "passed",
+            "summary": "来源固定到完整 Git Commit。"
+          },
+          {
+            "name": "content-digest",
+            "status": "passed",
+            "summary": "目录 SHA-256 与 Registry 记录一致。"
+          },
+          {
+            "name": "package-integrity",
+            "status": "passed",
+            "summary": "SKILL.md、文件边界和 2 个包文件通过。"
+          },
+          {
+            "name": "static-scan",
+            "status": "passed",
+            "summary": "基础静态规则无未解决发现。"
+          },
+          {
+            "name": "isolated-install",
+            "status": "passed",
+            "summary": "隔离目录复制后摘要一致，SKILL.md 可重新加载。"
+          }
+        ],
+        "contentDigest": "sha256:067c2cd91ff94550873b64955747765ce4abce175927d9c407d14beb87d9c82f",
+        "environment": {
+          "filesystem": "ephemeral-directory",
+          "networkAccess": false,
+          "policyVersion": 1,
+          "runner": "github-actions",
+          "sourceCodeExecution": false
+        },
+        "evidenceDigest": "sha256:21c443924a573bbe6c4effe29be8cfcebeee0e0a1bd2864fd506d7675e711a01",
+        "kind": "VerificationRecord",
+        "level": "isolated-install",
+        "metrics": {
+          "commandsExecuted": 0,
+          "fileCount": 2,
+          "networkRequests": 0,
+          "totalBytes": 5905
+        },
+        "releaseId": "sha256:a59ec5b74cef561701212334728c385b7b021c34f25cd020d73d14352531a056",
+        "runId": "github-actions:32218208143:1",
+        "signature": "github-actions:https://github.com/userInner/SKILLS/actions/runs/32218208143@334c282be00f44fbdf941f6bffae7ee781403f44",
+        "signedAt": "2026-08-19T05:07:00Z",
+        "status": "passed",
+        "summary": "固定 Commit、目录摘要、静态规则和隔离复制均通过；未执行来源脚本。",
+        "type": "sandbox-smoke"
+      },
+      "verificationFile": "verifications/a59ec5b74cef561701212334728c385b7b021c34f25cd020d73d14352531a056.json"
     },
     {
       "category": "workflow",
@@ -12551,7 +13816,62 @@
       "sourceUrl": "https://github.com/affaan-m/ECC/tree/c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8/skills/agent-introspection-debugging",
       "staticScanStatus": "passed",
       "status": "extracted",
-      "type": "skill"
+      "type": "skill",
+      "verification": {
+        "apiVersion": "effecta.dev/v1",
+        "checks": [
+          {
+            "name": "immutable-source",
+            "status": "passed",
+            "summary": "来源固定到完整 Git Commit。"
+          },
+          {
+            "name": "content-digest",
+            "status": "passed",
+            "summary": "目录 SHA-256 与 Registry 记录一致。"
+          },
+          {
+            "name": "package-integrity",
+            "status": "passed",
+            "summary": "SKILL.md、文件边界和 1 个包文件通过。"
+          },
+          {
+            "name": "static-scan",
+            "status": "passed",
+            "summary": "基础静态规则无未解决发现。"
+          },
+          {
+            "name": "isolated-install",
+            "status": "passed",
+            "summary": "隔离目录复制后摘要一致，SKILL.md 可重新加载。"
+          }
+        ],
+        "contentDigest": "sha256:60f9cf18b2bbe6cf336886293643dc64dba5cf4ea783c297baba2160deb68f9d",
+        "environment": {
+          "filesystem": "ephemeral-directory",
+          "networkAccess": false,
+          "policyVersion": 1,
+          "runner": "github-actions",
+          "sourceCodeExecution": false
+        },
+        "evidenceDigest": "sha256:c360e82271eebd866f7787760524425cf775253b8b8177a19517a600f313594d",
+        "kind": "VerificationRecord",
+        "level": "isolated-install",
+        "metrics": {
+          "commandsExecuted": 0,
+          "fileCount": 1,
+          "networkRequests": 0,
+          "totalBytes": 5627
+        },
+        "releaseId": "sha256:5dc256fc09f68ba6b01f8b5e78ad6c3a92374a72f4f979e9fee3fa1d5395fb0f",
+        "runId": "github-actions:32218208143:1",
+        "signature": "github-actions:https://github.com/userInner/SKILLS/actions/runs/32218208143@334c282be00f44fbdf941f6bffae7ee781403f44",
+        "signedAt": "2026-08-19T05:07:00Z",
+        "status": "passed",
+        "summary": "固定 Commit、目录摘要、静态规则和隔离复制均通过；未执行来源脚本。",
+        "type": "sandbox-smoke"
+      },
+      "verificationFile": "verifications/5dc256fc09f68ba6b01f8b5e78ad6c3a92374a72f4f979e9fee3fa1d5395fb0f.json"
     },
     {
       "category": "workflow",
@@ -12572,7 +13892,62 @@
       "sourceUrl": "https://github.com/affaan-m/ECC/tree/c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8/skills/agent-payment-x402",
       "staticScanStatus": "passed",
       "status": "extracted",
-      "type": "skill"
+      "type": "skill",
+      "verification": {
+        "apiVersion": "effecta.dev/v1",
+        "checks": [
+          {
+            "name": "immutable-source",
+            "status": "passed",
+            "summary": "来源固定到完整 Git Commit。"
+          },
+          {
+            "name": "content-digest",
+            "status": "passed",
+            "summary": "目录 SHA-256 与 Registry 记录一致。"
+          },
+          {
+            "name": "package-integrity",
+            "status": "passed",
+            "summary": "SKILL.md、文件边界和 1 个包文件通过。"
+          },
+          {
+            "name": "static-scan",
+            "status": "passed",
+            "summary": "基础静态规则无未解决发现。"
+          },
+          {
+            "name": "isolated-install",
+            "status": "passed",
+            "summary": "隔离目录复制后摘要一致，SKILL.md 可重新加载。"
+          }
+        ],
+        "contentDigest": "sha256:68f6ada1268c7c0003a297d55aa1dbd7efa36f36be2435c9ee694f9c27435746",
+        "environment": {
+          "filesystem": "ephemeral-directory",
+          "networkAccess": false,
+          "policyVersion": 1,
+          "runner": "github-actions",
+          "sourceCodeExecution": false
+        },
+        "evidenceDigest": "sha256:e4f5b8fe3423c806afb314335f807597855f7d14718d6f2ac5d28bad4d989d09",
+        "kind": "VerificationRecord",
+        "level": "isolated-install",
+        "metrics": {
+          "commandsExecuted": 0,
+          "fileCount": 1,
+          "networkRequests": 0,
+          "totalBytes": 10715
+        },
+        "releaseId": "sha256:cb22545a023ebb84d7bfae39202f6c9c4584270a5c66c865b74474a5a289d2e4",
+        "runId": "github-actions:32218208143:1",
+        "signature": "github-actions:https://github.com/userInner/SKILLS/actions/runs/32218208143@334c282be00f44fbdf941f6bffae7ee781403f44",
+        "signedAt": "2026-08-19T05:07:00Z",
+        "status": "passed",
+        "summary": "固定 Commit、目录摘要、静态规则和隔离复制均通过；未执行来源脚本。",
+        "type": "sandbox-smoke"
+      },
+      "verificationFile": "verifications/cb22545a023ebb84d7bfae39202f6c9c4584270a5c66c865b74474a5a289d2e4.json"
     },
     {
       "category": "workflow",
@@ -12593,7 +13968,62 @@
       "sourceUrl": "https://github.com/affaan-m/ECC/tree/c9de8f5b2b3a225bca9befa2b7700aa5e3a4d1b8/skills/agent-self-evaluation",
       "staticScanStatus": "passed",
       "status": "extracted",
-      "type": "skill"
+      "type": "skill",
+      "verification": {
+        "apiVersion": "effecta.dev/v1",
+        "checks": [
+          {
+            "name": "immutable-source",
+            "status": "passed",
+            "summary": "来源固定到完整 Git Commit。"
+          },
+          {
+            "name": "content-digest",
+            "status": "passed",
+            "summary": "目录 SHA-256 与 Registry 记录一致。"
+          },
+          {
+            "name": "package-integrity",
+            "status": "passed",
+            "summary": "SKILL.md、文件边界和 7 个包文件通过。"
+          },
+          {
+            "name": "static-scan",
+            "status": "passed",
+            "summary": "基础静态规则无未解决发现。"
+          },
+          {
+            "name": "isolated-install",
+            "status": "passed",
+            "summary": "隔离目录复制后摘要一致，SKILL.md 可重新加载。"
+          }
+        ],
+        "contentDigest": "sha256:66571492833818b42fcde03ffe9a116ec60e9286302a97b56732c8ea32743355",
+        "environment": {
+          "filesystem": "ephemeral-directory",
+          "networkAccess": false,
+          "policyVersion": 1,
+          "runner": "github-actions",
+          "sourceCodeExecution": false
+        },
+        "evidenceDigest": "sha256:c33b89da710b919ab0c2eff873bae3a8ca8e05a0a1b2fa88c7604b7bb03b03d4",
+        "kind": "VerificationRecord",
+        "level": "isolated-install",
+        "metrics": {
+          "commandsExecuted": 0,
+          "fileCount": 7,
+          "networkRequests": 0,
+          "totalBytes": 41652
+        },
+        "releaseId": "sha256:4eb783a8ecf28f26e8764d895820bf195ebab77cd4850f0546354e06c450de0a",
+        "runId": "github-actions:32218208143:1",
+        "signature": "github-actions:https://github.com/userInner/SKILLS/actions/runs/32218208143@334c282be00f44fbdf941f6bffae7ee781403f44",
+        "signedAt": "2026-08-19T05:07:00Z",
+        "status": "passed",
+        "summary": "固定 Commit、目录摘要、静态规则和隔离复制均通过；未执行来源脚本。",
+        "type": "sandbox-smoke"
+      },
+      "verificationFile": "verifications/4eb783a8ecf28f26e8764d895820bf195ebab77cd4850f0546354e06c450de0a.json"
     },
     {
       "category": "workflow",
@@ -19592,7 +21022,62 @@
       "sourceUrl": "https://github.com/phuryn/pm-skills/tree/18468a95b427e70e258b51389796367c6f684e7d/pm-execution/skills/job-stories",
       "staticScanStatus": "passed",
       "status": "extracted",
-      "type": "skill"
+      "type": "skill",
+      "verification": {
+        "apiVersion": "effecta.dev/v1",
+        "checks": [
+          {
+            "name": "immutable-source",
+            "status": "passed",
+            "summary": "来源固定到完整 Git Commit。"
+          },
+          {
+            "name": "content-digest",
+            "status": "passed",
+            "summary": "目录 SHA-256 与 Registry 记录一致。"
+          },
+          {
+            "name": "package-integrity",
+            "status": "passed",
+            "summary": "SKILL.md、文件边界和 1 个包文件通过。"
+          },
+          {
+            "name": "static-scan",
+            "status": "passed",
+            "summary": "基础静态规则无未解决发现。"
+          },
+          {
+            "name": "isolated-install",
+            "status": "passed",
+            "summary": "隔离目录复制后摘要一致，SKILL.md 可重新加载。"
+          }
+        ],
+        "contentDigest": "sha256:9b04a03712a546a52807d34029e763bc318a9c4aa07729d9722715d4790d3b3f",
+        "environment": {
+          "filesystem": "ephemeral-directory",
+          "networkAccess": false,
+          "policyVersion": 1,
+          "runner": "github-actions",
+          "sourceCodeExecution": false
+        },
+        "evidenceDigest": "sha256:164114662dee7ffa464279c847d0b098cda3b5bf0c2976085e9da908c88a8a96",
+        "kind": "VerificationRecord",
+        "level": "isolated-install",
+        "metrics": {
+          "commandsExecuted": 0,
+          "fileCount": 1,
+          "networkRequests": 0,
+          "totalBytes": 2969
+        },
+        "releaseId": "sha256:57fc30201818dbd49914fc32715fbb6ddeddc16ccfac7d307566b006603bfbb9",
+        "runId": "github-actions:32218208143:1",
+        "signature": "github-actions:https://github.com/userInner/SKILLS/actions/runs/32218208143@334c282be00f44fbdf941f6bffae7ee781403f44",
+        "signedAt": "2026-08-19T05:07:00Z",
+        "status": "passed",
+        "summary": "固定 Commit、目录摘要、静态规则和隔离复制均通过；未执行来源脚本。",
+        "type": "sandbox-smoke"
+      },
+      "verificationFile": "verifications/57fc30201818dbd49914fc32715fbb6ddeddc16ccfac7d307566b006603bfbb9.json"
     },
     {
       "category": "writing",
@@ -19689,7 +21174,62 @@
       "sourceUrl": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/b2a92ba052dcae4ef48e850b9e31ebf75706be48/skills/markdown-mermaid-writing",
       "staticScanStatus": "passed",
       "status": "extracted",
-      "type": "skill"
+      "type": "skill",
+      "verification": {
+        "apiVersion": "effecta.dev/v1",
+        "checks": [
+          {
+            "name": "immutable-source",
+            "status": "passed",
+            "summary": "来源固定到完整 Git Commit。"
+          },
+          {
+            "name": "content-digest",
+            "status": "passed",
+            "summary": "目录 SHA-256 与 Registry 记录一致。"
+          },
+          {
+            "name": "package-integrity",
+            "status": "passed",
+            "summary": "SKILL.md、文件边界和 37 个包文件通过。"
+          },
+          {
+            "name": "static-scan",
+            "status": "passed",
+            "summary": "基础静态规则无未解决发现。"
+          },
+          {
+            "name": "isolated-install",
+            "status": "passed",
+            "summary": "隔离目录复制后摘要一致，SKILL.md 可重新加载。"
+          }
+        ],
+        "contentDigest": "sha256:56b9fcc16aec96c90f4956f0b3d704438850c7deb872b1d6894d0cdadac4501a",
+        "environment": {
+          "filesystem": "ephemeral-directory",
+          "networkAccess": false,
+          "policyVersion": 1,
+          "runner": "github-actions",
+          "sourceCodeExecution": false
+        },
+        "evidenceDigest": "sha256:5b76f71dd6cfab7777035447a397788a79e8152a6ad067d300bb5bf8819ff8e8",
+        "kind": "VerificationRecord",
+        "level": "isolated-install",
+        "metrics": {
+          "commandsExecuted": 0,
+          "fileCount": 37,
+          "networkRequests": 0,
+          "totalBytes": 281090
+        },
+        "releaseId": "sha256:3e9570b8f53015cb847b48201598c96207cf89fd520932f7be8fbecac0f95e15",
+        "runId": "github-actions:32218208143:1",
+        "signature": "github-actions:https://github.com/userInner/SKILLS/actions/runs/32218208143@334c282be00f44fbdf941f6bffae7ee781403f44",
+        "signedAt": "2026-08-19T05:07:00Z",
+        "status": "passed",
+        "summary": "固定 Commit、目录摘要、静态规则和隔离复制均通过；未执行来源脚本。",
+        "type": "sandbox-smoke"
+      },
+      "verificationFile": "verifications/3e9570b8f53015cb847b48201598c96207cf89fd520932f7be8fbecac0f95e15.json"
     },
     {
       "category": "writing",
@@ -19786,7 +21326,62 @@
       "sourceUrl": "https://github.com/phuryn/pm-skills/tree/18468a95b427e70e258b51389796367c6f684e7d/pm-toolkit/skills/privacy-policy",
       "staticScanStatus": "passed",
       "status": "extracted",
-      "type": "skill"
+      "type": "skill",
+      "verification": {
+        "apiVersion": "effecta.dev/v1",
+        "checks": [
+          {
+            "name": "immutable-source",
+            "status": "passed",
+            "summary": "来源固定到完整 Git Commit。"
+          },
+          {
+            "name": "content-digest",
+            "status": "passed",
+            "summary": "目录 SHA-256 与 Registry 记录一致。"
+          },
+          {
+            "name": "package-integrity",
+            "status": "passed",
+            "summary": "SKILL.md、文件边界和 1 个包文件通过。"
+          },
+          {
+            "name": "static-scan",
+            "status": "passed",
+            "summary": "基础静态规则无未解决发现。"
+          },
+          {
+            "name": "isolated-install",
+            "status": "passed",
+            "summary": "隔离目录复制后摘要一致，SKILL.md 可重新加载。"
+          }
+        ],
+        "contentDigest": "sha256:96dd8ee07228e6f2c32ce2e8615684e107807bfcaa11477ea0397cdc57208a87",
+        "environment": {
+          "filesystem": "ephemeral-directory",
+          "networkAccess": false,
+          "policyVersion": 1,
+          "runner": "github-actions",
+          "sourceCodeExecution": false
+        },
+        "evidenceDigest": "sha256:631cbe84c0a26f0e6c3f1f688ce150d1ad4748ce22d0148e5463b9753b0b3619",
+        "kind": "VerificationRecord",
+        "level": "isolated-install",
+        "metrics": {
+          "commandsExecuted": 0,
+          "fileCount": 1,
+          "networkRequests": 0,
+          "totalBytes": 10699
+        },
+        "releaseId": "sha256:ead0d75b11b385ac7633c105ef016c7d6429af165b91da874334981d38bf41ab",
+        "runId": "github-actions:32218208143:1",
+        "signature": "github-actions:https://github.com/userInner/SKILLS/actions/runs/32218208143@334c282be00f44fbdf941f6bffae7ee781403f44",
+        "signedAt": "2026-08-19T05:07:00Z",
+        "status": "passed",
+        "summary": "固定 Commit、目录摘要、静态规则和隔离复制均通过；未执行来源脚本。",
+        "type": "sandbox-smoke"
+      },
+      "verificationFile": "verifications/ead0d75b11b385ac7633c105ef016c7d6429af165b91da874334981d38bf41ab.json"
     },
     {
       "category": "writing",
@@ -20056,7 +21651,62 @@
       "sourceUrl": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/b2a92ba052dcae4ef48e850b9e31ebf75706be48/skills/scikit-learn",
       "staticScanStatus": "passed",
       "status": "extracted",
-      "type": "skill"
+      "type": "skill",
+      "verification": {
+        "apiVersion": "effecta.dev/v1",
+        "checks": [
+          {
+            "name": "immutable-source",
+            "status": "passed",
+            "summary": "来源固定到完整 Git Commit。"
+          },
+          {
+            "name": "content-digest",
+            "status": "passed",
+            "summary": "目录 SHA-256 与 Registry 记录一致。"
+          },
+          {
+            "name": "package-integrity",
+            "status": "passed",
+            "summary": "SKILL.md、文件边界和 11 个包文件通过。"
+          },
+          {
+            "name": "static-scan",
+            "status": "passed",
+            "summary": "基础静态规则无未解决发现。"
+          },
+          {
+            "name": "isolated-install",
+            "status": "passed",
+            "summary": "隔离目录复制后摘要一致，SKILL.md 可重新加载。"
+          }
+        ],
+        "contentDigest": "sha256:63576363c1adba67e70e1d259ef0226ac9ed8a6948def56e71b4e3dc7de83e56",
+        "environment": {
+          "filesystem": "ephemeral-directory",
+          "networkAccess": false,
+          "policyVersion": 1,
+          "runner": "github-actions",
+          "sourceCodeExecution": false
+        },
+        "evidenceDigest": "sha256:361bdb937f6aa6e1076faecf1ac357e422b87f542c95ae4c4b3e02fc5d78c21e",
+        "kind": "VerificationRecord",
+        "level": "isolated-install",
+        "metrics": {
+          "commandsExecuted": 0,
+          "fileCount": 11,
+          "networkRequests": 0,
+          "totalBytes": 120965
+        },
+        "releaseId": "sha256:90ecd6955024aa1c6ed27ee6e3ac1cdbd4509a75e76f8457e25001bccecd7503",
+        "runId": "github-actions:32218208143:1",
+        "signature": "github-actions:https://github.com/userInner/SKILLS/actions/runs/32218208143@334c282be00f44fbdf941f6bffae7ee781403f44",
+        "signedAt": "2026-08-19T05:07:00Z",
+        "status": "passed",
+        "summary": "固定 Commit、目录摘要、静态规则和隔离复制均通过；未执行来源脚本。",
+        "type": "sandbox-smoke"
+      },
+      "verificationFile": "verifications/90ecd6955024aa1c6ed27ee6e3ac1cdbd4509a75e76f8457e25001bccecd7503.json"
     },
     {
       "category": "writing",
@@ -20208,7 +21858,7 @@
   "inputDigests": {
     "catalog": "sha256:456cff5c1a557ff3f406df878a9a3535649ffa9e83baba57d0703e64ae814982",
     "communitySkills": "sha256:50779977bf88e0ba8e8239102c4b455c47cc9bfd0aeaae84f4cb4738b07acc25",
-    "verifications": "sha256:cbdd4a9e6a5956c2121bfd757d62a6c6bf52ae6a0874890cfcf473eadfc85fc6"
+    "verifications": "sha256:ceadb9659a25a7dd8603bbbaa8fabcb76df346a17b88839351b0d7d2b0ad0fed"
   },
   "kind": "CapabilityIndex",
   "snapshotDate": "2026-08-17"
