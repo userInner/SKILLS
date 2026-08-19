@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:1a4e853a08b56316140b473f01f781423a84d46800be5953b82d2f6fbb7fad33",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "skills/workflow/job-search-agent-cn"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:1a4e853a08b56316140b473f01f781423a84d46800be5953b82d2f6fbb7fad33",
+    "fileCount": 6,
+    "totalBytes": 24417
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "unknown",
+    "spdx": "see-package"
+  },
+  "packageId": "github:userinner/skills:skills/workflow/job-search-agent-cn",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:8367bd077337d07277e121a50a8fe40603d3eb3bc5702e844b797c58a6ca738b",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "a70eb8cacef94000e56aa3769516f43786d3fe3f",
+    "path": "skills/workflow/job-search-agent-cn",
+    "repository": "userInner/SKILLS",
+    "url": "https://github.com/userInner/SKILLS/tree/a70eb8cacef94000e56aa3769516f43786d3fe3f/skills/workflow/job-search-agent-cn"
+  },
+  "status": "direct"
+}
