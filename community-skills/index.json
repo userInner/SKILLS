@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "extractorVersion": 1,
   "sourceCount": 12,
-  "concreteSkillCount": 726,
-  "directSkillCount": 40,
+  "concreteSkillCount": 727,
+  "directSkillCount": 41,
   "extractedSkillCount": 648,
   "needsReviewCount": 38,
   "rejectedCount": 6,
@@ -15713,6 +15713,23 @@
       "localPath": "community-skills/workflow/java-coding-standards--affaan-m-ecc"
     },
     {
+      "name": "job-search-agent-cn",
+      "category": "workflow",
+      "description": "Optimize Chinese technical resumes, screen and apply to matching jobs, write tailored recruiter greetings, monitor recruiting messages, and prepare or send safe routine replies. Use for BOSS Zhipin and similar China job-search workflows involving AI Agent, AI application, full-stack, backend, career transitions, application tracking, interview funnel improvement, or recurring recruiting-message automation.",
+      "sourceRepository": "userInner/SKILLS",
+      "sourcePath": "skills/workflow/job-search-agent-cn",
+      "sourceCommit": "local-reviewed",
+      "sourceRank": null,
+      "sourceStars": null,
+      "license": "see-package",
+      "status": "direct",
+      "staticScan": {
+        "status": "passed",
+        "findings": []
+      },
+      "localPath": "skills/workflow/job-search-agent-cn"
+    },
+    {
       "schemaVersion": 1,
       "name": "kotlin-exposed-patterns",
       "category": "workflow",
@@ -20882,5 +20899,5 @@
       "duplicateOf": "community-skills/design/slides--nextlevelbuilder-ui-ux-pro-max-skill"
     }
   ],
-  "generatedAt": "2026-08-16T04:05:23+00:00"
+  "generatedAt": "2026-08-19T08:30:40+00:00"
 }

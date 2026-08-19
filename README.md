@@ -4,7 +4,7 @@
 
 面向 Codex、Claude Code 和兼容 Agent 的开放 Skill 索引：发现公开来源，拆分具体能力包，记录许可证与来源 Commit，经过静态检查和隔离复制后，再决定是否安装。
 
-当前提供 **7 个分类、40 个直装 Skill**，同时维护每日更新的高星来源索引。第三方内容只有在许可证清楚、依赖资源完整、可脱离原仓库运行时，才会进入直装目录。
+当前提供 **7 个分类、41 个直装 Skill**，同时维护每日更新的高星来源索引。第三方内容只有在许可证清楚、依赖资源完整、可脱离原仓库运行时，才会进入直装目录。
 
 [![Apache 2.0](https://img.shields.io/badge/license-Apache--2.0-1b5bd6.svg)](LICENSE)
 [![Validate concrete Skills](https://github.com/userInner/SKILLS/actions/workflows/validate-community-skills.yml/badge.svg)](https://github.com/userInner/SKILLS/actions/workflows/validate-community-skills.yml)
@@ -16,7 +16,7 @@
 机器可读入口：[Registry v1](registry/v1/index.json) · [具体 Skill 索引](community-skills/index.json) · [来源仓库索引](catalog.json) · [分类](categories.json)
 
 <!-- community-stats:start -->
-包级索引现有 **726 个具体 Skill**：**40 个可直装**、**648 个已提取待验收**、**38 个待安全审查**。来源仓库数不等于 Skill 数，候选包也不等于安全认证。查看 [具体 Skill 目录](community-skills/README.md) 与 [机器索引](community-skills/index.json)。
+包级索引现有 **727 个具体 Skill**：**41 个可直装**、**648 个已提取待验收**、**38 个待安全审查**。来源仓库数不等于 Skill 数，候选包也不等于安全认证。查看 [具体 Skill 目录](community-skills/README.md) 与 [机器索引](community-skills/index.json)。
 <!-- community-stats:end -->
 
 ## 3 分钟体验
@@ -31,7 +31,7 @@ cd SKILLS
 python3 scripts/demo_install.py systematic-debugging
 ```
 
-想换一个能力，先查看全部 40 个直装 Skill：
+想换一个能力，先查看全部 41 个直装 Skill：
 
 ```bash
 python3 scripts/demo_install.py --list
@@ -85,6 +85,7 @@ Claude Code 支持自动发现，也可以直接调用：
 | 设计不模板化的界面 | [frontend-design](skills/design/frontend-design/) | 重做一个现有页面的首屏与视觉层级 |
 | 做带引用的研究 | [deep-research](skills/research/deep-research/) | 围绕一个明确问题生成多来源研究报告 |
 | 写完整 PRD | [create-prd](skills/product/create-prd/) | 把一个功能想法变成范围清楚的 PRD |
+| 自动化技术求职 | [job-search-agent-cn](skills/workflow/job-search-agent-cn/) | 用真实简历筛选岗位、定制招呼并安全跟进招聘消息 |
 | 去掉明显 AI 文风 | [humanizer](skills/writing/humanizer/) | 重写一段已有文案并保留事实与语气 |
 
 | 分类 | 直装数量 | 目录 |
@@ -94,7 +95,7 @@ Claude Code 支持自动发现，也可以直接调用：
 | 增长与发布 | 6 | [`skills/growth`](skills/growth/) |
 | 产品与战略 | 4 | [`skills/product`](skills/product/) |
 | 研究与证据 | 4 | [`skills/research`](skills/research/) |
-| 工作流与协作 | 7 | [`skills/workflow`](skills/workflow/) |
+| 工作流与协作 | 8 | [`skills/workflow`](skills/workflow/) |
 | 写作与表达 | 3 | [`skills/writing`](skills/writing/) |
 
 第三方 Skill 固定到来源 Commit，各目录保留 `NOTICE` 与 `LICENSE`。本仓库可能规范化 frontmatter、修复独立安装路径、补充 Codex UI 元数据，并增加不会阻断交付的可选社群提示。
