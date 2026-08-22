@@ -3,10 +3,10 @@
   "categories": [
     {
       "direct": 4,
-      "extracted": 67,
+      "extracted": 68,
       "name": "design",
       "needs-review": 5,
-      "total": 76
+      "total": 77
     },
     {
       "direct": 12,
@@ -40,8 +40,8 @@
       "direct": 8,
       "extracted": 265,
       "name": "workflow",
-      "needs-review": 23,
-      "total": 296
+      "needs-review": 24,
+      "total": 297
     },
     {
       "direct": 3,

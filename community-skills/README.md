@@ -2,11 +2,11 @@
 
 从许可证明确且已进入精选来源名单的 GitHub 仓库中，按真实 Skill 包根目录提取的候选能力包。
 
-当前记录 **727 个具体 Skill**：
+当前记录 **729 个具体 Skill**：
 
 - **41 个 `direct`**：已在 `skills/` 中完成人工整理，可直装。
-- **648 个 `extracted`**：包文件完整，基础静态扫描未命中；尚未完成人工验收与沙箱运行。
-- **38 个 `needs-review`**：命中高风险命令模式，必须人工审查。
+- **649 个 `extracted`**：包文件完整，基础静态扫描未命中；尚未完成人工验收与沙箱运行。
+- **39 个 `needs-review`**：命中高风险命令模式，必须人工审查。
 - **6 个 rejected**：重复、超限或结构不完整，不进入包目录。
 
 机器读取入口：[index.json](index.json)。每个候选包包含原始 `SKILL.md`、包内依赖文件、许可证、`NOTICE.effecta` 和 `effecta.manifest.json`。
@@ -15,12 +15,12 @@
 
 | 分类 | Skill 数 |
 |---|---:|
-| `design` | 76 |
+| `design` | 77 |
 | `engineering` | 187 |
 | `growth` | 44 |
 | `product` | 64 |
 | `research` | 40 |
-| `workflow` | 296 |
+| `workflow` | 297 |
 | `writing` | 20 |
 
 ## 状态边界

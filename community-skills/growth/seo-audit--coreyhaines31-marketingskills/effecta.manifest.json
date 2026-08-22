@@ -7,14 +7,14 @@
     "repository": "coreyhaines31/marketingskills",
     "url": "https://github.com/coreyhaines31/marketingskills",
     "path": "skills/seo-audit",
-    "commit": "7868cb9251fad80a73d26e488a5ad5f6c4a9f335",
-    "rank": 56,
-    "stars": 44368
+    "commit": "c6ea12834be62bdc4180a1385f6455cde84ae60c",
+    "rank": 57,
+    "stars": 44950
   },
   "license": "MIT",
-  "contentDigest": "sha256:38b0a8a95b2e41dc360dc44bbe89700750ed8cac41d290160054cab842dab432",
+  "contentDigest": "sha256:2741176411f522d48bab888776f7b6fb55622306b9488aed1a222d35557921c6",
   "fileCount": 4,
-  "totalBytes": 47032,
+  "totalBytes": 47192,
   "staticScan": {
     "status": "passed",
     "findings": []

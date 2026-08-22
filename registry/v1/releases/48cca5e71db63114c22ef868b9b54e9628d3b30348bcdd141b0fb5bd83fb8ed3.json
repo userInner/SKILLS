@@ -1,0 +1,50 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:07d8797e78f53cb2fff7b5c0ed76887a0f09f66b1118401eefa4a08959e9b838",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/design/tasteforge-video--affaan-m-ecc"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:07d8797e78f53cb2fff7b5c0ed76887a0f09f66b1118401eefa4a08959e9b838",
+    "fileCount": 1,
+    "totalBytes": 10469
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:affaan-m/ecc:skills/tasteforge-video",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:48cca5e71db63114c22ef868b9b54e9628d3b30348bcdd141b0fb5bd83fb8ed3",
+  "security": {
+    "staticScan": {
+      "findings": [],
+      "status": "passed"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "d8409a4b0813771235555e32e3d8046a73988bfa",
+    "path": "skills/tasteforge-video",
+    "repository": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC/tree/d8409a4b0813771235555e32e3d8046a73988bfa/skills/tasteforge-video"
+  },
+  "status": "extracted"
+}
