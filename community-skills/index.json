@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "extractorVersion": 1,
   "sourceCount": 12,
-  "concreteSkillCount": 727,
+  "concreteSkillCount": 729,
   "directSkillCount": 41,
-  "extractedSkillCount": 648,
-  "needsReviewCount": 38,
+  "extractedSkillCount": 649,
+  "needsReviewCount": 39,
   "rejectedCount": 6,
   "skills": [
     {
@@ -1939,6 +1939,35 @@
       "sourceRank": 2,
       "sourceStars": 240233,
       "localPath": "community-skills/design/taste--affaan-m-ecc"
+    },
+    {
+      "schemaVersion": 1,
+      "name": "tasteforge-video",
+      "category": "design",
+      "description": "Use for file-driven multimodal image, video, and 3D-asset discovery; taste interviews; distill or apply workflows; style-pack validation; editable EDL/FCPXML export; provenance audits; and offline planning that must fail closed before provider generation.",
+      "source": {
+        "repository": "affaan-m/ECC",
+        "url": "https://github.com/affaan-m/ECC",
+        "path": "skills/tasteforge-video",
+        "commit": "d8409a4b0813771235555e32e3d8046a73988bfa",
+        "rank": 3,
+        "stars": 241217
+      },
+      "license": "MIT",
+      "contentDigest": "sha256:07d8797e78f53cb2fff7b5c0ed76887a0f09f66b1118401eefa4a08959e9b838",
+      "fileCount": 1,
+      "totalBytes": 10469,
+      "staticScan": {
+        "status": "passed",
+        "findings": []
+      },
+      "status": "extracted",
+      "sourceRepository": "affaan-m/ECC",
+      "sourcePath": "skills/tasteforge-video",
+      "sourceCommit": "d8409a4b0813771235555e32e3d8046a73988bfa",
+      "sourceRank": 3,
+      "sourceStars": 241217,
+      "localPath": "community-skills/design/tasteforge-video--affaan-m-ecc"
     },
     {
       "schemaVersion": 1,
@@ -7496,19 +7525,19 @@
       "schemaVersion": 1,
       "name": "ai-seo",
       "category": "growth",
-      "description": "When the user wants to optimize content for AI search engines, get cited by LLMs, or appear in AI-generated answers. Also use when the user mentions 'AI SEO,' 'AEO,' 'GEO,' 'LLMO,' 'answer engine optimization,' 'generative engine optimization,' 'LLM optimization,' 'AI Overviews,' 'optimize for ChatGPT,' 'optimize for Perplexity,' 'AI citations,' 'AI visibility,' 'zero-click search,' 'how do I show up in AI answers,' 'LLM mentions,' 'optimize for Claude/Gemini,' 'llms.txt,' 'OKF,' 'Open Knowledge Format,' 'knowledge bundle,' or 'agent-readable site.' Use this whenever someone wants their content to be cited or surfaced by AI assistants and AI search engines. For traditional technical and on-page SEO audits, see seo-audit. For structured data implementation, see schema.",
+      "description": "When the user wants to optimize content for AI search engines, get cited by LLMs, or appear in AI-generated answers. Also use when the user mentions 'AI SEO,' 'AEO,' 'GEO,' 'LLMO,' 'answer engine optimization,' 'generative engine optimization,' 'LLM optimization,' 'AI Overviews,' 'optimize for ChatGPT,' 'optimize for Perplexity,' 'AI citations,' 'AI visibility,' 'zero-click search,' 'how do I show up in AI answers,' 'LLM mentions,' 'optimize for Claude/Gemini,' 'llms.txt,' 'llms-full.txt,' 'OKF,' 'Open Knowledge Format,' 'knowledge bundle,' 'agent-readable site,' 'agent readiness,' 'is my site agent-ready,' or 'WebMCP.' Use this whenever someone wants their content to be cited or surfaced by AI assistants and AI search engines. For traditional technical and on-page SEO audits, see seo-audit. For structured data implementation, see schema.",
       "source": {
         "repository": "coreyhaines31/marketingskills",
         "url": "https://github.com/coreyhaines31/marketingskills",
         "path": "skills/ai-seo",
-        "commit": "7868cb9251fad80a73d26e488a5ad5f6c4a9f335",
-        "rank": 56,
-        "stars": 44368
+        "commit": "3df87f97621e18fbed7f6aa684edba54f49779a7",
+        "rank": 58,
+        "stars": 45204
       },
       "license": "MIT",
-      "contentDigest": "sha256:e0d87995da96c0e80309ca809fffebaa5ea5deb9267378b2e908bc0b59d30572",
-      "fileCount": 7,
-      "totalBytes": 75175,
+      "contentDigest": "sha256:f452c38579854b8d45e45632d2d1be7a985dbba2c1cd6eba4687b3141faf3b17",
+      "fileCount": 9,
+      "totalBytes": 90477,
       "staticScan": {
         "status": "passed",
         "findings": []
@@ -7516,9 +7545,9 @@
       "status": "extracted",
       "sourceRepository": "coreyhaines31/marketingskills",
       "sourcePath": "skills/ai-seo",
-      "sourceCommit": "7868cb9251fad80a73d26e488a5ad5f6c4a9f335",
-      "sourceRank": 56,
-      "sourceStars": 44368,
+      "sourceCommit": "3df87f97621e18fbed7f6aa684edba54f49779a7",
+      "sourceRank": 58,
+      "sourceStars": 45204,
       "localPath": "community-skills/growth/ai-seo--coreyhaines31-marketingskills"
     },
     {
@@ -8062,19 +8091,19 @@
       "schemaVersion": 1,
       "name": "influencer-marketing",
       "category": "growth",
-      "description": "When the user wants to run influencer, creator, or ambassador partnerships to promote their product — finding and vetting partners, structuring deals, briefing creators, disclosure compliance, and measuring ROI. Also use when the user mentions 'influencer marketing,' 'creator partnerships,' 'sponsorships,' 'YouTube sponsorships,' 'podcast sponsorships,' 'brand ambassador,' 'ambassador program,' 'creator program,' 'UGC creators,' 'B2B influencers,' 'thought leader ads,' 'gifting,' 'product seeding,' 'whitelisting creator content,' 'how much to pay an influencer,' or 'FTC disclosure.' For affiliate/referral payout mechanics, see referrals. For community-led advocacy, see community-marketing. For turning creator content into paid ads, see ad-creative.",
+      "description": "When the user wants to run influencer, creator, or ambassador partnerships to promote their product — finding and vetting partners, structuring deals, briefing creators, disclosure compliance, and measuring ROI. Also use when the user mentions 'influencer marketing,' 'creator partnerships,' 'sponsorships,' 'YouTube sponsorships,' 'podcast sponsorships,' 'brand ambassador,' 'ambassador program,' 'creator program,' 'UGC creators,' 'tech UGC,' 'UGC creator program,' 'creator network,' 'B2B influencers,' 'thought leader ads,' 'gifting,' 'product seeding,' 'whitelisting creator content,' 'how much to pay an influencer,' or 'FTC disclosure.' For affiliate/referral payout mechanics, see referrals. For community-led advocacy, see community-marketing. For turning creator content into paid ads, see ad-creative.",
       "source": {
         "repository": "coreyhaines31/marketingskills",
         "url": "https://github.com/coreyhaines31/marketingskills",
         "path": "skills/influencer-marketing",
-        "commit": "7868cb9251fad80a73d26e488a5ad5f6c4a9f335",
-        "rank": 56,
-        "stars": 44368
+        "commit": "c6ea12834be62bdc4180a1385f6455cde84ae60c",
+        "rank": 57,
+        "stars": 44950
       },
       "license": "MIT",
-      "contentDigest": "sha256:30fa2b6d43a96bd4e7c6ee2b78c733a0a9a7b6bd35f3ceaec18314ed8f12ddc8",
-      "fileCount": 2,
-      "totalBytes": 23446,
+      "contentDigest": "sha256:b74fc6197f4b704ed52b1b3421048375ebb34d711a763f12ed9042321eb4cd97",
+      "fileCount": 3,
+      "totalBytes": 35403,
       "staticScan": {
         "status": "passed",
         "findings": []
@@ -8082,9 +8111,9 @@
       "status": "extracted",
       "sourceRepository": "coreyhaines31/marketingskills",
       "sourcePath": "skills/influencer-marketing",
-      "sourceCommit": "7868cb9251fad80a73d26e488a5ad5f6c4a9f335",
-      "sourceRank": 56,
-      "sourceStars": 44368,
+      "sourceCommit": "c6ea12834be62bdc4180a1385f6455cde84ae60c",
+      "sourceRank": 57,
+      "sourceStars": 44950,
       "localPath": "community-skills/growth/influencer-marketing--coreyhaines31-marketingskills"
     },
     {
@@ -8369,19 +8398,19 @@
       "schemaVersion": 1,
       "name": "public-relations",
       "category": "growth",
-      "description": "When the user wants help with public relations, earned media, press coverage, journalist outreach, or media strategy (not pull requests). Also use when the user mentions 'PR,' 'public relations,' 'press,' 'press release,' 'press coverage,' 'media outreach,' 'pitch a journalist,' 'get featured,' 'media list,' 'media kit,' 'press kit,' 'newsjacking,' 'news hijack,' 'HARO,' 'Qwoted,' 'Featured,' 'Help A Reporter,' 'reporter request,' 'tech press,' 'TechCrunch,' 'earned media,' 'thought leadership placement,' 'op-ed,' 'guest article,' 'press contacts,' or 'how do I get press.' Use this for earned media work — finding journalists, pitching stories, newsjacking, and responding to press requests. For startup/SaaS/AI directory submissions, see directory-submissions. For product launches, see launch. For social-media engagement, see social. For cold-email outreach to prospects, see cold-email.",
+      "description": "When the user wants help with public relations, earned media, press coverage, journalist outreach, or media strategy (not pull requests). Also use when the user mentions 'PR,' 'public relations,' 'press,' 'press release,' 'press coverage,' 'media outreach,' 'pitch a journalist,' 'get featured,' 'media list,' 'media kit,' 'press kit,' 'newsjacking,' 'news hijack,' 'HARO,' 'Qwoted,' 'Featured,' 'Help A Reporter,' 'reporter request,' 'tech press,' 'TechCrunch,' 'earned media,' 'thought leadership placement,' 'op-ed,' 'guest article,' 'press contacts,' 'podcast prep,' 'going on a podcast,' 'podcast guest,' 'prep me for this podcast,' or 'how do I get press.' Use this for earned media work — finding journalists, pitching stories, newsjacking, prepping podcast appearances, and responding to press requests. For startup/SaaS/AI directory submissions, see directory-submissions. For product launches, see launch. For social-media engagement, see social. For cold-email outreach to prospects, see cold-email.",
       "source": {
         "repository": "coreyhaines31/marketingskills",
         "url": "https://github.com/coreyhaines31/marketingskills",
         "path": "skills/public-relations",
-        "commit": "7868cb9251fad80a73d26e488a5ad5f6c4a9f335",
-        "rank": 56,
-        "stars": 44368
+        "commit": "c6ea12834be62bdc4180a1385f6455cde84ae60c",
+        "rank": 57,
+        "stars": 44950
       },
       "license": "MIT",
-      "contentDigest": "sha256:c19d95eea5820852e09de65c11e22650760641799307216c7246101256f02341",
-      "fileCount": 5,
-      "totalBytes": 42813,
+      "contentDigest": "sha256:921d0af621f57b70794983468d0bcbf0b84f76c415c203def7ab27fb6f4a1794",
+      "fileCount": 6,
+      "totalBytes": 49111,
       "staticScan": {
         "status": "passed",
         "findings": []
@@ -8389,9 +8418,9 @@
       "status": "extracted",
       "sourceRepository": "coreyhaines31/marketingskills",
       "sourcePath": "skills/public-relations",
-      "sourceCommit": "7868cb9251fad80a73d26e488a5ad5f6c4a9f335",
-      "sourceRank": 56,
-      "sourceStars": 44368,
+      "sourceCommit": "c6ea12834be62bdc4180a1385f6455cde84ae60c",
+      "sourceRank": 57,
+      "sourceStars": 44950,
       "localPath": "community-skills/growth/public-relations--coreyhaines31-marketingskills"
     },
     {
@@ -8548,14 +8577,14 @@
         "repository": "coreyhaines31/marketingskills",
         "url": "https://github.com/coreyhaines31/marketingskills",
         "path": "skills/seo-audit",
-        "commit": "7868cb9251fad80a73d26e488a5ad5f6c4a9f335",
-        "rank": 56,
-        "stars": 44368
+        "commit": "c6ea12834be62bdc4180a1385f6455cde84ae60c",
+        "rank": 57,
+        "stars": 44950
       },
       "license": "MIT",
-      "contentDigest": "sha256:38b0a8a95b2e41dc360dc44bbe89700750ed8cac41d290160054cab842dab432",
+      "contentDigest": "sha256:2741176411f522d48bab888776f7b6fb55622306b9488aed1a222d35557921c6",
       "fileCount": 4,
-      "totalBytes": 47032,
+      "totalBytes": 47192,
       "staticScan": {
         "status": "passed",
         "findings": []
@@ -8563,9 +8592,9 @@
       "status": "extracted",
       "sourceRepository": "coreyhaines31/marketingskills",
       "sourcePath": "skills/seo-audit",
-      "sourceCommit": "7868cb9251fad80a73d26e488a5ad5f6c4a9f335",
-      "sourceRank": 56,
-      "sourceStars": 44368,
+      "sourceCommit": "c6ea12834be62bdc4180a1385f6455cde84ae60c",
+      "sourceRank": 57,
+      "sourceStars": 44950,
       "localPath": "community-skills/growth/seo-audit--coreyhaines31-marketingskills"
     },
     {
@@ -8710,14 +8739,14 @@
         "repository": "coreyhaines31/marketingskills",
         "url": "https://github.com/coreyhaines31/marketingskills",
         "path": "skills/ads",
-        "commit": "7868cb9251fad80a73d26e488a5ad5f6c4a9f335",
-        "rank": 56,
-        "stars": 44368
+        "commit": "c6ea12834be62bdc4180a1385f6455cde84ae60c",
+        "rank": 57,
+        "stars": 44950
       },
       "license": "MIT",
-      "contentDigest": "sha256:4285b67ecb6d7134d55743edfcdb223a3755db2be444d23580e49fc55424c967",
-      "fileCount": 12,
-      "totalBytes": 109796,
+      "contentDigest": "sha256:a9bedf2806affb866d81c66e21b077ae1e3a470b15e1ecde7cd636e95512a86f",
+      "fileCount": 13,
+      "totalBytes": 121487,
       "staticScan": {
         "status": "passed",
         "findings": []
@@ -8725,9 +8754,9 @@
       "status": "extracted",
       "sourceRepository": "coreyhaines31/marketingskills",
       "sourcePath": "skills/ads",
-      "sourceCommit": "7868cb9251fad80a73d26e488a5ad5f6c4a9f335",
-      "sourceRank": 56,
-      "sourceStars": 44368,
+      "sourceCommit": "c6ea12834be62bdc4180a1385f6455cde84ae60c",
+      "sourceRank": 57,
+      "sourceStars": 44950,
       "localPath": "community-skills/product/ads--coreyhaines31-marketingskills"
     },
     {
@@ -8797,14 +8826,14 @@
         "repository": "coreyhaines31/marketingskills",
         "url": "https://github.com/coreyhaines31/marketingskills",
         "path": "skills/aso",
-        "commit": "7868cb9251fad80a73d26e488a5ad5f6c4a9f335",
-        "rank": 56,
-        "stars": 44368
+        "commit": "c6ea12834be62bdc4180a1385f6455cde84ae60c",
+        "rank": 57,
+        "stars": 44950
       },
       "license": "MIT",
-      "contentDigest": "sha256:d4323f8a55e9a349cb7a3c759f61f00aeca2fe4a223e70ca5b51ef378b3f8db5",
+      "contentDigest": "sha256:d653157c70fadde0da955f2ad440a070fd21393e780fa7faeb48df11ac9eadec",
       "fileCount": 7,
-      "totalBytes": 58917,
+      "totalBytes": 59098,
       "staticScan": {
         "status": "passed",
         "findings": []
@@ -8812,9 +8841,9 @@
       "status": "extracted",
       "sourceRepository": "coreyhaines31/marketingskills",
       "sourcePath": "skills/aso",
-      "sourceCommit": "7868cb9251fad80a73d26e488a5ad5f6c4a9f335",
-      "sourceRank": 56,
-      "sourceStars": 44368,
+      "sourceCommit": "c6ea12834be62bdc4180a1385f6455cde84ae60c",
+      "sourceRank": 57,
+      "sourceStars": 44950,
       "localPath": "community-skills/product/aso--coreyhaines31-marketingskills"
     },
     {
@@ -9075,14 +9104,14 @@
         "repository": "coreyhaines31/marketingskills",
         "url": "https://github.com/coreyhaines31/marketingskills",
         "path": "skills/competitor-profiling",
-        "commit": "7868cb9251fad80a73d26e488a5ad5f6c4a9f335",
-        "rank": 56,
-        "stars": 44368
+        "commit": "c6ea12834be62bdc4180a1385f6455cde84ae60c",
+        "rank": 57,
+        "stars": 44950
       },
       "license": "MIT",
-      "contentDigest": "sha256:38db0e37f29ce7d18d074e651db6c499778f48b37ecaf51a8fc4557d781ff1ba",
+      "contentDigest": "sha256:57d02257acbf9360b3e6d6dc0a95c68c19a52c007187503cdd3b68cb88e42b8d",
       "fileCount": 4,
-      "totalBytes": 33491,
+      "totalBytes": 33804,
       "staticScan": {
         "status": "passed",
         "findings": []
@@ -9090,9 +9119,9 @@
       "status": "extracted",
       "sourceRepository": "coreyhaines31/marketingskills",
       "sourcePath": "skills/competitor-profiling",
-      "sourceCommit": "7868cb9251fad80a73d26e488a5ad5f6c4a9f335",
-      "sourceRank": 56,
-      "sourceStars": 44368,
+      "sourceCommit": "c6ea12834be62bdc4180a1385f6455cde84ae60c",
+      "sourceRank": 57,
+      "sourceStars": 44950,
       "localPath": "community-skills/product/competitor-profiling--coreyhaines31-marketingskills"
     },
     {
@@ -20176,6 +20205,40 @@
     },
     {
       "schemaVersion": 1,
+      "name": "waypoint-bio",
+      "category": "workflow",
+      "description": "Hugging Face read token with access to the gated outpost-bio/Waypoint-*, outpost-bio/Atlas, and outpost-bio/Compass repos.",
+      "source": {
+        "repository": "K-Dense-AI/scientific-agent-skills",
+        "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+        "path": "skills/waypoint-bio",
+        "commit": "9e8b0cb0b09059f2fd4505e57ab4e00c8be1cef6",
+        "rank": 75,
+        "stars": 33764
+      },
+      "license": "MIT",
+      "contentDigest": "sha256:c82549169154692e733a534b299fb4391f00833e13bf955424f11811e6270912",
+      "fileCount": 7,
+      "totalBytes": 71123,
+      "staticScan": {
+        "status": "review",
+        "findings": [
+          {
+            "rule": "shell-eval",
+            "file": "python-api.md"
+          }
+        ]
+      },
+      "status": "needs-review",
+      "sourceRepository": "K-Dense-AI/scientific-agent-skills",
+      "sourcePath": "skills/waypoint-bio",
+      "sourceCommit": "9e8b0cb0b09059f2fd4505e57ab4e00c8be1cef6",
+      "sourceRank": 75,
+      "sourceStars": 33764,
+      "localPath": "community-skills/workflow/waypoint-bio--k-dense-ai-scientific-agent-skills"
+    },
+    {
+      "schemaVersion": 1,
       "name": "what-if-oracle",
       "category": "workflow",
       "description": "Run structured What-If scenario analysis with 4–6 branch possibility exploration (best, likely, worst, wild card, contrarian, second-order). Use when the user asks speculative what-if questions about uncertain futures, strategic forks, contingency planning, or stress-testing a decision before committing.",
@@ -20899,5 +20962,5 @@
       "duplicateOf": "community-skills/design/slides--nextlevelbuilder-ui-ux-pro-max-skill"
     }
   ],
-  "generatedAt": "2026-08-19T08:30:40+00:00"
+  "generatedAt": "2026-08-22T04:01:27+00:00"
 }

@@ -1,0 +1,14 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "category": "workflow",
+  "description": "Hugging Face read token with access to the gated outpost-bio/Waypoint-*, outpost-bio/Atlas, and outpost-bio/Compass repos.",
+  "id": "github:k-dense-ai/scientific-agent-skills:skills/waypoint-bio",
+  "kind": "CapabilityPackage",
+  "name": "waypoint-bio",
+  "slug": "waypoint-bio--k-dense-ai-scientific-agent-skills",
+  "source": {
+    "path": "skills/waypoint-bio",
+    "repository": "K-Dense-AI/scientific-agent-skills"
+  },
+  "type": "skill"
+}
