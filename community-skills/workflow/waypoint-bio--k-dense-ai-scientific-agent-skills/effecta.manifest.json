@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "name": "waypoint-bio",
+  "category": "workflow",
+  "description": "Hugging Face read token with access to the gated outpost-bio/Waypoint-*, outpost-bio/Atlas, and outpost-bio/Compass repos.",
+  "source": {
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+    "path": "skills/waypoint-bio",
+    "commit": "9e8b0cb0b09059f2fd4505e57ab4e00c8be1cef6",
+    "rank": 75,
+    "stars": 33764
+  },
+  "license": "MIT",
+  "contentDigest": "sha256:c82549169154692e733a534b299fb4391f00833e13bf955424f11811e6270912",
+  "fileCount": 7,
+  "totalBytes": 71123,
+  "staticScan": {
+    "status": "review",
+    "findings": [
+      {
+        "rule": "shell-eval",
+        "file": "python-api.md"
+      }
+    ]
+  },
+  "status": "needs-review"
+}

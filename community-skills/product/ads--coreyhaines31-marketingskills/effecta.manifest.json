@@ -7,14 +7,14 @@
     "repository": "coreyhaines31/marketingskills",
     "url": "https://github.com/coreyhaines31/marketingskills",
     "path": "skills/ads",
-    "commit": "7868cb9251fad80a73d26e488a5ad5f6c4a9f335",
-    "rank": 56,
-    "stars": 44368
+    "commit": "c6ea12834be62bdc4180a1385f6455cde84ae60c",
+    "rank": 57,
+    "stars": 44950
   },
   "license": "MIT",
-  "contentDigest": "sha256:4285b67ecb6d7134d55743edfcdb223a3755db2be444d23580e49fc55424c967",
-  "fileCount": 12,
-  "totalBytes": 109796,
+  "contentDigest": "sha256:a9bedf2806affb866d81c66e21b077ae1e3a470b15e1ecde7cd636e95512a86f",
+  "fileCount": 13,
+  "totalBytes": 121487,
   "staticScan": {
     "status": "passed",
     "findings": []

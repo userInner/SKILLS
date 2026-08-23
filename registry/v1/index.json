@@ -3005,6 +3005,27 @@
     },
     {
       "category": "design",
+      "contentDigest": "sha256:07d8797e78f53cb2fff7b5c0ed76887a0f09f66b1118401eefa4a08959e9b838",
+      "description": "Use for file-driven multimodal image, video, and 3D-asset discovery; taste interviews; distill or apply workflows; style-pack validation; editable EDL/FCPXML export; provenance audits; and offline planning that must fail closed before provider generation.",
+      "license": "MIT",
+      "localPath": "community-skills/design/tasteforge-video--affaan-m-ecc",
+      "name": "tasteforge-video",
+      "packageFile": "packages/33dddbad5b51a9de3d9b8483a50af13f00f4be176df3a2a0d913868823e55508.json",
+      "packageId": "github:affaan-m/ecc:skills/tasteforge-video",
+      "releaseFile": "releases/48cca5e71db63114c22ef868b9b54e9628d3b30348bcdd141b0fb5bd83fb8ed3.json",
+      "releaseId": "sha256:48cca5e71db63114c22ef868b9b54e9628d3b30348bcdd141b0fb5bd83fb8ed3",
+      "sourceCommit": "d8409a4b0813771235555e32e3d8046a73988bfa",
+      "sourcePath": "skills/tasteforge-video",
+      "sourceRank": 3,
+      "sourceRepository": "affaan-m/ECC",
+      "sourceStars": 241217,
+      "sourceUrl": "https://github.com/affaan-m/ECC/tree/d8409a4b0813771235555e32e3d8046a73988bfa/skills/tasteforge-video",
+      "staticScanStatus": "passed",
+      "status": "extracted",
+      "type": "skill"
+    },
+    {
+      "category": "design",
       "contentDigest": "sha256:6a1d0299cc924c6e9db82f1c38ffb1e39a26805c7268bb98e5866e6312196be3",
       "description": "Record polished UI demo videos using Playwright. Use when the user asks to create a demo, walkthrough, screen recording, or tutorial video of a web application. Produces WebM videos with visible cursor, natural pacing, and professional feel.",
       "license": "MIT",
@@ -9376,79 +9397,24 @@
     },
     {
       "category": "growth",
-      "contentDigest": "sha256:e0d87995da96c0e80309ca809fffebaa5ea5deb9267378b2e908bc0b59d30572",
-      "description": "When the user wants to optimize content for AI search engines, get cited by LLMs, or appear in AI-generated answers. Also use when the user mentions 'AI SEO,' 'AEO,' 'GEO,' 'LLMO,' 'answer engine optimization,' 'generative engine optimization,' 'LLM optimization,' 'AI Overviews,' 'optimize for ChatGPT,' 'optimize for Perplexity,' 'AI citations,' 'AI visibility,' 'zero-click search,' 'how do I show up in AI answers,' 'LLM mentions,' 'optimize for Claude/Gemini,' 'llms.txt,' 'OKF,' 'Open Knowledge Format,' 'knowledge bundle,' or 'agent-readable site.' Use this whenever someone wants their content to be cited or surfaced by AI assistants and AI search engines. For traditional technical and on-page SEO audits, see seo-audit. For structured data implementation, see schema.",
+      "contentDigest": "sha256:f452c38579854b8d45e45632d2d1be7a985dbba2c1cd6eba4687b3141faf3b17",
+      "description": "When the user wants to optimize content for AI search engines, get cited by LLMs, or appear in AI-generated answers. Also use when the user mentions 'AI SEO,' 'AEO,' 'GEO,' 'LLMO,' 'answer engine optimization,' 'generative engine optimization,' 'LLM optimization,' 'AI Overviews,' 'optimize for ChatGPT,' 'optimize for Perplexity,' 'AI citations,' 'AI visibility,' 'zero-click search,' 'how do I show up in AI answers,' 'LLM mentions,' 'optimize for Claude/Gemini,' 'llms.txt,' 'llms-full.txt,' 'OKF,' 'Open Knowledge Format,' 'knowledge bundle,' 'agent-readable site,' 'agent readiness,' 'is my site agent-ready,' or 'WebMCP.' Use this whenever someone wants their content to be cited or surfaced by AI assistants and AI search engines. For traditional technical and on-page SEO audits, see seo-audit. For structured data implementation, see schema.",
       "license": "MIT",
       "localPath": "community-skills/growth/ai-seo--coreyhaines31-marketingskills",
       "name": "ai-seo",
       "packageFile": "packages/e7bdd5ae1e2ab540827ce7b2d9db9f0855aff94e97180471483ddd67004f6c8d.json",
       "packageId": "github:coreyhaines31/marketingskills:skills/ai-seo",
-      "releaseFile": "releases/96e182a4eab5e1555bbfb1548963abda3a0f22c9dcae4612927a69b765f0cc47.json",
-      "releaseId": "sha256:96e182a4eab5e1555bbfb1548963abda3a0f22c9dcae4612927a69b765f0cc47",
-      "sourceCommit": "7868cb9251fad80a73d26e488a5ad5f6c4a9f335",
+      "releaseFile": "releases/231d9dd3476f5ac9f64c96c841f77d9363dc86f06354cdb9ca4ef308567aa5e4.json",
+      "releaseId": "sha256:231d9dd3476f5ac9f64c96c841f77d9363dc86f06354cdb9ca4ef308567aa5e4",
+      "sourceCommit": "3df87f97621e18fbed7f6aa684edba54f49779a7",
       "sourcePath": "skills/ai-seo",
-      "sourceRank": 56,
+      "sourceRank": 58,
       "sourceRepository": "coreyhaines31/marketingskills",
-      "sourceStars": 44368,
-      "sourceUrl": "https://github.com/coreyhaines31/marketingskills/tree/7868cb9251fad80a73d26e488a5ad5f6c4a9f335/skills/ai-seo",
+      "sourceStars": 45204,
+      "sourceUrl": "https://github.com/coreyhaines31/marketingskills/tree/3df87f97621e18fbed7f6aa684edba54f49779a7/skills/ai-seo",
       "staticScanStatus": "passed",
       "status": "extracted",
-      "type": "skill",
-      "verification": {
-        "apiVersion": "effecta.dev/v1",
-        "checks": [
-          {
-            "name": "immutable-source",
-            "status": "passed",
-            "summary": "来源固定到完整 Git Commit。"
-          },
-          {
-            "name": "content-digest",
-            "status": "passed",
-            "summary": "目录 SHA-256 与 Registry 记录一致。"
-          },
-          {
-            "name": "package-integrity",
-            "status": "passed",
-            "summary": "SKILL.md、文件边界和 7 个包文件通过。"
-          },
-          {
-            "name": "static-scan",
-            "status": "passed",
-            "summary": "基础静态规则无未解决发现。"
-          },
-          {
-            "name": "isolated-install",
-            "status": "passed",
-            "summary": "隔离目录复制后摘要一致，SKILL.md 可重新加载。"
-          }
-        ],
-        "contentDigest": "sha256:e0d87995da96c0e80309ca809fffebaa5ea5deb9267378b2e908bc0b59d30572",
-        "environment": {
-          "filesystem": "ephemeral-directory",
-          "networkAccess": false,
-          "policyVersion": 1,
-          "runner": "github-actions",
-          "sourceCodeExecution": false
-        },
-        "evidenceDigest": "sha256:477aaebca3279637b1e08db37e075ab795d27652f626ac41fcafcde903cef48b",
-        "kind": "VerificationRecord",
-        "level": "isolated-install",
-        "metrics": {
-          "commandsExecuted": 0,
-          "fileCount": 7,
-          "networkRequests": 0,
-          "totalBytes": 75175
-        },
-        "releaseId": "sha256:96e182a4eab5e1555bbfb1548963abda3a0f22c9dcae4612927a69b765f0cc47",
-        "runId": "github-actions:32334837313:1",
-        "signature": "github-actions:https://github.com/userInner/SKILLS/actions/runs/32334837313@2e54c304e1d547eebc0d73f4dbdbf946c376bea6",
-        "signedAt": "2026-08-20T05:14:23Z",
-        "status": "passed",
-        "summary": "固定 Commit、目录摘要、静态规则和隔离复制均通过；未执行来源脚本。",
-        "type": "sandbox-smoke"
-      },
-      "verificationFile": "verifications/96e182a4eab5e1555bbfb1548963abda3a0f22c9dcae4612927a69b765f0cc47.json"
+      "type": "skill"
     },
     {
       "category": "growth",
@@ -10807,79 +10773,24 @@
     },
     {
       "category": "growth",
-      "contentDigest": "sha256:30fa2b6d43a96bd4e7c6ee2b78c733a0a9a7b6bd35f3ceaec18314ed8f12ddc8",
-      "description": "When the user wants to run influencer, creator, or ambassador partnerships to promote their product — finding and vetting partners, structuring deals, briefing creators, disclosure compliance, and measuring ROI. Also use when the user mentions 'influencer marketing,' 'creator partnerships,' 'sponsorships,' 'YouTube sponsorships,' 'podcast sponsorships,' 'brand ambassador,' 'ambassador program,' 'creator program,' 'UGC creators,' 'B2B influencers,' 'thought leader ads,' 'gifting,' 'product seeding,' 'whitelisting creator content,' 'how much to pay an influencer,' or 'FTC disclosure.' For affiliate/referral payout mechanics, see referrals. For community-led advocacy, see community-marketing. For turning creator content into paid ads, see ad-creative.",
+      "contentDigest": "sha256:b74fc6197f4b704ed52b1b3421048375ebb34d711a763f12ed9042321eb4cd97",
+      "description": "When the user wants to run influencer, creator, or ambassador partnerships to promote their product — finding and vetting partners, structuring deals, briefing creators, disclosure compliance, and measuring ROI. Also use when the user mentions 'influencer marketing,' 'creator partnerships,' 'sponsorships,' 'YouTube sponsorships,' 'podcast sponsorships,' 'brand ambassador,' 'ambassador program,' 'creator program,' 'UGC creators,' 'tech UGC,' 'UGC creator program,' 'creator network,' 'B2B influencers,' 'thought leader ads,' 'gifting,' 'product seeding,' 'whitelisting creator content,' 'how much to pay an influencer,' or 'FTC disclosure.' For affiliate/referral payout mechanics, see referrals. For community-led advocacy, see community-marketing. For turning creator content into paid ads, see ad-creative.",
       "license": "MIT",
       "localPath": "community-skills/growth/influencer-marketing--coreyhaines31-marketingskills",
       "name": "influencer-marketing",
       "packageFile": "packages/56c26f9cb7e241a16ea6ab491f526bac545fe9b8d37299c37a935e9c8cf22665.json",
       "packageId": "github:coreyhaines31/marketingskills:skills/influencer-marketing",
-      "releaseFile": "releases/d5c2572bcb8cd5987a0d1c48f1f0e79b701c5fef4d503a8b977cba97bc989321.json",
-      "releaseId": "sha256:d5c2572bcb8cd5987a0d1c48f1f0e79b701c5fef4d503a8b977cba97bc989321",
-      "sourceCommit": "7868cb9251fad80a73d26e488a5ad5f6c4a9f335",
+      "releaseFile": "releases/98022ffbc847b8737bbd7336702ce776f90716f745e6fe6c95c05949d38a4800.json",
+      "releaseId": "sha256:98022ffbc847b8737bbd7336702ce776f90716f745e6fe6c95c05949d38a4800",
+      "sourceCommit": "c6ea12834be62bdc4180a1385f6455cde84ae60c",
       "sourcePath": "skills/influencer-marketing",
-      "sourceRank": 56,
+      "sourceRank": 57,
       "sourceRepository": "coreyhaines31/marketingskills",
-      "sourceStars": 44368,
-      "sourceUrl": "https://github.com/coreyhaines31/marketingskills/tree/7868cb9251fad80a73d26e488a5ad5f6c4a9f335/skills/influencer-marketing",
+      "sourceStars": 44950,
+      "sourceUrl": "https://github.com/coreyhaines31/marketingskills/tree/c6ea12834be62bdc4180a1385f6455cde84ae60c/skills/influencer-marketing",
       "staticScanStatus": "passed",
       "status": "extracted",
-      "type": "skill",
-      "verification": {
-        "apiVersion": "effecta.dev/v1",
-        "checks": [
-          {
-            "name": "immutable-source",
-            "status": "passed",
-            "summary": "来源固定到完整 Git Commit。"
-          },
-          {
-            "name": "content-digest",
-            "status": "passed",
-            "summary": "目录 SHA-256 与 Registry 记录一致。"
-          },
-          {
-            "name": "package-integrity",
-            "status": "passed",
-            "summary": "SKILL.md、文件边界和 2 个包文件通过。"
-          },
-          {
-            "name": "static-scan",
-            "status": "passed",
-            "summary": "基础静态规则无未解决发现。"
-          },
-          {
-            "name": "isolated-install",
-            "status": "passed",
-            "summary": "隔离目录复制后摘要一致，SKILL.md 可重新加载。"
-          }
-        ],
-        "contentDigest": "sha256:30fa2b6d43a96bd4e7c6ee2b78c733a0a9a7b6bd35f3ceaec18314ed8f12ddc8",
-        "environment": {
-          "filesystem": "ephemeral-directory",
-          "networkAccess": false,
-          "policyVersion": 1,
-          "runner": "github-actions",
-          "sourceCodeExecution": false
-        },
-        "evidenceDigest": "sha256:5aadfcbbed0ed51e60f6a5569e8fcad3aa962b71daeaa83b0a1ab42d4e3a5d14",
-        "kind": "VerificationRecord",
-        "level": "isolated-install",
-        "metrics": {
-          "commandsExecuted": 0,
-          "fileCount": 2,
-          "networkRequests": 0,
-          "totalBytes": 23446
-        },
-        "releaseId": "sha256:d5c2572bcb8cd5987a0d1c48f1f0e79b701c5fef4d503a8b977cba97bc989321",
-        "runId": "github-actions:32449889715:1",
-        "signature": "github-actions:https://github.com/userInner/SKILLS/actions/runs/32449889715@9e77a72f7995937b8d68be98942fdefa26ed38c5",
-        "signedAt": "2026-08-21T05:15:41Z",
-        "status": "passed",
-        "summary": "固定 Commit、目录摘要、静态规则和隔离复制均通过；未执行来源脚本。",
-        "type": "sandbox-smoke"
-      },
-      "verificationFile": "verifications/d5c2572bcb8cd5987a0d1c48f1f0e79b701c5fef4d503a8b977cba97bc989321.json"
+      "type": "skill"
     },
     {
       "category": "growth",
@@ -11478,79 +11389,24 @@
     },
     {
       "category": "growth",
-      "contentDigest": "sha256:c19d95eea5820852e09de65c11e22650760641799307216c7246101256f02341",
-      "description": "When the user wants help with public relations, earned media, press coverage, journalist outreach, or media strategy (not pull requests). Also use when the user mentions 'PR,' 'public relations,' 'press,' 'press release,' 'press coverage,' 'media outreach,' 'pitch a journalist,' 'get featured,' 'media list,' 'media kit,' 'press kit,' 'newsjacking,' 'news hijack,' 'HARO,' 'Qwoted,' 'Featured,' 'Help A Reporter,' 'reporter request,' 'tech press,' 'TechCrunch,' 'earned media,' 'thought leadership placement,' 'op-ed,' 'guest article,' 'press contacts,' or 'how do I get press.' Use this for earned media work — finding journalists, pitching stories, newsjacking, and responding to press requests. For startup/SaaS/AI directory submissions, see directory-submissions. For product launches, see launch. For social-media engagement, see social. For cold-email outreach to prospects, see cold-email.",
+      "contentDigest": "sha256:921d0af621f57b70794983468d0bcbf0b84f76c415c203def7ab27fb6f4a1794",
+      "description": "When the user wants help with public relations, earned media, press coverage, journalist outreach, or media strategy (not pull requests). Also use when the user mentions 'PR,' 'public relations,' 'press,' 'press release,' 'press coverage,' 'media outreach,' 'pitch a journalist,' 'get featured,' 'media list,' 'media kit,' 'press kit,' 'newsjacking,' 'news hijack,' 'HARO,' 'Qwoted,' 'Featured,' 'Help A Reporter,' 'reporter request,' 'tech press,' 'TechCrunch,' 'earned media,' 'thought leadership placement,' 'op-ed,' 'guest article,' 'press contacts,' 'podcast prep,' 'going on a podcast,' 'podcast guest,' 'prep me for this podcast,' or 'how do I get press.' Use this for earned media work — finding journalists, pitching stories, newsjacking, prepping podcast appearances, and responding to press requests. For startup/SaaS/AI directory submissions, see directory-submissions. For product launches, see launch. For social-media engagement, see social. For cold-email outreach to prospects, see cold-email.",
       "license": "MIT",
       "localPath": "community-skills/growth/public-relations--coreyhaines31-marketingskills",
       "name": "public-relations",
       "packageFile": "packages/82df73f488ee58287d9d2ef35b3e590b95a40df44f314de877b92efc294539f9.json",
       "packageId": "github:coreyhaines31/marketingskills:skills/public-relations",
-      "releaseFile": "releases/a4d41043a173d721a19fe158be019f8e83c1bf2dd7b048d0a8586aa2c2fe15b7.json",
-      "releaseId": "sha256:a4d41043a173d721a19fe158be019f8e83c1bf2dd7b048d0a8586aa2c2fe15b7",
-      "sourceCommit": "7868cb9251fad80a73d26e488a5ad5f6c4a9f335",
+      "releaseFile": "releases/a5152d177b117035e2b1b3b5b0d60d47bb5f0c32d11933696cdc0c3fa844cbb7.json",
+      "releaseId": "sha256:a5152d177b117035e2b1b3b5b0d60d47bb5f0c32d11933696cdc0c3fa844cbb7",
+      "sourceCommit": "c6ea12834be62bdc4180a1385f6455cde84ae60c",
       "sourcePath": "skills/public-relations",
-      "sourceRank": 56,
+      "sourceRank": 57,
       "sourceRepository": "coreyhaines31/marketingskills",
-      "sourceStars": 44368,
-      "sourceUrl": "https://github.com/coreyhaines31/marketingskills/tree/7868cb9251fad80a73d26e488a5ad5f6c4a9f335/skills/public-relations",
+      "sourceStars": 44950,
+      "sourceUrl": "https://github.com/coreyhaines31/marketingskills/tree/c6ea12834be62bdc4180a1385f6455cde84ae60c/skills/public-relations",
       "staticScanStatus": "passed",
       "status": "extracted",
-      "type": "skill",
-      "verification": {
-        "apiVersion": "effecta.dev/v1",
-        "checks": [
-          {
-            "name": "immutable-source",
-            "status": "passed",
-            "summary": "来源固定到完整 Git Commit。"
-          },
-          {
-            "name": "content-digest",
-            "status": "passed",
-            "summary": "目录 SHA-256 与 Registry 记录一致。"
-          },
-          {
-            "name": "package-integrity",
-            "status": "passed",
-            "summary": "SKILL.md、文件边界和 5 个包文件通过。"
-          },
-          {
-            "name": "static-scan",
-            "status": "passed",
-            "summary": "基础静态规则无未解决发现。"
-          },
-          {
-            "name": "isolated-install",
-            "status": "passed",
-            "summary": "隔离目录复制后摘要一致，SKILL.md 可重新加载。"
-          }
-        ],
-        "contentDigest": "sha256:c19d95eea5820852e09de65c11e22650760641799307216c7246101256f02341",
-        "environment": {
-          "filesystem": "ephemeral-directory",
-          "networkAccess": false,
-          "policyVersion": 1,
-          "runner": "github-actions",
-          "sourceCodeExecution": false
-        },
-        "evidenceDigest": "sha256:cdf5286069754af8687a5592fa629d24449682e03ccafa4ae9a1e3bc27079169",
-        "kind": "VerificationRecord",
-        "level": "isolated-install",
-        "metrics": {
-          "commandsExecuted": 0,
-          "fileCount": 5,
-          "networkRequests": 0,
-          "totalBytes": 42813
-        },
-        "releaseId": "sha256:a4d41043a173d721a19fe158be019f8e83c1bf2dd7b048d0a8586aa2c2fe15b7",
-        "runId": "github-actions:32553355981:1",
-        "signature": "github-actions:https://github.com/userInner/SKILLS/actions/runs/32553355981@90798f6d7e64b05f0c54a0e5ad81c0b61f5df03a",
-        "signedAt": "2026-08-22T05:03:54Z",
-        "status": "passed",
-        "summary": "固定 Commit、目录摘要、静态规则和隔离复制均通过；未执行来源脚本。",
-        "type": "sandbox-smoke"
-      },
-      "verificationFile": "verifications/a4d41043a173d721a19fe158be019f8e83c1bf2dd7b048d0a8586aa2c2fe15b7.json"
+      "type": "skill"
     },
     {
       "category": "growth",
@@ -11714,21 +11570,21 @@
     },
     {
       "category": "growth",
-      "contentDigest": "sha256:38b0a8a95b2e41dc360dc44bbe89700750ed8cac41d290160054cab842dab432",
+      "contentDigest": "sha256:2741176411f522d48bab888776f7b6fb55622306b9488aed1a222d35557921c6",
       "description": "When the user wants to audit, review, or diagnose SEO issues on their site. Also use when the user mentions \"SEO audit,\" \"technical SEO,\" \"why am I not ranking,\" \"SEO issues,\" \"on-page SEO,\" \"meta tags review,\" \"SEO health check,\" \"my traffic dropped,\" \"lost rankings,\" \"not showing up in Google,\" \"site isn't ranking,\" \"Google update hit me,\" \"page speed,\" \"core web vitals,\" \"crawl errors,\" or \"indexing issues.\" Use this even if the user just says something vague like \"my SEO is bad\" or \"help with SEO\" — start with an audit. For building pages at scale to target keywords, see programmatic-seo. For adding structured data, see schema. For AI search optimization, see ai-seo.",
       "license": "MIT",
       "localPath": "community-skills/growth/seo-audit--coreyhaines31-marketingskills",
       "name": "seo-audit",
       "packageFile": "packages/93d8501541004a2574290514657b9a09de6fe65c2043cbdf800a692d8d399aac.json",
       "packageId": "github:coreyhaines31/marketingskills:skills/seo-audit",
-      "releaseFile": "releases/e54a08a31fc519241425294c1158ad0734f3dcc30ad376d8d21d373b5e9fd5cd.json",
-      "releaseId": "sha256:e54a08a31fc519241425294c1158ad0734f3dcc30ad376d8d21d373b5e9fd5cd",
-      "sourceCommit": "7868cb9251fad80a73d26e488a5ad5f6c4a9f335",
+      "releaseFile": "releases/62afb117a9fe7bd5167e07313d71f9bde23dab387f760374b77266f9b872cc19.json",
+      "releaseId": "sha256:62afb117a9fe7bd5167e07313d71f9bde23dab387f760374b77266f9b872cc19",
+      "sourceCommit": "c6ea12834be62bdc4180a1385f6455cde84ae60c",
       "sourcePath": "skills/seo-audit",
-      "sourceRank": 56,
+      "sourceRank": 57,
       "sourceRepository": "coreyhaines31/marketingskills",
-      "sourceStars": 44368,
-      "sourceUrl": "https://github.com/coreyhaines31/marketingskills/tree/7868cb9251fad80a73d26e488a5ad5f6c4a9f335/skills/seo-audit",
+      "sourceStars": 44950,
+      "sourceUrl": "https://github.com/coreyhaines31/marketingskills/tree/c6ea12834be62bdc4180a1385f6455cde84ae60c/skills/seo-audit",
       "staticScanStatus": "passed",
       "status": "extracted",
       "type": "skill"
@@ -12005,79 +11861,24 @@
     },
     {
       "category": "product",
-      "contentDigest": "sha256:4285b67ecb6d7134d55743edfcdb223a3755db2be444d23580e49fc55424c967",
+      "contentDigest": "sha256:a9bedf2806affb866d81c66e21b077ae1e3a470b15e1ecde7cd636e95512a86f",
       "description": "When the user wants help with paid advertising campaigns on Google Ads, Meta (Facebook/Instagram), LinkedIn, Twitter/X, or other ad platforms. Also use when the user mentions 'PPC,' 'paid media,' 'ROAS,' 'CPA,' 'ad campaign,' 'retargeting,' 'audience targeting,' 'Google Ads,' 'Facebook ads,' 'LinkedIn ads,' 'ad budget,' 'cost per click,' 'ad spend,' 'should I run ads,' 'ABM,' 'account-based marketing,' 'B2B ads,' 'lead quality,' 'negative keywords,' 'Performance Max,' 'thought leader ads,' or 'when should I kill an ad.' Use this for campaign strategy, audience targeting, bidding, and optimization. For bulk ad creative generation and iteration, see ad-creative. For landing page optimization, see cro.",
       "license": "MIT",
       "localPath": "community-skills/product/ads--coreyhaines31-marketingskills",
       "name": "ads",
       "packageFile": "packages/c63a5d8ce52b4f8523e63eceb92e01af2722a8aeb60ff47e96f3c3f149ef93cd.json",
       "packageId": "github:coreyhaines31/marketingskills:skills/ads",
-      "releaseFile": "releases/fd104f319902d36968b7266b32d20fd86ecb3d1fa6f9287e691eb52c8277cadb.json",
-      "releaseId": "sha256:fd104f319902d36968b7266b32d20fd86ecb3d1fa6f9287e691eb52c8277cadb",
-      "sourceCommit": "7868cb9251fad80a73d26e488a5ad5f6c4a9f335",
+      "releaseFile": "releases/e60bfc3300b296fa839fbf665602e7799f1e030f5c7ae5670ef0323a66c6c3c4.json",
+      "releaseId": "sha256:e60bfc3300b296fa839fbf665602e7799f1e030f5c7ae5670ef0323a66c6c3c4",
+      "sourceCommit": "c6ea12834be62bdc4180a1385f6455cde84ae60c",
       "sourcePath": "skills/ads",
-      "sourceRank": 56,
+      "sourceRank": 57,
       "sourceRepository": "coreyhaines31/marketingskills",
-      "sourceStars": 44368,
-      "sourceUrl": "https://github.com/coreyhaines31/marketingskills/tree/7868cb9251fad80a73d26e488a5ad5f6c4a9f335/skills/ads",
+      "sourceStars": 44950,
+      "sourceUrl": "https://github.com/coreyhaines31/marketingskills/tree/c6ea12834be62bdc4180a1385f6455cde84ae60c/skills/ads",
       "staticScanStatus": "passed",
       "status": "extracted",
-      "type": "skill",
-      "verification": {
-        "apiVersion": "effecta.dev/v1",
-        "checks": [
-          {
-            "name": "immutable-source",
-            "status": "passed",
-            "summary": "来源固定到完整 Git Commit。"
-          },
-          {
-            "name": "content-digest",
-            "status": "passed",
-            "summary": "目录 SHA-256 与 Registry 记录一致。"
-          },
-          {
-            "name": "package-integrity",
-            "status": "passed",
-            "summary": "SKILL.md、文件边界和 12 个包文件通过。"
-          },
-          {
-            "name": "static-scan",
-            "status": "passed",
-            "summary": "基础静态规则无未解决发现。"
-          },
-          {
-            "name": "isolated-install",
-            "status": "passed",
-            "summary": "隔离目录复制后摘要一致，SKILL.md 可重新加载。"
-          }
-        ],
-        "contentDigest": "sha256:4285b67ecb6d7134d55743edfcdb223a3755db2be444d23580e49fc55424c967",
-        "environment": {
-          "filesystem": "ephemeral-directory",
-          "networkAccess": false,
-          "policyVersion": 1,
-          "runner": "github-actions",
-          "sourceCodeExecution": false
-        },
-        "evidenceDigest": "sha256:bab105a2e755b1dd94f7d0f72df0b7f558716d9bc1be0ae17f8127d18f53eff7",
-        "kind": "VerificationRecord",
-        "level": "isolated-install",
-        "metrics": {
-          "commandsExecuted": 0,
-          "fileCount": 12,
-          "networkRequests": 0,
-          "totalBytes": 109796
-        },
-        "releaseId": "sha256:fd104f319902d36968b7266b32d20fd86ecb3d1fa6f9287e691eb52c8277cadb",
-        "runId": "github-actions:32218208143:1",
-        "signature": "github-actions:https://github.com/userInner/SKILLS/actions/runs/32218208143@334c282be00f44fbdf941f6bffae7ee781403f44",
-        "signedAt": "2026-08-19T05:07:00Z",
-        "status": "passed",
-        "summary": "固定 Commit、目录摘要、静态规则和隔离复制均通过；未执行来源脚本。",
-        "type": "sandbox-smoke"
-      },
-      "verificationFile": "verifications/fd104f319902d36968b7266b32d20fd86ecb3d1fa6f9287e691eb52c8277cadb.json"
+      "type": "skill"
     },
     {
       "category": "product",
@@ -12233,79 +12034,24 @@
     },
     {
       "category": "product",
-      "contentDigest": "sha256:d4323f8a55e9a349cb7a3c759f61f00aeca2fe4a223e70ca5b51ef378b3f8db5",
+      "contentDigest": "sha256:d653157c70fadde0da955f2ad440a070fd21393e780fa7faeb48df11ac9eadec",
       "description": "When the user wants to audit or optimize an App Store or Google Play listing. Also use when the user mentions 'ASO audit,' 'app store optimization,' 'optimize my app listing,' 'improve app visibility,' 'app store ranking,' 'audit my listing,' 'why aren't people downloading my app,' 'improve my app conversion,' 'keyword optimization for app,' or 'compare my app to competitors.' Use when the user shares an App Store or Google Play URL and wants to improve it.",
       "license": "MIT",
       "localPath": "community-skills/product/aso--coreyhaines31-marketingskills",
       "name": "aso",
       "packageFile": "packages/164b4363112bb7a5955988e3c7168801736a838a32cd689b118ca75ecc1444e1.json",
       "packageId": "github:coreyhaines31/marketingskills:skills/aso",
-      "releaseFile": "releases/6068c96195854dd0b65b2ed14b857de6da25b2bdb017a0f88f632d87f6ff4e2f.json",
-      "releaseId": "sha256:6068c96195854dd0b65b2ed14b857de6da25b2bdb017a0f88f632d87f6ff4e2f",
-      "sourceCommit": "7868cb9251fad80a73d26e488a5ad5f6c4a9f335",
+      "releaseFile": "releases/26ca1845092f09a3d8f80468313af68e0060a0de5eb2b0c50bace794d8d3dd78.json",
+      "releaseId": "sha256:26ca1845092f09a3d8f80468313af68e0060a0de5eb2b0c50bace794d8d3dd78",
+      "sourceCommit": "c6ea12834be62bdc4180a1385f6455cde84ae60c",
       "sourcePath": "skills/aso",
-      "sourceRank": 56,
+      "sourceRank": 57,
       "sourceRepository": "coreyhaines31/marketingskills",
-      "sourceStars": 44368,
-      "sourceUrl": "https://github.com/coreyhaines31/marketingskills/tree/7868cb9251fad80a73d26e488a5ad5f6c4a9f335/skills/aso",
+      "sourceStars": 44950,
+      "sourceUrl": "https://github.com/coreyhaines31/marketingskills/tree/c6ea12834be62bdc4180a1385f6455cde84ae60c/skills/aso",
       "staticScanStatus": "passed",
       "status": "extracted",
-      "type": "skill",
-      "verification": {
-        "apiVersion": "effecta.dev/v1",
-        "checks": [
-          {
-            "name": "immutable-source",
-            "status": "passed",
-            "summary": "来源固定到完整 Git Commit。"
-          },
-          {
-            "name": "content-digest",
-            "status": "passed",
-            "summary": "目录 SHA-256 与 Registry 记录一致。"
-          },
-          {
-            "name": "package-integrity",
-            "status": "passed",
-            "summary": "SKILL.md、文件边界和 7 个包文件通过。"
-          },
-          {
-            "name": "static-scan",
-            "status": "passed",
-            "summary": "基础静态规则无未解决发现。"
-          },
-          {
-            "name": "isolated-install",
-            "status": "passed",
-            "summary": "隔离目录复制后摘要一致，SKILL.md 可重新加载。"
-          }
-        ],
-        "contentDigest": "sha256:d4323f8a55e9a349cb7a3c759f61f00aeca2fe4a223e70ca5b51ef378b3f8db5",
-        "environment": {
-          "filesystem": "ephemeral-directory",
-          "networkAccess": false,
-          "policyVersion": 1,
-          "runner": "github-actions",
-          "sourceCodeExecution": false
-        },
-        "evidenceDigest": "sha256:78c120f427ee6fe0bd4e9fbfb4bc1f0bdceca4017bf417aff9af1fc212bcd631",
-        "kind": "VerificationRecord",
-        "level": "isolated-install",
-        "metrics": {
-          "commandsExecuted": 0,
-          "fileCount": 7,
-          "networkRequests": 0,
-          "totalBytes": 58917
-        },
-        "releaseId": "sha256:6068c96195854dd0b65b2ed14b857de6da25b2bdb017a0f88f632d87f6ff4e2f",
-        "runId": "github-actions:32334837313:1",
-        "signature": "github-actions:https://github.com/userInner/SKILLS/actions/runs/32334837313@2e54c304e1d547eebc0d73f4dbdbf946c376bea6",
-        "signedAt": "2026-08-20T05:14:23Z",
-        "status": "passed",
-        "summary": "固定 Commit、目录摘要、静态规则和隔离复制均通过；未执行来源脚本。",
-        "type": "sandbox-smoke"
-      },
-      "verificationFile": "verifications/6068c96195854dd0b65b2ed14b857de6da25b2bdb017a0f88f632d87f6ff4e2f.json"
+      "type": "skill"
     },
     {
       "category": "product",
@@ -12938,79 +12684,24 @@
     },
     {
       "category": "product",
-      "contentDigest": "sha256:38db0e37f29ce7d18d074e651db6c499778f48b37ecaf51a8fc4557d781ff1ba",
+      "contentDigest": "sha256:57d02257acbf9360b3e6d6dc0a95c68c19a52c007187503cdd3b68cb88e42b8d",
       "description": "When the user wants to research, profile, or analyze competitors from their URLs. Also use when the user mentions 'competitor profile,' 'competitor research,' 'competitor analysis,' 'profile this competitor,' 'analyze competitor,' 'competitive intelligence,' 'competitor deep dive,' 'who are my competitors,' 'competitor landscape,' 'competitor dossier,' 'competitive audit,' or 'research these competitors.' Input is a list of competitor URLs. Output is structured competitor profile markdown files. For creating comparison/alternative pages from profiles, see competitors. For sales-specific battle cards, see sales-enablement.",
       "license": "MIT",
       "localPath": "community-skills/product/competitor-profiling--coreyhaines31-marketingskills",
       "name": "competitor-profiling",
       "packageFile": "packages/961b88502bea3fe515c2cba1dad64d47a0049b172f3deb3cff3265d3da4f7032.json",
       "packageId": "github:coreyhaines31/marketingskills:skills/competitor-profiling",
-      "releaseFile": "releases/36c2d46730661116baf1031f214b47f2dcf7b7bb2dd31867cad8131b8e3b2489.json",
-      "releaseId": "sha256:36c2d46730661116baf1031f214b47f2dcf7b7bb2dd31867cad8131b8e3b2489",
-      "sourceCommit": "7868cb9251fad80a73d26e488a5ad5f6c4a9f335",
+      "releaseFile": "releases/55987b56ebb005478def8e011e9264f2238a9732b041ab346bd01dde711c131c.json",
+      "releaseId": "sha256:55987b56ebb005478def8e011e9264f2238a9732b041ab346bd01dde711c131c",
+      "sourceCommit": "c6ea12834be62bdc4180a1385f6455cde84ae60c",
       "sourcePath": "skills/competitor-profiling",
-      "sourceRank": 56,
+      "sourceRank": 57,
       "sourceRepository": "coreyhaines31/marketingskills",
-      "sourceStars": 44368,
-      "sourceUrl": "https://github.com/coreyhaines31/marketingskills/tree/7868cb9251fad80a73d26e488a5ad5f6c4a9f335/skills/competitor-profiling",
+      "sourceStars": 44950,
+      "sourceUrl": "https://github.com/coreyhaines31/marketingskills/tree/c6ea12834be62bdc4180a1385f6455cde84ae60c/skills/competitor-profiling",
       "staticScanStatus": "passed",
       "status": "extracted",
-      "type": "skill",
-      "verification": {
-        "apiVersion": "effecta.dev/v1",
-        "checks": [
-          {
-            "name": "immutable-source",
-            "status": "passed",
-            "summary": "来源固定到完整 Git Commit。"
-          },
-          {
-            "name": "content-digest",
-            "status": "passed",
-            "summary": "目录 SHA-256 与 Registry 记录一致。"
-          },
-          {
-            "name": "package-integrity",
-            "status": "passed",
-            "summary": "SKILL.md、文件边界和 4 个包文件通过。"
-          },
-          {
-            "name": "static-scan",
-            "status": "passed",
-            "summary": "基础静态规则无未解决发现。"
-          },
-          {
-            "name": "isolated-install",
-            "status": "passed",
-            "summary": "隔离目录复制后摘要一致，SKILL.md 可重新加载。"
-          }
-        ],
-        "contentDigest": "sha256:38db0e37f29ce7d18d074e651db6c499778f48b37ecaf51a8fc4557d781ff1ba",
-        "environment": {
-          "filesystem": "ephemeral-directory",
-          "networkAccess": false,
-          "policyVersion": 1,
-          "runner": "github-actions",
-          "sourceCodeExecution": false
-        },
-        "evidenceDigest": "sha256:ba75c2c3e4fd5c8dc898369e39e9ed17e00861ef3c61e9c281780dd826158df4",
-        "kind": "VerificationRecord",
-        "level": "isolated-install",
-        "metrics": {
-          "commandsExecuted": 0,
-          "fileCount": 4,
-          "networkRequests": 0,
-          "totalBytes": 33491
-        },
-        "releaseId": "sha256:36c2d46730661116baf1031f214b47f2dcf7b7bb2dd31867cad8131b8e3b2489",
-        "runId": "github-actions:32334837313:1",
-        "signature": "github-actions:https://github.com/userInner/SKILLS/actions/runs/32334837313@2e54c304e1d547eebc0d73f4dbdbf946c376bea6",
-        "signedAt": "2026-08-20T05:14:23Z",
-        "status": "passed",
-        "summary": "固定 Commit、目录摘要、静态规则和隔离复制均通过；未执行来源脚本。",
-        "type": "sandbox-smoke"
-      },
-      "verificationFile": "verifications/36c2d46730661116baf1031f214b47f2dcf7b7bb2dd31867cad8131b8e3b2489.json"
+      "type": "skill"
     },
     {
       "category": "product",
@@ -25250,6 +24941,27 @@
     },
     {
       "category": "workflow",
+      "contentDigest": "sha256:c82549169154692e733a534b299fb4391f00833e13bf955424f11811e6270912",
+      "description": "Hugging Face read token with access to the gated outpost-bio/Waypoint-*, outpost-bio/Atlas, and outpost-bio/Compass repos.",
+      "license": "MIT",
+      "localPath": "community-skills/workflow/waypoint-bio--k-dense-ai-scientific-agent-skills",
+      "name": "waypoint-bio",
+      "packageFile": "packages/e109f9ba1de4660600f6fbfc8fd82d6cdc26c868c12aa7e46772ddd0510d5847.json",
+      "packageId": "github:k-dense-ai/scientific-agent-skills:skills/waypoint-bio",
+      "releaseFile": "releases/f9933b46dad728ffd8c29dedf8340b2093ee28c42802a7da8c052dd4be696638.json",
+      "releaseId": "sha256:f9933b46dad728ffd8c29dedf8340b2093ee28c42802a7da8c052dd4be696638",
+      "sourceCommit": "9e8b0cb0b09059f2fd4505e57ab4e00c8be1cef6",
+      "sourcePath": "skills/waypoint-bio",
+      "sourceRank": 75,
+      "sourceRepository": "K-Dense-AI/scientific-agent-skills",
+      "sourceStars": 33764,
+      "sourceUrl": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9e8b0cb0b09059f2fd4505e57ab4e00c8be1cef6/skills/waypoint-bio",
+      "staticScanStatus": "review",
+      "status": "needs-review",
+      "type": "skill"
+    },
+    {
+      "category": "workflow",
       "contentDigest": "sha256:9e33b9d6e2e1bc8d02b6b41f853bb3c4bd355f9b085b82d4d10465854797cb38",
       "description": "Run structured What-If scenario analysis with 4–6 branch possibility exploration (best, likely, worst, wild card, contrarian, second-order). Use when the user asks speculative what-if questions about uncertain futures, strategic forks, contingency planning, or stress-testing a decision before committing.",
       "license": "MIT",
@@ -26821,16 +26533,16 @@
   ],
   "counts": {
     "direct": 41,
-    "extracted": 648,
-    "needs-review": 38,
-    "total": 727
+    "extracted": 649,
+    "needs-review": 39,
+    "total": 729
   },
   "generatorVersion": 1,
   "inputDigests": {
-    "catalog": "sha256:456cff5c1a557ff3f406df878a9a3535649ffa9e83baba57d0703e64ae814982",
-    "communitySkills": "sha256:121c3b6a6e89c5f7fbd98b908499b38a831c8bf7b20dc03c8cdcb7d170f47cbf",
+    "catalog": "sha256:392a69d7da0700bac1d83e1dcb8942688e08a65186f0e0902537a9fcc0d415bd",
+    "communitySkills": "sha256:f3d8767259ed420242d9ee8fc64a1f325ec85ab0a1ef02fbb98d2e37b9266400",
     "verifications": "sha256:400ce1eae551d27f1d936002ab788c3350bb7de98c6c8e48bdbb5f4dae3b803f"
   },
   "kind": "CapabilityIndex",
-  "snapshotDate": "2026-08-17"
+  "snapshotDate": "2026-08-23"
 }

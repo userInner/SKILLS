@@ -2,11 +2,11 @@
   "apiVersion": "effecta.dev/v1",
   "counts": {
     "direct": 41,
-    "extracted": 648,
-    "needs-review": 38,
-    "total": 727
+    "extracted": 649,
+    "needs-review": 39,
+    "total": 729
   },
   "kind": "RegistryBackfill",
   "mode": "initial-v1-backfill",
-  "snapshotDate": "2026-08-17"
+  "snapshotDate": "2026-08-23"
 }

@@ -1,9 +1,9 @@
 {
   "apiVersion": "effecta.dev/v1",
   "artifact": {
-    "digest": "sha256:38b0a8a95b2e41dc360dc44bbe89700750ed8cac41d290160054cab842dab432",
+    "digest": "sha256:b74fc6197f4b704ed52b1b3421048375ebb34d711a763f12ed9042321eb4cd97",
     "mediaType": "application/vnd.effecta.skill.directory.v1",
-    "path": "community-skills/growth/seo-audit--coreyhaines31-marketingskills"
+    "path": "community-skills/growth/influencer-marketing--coreyhaines31-marketingskills"
   },
   "compatibility": {
     "declared": false,
@@ -12,9 +12,9 @@
     ]
   },
   "content": {
-    "digest": "sha256:38b0a8a95b2e41dc360dc44bbe89700750ed8cac41d290160054cab842dab432",
-    "fileCount": 4,
-    "totalBytes": 47032
+    "digest": "sha256:b74fc6197f4b704ed52b1b3421048375ebb34d711a763f12ed9042321eb4cd97",
+    "fileCount": 3,
+    "totalBytes": 35403
   },
   "dependencies": {
     "items": [],
@@ -25,14 +25,14 @@
     "redistribution": "allowed",
     "spdx": "MIT"
   },
-  "packageId": "github:coreyhaines31/marketingskills:skills/seo-audit",
+  "packageId": "github:coreyhaines31/marketingskills:skills/influencer-marketing",
   "permissions": {
     "commands": [],
     "filesystem": [],
     "network": [],
     "status": "not-declared"
   },
-  "releaseId": "sha256:e54a08a31fc519241425294c1158ad0734f3dcc30ad376d8d21d373b5e9fd5cd",
+  "releaseId": "sha256:98022ffbc847b8737bbd7336702ce776f90716f745e6fe6c95c05949d38a4800",
   "security": {
     "staticScan": {
       "findings": [],
@@ -41,10 +41,10 @@
   },
   "smokeTests": [],
   "source": {
-    "commit": "7868cb9251fad80a73d26e488a5ad5f6c4a9f335",
-    "path": "skills/seo-audit",
+    "commit": "c6ea12834be62bdc4180a1385f6455cde84ae60c",
+    "path": "skills/influencer-marketing",
     "repository": "coreyhaines31/marketingskills",
-    "url": "https://github.com/coreyhaines31/marketingskills/tree/7868cb9251fad80a73d26e488a5ad5f6c4a9f335/skills/seo-audit"
+    "url": "https://github.com/coreyhaines31/marketingskills/tree/c6ea12834be62bdc4180a1385f6455cde84ae60c/skills/influencer-marketing"
   },
   "status": "extracted"
 }

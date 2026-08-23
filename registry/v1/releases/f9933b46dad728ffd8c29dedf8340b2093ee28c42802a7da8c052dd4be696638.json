@@ -1,0 +1,55 @@
+{
+  "apiVersion": "effecta.dev/v1",
+  "artifact": {
+    "digest": "sha256:c82549169154692e733a534b299fb4391f00833e13bf955424f11811e6270912",
+    "mediaType": "application/vnd.effecta.skill.directory.v1",
+    "path": "community-skills/workflow/waypoint-bio--k-dense-ai-scientific-agent-skills"
+  },
+  "compatibility": {
+    "declared": false,
+    "runtimes": [
+      "agent-skill"
+    ]
+  },
+  "content": {
+    "digest": "sha256:c82549169154692e733a534b299fb4391f00833e13bf955424f11811e6270912",
+    "fileCount": 7,
+    "totalBytes": 71123
+  },
+  "dependencies": {
+    "items": [],
+    "status": "not-declared"
+  },
+  "kind": "CapabilityRelease",
+  "license": {
+    "redistribution": "allowed",
+    "spdx": "MIT"
+  },
+  "packageId": "github:k-dense-ai/scientific-agent-skills:skills/waypoint-bio",
+  "permissions": {
+    "commands": [],
+    "filesystem": [],
+    "network": [],
+    "status": "not-declared"
+  },
+  "releaseId": "sha256:f9933b46dad728ffd8c29dedf8340b2093ee28c42802a7da8c052dd4be696638",
+  "security": {
+    "staticScan": {
+      "findings": [
+        {
+          "file": "python-api.md",
+          "rule": "shell-eval"
+        }
+      ],
+      "status": "review"
+    }
+  },
+  "smokeTests": [],
+  "source": {
+    "commit": "9e8b0cb0b09059f2fd4505e57ab4e00c8be1cef6",
+    "path": "skills/waypoint-bio",
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/9e8b0cb0b09059f2fd4505e57ab4e00c8be1cef6/skills/waypoint-bio"
+  },
+  "status": "needs-review"
+}

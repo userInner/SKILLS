@@ -7,14 +7,14 @@
     "repository": "coreyhaines31/marketingskills",
     "url": "https://github.com/coreyhaines31/marketingskills",
     "path": "skills/aso",
-    "commit": "7868cb9251fad80a73d26e488a5ad5f6c4a9f335",
-    "rank": 56,
-    "stars": 44368
+    "commit": "c6ea12834be62bdc4180a1385f6455cde84ae60c",
+    "rank": 57,
+    "stars": 44950
   },
   "license": "MIT",
-  "contentDigest": "sha256:d4323f8a55e9a349cb7a3c759f61f00aeca2fe4a223e70ca5b51ef378b3f8db5",
+  "contentDigest": "sha256:d653157c70fadde0da955f2ad440a070fd21393e780fa7faeb48df11ac9eadec",
   "fileCount": 7,
-  "totalBytes": 58917,
+  "totalBytes": 59098,
   "staticScan": {
     "status": "passed",
     "findings": []

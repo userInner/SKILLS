@@ -1,9 +1,9 @@
 {
   "apiVersion": "effecta.dev/v1",
   "artifact": {
-    "digest": "sha256:d4323f8a55e9a349cb7a3c759f61f00aeca2fe4a223e70ca5b51ef378b3f8db5",
+    "digest": "sha256:f452c38579854b8d45e45632d2d1be7a985dbba2c1cd6eba4687b3141faf3b17",
     "mediaType": "application/vnd.effecta.skill.directory.v1",
-    "path": "community-skills/product/aso--coreyhaines31-marketingskills"
+    "path": "community-skills/growth/ai-seo--coreyhaines31-marketingskills"
   },
   "compatibility": {
     "declared": false,
@@ -12,9 +12,9 @@
     ]
   },
   "content": {
-    "digest": "sha256:d4323f8a55e9a349cb7a3c759f61f00aeca2fe4a223e70ca5b51ef378b3f8db5",
-    "fileCount": 7,
-    "totalBytes": 58917
+    "digest": "sha256:f452c38579854b8d45e45632d2d1be7a985dbba2c1cd6eba4687b3141faf3b17",
+    "fileCount": 9,
+    "totalBytes": 90477
   },
   "dependencies": {
     "items": [],
@@ -25,14 +25,14 @@
     "redistribution": "allowed",
     "spdx": "MIT"
   },
-  "packageId": "github:coreyhaines31/marketingskills:skills/aso",
+  "packageId": "github:coreyhaines31/marketingskills:skills/ai-seo",
   "permissions": {
     "commands": [],
     "filesystem": [],
     "network": [],
     "status": "not-declared"
   },
-  "releaseId": "sha256:6068c96195854dd0b65b2ed14b857de6da25b2bdb017a0f88f632d87f6ff4e2f",
+  "releaseId": "sha256:231d9dd3476f5ac9f64c96c841f77d9363dc86f06354cdb9ca4ef308567aa5e4",
   "security": {
     "staticScan": {
       "findings": [],
@@ -41,10 +41,10 @@
   },
   "smokeTests": [],
   "source": {
-    "commit": "7868cb9251fad80a73d26e488a5ad5f6c4a9f335",
-    "path": "skills/aso",
+    "commit": "3df87f97621e18fbed7f6aa684edba54f49779a7",
+    "path": "skills/ai-seo",
     "repository": "coreyhaines31/marketingskills",
-    "url": "https://github.com/coreyhaines31/marketingskills/tree/7868cb9251fad80a73d26e488a5ad5f6c4a9f335/skills/aso"
+    "url": "https://github.com/coreyhaines31/marketingskills/tree/3df87f97621e18fbed7f6aa684edba54f49779a7/skills/ai-seo"
   },
   "status": "extracted"
 }

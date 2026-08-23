@@ -7,14 +7,14 @@
     "repository": "coreyhaines31/marketingskills",
     "url": "https://github.com/coreyhaines31/marketingskills",
     "path": "skills/competitor-profiling",
-    "commit": "7868cb9251fad80a73d26e488a5ad5f6c4a9f335",
-    "rank": 56,
-    "stars": 44368
+    "commit": "c6ea12834be62bdc4180a1385f6455cde84ae60c",
+    "rank": 57,
+    "stars": 44950
   },
   "license": "MIT",
-  "contentDigest": "sha256:38db0e37f29ce7d18d074e651db6c499778f48b37ecaf51a8fc4557d781ff1ba",
+  "contentDigest": "sha256:57d02257acbf9360b3e6d6dc0a95c68c19a52c007187503cdd3b68cb88e42b8d",
   "fileCount": 4,
-  "totalBytes": 33491,
+  "totalBytes": 33804,
   "staticScan": {
     "status": "passed",
     "findings": []

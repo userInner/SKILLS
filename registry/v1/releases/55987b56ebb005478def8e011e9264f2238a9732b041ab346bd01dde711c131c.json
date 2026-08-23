@@ -1,9 +1,9 @@
 {
   "apiVersion": "effecta.dev/v1",
   "artifact": {
-    "digest": "sha256:4285b67ecb6d7134d55743edfcdb223a3755db2be444d23580e49fc55424c967",
+    "digest": "sha256:57d02257acbf9360b3e6d6dc0a95c68c19a52c007187503cdd3b68cb88e42b8d",
     "mediaType": "application/vnd.effecta.skill.directory.v1",
-    "path": "community-skills/product/ads--coreyhaines31-marketingskills"
+    "path": "community-skills/product/competitor-profiling--coreyhaines31-marketingskills"
   },
   "compatibility": {
     "declared": false,
@@ -12,9 +12,9 @@
     ]
   },
   "content": {
-    "digest": "sha256:4285b67ecb6d7134d55743edfcdb223a3755db2be444d23580e49fc55424c967",
-    "fileCount": 12,
-    "totalBytes": 109796
+    "digest": "sha256:57d02257acbf9360b3e6d6dc0a95c68c19a52c007187503cdd3b68cb88e42b8d",
+    "fileCount": 4,
+    "totalBytes": 33804
   },
   "dependencies": {
     "items": [],
@@ -25,14 +25,14 @@
     "redistribution": "allowed",
     "spdx": "MIT"
   },
-  "packageId": "github:coreyhaines31/marketingskills:skills/ads",
+  "packageId": "github:coreyhaines31/marketingskills:skills/competitor-profiling",
   "permissions": {
     "commands": [],
     "filesystem": [],
     "network": [],
     "status": "not-declared"
   },
-  "releaseId": "sha256:fd104f319902d36968b7266b32d20fd86ecb3d1fa6f9287e691eb52c8277cadb",
+  "releaseId": "sha256:55987b56ebb005478def8e011e9264f2238a9732b041ab346bd01dde711c131c",
   "security": {
     "staticScan": {
       "findings": [],
@@ -41,10 +41,10 @@
   },
   "smokeTests": [],
   "source": {
-    "commit": "7868cb9251fad80a73d26e488a5ad5f6c4a9f335",
-    "path": "skills/ads",
+    "commit": "c6ea12834be62bdc4180a1385f6455cde84ae60c",
+    "path": "skills/competitor-profiling",
     "repository": "coreyhaines31/marketingskills",
-    "url": "https://github.com/coreyhaines31/marketingskills/tree/7868cb9251fad80a73d26e488a5ad5f6c4a9f335/skills/ads"
+    "url": "https://github.com/coreyhaines31/marketingskills/tree/c6ea12834be62bdc4180a1385f6455cde84ae60c/skills/competitor-profiling"
   },
   "status": "extracted"
 }
